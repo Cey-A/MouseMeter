@@ -1,1 +1,22 @@
-IyBidWlsZCBvdXRwdXQg4oCUIHRoZSBleGUgaXMgcHJvZHVjZWQgYnkgQnVpbGQucHMxLCBuZXZlciBjb21taXR0ZWQKL2Rpc3QvCgojIHZlcmlmeSBzdGFtcDogd3JpdHRlbiBieSBWZXJpZnkucHMxLCByZWFkIGJ5IFN5bmMtRG9jcy5wczEuCiMgTm90IGNvbW1pdHRlZDogaXQgZGVzY3JpYmVzIG9uZSBtYWNoaW5lJ3MgbGFzdCBydW4sIGFuZCBjb21taXR0aW5nIGl0IHdvdWxkIGxldCBhIHN0YWxlCiMgZ3JlZW4gbnVtYmVyIHN1cnZpdmUgYSBjaGFuZ2UgdGhhdCBicm9rZSB0aGUgdGVzdHMuCi8udmVyaWZ5LWxhc3QKCiMgcnVudGltZSAvIHRvb2wgbGVmdG92ZXJzCioubG9nCioudG1wCi8udnMvCi9wYWNrYWdlcy8KL29iai8KL2Jpbi8KCiMgbG9jYWwgb3ZlcnJpZGVzIGEgZGV2ZWxvcGVyIG1pZ2h0IGtlZXAgYXJvdW5kCi9zZXR0aW5ncy5qc29uCg==
+# build output — the exe is produced by Build.ps1, never committed
+/dist/
+
+# the SDK path's intermediate output (pack\ holds the project, not its results)
+/pack/bin/
+/pack/obj/
+
+# verify stamp: written by Verify.ps1, read by Sync-Docs.ps1.
+# Not committed: it describes one machine's last run, and committing it would let a stale
+# green number survive a change that broke the tests.
+/.verify-last
+
+# runtime / tool leftovers
+*.log
+*.tmp
+/.vs/
+/packages/
+/obj/
+/bin/
+
+# local overrides a developer might keep around
+/settings.json

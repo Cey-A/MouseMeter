@@ -1,0 +1,60 @@
+<!--
+  MouseMeter.Sdk.csproj - the alternate compiler path.
+
+  Build.ps1 uses CodeDOM, which only exists in Windows PowerShell 5.1. This project
+  compiles the exact same src\*.cs into the exact same kind of artifact (a
+  .NET Framework 4.8 WinExe) through the dotnet SDK, so it also works on Linux and
+  macOS and in CI.
+
+  Two things it deliberately does the same as Build.ps1:
+    * LangVersion 5 - CodeDOM rejects C# 6+, so a green build here must mean green there.
+    * AssemblyInfo.cs is compiled, not generated - the version numbers and the Chinese
+      AssemblyDescription come from that file and nowhere else.
+
+  Two things it does differently, both because the file lives in pack\ instead of the
+  project root:
+    * Compile/Icon paths reach up one level.
+    * The icon is embedded as a byte literal in IconResource.cs rather than compiled as a
+      resource, so the exe carries its icon without depending on how the resource section
+      gets stamped.
+
+  Build:   dotnet build pack\MouseMeter.Sdk.csproj -c Release
+  Output:  pack\bin\Release\net48\MouseMeter.exe   (+ MouseMeter.exe.config)
+-->
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+
+    <!-- AssemblyInfo.cs is the single source of truth; never let the SDK write a second one. -->
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+
+    <!-- CodeDOM is C# 5 only. Pinning it here is what makes this check meaningful. -->
+    <LangVersion>5</LangVersion>
+
+    <AssemblyName>MouseMeter</AssemblyName>
+    <RootNamespace>MouseMeter</RootNamespace>
+    <ApplicationIcon>..\MouseMeter.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <Deterministic>true</Deterministic>
+    <NoWarn>CS0618;CS0169;CS0414;CS0649;CS1591</NoWarn>
+    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+    <GenerateDependencyFile>false</GenerateDependencyFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\src\*.cs" />
+    <Compile Include="IconResource.cs" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+</Project>
