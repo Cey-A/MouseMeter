@@ -88,7 +88,10 @@ namespace MouseMeter
         public void ApplyTheme(string mode)
         {
             _p = mode == "light" ? Theme.Light() : Theme.Dark();
-            BackColor = _material != Material.Solid ? Color.Transparent : _p.Card;
+            // Through ApplySurfaceStyle, not a bare BackColor assignment: on the blur path the
+            // colour must stay Transparent, and hard-coding it here is how the card ends up
+            // filled solid again the first time the theme changes.
+            ApplySurfaceStyle();
             if (ContextMenuStrip != null) ContextMenuStrip.Renderer = new AppleMenuRenderer(_p);
             if (_material == Material.Accent) Dwm.Accent(Handle, true, TintArgb(), TintAlpha());   // tint follows the theme
             Invalidate();
@@ -133,7 +136,9 @@ namespace MouseMeter
                 _positioned = true;
             }
 
-            Opacity = MaterialOpacity();
+            // Opacity belongs to the solid path only. Re-applying it unconditionally on every
+            // resize is what silently re-added WS_EX_LAYERED after ApplyMaterial had stripped it.
+            if (_material == Material.Solid) Opacity = MaterialOpacity();
         }
 
         Point ClampToScreen(Point p, int w, int h)
@@ -154,12 +159,14 @@ namespace MouseMeter
             // Settings -> Personalisation -> Colours -> "Transparency effects" and switching the
             // wallpaper engine both land here. Re-resolve instead of assuming the state we read
             // at startup is still true; a stale accent policy leaves an opaque grey box.
+            //
+            // Re-resolving means calling ApplyMaterial in every case. The previous version only
+            // did so when the flag actually flipped, and refreshed the tint otherwise - which
+            // left _material stale after a wallpaper change and, worse, could mark the window
+            // Accent while the user had transparency off.
             if (m.Msg == WM_THEMECHANGED || m.Msg == WM_DWMCOMPOSITIONCHANGED)
             {
-                bool was = _transparencyOn;
-                _transparencyOn = Dwm.TransparencyEnabled();
-                if (was != _transparencyOn || _material == Material.Solid) ApplyMaterial();
-                else if (_material == Material.Accent) Dwm.Accent(Handle, true, TintArgb(), TintAlpha());
+                ApplyMaterial();
             }
         }
 
@@ -206,11 +213,19 @@ namespace MouseMeter
 
             _material = want;
 
+            // Both blur APIs draw *behind* the client area and expect the window to declare
+            // what it does not paint. Get that declaration in place before asking for the
+            // material, not after: a window that is still WS_EX_LAYERED at the moment
+            // DWMWA_SYSTEMBACKDROP_TYPE lands gets the attribute but no visible backing, and
+            // one that was not frame-extended gets the material behind an invisible border.
+            //
+            // Form.Opacity is the only thing that sets WS_EX_LAYERED, and it is only meaningful
+            // on the solid path (dim the whole card). Blur paths dim through the tint instead,
+            // so they must run at Opacity=1 and must not be layered.
+            ApplySurfaceStyle();
+
             if (_material == Material.Backdrop)
             {
-                // WS_EX_LAYERED (what Form.Opacity uses) and a DWM backdrop fight each other:
-                // the backdrop is composited below the layered surface, so the window looks
-                // flat-but-washed-out. At full opacity we drop the layered style entirely.
                 Dwm.ExtendFrame(Handle);
                 if (Dwm.Backdrop(Handle, 3) != 0)
                 {
@@ -219,6 +234,7 @@ namespace MouseMeter
                     // accent policy, which has been around since Win10 1803.
                     _material = Material.Accent;
                     Dwm.Accent(Handle, true, TintArgb(), TintAlpha());
+                    ApplySurfaceStyle();
                 }
                 else Dwm.Accent(Handle, false); // clear any WCA accent left over from a fallback
             }
@@ -233,26 +249,44 @@ namespace MouseMeter
                 Dwm.ExtendFrame(Handle, false);
             }
 
-            // Order matters: the Backdrop branch above may have demoted _material to Accent, and
-            // therefore also to Solid. Deciding the surface before that happens would leave a
-            // transparent window on the solid path — i.e. an invisible widget.
-            Opacity = MaterialOpacity();
-            // Transparent BackColor is what lets the DWM material show through in the gaps our
-            // own painting leaves. Form.Opacity (the layered path) needs a real colour though,
-            // so only the blur paths get to go see-through.
-            BackColor = _material != Material.Solid ? Color.Transparent : _p.Card;
-            // Required before WinForms will accept Color.Transparent at all.
-            SetStyle(ControlStyles.SupportsTransparentBackColor, true);
-
             RebuildRegion();
             Invalidate();
         }
 
-        /// <summary>Only the solid path dims the whole window; blur paths dim via the tint instead.</summary>
+        /// <summary>
+        /// Push <see cref="_material"/> into the three properties that decide whether the client
+        /// area is painted at all: the layered style, the back colour, and who paints the card.
+        ///
+        /// Split out and called at every point where _material can change, because all three
+        /// disagree with each other when they go stale:
+        ///   * Layered + backdrop  -> washed-out flat card (the coupling this exists to avoid).
+        ///   * Opaque BackColor    -> WinForms fills the whole client area, covering the blur.
+        ///   * SupportsTransparentBackColor not set -> Color.Transparent throws.
+        /// </summary>
+        void ApplySurfaceStyle()
+        {
+            // Required before WinForms will accept Color.Transparent at all. Must precede the
+            // BackColor assignment below, so it is not conditional on the branch taken.
+            SetStyle(ControlStyles.SupportsTransparentBackColor, true);
+
+            // The rules live in Material so they can be asserted without a window; see
+            // Material.OpacityFor / BackColorIsTransparent / LayeredAllowed.
+            bool wantTransparent = Material.BackColorIsTransparent(_material);
+            Color wantBack = wantTransparent ? Color.Transparent : _p.Card;
+            double wantOpacity = Material.OpacityFor(_material, _cfg.HudOpacity);
+
+            // Assign only on change: every BackColor setter on a transparent form triggers a
+            // parent-paint walk, and this runs on every resize.
+            if (BackColor != wantBack) BackColor = wantBack;
+            if (Opacity != wantOpacity) Opacity = wantOpacity;
+
+            Invalidate();
+        }
+
+        /// <summary>Delegates to <see cref="Material"/> so the rule stays testable off-UI.</summary>
         double MaterialOpacity()
         {
-            if (_material != Material.Solid) return 1.0;
-            return Math.Max(0.55, Math.Min(1.0, _cfg.HudOpacity / 100.0));
+            return Material.OpacityFor(_material, _cfg.HudOpacity);
         }
 
         /// <summary>ABGR tint for the accent policy — DWM reads it as 0xAABBGGRR.</summary>
@@ -413,12 +447,20 @@ namespace MouseMeter
             var cardRect = new RectangleF(0.5f, 0.5f, Width - 1f, Height - 1f);
             using (var cardPath = Theme.RoundRect(cardRect, radius))
             {
-                if (_material != Material.Solid)
+                if (Material.ClearsBeforeTint(_material))
                 {
+                    // Clear to the surface colour BEFORE painting the tint. This is the whole
+                    // trick: the DWM material is behind the client area, so anything GDI writes
+                    // here covers it permanently. Without this the leftover pixels outside
+                    // cardPath keep whatever the previous frame left there, and the card ends
+                    // up looking opaque no matter what tint alpha we asked for.
+                    // TransparentBackground makes the blit leave those pixels alone.
+                    g.Clear(Color.Transparent);
+
                     // Half of the tint lives here and half in the accent policy (or backdrop):
                     // painting it all in GDI would make the blur invisible, painting none would
                     // let white text sit on a bright wallpaper.
-                    int a = (int)Math.Round(TintAlpha() * 0.55);
+                    int a = Material.GdiTintAlpha(_cfg.HudOpacity, _p.IsDark);
                     using (var b = new SolidBrush(Color.FromArgb(a, _p.Card)))
                         g.FillPath(b, cardPath);
                 }

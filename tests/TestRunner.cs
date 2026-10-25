@@ -519,6 +519,60 @@ namespace MouseMeter
             int w2 = Material.TintWord(180, 10, 20, 30);
             TestRunner.Check("asymmetric channels keep their order",
                 ((w2 >> 16) & 0xFF) == 10 && ((w2 >> 8) & 0xFF) == 20 && (w2 & 0xFF) == 30);
+
+            // ------------------------------------------------------------------
+            // Surface rules. These exist because the bug they guard against shipped:
+            // everything above said "Backdrop", and the window still came out solid,
+            // because the *surface* was configured wrong after the decision was made.
+            // Choosing the right layer is necessary but not sufficient.
+            // ------------------------------------------------------------------
+            TestRunner.Section("surface follows the material");
+
+            foreach (int m in new int[] { Material.Solid })
+            {
+                TestRunner.Check("solid -> window Opacity may dim (it is the only lever)",
+                    Material.OpacityFor(m, 96) < 1.0);
+                TestRunner.Check("solid -> opaque card colour, not Transparent",
+                    Material.BackColorIsTransparent(m) == false);
+                TestRunner.Check("solid -> layered style is fine, nothing to fight",
+                    Material.LayeredAllowed(m));
+            }
+
+            foreach (int m in new int[] { Material.Accent, Material.Backdrop })
+            {
+                TestRunner.Check("blur (" + Material.Pick(96, true, true, m == Material.Backdrop) +
+                                 ") -> Opacity pinned at 1.0", Material.OpacityFor(m, 96) == 1.0);
+                TestRunner.Check("blur -> BackColor must be Transparent",
+                    Material.BackColorIsTransparent(m));
+                TestRunner.Check("blur -> WS_EX_LAYERED would break the material",
+                    Material.LayeredAllowed(m) == false);
+                TestRunner.Check("blur -> card must be cleared before painting the tint",
+                    Material.ClearsBeforeTint(m));
+            }
+
+            TestRunner.Section("surface survives a resize");
+            // ApplyScale used to re-apply Opacity unconditionally, which silently re-added
+            // WS_EX_LAYERED to a backdrop window on every resize.
+            TestRunner.Equal("backdrop keeps Opacity 1.0 after a resize",
+                1.0, Material.OpacityFor(Material.Backdrop, 60));
+            TestRunner.Equal("accent keeps Opacity 1.0 after a resize",
+                1.0, Material.OpacityFor(Material.Accent, 60));
+            TestRunner.Equal("solid still dims after a resize",
+                0.60, Math.Round(Material.OpacityFor(Material.Solid, 60), 2));
+
+            TestRunner.Section("tint is translucent, not a coat of paint");
+            // The GDI half of the tint is alpha * 0.55. Painting the full alpha here would
+            // hide the blur entirely, which is indistinguishable from "feature not working".
+            foreach (int pct in new int[] { 55, 77, 96, 99 })
+            {
+                int gdi = Material.GdiTintAlpha(pct, false);
+                TestRunner.Check("GDI tint at " + pct + "% stays well under opaque (" + gdi + " < 200)",
+                    gdi < 200);
+                TestRunner.Check("GDI tint at " + pct + "% still tints (" + gdi + " > 40)",
+                    gdi > 40);
+            }
+            TestRunner.Check("GDI tint is strictly below the DWM tint",
+                Material.GdiTintAlpha(77, false) < Material.TintAlpha(77, false));
         }
     }
 }

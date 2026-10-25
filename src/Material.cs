@@ -55,5 +55,62 @@ namespace MouseMeter
         {
             return ((alpha & 0xFF) << 24) | ((r & 0xFF) << 16) | ((g & 0xFF) << 8) | (b & 0xFF);
         }
+
+        // ---------------------------------------------------------------- surface rules
+        //
+        // The four methods below answer "given this material, how must the *window* be set up".
+        // They live here rather than inside HudForm for the same reason Pick does: the bug that
+        // made the blur invisible was not a wrong decision about which layer to use, it was the
+        // surface being configured inconsistently after the decision. A rule that can only be
+        // checked by looking at a window cannot be checked at all without a display.
+
+        /// <summary>
+        /// The value to assign to <c>Form.Opacity</c>. Blur layers must run at exactly 1.0:
+        /// anything else makes WinForms set WS_EX_LAYERED, and a layered window is composited
+        /// above the DWM material instead of letting it through — the card goes flat.
+        /// </summary>
+        public static double OpacityFor(int material, int hudOpacity)
+        {
+            if (material != Solid) return 1.0;
+            return Math.Max(0.55, Math.Min(1.0, hudOpacity / 100.0));
+        }
+
+        /// <summary>
+        /// True when the form's BackColor must be <c>Color.Transparent</c>. On the blur paths a
+        /// real colour makes WinForms fill the whole client area, covering the material.
+        /// </summary>
+        public static bool BackColorIsTransparent(int material)
+        {
+            return material != Solid;
+        }
+
+        /// <summary>
+        /// True when Opacity may be used (and with it WS_EX_LAYERED). Only the solid path may:
+        /// on 22621+ the layered style and DWMWA_SYSTEMBACKDROP_TYPE are mutually destructive.
+        /// </summary>
+        public static bool LayeredAllowed(int material)
+        {
+            return material == Solid;
+        }
+
+        /// <summary>
+        /// True when OnPaint has to clear to Transparent before laying down the tint. Without
+        /// it the pixels outside the rounded path keep the previous frame and the card reads as
+        /// opaque regardless of tint alpha.
+        /// </summary>
+        public static bool ClearsBeforeTint(int material)
+        {
+            return material != Solid;
+        }
+
+        /// <summary>
+        /// The GDI half of the tint: <c>TintAlpha * 0.55</c>. Split from DWM deliberately — all
+        /// of it painted here would hide the blur, none of it would leave white text on a bright
+        /// wallpaper. Kept as a function so the ratio is asserted rather than eyeballed.
+        /// </summary>
+        public static int GdiTintAlpha(int hudOpacity, bool dark)
+        {
+            return (int)Math.Round(TintAlpha(hudOpacity, dark) * 0.55);
+        }
     }
 }
