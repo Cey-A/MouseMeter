@@ -91,7 +91,7 @@ echo   [3/5] verify - skipped
 :verify_done
 
 rem ---------- 4. rebuild the exe ----------
-echo   [4/5] rebuilding dist\MouseMeter.exe
+echo   [4/5] rebuilding the exe
 powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0Build.ps1"
 if errorlevel 1 goto build_failed
 if not exist "%~dp0dist\MouseMeter.exe" goto no_exe
