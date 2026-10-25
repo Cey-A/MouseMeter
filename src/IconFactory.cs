@@ -1,1 +1,316 @@
-dXNpbmcgU3lzdGVtOwp1c2luZyBTeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYzsKdXNpbmcgU3lzdGVtLkRyYXdpbmc7CnVzaW5nIFN5c3RlbS5EcmF3aW5nLkRyYXdpbmcyRDsKdXNpbmcgU3lzdGVtLkRyYXdpbmcuSW1hZ2luZzsKdXNpbmcgU3lzdGVtLkRyYXdpbmcuVGV4dDsKdXNpbmcgU3lzdGVtLklPOwp1c2luZyBTeXN0ZW0uUnVudGltZS5JbnRlcm9wU2VydmljZXM7CnVzaW5nIFN5c3RlbS5XaW5kb3dzLkZvcm1zOwoKbmFtZXNwYWNlIE1vdXNlTWV0ZXIKewogICAgLy8vIDxzdW1tYXJ5PkRyYXdzIHRoZSB0cmF5IGdseXBoIGFuZCB0aGUgYXBwbGljYXRpb24gaWNvbiBhdCBhbnkgRFBJLjwvc3VtbWFyeT4KICAgIHB1YmxpYyBzdGF0aWMgY2xhc3MgSWNvbkZhY3RvcnkKICAgIHsKICAgICAgICBbRGxsSW1wb3J0KCJ1c2VyMzIuZGxsIiwgU2V0TGFzdEVycm9yID0gdHJ1ZSldCiAgICAgICAgc3RhdGljIGV4dGVybiBib29sIERlc3Ryb3lJY29uKEludFB0ciBoSWNvbik7CgogICAgICAgIHB1YmxpYyBlbnVtIFN0YXRlIHsgTm9ybWFsLCBMb3csIENyaXRpY2FsLCBDaGFyZ2luZywgT2ZmbGluZSB9CgogICAgICAgIHB1YmxpYyBzdGF0aWMgU3RhdGUgU3RhdGVPZihSZWFkaW5nIHIsIGJvb2wgaGFzUmVhZGluZywgYm9vbCBzdGFsZSwgaW50IGxvd1RocmVzaG9sZCkKICAgICAgICB7CiAgICAgICAgICAgIGlmICghaGFzUmVhZGluZyB8fCAhci5Jc1ZhbGlkKSByZXR1cm4gU3RhdGUuT2ZmbGluZTsKICAgICAgICAgICAgaWYgKHIuQ2hhcmdpbmcpIHJldHVybiBTdGF0ZS5DaGFyZ2luZzsKICAgICAgICAgICAgaWYgKHIuTGV2ZWwgPD0gMTApIHJldHVybiBTdGF0ZS5Dcml0aWNhbDsKICAgICAgICAgICAgaWYgKHIuTGV2ZWwgPD0gbG93VGhyZXNob2xkKSByZXR1cm4gU3RhdGUuTG93OwogICAgICAgICAgICByZXR1cm4gU3RhdGUuTm9ybWFsOwogICAgICAgIH0KCiAgICAgICAgcHVibGljIHN0YXRpYyBTdGF0ZSBTdGF0ZU9mKFJlYWRpbmcgciwgaW50IGxvd1RocmVzaG9sZCkKICAgICAgICB7CiAgICAgICAgICAgIHJldHVybiBTdGF0ZU9mKHIsIHIuSXNWYWxpZCwgRnJlc2huZXNzLklzU3RhbGUociksIGxvd1RocmVzaG9sZCk7CiAgICAgICAgfQoKICAgICAgICBwdWJsaWMgc3RhdGljIENvbG9yIEFjY2VudEZvcihTdGF0ZSBzLCBQYWxldHRlIHApCiAgICAgICAgewogICAgICAgICAgICBzd2l0Y2ggKHMpCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgIGNhc2UgU3RhdGUuQ2hhcmdpbmc6IHJldHVybiBwLkdyZWVuOwogICAgICAgICAgICAgICAgY2FzZSBTdGF0ZS5Dcml0aWNhbDogcmV0dXJuIHAuUmVkOwogICAgICAgICAgICAgICAgY2FzZSBTdGF0ZS5Mb3c6IHJldHVybiBwLk9yYW5nZTsKICAgICAgICAgICAgICAgIGNhc2UgU3RhdGUuT2ZmbGluZTogcmV0dXJuIHAuR3JheTsKICAgICAgICAgICAgICAgIGRlZmF1bHQ6IHJldHVybiBwLlRleHQ7CiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIC8vLyA8c3VtbWFyeT4KICAgICAgICAvLy8gTWluaW1hbCBnbHlwaDogdGhlIHBlcmNlbnRhZ2UsIHdpdGggYSBoYWlybGluZSBtZXRlciB1bmRlcm5lYXRoLgogICAgICAgIC8vLyBSZW5kZXJlZCBhdCB0aGUgZXhhY3QgcGl4ZWwgc2l6ZSB0aGUgc2hlbGwgYXNrcyBmb3IsIHNvIG5vdGhpbmcgaXMgcmVzYW1wbGVkLgogICAgICAgIC8vLyA8L3N1bW1hcnk+CiAgICAgICAgcHVibGljIHN0YXRpYyBCaXRtYXAgUmVuZGVyKGludCBzaXplLCBpbnQgbGV2ZWwsIFN0YXRlIHN0YXRlLCBib29sIGRhcmtUYXNrYmFyKQogICAgICAgIHsKICAgICAgICAgICAgcmV0dXJuIFJlbmRlcihzaXplLCBsZXZlbCwgc3RhdGUsIGRhcmtUYXNrYmFyLCAiIik7CiAgICAgICAgfQoKICAgICAgICAvLy8gPHN1bW1hcnk+CiAgICAgICAgLy8vIFNhbWUgZ2x5cGgsIHdpdGggdGhlIGRldmljZSBjbGFzcyBoaW50ZWQgYnkgYSB0aW55IG1hcmsgaW4gdGhlIGNvcm5lciBzbyBhIG1vdXNlLCBhCiAgICAgICAgLy8vIGtleWJvYXJkIGFuZCBhIGhlYWRzZXQgaWNvbiBhcmUgdGVsbGFibGUgYXBhcnQgYXQgMTYgcHggd2l0aG91dCBhIGxlZ2VuZC4KICAgICAgICAvLy8gPC9zdW1tYXJ5PgogICAgICAgIHB1YmxpYyBzdGF0aWMgQml0bWFwIFJlbmRlcihpbnQgc2l6ZSwgaW50IGxldmVsLCBTdGF0ZSBzdGF0ZSwgYm9vbCBkYXJrVGFza2Jhciwgc3RyaW5nIGtpbmQpCiAgICAgICAgewogICAgICAgICAgICB2YXIgYm1wID0gbmV3IEJpdG1hcChzaXplLCBzaXplLCBQaXhlbEZvcm1hdC5Gb3JtYXQzMmJwcEFyZ2IpOwogICAgICAgICAgICB1c2luZyAodmFyIGcgPSBHcmFwaGljcy5Gcm9tSW1hZ2UoYm1wKSkKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgZy5DbGVhcihDb2xvci5UcmFuc3BhcmVudCk7CiAgICAgICAgICAgICAgICBnLlNtb290aGluZ01vZGUgPSBTbW9vdGhpbmdNb2RlLkFudGlBbGlhczsKICAgICAgICAgICAgICAgIGcuUGl4ZWxPZmZzZXRNb2RlID0gUGl4ZWxPZmZzZXRNb2RlLkhpZ2hRdWFsaXR5OwogICAgICAgICAgICAgICAgZy5UZXh0UmVuZGVyaW5nSGludCA9IFRleHRSZW5kZXJpbmdIaW50LkFudGlBbGlhc0dyaWRGaXQ7CgogICAgICAgICAgICAgICAgQ29sb3IgaW5rID0gSW5rRm9yKHN0YXRlLCBkYXJrVGFza2Jhcik7CgogICAgICAgICAgICAgICAgYm9vbCBzaG93TWV0ZXIgPSBzdGF0ZSAhPSBTdGF0ZS5PZmZsaW5lICYmIHNpemUgPj0gMTQ7CiAgICAgICAgICAgICAgICBmbG9hdCBtZXRlckggPSBNYXRoLk1heCgxLjVmLCBzaXplIC8gMTJmKTsKICAgICAgICAgICAgICAgIGZsb2F0IG1ldGVyWSA9IHNpemUgLSBtZXRlckggLSBNYXRoLk1heCgwLjVmLCBzaXplICogMC4wNmYpOwogICAgICAgICAgICAgICAgZmxvYXQgdGV4dEFyZWEgPSBzaG93TWV0ZXIgPyBtZXRlclkgLSBzaXplICogMC4wNDVmIDogc2l6ZTsKCiAgICAgICAgICAgICAgICAvLyB0aGUgY2xhc3MgbWFyayB0YWtlcyB0aGUgdG9wLWxlZnQgY29ybmVyOyBzaHJpbmsgdGhlIGRpZ2l0cyBhIHRvdWNoIHRvIG1ha2Ugcm9vbQogICAgICAgICAgICAgICAgZmxvYXQgbWFya1cgPSBLaW5kTWFya1dpZHRoKGtpbmQsIHNpemUpOwogICAgICAgICAgICAgICAgaWYgKG1hcmtXID4gMCkKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICB1c2luZyAodmFyIGIgPSBuZXcgU29saWRCcnVzaChUaGVtZS5BbHBoYShpbmssIDAuNzUpKSkKICAgICAgICAgICAgICAgICAgICAgICAgRHJhd0tpbmRNYXJrKGcsIGtpbmQsIDAuNWYsIHNpemUgKiAwLjA2ZiwgbWFya1csIHNpemUgKiAwLjMwZiwgYik7CiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgc3RyaW5nIGxhYmVsID0gc3RhdGUgPT0gU3RhdGUuT2ZmbGluZSA/ICItLSIgOiBsZXZlbC5Ub1N0cmluZygpOwogICAgICAgICAgICAgICAgZmxvYXQgbWF4VyA9IHNpemUgLSBzaXplICogMC4wNmY7CiAgICAgICAgICAgICAgICBGb250IGZvbnQgPSBGaXRGb250KGcsIGxhYmVsLCBtYXhXLCB0ZXh0QXJlYSk7CgogICAgICAgICAgICAgICAgdmFyIHNmID0gbmV3IFN0cmluZ0Zvcm1hdChTdHJpbmdGb3JtYXQuR2VuZXJpY1R5cG9ncmFwaGljKTsKICAgICAgICAgICAgICAgIHNmLkFsaWdubWVudCA9IFN0cmluZ0FsaWdubWVudC5DZW50ZXI7CiAgICAgICAgICAgICAgICBzZi5MaW5lQWxpZ25tZW50ID0gU3RyaW5nQWxpZ25tZW50LkNlbnRlcjsKICAgICAgICAgICAgICAgIHNmLkZvcm1hdEZsYWdzID0gU3RyaW5nRm9ybWF0RmxhZ3MuTm9XcmFwIHwgU3RyaW5nRm9ybWF0RmxhZ3MuTm9DbGlwOwoKICAgICAgICAgICAgICAgIC8vIGdlbmVyb3VzIGJveCwgY2VudHJlZCBvbiB0aGUgZ2x5cGggYXJlYSwgc28gdGhlIHRleHQgbmV2ZXIgd3JhcHMgb3IgY2xpcHMKICAgICAgICAgICAgICAgIHZhciBib3ggPSBuZXcgUmVjdGFuZ2xlRigtc2l6ZSwgLXNpemUgKiAwLjEwZiwgc2l6ZSAqIDMsIHRleHRBcmVhICsgc2l6ZSAqIDAuMjBmKTsKCiAgICAgICAgICAgICAgICAvLyBudWRnZSBkb3duIGJ5IHRoZSBkZXNjZW5kZXIgc28gZGlnaXRzIGxvb2sgb3B0aWNhbGx5IGNlbnRyZWQKICAgICAgICAgICAgICAgIGcuVHJhbnNsYXRlVHJhbnNmb3JtKDAsIHNpemUgKiAwLjA1NWYpOwogICAgICAgICAgICAgICAgdXNpbmcgKHZhciBiID0gbmV3IFNvbGlkQnJ1c2goaW5rKSkKICAgICAgICAgICAgICAgICAgICBnLkRyYXdTdHJpbmcobGFiZWwsIGZvbnQsIGIsIGJveCwgc2YpOwogICAgICAgICAgICAgICAgZy5UcmFuc2xhdGVUcmFuc2Zvcm0oMCwgLXNpemUgKiAwLjA1NWYpOwoKICAgICAgICAgICAgICAgIGlmIChzaG93TWV0ZXIpCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgZmxvYXQgcGFkID0gc2l6ZSAqIDAuMTZmOwogICAgICAgICAgICAgICAgICAgIGZsb2F0IHRyYWNrVyA9IHNpemUgLSBwYWQgKiAyOwogICAgICAgICAgICAgICAgICAgIGZsb2F0IHBjdCA9IE1hdGguTWF4KDBmLCBNYXRoLk1pbigxZiwgbGV2ZWwgLyAxMDBmKSk7CiAgICAgICAgICAgICAgICAgICAgZmxvYXQgZmlsbFcgPSBNYXRoLk1heChtZXRlckgsIHRyYWNrVyAqIHBjdCk7CgogICAgICAgICAgICAgICAgICAgIHVzaW5nICh2YXIgYmFjayA9IG5ldyBTb2xpZEJydXNoKENvbG9yLkZyb21BcmdiKGRhcmtUYXNrYmFyID8gNjYgOiA1NCwgaW5rKSkpCiAgICAgICAgICAgICAgICAgICAgICAgIEZpbGxDYXBzdWxlKGcsIGJhY2ssIHBhZCwgbWV0ZXJZLCB0cmFja1csIG1ldGVySCk7CgogICAgICAgICAgICAgICAgICAgIHVzaW5nICh2YXIgZnJvbnQgPSBuZXcgU29saWRCcnVzaChpbmspKQogICAgICAgICAgICAgICAgICAgICAgICBGaWxsQ2Fwc3VsZShnLCBmcm9udCwgcGFkLCBtZXRlclksIGZpbGxXLCBtZXRlckgpOwogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIHNmLkRpc3Bvc2UoKTsKICAgICAgICAgICAgfQogICAgICAgICAgICByZXR1cm4gYm1wOwogICAgICAgIH0KCiAgICAgICAgc3RhdGljIENvbG9yIElua0ZvcihTdGF0ZSBzdGF0ZSwgYm9vbCBkYXJrVGFza2JhcikKICAgICAgICB7CiAgICAgICAgICAgIGlmIChzdGF0ZSA9PSBTdGF0ZS5PZmZsaW5lKSByZXR1cm4gZGFya1Rhc2tiYXIKICAgICAgICAgICAgICAgID8gQ29sb3IuRnJvbUFyZ2IoMTcwLCAyMzUsIDIzNSwgMjQwKQogICAgICAgICAgICAgICAgOiBDb2xvci5Gcm9tQXJnYigxNzAsIDYwLCA2MCwgNjYpOwogICAgICAgICAgICBpZiAoc3RhdGUgPT0gU3RhdGUuQ2hhcmdpbmcpIHJldHVybiBDb2xvci5Gcm9tQXJnYig0OCwgMjA1LCA4OCk7CiAgICAgICAgICAgIGlmIChzdGF0ZSA9PSBTdGF0ZS5Dcml0aWNhbCkgcmV0dXJuIENvbG9yLkZyb21BcmdiKDI1NSwgNzEsIDU4KTsKICAgICAgICAgICAgaWYgKHN0YXRlID09IFN0YXRlLkxvdykgcmV0dXJuIENvbG9yLkZyb21BcmdiKDI1NSwgMTU5LCAxMCk7CiAgICAgICAgICAgIHJldHVybiBkYXJrVGFza2JhciA/IENvbG9yLkZyb21BcmdiKDI0NiwgMjQ2LCAyNDgpIDogQ29sb3IuRnJvbUFyZ2IoMzAsIDMwLCAzMik7CiAgICAgICAgfQoKICAgICAgICAvLyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KICAgICAgICAvLyBkZXZpY2UgY2xhc3MgbWFya3MKICAgICAgICAvLyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KCiAgICAgICAgc3RhdGljIGZsb2F0IEtpbmRNYXJrV2lkdGgoc3RyaW5nIGtpbmQsIGludCBzaXplKQogICAgICAgIHsKICAgICAgICAgICAgLy8gS2VwdCBkZWxpYmVyYXRlbHkgc21hbGw6IHRoZSBkaWdpdHMgYXJlIHRoZSBjb250ZW50LCB0aGUgYmFkZ2Ugb25seSBoYXMgdG8KICAgICAgICAgICAgLy8gd2hpc3BlciB0aGUgZGV2aWNlIGNsYXNzLiBBbnl0aGluZyB3aWRlciB0aGFuIH4xLzMgb2YgdGhlIGdseXBoIHJlYWRzIGFzIGEgbG9nby4KICAgICAgICAgICAgaWYgKGtpbmQgPT0gRGV2aWNlS2luZC5LZXlib2FyZCkgcmV0dXJuIHNpemUgKiAwLjMwZjsKICAgICAgICAgICAgaWYgKGtpbmQgPT0gRGV2aWNlS2luZC5IZWFkc2V0KSByZXR1cm4gc2l6ZSAqIDAuMjZmOwogICAgICAgICAgICByZXR1cm4gMGY7ICAgLy8gbW91c2Uga2VlcHMgdGhlIGx1Y2t5IG9yaWdpbmFsIGxvb2s6IGRpZ2l0cyBvbmx5CiAgICAgICAgfQoKICAgICAgICAvLy8gPHN1bW1hcnk+S2V5Ym9hcmQ6IHRocmVlIGtleSBkb3RzIGluIGEgcm91bmRlZCBib3guIEhlYWRzZXQ6IGFyYyArIHR3byBlYXIgY3Vwcy48L3N1bW1hcnk+CiAgICAgICAgc3RhdGljIHZvaWQgRHJhd0tpbmRNYXJrKEdyYXBoaWNzIGcsIHN0cmluZyBraW5kLCBmbG9hdCB4LCBmbG9hdCB5LCBmbG9hdCB3LCBmbG9hdCBoLCBCcnVzaCBiKQogICAgICAgIHsKICAgICAgICAgICAgaWYgKGtpbmQgPT0gRGV2aWNlS2luZC5LZXlib2FyZCkKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgdXNpbmcgKHZhciBwYXRoID0gVGhlbWUuUm91bmRSZWN0KG5ldyBSZWN0YW5nbGVGKHgsIHksIHcsIGgpLCBoICogMC4yOGYpKQogICAgICAgICAgICAgICAgdXNpbmcgKHZhciBwZW4gPSBuZXcgUGVuKCgoU29saWRCcnVzaCliKS5Db2xvciwgTWF0aC5NYXgoMWYsIGggKiAwLjE2ZikpKQogICAgICAgICAgICAgICAgICAgIGcuRHJhd1BhdGgocGVuLCBwYXRoKTsKICAgICAgICAgICAgICAgIGZsb2F0IGQgPSBNYXRoLk1heCgwLjlmLCBoICogMC4xOGYpOwogICAgICAgICAgICAgICAgZmxvYXQgY3kgPSB5ICsgaCAqIDAuNWYgLSBkIC8gMmY7CiAgICAgICAgICAgICAgICBmb3IgKGludCBpID0gMDsgaSA8IDM7IGkrKykKICAgICAgICAgICAgICAgICAgICBnLkZpbGxFbGxpcHNlKGIsIHggKyB3ICogKDAuMjJmICsgaSAqIDAuMjhmKSAtIGQgLyAyZiwgY3ksIGQsIGQpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsc2UgaWYgKGtpbmQgPT0gRGV2aWNlS2luZC5IZWFkc2V0KQogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBmbG9hdCBzdHJva2UgPSBNYXRoLk1heCgxZiwgaCAqIDAuMTdmKTsKICAgICAgICAgICAgICAgIHVzaW5nICh2YXIgcGVuID0gbmV3IFBlbigoKFNvbGlkQnJ1c2gpYikuQ29sb3IsIHN0cm9rZSkpCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgcGVuLlN0YXJ0Q2FwID0gTGluZUNhcC5Sb3VuZDsKICAgICAgICAgICAgICAgICAgICBwZW4uRW5kQ2FwID0gTGluZUNhcC5Sb3VuZDsKICAgICAgICAgICAgICAgICAgICBnLkRyYXdBcmMocGVuLCB4ICsgdyAqIDAuMDZmLCB5LCB3ICogMC44OGYsIGggKiAwLjkyZiwgMTgwZiwgMTgwZik7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBmbG9hdCBjdyA9IHcgKiAwLjIyZiwgY2ggPSBoICogMC40MmY7CiAgICAgICAgICAgICAgICBnLkZpbGxSZWN0YW5nbGUoYiwgeCArIHcgKiAwLjA0ZiwgeSArIGggKiAwLjQ4ZiwgY3csIGNoKTsKICAgICAgICAgICAgICAgIGcuRmlsbFJlY3RhbmdsZShiLCB4ICsgdyAqIDAuNzRmLCB5ICsgaCAqIDAuNDhmLCBjdywgY2gpOwogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBzdGF0aWMgRm9udCBGaXRGb250KEdyYXBoaWNzIGcsIHN0cmluZyBsYWJlbCwgZmxvYXQgbWF4VywgZmxvYXQgbWF4SCkKICAgICAgICB7CiAgICAgICAgICAgIGZsb2F0W10gc3RlcHMgPSBuZXcgZmxvYXRbXSB7IDAuNzhmLCAwLjc0ZiwgMC43MGYsIDAuNjZmLCAwLjYyZiwgMC41OGYsIDAuNTRmLCAwLjUwZiwgMC40NmYsIDAuNDJmLCAwLjM4ZiB9OwogICAgICAgICAgICBmb3IgKGludCBpID0gMDsgaSA8IHN0ZXBzLkxlbmd0aDsgaSsrKQogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBmbG9hdCBjYW5kaWRhdGUgPSBNYXRoLk1pbihtYXhIICogc3RlcHNbaV0sIG1heFcgKiAwLjk4Zik7CiAgICAgICAgICAgICAgICB2YXIgZiA9IG5ldyBGb250KFRoZW1lLkRpc3BsYXlGYW1pbHksIGNhbmRpZGF0ZSwgRm9udFN0eWxlLkJvbGQsIEdyYXBoaWNzVW5pdC5QaXhlbCk7CiAgICAgICAgICAgICAgICB2YXIgc3ogPSBnLk1lYXN1cmVTdHJpbmcobGFiZWwsIGYsIDEwMDAsIFN0cmluZ0Zvcm1hdC5HZW5lcmljVHlwb2dyYXBoaWMpOwogICAgICAgICAgICAgICAgaWYgKHN6LldpZHRoIDw9IG1heFcgJiYgc3ouSGVpZ2h0IDw9IG1heEggKiAxLjA0ZikgcmV0dXJuIGY7CiAgICAgICAgICAgICAgICBmLkRpc3Bvc2UoKTsKICAgICAgICAgICAgfQogICAgICAgICAgICBmbG9hdCBweCA9IE1hdGguTWluKG1heEgsIG1heFcpICogMC40MGY7CiAgICAgICAgICAgIHJldHVybiBuZXcgRm9udChUaGVtZS5EaXNwbGF5RmFtaWx5LCBweCwgRm9udFN0eWxlLkJvbGQsIEdyYXBoaWNzVW5pdC5QaXhlbCk7CiAgICAgICAgfQoKICAgICAgICBzdGF0aWMgdm9pZCBGaWxsQ2Fwc3VsZShHcmFwaGljcyBnLCBCcnVzaCBiLCBmbG9hdCB4LCBmbG9hdCB5LCBmbG9hdCB3LCBmbG9hdCBoKQogICAgICAgIHsKICAgICAgICAgICAgZmxvYXQgciA9IGggLyAyZjsKICAgICAgICAgICAgdXNpbmcgKHZhciBwYXRoID0gbmV3IEdyYXBoaWNzUGF0aCgpKQogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBpZiAodyA8PSBoKQogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAgIHBhdGguQWRkRWxsaXBzZSh4LCB5LCBoLCBoKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGVsc2UKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICBwYXRoLkFkZEFyYyh4LCB5LCBoLCBoLCA5MCwgMTgwKTsKICAgICAgICAgICAgICAgICAgICBwYXRoLkFkZEFyYyh4ICsgdyAtIGgsIHksIGgsIGgsIDI3MCwgMTgwKTsKICAgICAgICAgICAgICAgICAgICBwYXRoLkNsb3NlRmlndXJlKCk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBnLkZpbGxQYXRoKGIsIHBhdGgpOwogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBwdWJsaWMgc3RhdGljIEljb24gVG9JY29uKEJpdG1hcCBibXApCiAgICAgICAgewogICAgICAgICAgICBJbnRQdHIgaCA9IGJtcC5HZXRIaWNvbigpOwogICAgICAgICAgICB0cnkKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgdXNpbmcgKHZhciB0bXAgPSBJY29uLkZyb21IYW5kbGUoaCkpCiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIChJY29uKXRtcC5DbG9uZSgpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIGZpbmFsbHkgeyBEZXN0cm95SWNvbihoKTsgfQogICAgICAgIH0KCiAgICAgICAgLy8gLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCiAgICAgICAgLy8gQXBwbGljYXRpb24gaWNvbiAoYWxzbyB1c2VkIGZvciB0aGUgc2V0dGluZ3Mgd2luZG93IHRpdGxlIGJsb2NrKQogICAgICAgIC8vIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQoKICAgICAgICBwdWJsaWMgc3RhdGljIEJpdG1hcCBBcHBJY29uKGludCBzaXplKQogICAgICAgIHsKICAgICAgICAgICAgdmFyIGJtcCA9IG5ldyBCaXRtYXAoc2l6ZSwgc2l6ZSwgUGl4ZWxGb3JtYXQuRm9ybWF0MzJicHBBcmdiKTsKICAgICAgICAgICAgdXNpbmcgKHZhciBnID0gR3JhcGhpY3MuRnJvbUltYWdlKGJtcCkpCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgIGcuQ2xlYXIoQ29sb3IuVHJhbnNwYXJlbnQpOwogICAgICAgICAgICAgICAgZy5TbW9vdGhpbmdNb2RlID0gU21vb3RoaW5nTW9kZS5BbnRpQWxpYXM7CiAgICAgICAgICAgICAgICBnLlBpeGVsT2Zmc2V0TW9kZSA9IFBpeGVsT2Zmc2V0TW9kZS5IaWdoUXVhbGl0eTsKCiAgICAgICAgICAgICAgICBmbG9hdCBpbnNldCA9IHNpemUgKiAwLjA1NWY7CiAgICAgICAgICAgICAgICB2YXIgcmVjdCA9IG5ldyBSZWN0YW5nbGVGKGluc2V0LCBpbnNldCwgc2l6ZSAtIGluc2V0ICogMiwgc2l6ZSAtIGluc2V0ICogMik7CiAgICAgICAgICAgICAgICBmbG9hdCByYWRpdXMgPSBzaXplICogMC4yMzVmOwoKICAgICAgICAgICAgICAgIHVzaW5nICh2YXIgcGF0aCA9IFRoZW1lLlJvdW5kUmVjdChyZWN0LCByYWRpdXMpKQogICAgICAgICAgICAgICAgdXNpbmcgKHZhciBsZyA9IG5ldyBMaW5lYXJHcmFkaWVudEJydXNoKHJlY3QsCiAgICAgICAgICAgICAgICAgICAgQ29sb3IuRnJvbUFyZ2IoNTgsIDU4LCA2MiksIENvbG9yLkZyb21BcmdiKDIyLCAyMiwgMjQpLCA5MGYpKQogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAgIGcuRmlsbFBhdGgobGcsIHBhdGgpOwogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIHVzaW5nICh2YXIgcGF0aCA9IFRoZW1lLlJvdW5kUmVjdChuZXcgUmVjdGFuZ2xlRihyZWN0LlgsIHJlY3QuWSwgcmVjdC5XaWR0aCwgcmVjdC5IZWlnaHQgKiAwLjVmKSwgcmFkaXVzKSkKICAgICAgICAgICAgICAgIHVzaW5nICh2YXIgbGcgPSBuZXcgTGluZWFyR3JhZGllbnRCcnVzaCgKICAgICAgICAgICAgICAgICAgICBuZXcgUmVjdGFuZ2xlRihyZWN0LlgsIHJlY3QuWSwgcmVjdC5XaWR0aCwgcmVjdC5IZWlnaHQgKiAwLjVmKSwKICAgICAgICAgICAgICAgICAgICBDb2xvci5Gcm9tQXJnYig0NiwgMjU1LCAyNTUsIDI1NSksIENvbG9yLkZyb21BcmdiKDAsIDI1NSwgMjU1LCAyNTUpLCA5MGYpKQogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAgIGcuRmlsbFBhdGgobGcsIHBhdGgpOwogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIGZsb2F0IGJ3ID0gc2l6ZSAqIDAuNDZmOwogICAgICAgICAgICAgICAgZmxvYXQgYmggPSBzaXplICogMC4yNGY7CiAgICAgICAgICAgICAgICBmbG9hdCBieCA9IChzaXplIC0gYncpIC8gMmYgLSBzaXplICogMC4wMzVmOwogICAgICAgICAgICAgICAgZmxvYXQgYnkgPSAoc2l6ZSAtIGJoKSAvIDJmOwogICAgICAgICAgICAgICAgZmxvYXQgYnIgPSBiaCAqIDAuMzJmOwogICAgICAgICAgICAgICAgZmxvYXQgc3Ryb2tlID0gTWF0aC5NYXgoMWYsIHNpemUgKiAwLjAzOGYpOwoKICAgICAgICAgICAgICAgIHZhciBib2R5ID0gbmV3IFJlY3RhbmdsZUYoYngsIGJ5LCBidywgYmgpOwogICAgICAgICAgICAgICAgdXNpbmcgKHZhciBwZW4gPSBuZXcgUGVuKENvbG9yLkZyb21BcmdiKDI0NSwgMjQ1LCAyNDcpLCBzdHJva2UpKQogICAgICAgICAgICAgICAgdXNpbmcgKHZhciBwYXRoID0gVGhlbWUuUm91bmRSZWN0KGJvZHksIGJyKSkKICAgICAgICAgICAgICAgICAgICBnLkRyYXdQYXRoKHBlbiwgcGF0aCk7CgogICAgICAgICAgICAgICAgdmFyIG51YiA9IG5ldyBSZWN0YW5nbGVGKGJ4ICsgYncgKyBzaXplICogMC4wMTJmLCBieSArIGJoICogMC4yOGYsIHNpemUgKiAwLjA0NWYsIGJoICogMC40NGYpOwogICAgICAgICAgICAgICAgdXNpbmcgKHZhciBwYXRoID0gVGhlbWUuUm91bmRSZWN0KG51YiwgbnViLldpZHRoICogMC40NWYpKQogICAgICAgICAgICAgICAgdXNpbmcgKHZhciBiID0gbmV3IFNvbGlkQnJ1c2goQ29sb3IuRnJvbUFyZ2IoMjQ1LCAyNDUsIDI0NykpKQogICAgICAgICAgICAgICAgICAgIGcuRmlsbFBhdGgoYiwgcGF0aCk7CgogICAgICAgICAgICAgICAgZmxvYXQgaW5uZXIgPSBidyAtIHN0cm9rZSAqIDIuNGY7CiAgICAgICAgICAgICAgICB2YXIgZmlsbCA9IG5ldyBSZWN0YW5nbGVGKGJ4ICsgc3Ryb2tlICogMS4yZiwgYnkgKyBzdHJva2UgKiAxLjJmLCBpbm5lciAqIDAuNjJmLCBiaCAtIHN0cm9rZSAqIDIuNGYpOwogICAgICAgICAgICAgICAgdXNpbmcgKHZhciBwYXRoID0gVGhlbWUuUm91bmRSZWN0KGZpbGwsIE1hdGguTWF4KDFmLCBiciAtIHN0cm9rZSkpKQogICAgICAgICAgICAgICAgdXNpbmcgKHZhciBiID0gbmV3IFNvbGlkQnJ1c2goQ29sb3IuRnJvbUFyZ2IoNDgsIDIwOSwgODgpKSkKICAgICAgICAgICAgICAgICAgICBnLkZpbGxQYXRoKGIsIHBhdGgpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIHJldHVybiBibXA7CiAgICAgICAgfQoKICAgICAgICAvLy8gPHN1bW1hcnk+V3JpdGVzIGEgbXVsdGktcmVzb2x1dGlvbiAuaWNvIChQTkcgY29tcHJlc3NlZCBmcmFtZXMsIFZpc3RhKykuPC9zdW1tYXJ5PgogICAgICAgIHB1YmxpYyBzdGF0aWMgdm9pZCBXcml0ZUljbyhzdHJpbmcgcGF0aCkKICAgICAgICB7CiAgICAgICAgICAgIGludFtdIHNpemVzID0gbmV3IGludFtdIHsgMTYsIDIwLCAyNCwgMzIsIDQwLCA0OCwgNjQsIDEyOCwgMjU2IH07CiAgICAgICAgICAgIHZhciBwbmdzID0gbmV3IExpc3Q8Ynl0ZVtdPigpOwogICAgICAgICAgICBmb3JlYWNoIChpbnQgcyBpbiBzaXplcykKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgdXNpbmcgKHZhciBibXAgPSBBcHBJY29uKHMpKQogICAgICAgICAgICAgICAgdXNpbmcgKHZhciBtcyA9IG5ldyBNZW1vcnlTdHJlYW0oKSkKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICBibXAuU2F2ZShtcywgSW1hZ2VGb3JtYXQuUG5nKTsKICAgICAgICAgICAgICAgICAgICBwbmdzLkFkZChtcy5Ub0FycmF5KCkpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgICAgICB1c2luZyAodmFyIGZzID0gbmV3IEZpbGVTdHJlYW0ocGF0aCwgRmlsZU1vZGUuQ3JlYXRlLCBGaWxlQWNjZXNzLldyaXRlKSkKICAgICAgICAgICAgdXNpbmcgKHZhciB3ID0gbmV3IEJpbmFyeVdyaXRlcihmcykpCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgIHcuV3JpdGUoKHVzaG9ydCkwKTsKICAgICAgICAgICAgICAgIHcuV3JpdGUoKHVzaG9ydCkxKTsKICAgICAgICAgICAgICAgIHcuV3JpdGUoKHVzaG9ydClzaXplcy5MZW5ndGgpOwoKICAgICAgICAgICAgICAgIGludCBvZmZzZXQgPSA2ICsgMTYgKiBzaXplcy5MZW5ndGg7CiAgICAgICAgICAgICAgICBmb3IgKGludCBpID0gMDsgaSA8IHNpemVzLkxlbmd0aDsgaSsrKQogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAgIHcuV3JpdGUoKGJ5dGUpKHNpemVzW2ldID49IDI1NiA/IDAgOiBzaXplc1tpXSkpOwogICAgICAgICAgICAgICAgICAgIHcuV3JpdGUoKGJ5dGUpKHNpemVzW2ldID49IDI1NiA/IDAgOiBzaXplc1tpXSkpOwogICAgICAgICAgICAgICAgICAgIHcuV3JpdGUoKGJ5dGUpMCk7CiAgICAgICAgICAgICAgICAgICAgdy5Xcml0ZSgoYnl0ZSkwKTsKICAgICAgICAgICAgICAgICAgICB3LldyaXRlKCh1c2hvcnQpMSk7CiAgICAgICAgICAgICAgICAgICAgdy5Xcml0ZSgodXNob3J0KTMyKTsKICAgICAgICAgICAgICAgICAgICB3LldyaXRlKCh1aW50KXBuZ3NbaV0uTGVuZ3RoKTsKICAgICAgICAgICAgICAgICAgICB3LldyaXRlKCh1aW50KW9mZnNldCk7CiAgICAgICAgICAgICAgICAgICAgb2Zmc2V0ICs9IHBuZ3NbaV0uTGVuZ3RoOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgZm9yIChpbnQgaSA9IDA7IGkgPCBwbmdzLkNvdW50OyBpKyspIHcuV3JpdGUocG5nc1tpXSk7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cn0K
+using System;
+using System.Collections.Generic;
+using System.Drawing;
+using System.Drawing.Drawing2D;
+using System.Drawing.Imaging;
+using System.Drawing.Text;
+using System.IO;
+using System.Runtime.InteropServices;
+using System.Windows.Forms;
+
+namespace MouseMeter
+{
+    /// <summary>Draws the tray glyph and the application icon at any DPI.</summary>
+    public static class IconFactory
+    {
+        [DllImport("user32.dll", SetLastError = true)]
+        static extern bool DestroyIcon(IntPtr hIcon);
+
+        public enum State { Normal, Low, Critical, Charging, Offline }
+
+        public static State StateOf(Reading r, bool hasReading, bool stale, int lowThreshold)
+        {
+            if (!hasReading || !r.IsValid) return State.Offline;
+            if (r.Charging) return State.Charging;
+            if (r.Level <= 10) return State.Critical;
+            if (r.Level <= lowThreshold) return State.Low;
+            return State.Normal;
+        }
+
+        public static State StateOf(Reading r, int lowThreshold)
+        {
+            return StateOf(r, r.IsValid, Freshness.IsStale(r), lowThreshold);
+        }
+
+        public static Color AccentFor(State s, Palette p)
+        {
+            switch (s)
+            {
+                case State.Charging: return p.Green;
+                case State.Critical: return p.Red;
+                case State.Low: return p.Orange;
+                case State.Offline: return p.Gray;
+                default: return p.Text;
+            }
+        }
+
+        /// <summary>
+        /// Minimal glyph: the percentage, with a hairline meter underneath.
+        /// Rendered at the exact pixel size the shell asks for, so nothing is resampled.
+        /// </summary>
+        public static Bitmap Render(int size, int level, State state, bool darkTaskbar)
+        {
+            return Render(size, level, state, darkTaskbar, "");
+        }
+
+        /// <summary>
+        /// Same glyph, with the device class hinted by a tiny mark in the corner so a mouse, a
+        /// keyboard and a headset icon are tellable apart at 16 px without a legend.
+        /// </summary>
+        public static Bitmap Render(int size, int level, State state, bool darkTaskbar, string kind)
+        {
+            var bmp = new Bitmap(size, size, PixelFormat.Format32bppArgb);
+            using (var g = Graphics.FromImage(bmp))
+            {
+                g.Clear(Color.Transparent);
+                g.SmoothingMode = SmoothingMode.AntiAlias;
+                g.PixelOffsetMode = PixelOffsetMode.HighQuality;
+                g.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;
+
+                Color ink = InkFor(state, darkTaskbar);
+
+                bool showMeter = state != State.Offline && size >= 14;
+                float meterH = Math.Max(1.5f, size / 12f);
+                float meterY = size - meterH - Math.Max(0.5f, size * 0.06f);
+                float textArea = showMeter ? meterY - size * 0.045f : size;
+
+                // the class mark takes the top-left corner; shrink the digits a touch to make room
+                float markW = KindMarkWidth(kind, size);
+                if (markW > 0)
+                {
+                    using (var b = new SolidBrush(Theme.Alpha(ink, 0.75)))
+                        DrawKindMark(g, kind, 0.5f, size * 0.06f, markW, size * 0.30f, b);
+                }
+
+                string label = state == State.Offline ? "--" : level.ToString();
+                float maxW = size - size * 0.06f;
+                Font font = FitFont(g, label, maxW, textArea);
+
+                var sf = new StringFormat(StringFormat.GenericTypographic);
+                sf.Alignment = StringAlignment.Center;
+                sf.LineAlignment = StringAlignment.Center;
+                sf.FormatFlags = StringFormatFlags.NoWrap | StringFormatFlags.NoClip;
+
+                // generous box, centred on the glyph area, so the text never wraps or clips
+                var box = new RectangleF(-size, -size * 0.10f, size * 3, textArea + size * 0.20f);
+
+                // nudge down by the descender so digits look optically centred
+                g.TranslateTransform(0, size * 0.055f);
+                using (var b = new SolidBrush(ink))
+                    g.DrawString(label, font, b, box, sf);
+                g.TranslateTransform(0, -size * 0.055f);
+
+                if (showMeter)
+                {
+                    float pad = size * 0.16f;
+                    float trackW = size - pad * 2;
+                    float pct = Math.Max(0f, Math.Min(1f, level / 100f));
+                    float fillW = Math.Max(meterH, trackW * pct);
+
+                    using (var back = new SolidBrush(Color.FromArgb(darkTaskbar ? 66 : 54, ink)))
+                        FillCapsule(g, back, pad, meterY, trackW, meterH);
+
+                    using (var front = new SolidBrush(ink))
+                        FillCapsule(g, front, pad, meterY, fillW, meterH);
+                }
+
+                sf.Dispose();
+            }
+            return bmp;
+        }
+
+        static Color InkFor(State state, bool darkTaskbar)
+        {
+            if (state == State.Offline) return darkTaskbar
+                ? Color.FromArgb(170, 235, 235, 240)
+                : Color.FromArgb(170, 60, 60, 66);
+            if (state == State.Charging) return Color.FromArgb(48, 205, 88);
+            if (state == State.Critical) return Color.FromArgb(255, 71, 58);
+            if (state == State.Low) return Color.FromArgb(255, 159, 10);
+            return darkTaskbar ? Color.FromArgb(246, 246, 248) : Color.FromArgb(30, 30, 32);
+        }
+
+        // ------------------------------------------------------------------
+        // device class marks
+        // ------------------------------------------------------------------
+
+        static float KindMarkWidth(string kind, int size)
+        {
+            // Kept deliberately small: the digits are the content, the badge only has to
+            // whisper the device class. Anything wider than ~1/3 of the glyph reads as a logo.
+            if (kind == DeviceKind.Keyboard) return size * 0.30f;
+            if (kind == DeviceKind.Headset) return size * 0.26f;
+            return 0f;   // mouse keeps the lucky original look: digits only
+        }
+
+        /// <summary>Keyboard: three key dots in a rounded box. Headset: arc + two ear cups.</summary>
+        static void DrawKindMark(Graphics g, string kind, float x, float y, float w, float h, Brush b)
+        {
+            if (kind == DeviceKind.Keyboard)
+            {
+                using (var path = Theme.RoundRect(new RectangleF(x, y, w, h), h * 0.28f))
+                using (var pen = new Pen(((SolidBrush)b).Color, Math.Max(1f, h * 0.16f)))
+                    g.DrawPath(pen, path);
+                float d = Math.Max(0.9f, h * 0.18f);
+                float cy = y + h * 0.5f - d / 2f;
+                for (int i = 0; i < 3; i++)
+                    g.FillEllipse(b, x + w * (0.22f + i * 0.28f) - d / 2f, cy, d, d);
+            }
+            else if (kind == DeviceKind.Headset)
+            {
+                float stroke = Math.Max(1f, h * 0.17f);
+                using (var pen = new Pen(((SolidBrush)b).Color, stroke))
+                {
+                    pen.StartCap = LineCap.Round;
+                    pen.EndCap = LineCap.Round;
+                    g.DrawArc(pen, x + w * 0.06f, y, w * 0.88f, h * 0.92f, 180f, 180f);
+                }
+                float cw = w * 0.22f, ch = h * 0.42f;
+                g.FillRectangle(b, x + w * 0.04f, y + h * 0.48f, cw, ch);
+                g.FillRectangle(b, x + w * 0.74f, y + h * 0.48f, cw, ch);
+            }
+        }
+
+        static Font FitFont(Graphics g, string label, float maxW, float maxH)
+        {
+            float[] steps = new float[] { 0.78f, 0.74f, 0.70f, 0.66f, 0.62f, 0.58f, 0.54f, 0.50f, 0.46f, 0.42f, 0.38f };
+            for (int i = 0; i < steps.Length; i++)
+            {
+                float candidate = Math.Min(maxH * steps[i], maxW * 0.98f);
+                var f = new Font(Theme.DisplayFamily, candidate, FontStyle.Bold, GraphicsUnit.Pixel);
+                var sz = g.MeasureString(label, f, 1000, StringFormat.GenericTypographic);
+                if (sz.Width <= maxW && sz.Height <= maxH * 1.04f) return f;
+                f.Dispose();
+            }
+            float px = Math.Min(maxH, maxW) * 0.40f;
+            return new Font(Theme.DisplayFamily, px, FontStyle.Bold, GraphicsUnit.Pixel);
+        }
+
+        static void FillCapsule(Graphics g, Brush b, float x, float y, float w, float h)
+        {
+            float r = h / 2f;
+            using (var path = new GraphicsPath())
+            {
+                if (w <= h)
+                {
+                    path.AddEllipse(x, y, h, h);
+                }
+                else
+                {
+                    path.AddArc(x, y, h, h, 90, 180);
+                    path.AddArc(x + w - h, y, h, h, 270, 180);
+                    path.CloseFigure();
+                }
+                g.FillPath(b, path);
+            }
+        }
+
+        public static Icon ToIcon(Bitmap bmp)
+        {
+            IntPtr h = bmp.GetHicon();
+            try
+            {
+                using (var tmp = Icon.FromHandle(h))
+                    return (Icon)tmp.Clone();
+            }
+            finally { DestroyIcon(h); }
+        }
+
+        // ------------------------------------------------------------------
+        // Application icon (also used for the settings window title block)
+        // ------------------------------------------------------------------
+
+        public static Bitmap AppIcon(int size)
+        {
+            var bmp = new Bitmap(size, size, PixelFormat.Format32bppArgb);
+            using (var g = Graphics.FromImage(bmp))
+            {
+                g.Clear(Color.Transparent);
+                g.SmoothingMode = SmoothingMode.AntiAlias;
+                g.PixelOffsetMode = PixelOffsetMode.HighQuality;
+
+                float inset = size * 0.055f;
+                var rect = new RectangleF(inset, inset, size - inset * 2, size - inset * 2);
+                float radius = size * 0.235f;
+
+                using (var path = Theme.RoundRect(rect, radius))
+                using (var lg = new LinearGradientBrush(rect,
+                    Color.FromArgb(58, 58, 62), Color.FromArgb(22, 22, 24), 90f))
+                {
+                    g.FillPath(lg, path);
+                }
+
+                using (var path = Theme.RoundRect(new RectangleF(rect.X, rect.Y, rect.Width, rect.Height * 0.5f), radius))
+                using (var lg = new LinearGradientBrush(
+                    new RectangleF(rect.X, rect.Y, rect.Width, rect.Height * 0.5f),
+                    Color.FromArgb(46, 255, 255, 255), Color.FromArgb(0, 255, 255, 255), 90f))
+                {
+                    g.FillPath(lg, path);
+                }
+
+                float bw = size * 0.46f;
+                float bh = size * 0.24f;
+                float bx = (size - bw) / 2f - size * 0.035f;
+                float by = (size - bh) / 2f;
+                float br = bh * 0.32f;
+                float stroke = Math.Max(1f, size * 0.038f);
+
+                var body = new RectangleF(bx, by, bw, bh);
+                using (var pen = new Pen(Color.FromArgb(245, 245, 247), stroke))
+                using (var path = Theme.RoundRect(body, br))
+                    g.DrawPath(pen, path);
+
+                var nub = new RectangleF(bx + bw + size * 0.012f, by + bh * 0.28f, size * 0.045f, bh * 0.44f);
+                using (var path = Theme.RoundRect(nub, nub.Width * 0.45f))
+                using (var b = new SolidBrush(Color.FromArgb(245, 245, 247)))
+                    g.FillPath(b, path);
+
+                float inner = bw - stroke * 2.4f;
+                var fill = new RectangleF(bx + stroke * 1.2f, by + stroke * 1.2f, inner * 0.62f, bh - stroke * 2.4f);
+                using (var path = Theme.RoundRect(fill, Math.Max(1f, br - stroke)))
+                using (var b = new SolidBrush(Color.FromArgb(48, 209, 88)))
+                    g.FillPath(b, path);
+            }
+            return bmp;
+        }
+
+        /// <summary>Writes a multi-resolution .ico (PNG compressed frames, Vista+).</summary>
+        public static void WriteIco(string path)
+        {
+            int[] sizes = new int[] { 16, 20, 24, 32, 40, 48, 64, 128, 256 };
+            var pngs = new List<byte[]>();
+            foreach (int s in sizes)
+            {
+                using (var bmp = AppIcon(s))
+                using (var ms = new MemoryStream())
+                {
+                    bmp.Save(ms, ImageFormat.Png);
+                    pngs.Add(ms.ToArray());
+                }
+            }
+
+            using (var fs = new FileStream(path, FileMode.Create, FileAccess.Write))
+            using (var w = new BinaryWriter(fs))
+            {
+                w.Write((ushort)0);
+                w.Write((ushort)1);
+                w.Write((ushort)sizes.Length);
+
+                int offset = 6 + 16 * sizes.Length;
+                for (int i = 0; i < sizes.Length; i++)
+                {
+                    w.Write((byte)(sizes[i] >= 256 ? 0 : sizes[i]));
+                    w.Write((byte)(sizes[i] >= 256 ? 0 : sizes[i]));
+                    w.Write((byte)0);
+                    w.Write((byte)0);
+                    w.Write((ushort)1);
+                    w.Write((ushort)32);
+                    w.Write((uint)pngs[i].Length);
+                    w.Write((uint)offset);
+                    offset += pngs[i].Length;
+                }
+                for (int i = 0; i < pngs.Count; i++) w.Write(pngs[i]);
+            }
+        }
+    }
+}

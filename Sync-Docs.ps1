@@ -1,1 +1,152 @@
-77u/IyBTeW5jLURvY3MucHMxIC0gcmVnZW5lcmF0ZSB0aGUgbnVtYmVycyBhbmQgdGhlIGZpbGUgdHJlZSBpbnNpZGUgdGhlIG1hcmtkb3duIGRvY3MuCiMKIyAgIHBvd2Vyc2hlbGwgLUV4ZWN1dGlvblBvbGljeSBCeXBhc3MgLUZpbGUgLlxTeW5jLURvY3MucHMxCiMgICBwb3dlcnNoZWxsIC1FeGVjdXRpb25Qb2xpY3kgQnlwYXNzIC1GaWxlIC5cU3luYy1Eb2NzLnBzMSAtQ2hlY2sgICAodmVyaWZ5IG9ubHksIG5vIHdyaXRlcykKIwojIFdoeTogIjg4IOmhueaWreiogCIgbGl2ZWQgaW4gUkVBRE1FLm1kIGFuZCBTVEFSVC1IRVJFLm1kIGJ5IGhhbmQuIEl0IHdlbnQgNjYgLT4gNzEgLT4gODggYW5kIG9uZQojIG9mIHRoZSB0aHJlZSBwbGFjZXMgd2FzIG1pc3NlZCBldmVyeSB0aW1lLiBUaGUgY291bnRzIGFyZSBub3cgZGVyaXZlZCBmcm9tIHRoZSB0cmVlLCBzbyB0aGUKIyBkb2NzIGNhbm5vdCBkcmlmdCDigJQgaWYgdGhleSB3b3VsZCBkcmlmdCwgdGhpcyBzY3JpcHQgc2F5cyBzbyBhbmQgLUNoZWNrIGZhaWxzIHRoZSBjb21taXQuCiMKIyBIb3cgaXQgd29ya3M6IGVhY2ggZ2VuZXJhdGVkIHJlZ2lvbiBpcyBmZW5jZWQgYnkgbWFya2Vycy4KIwojICAgICA8IS0tIEFVVE86YXNzZXJ0aW9ucyAtLT44OCDpobk8IS0tIC9BVVRPIC0tPgojCiMgRXZlcnl0aGluZyBiZXR3ZWVuIHRoZSBtYXJrZXJzIGlzIHJlcGxhY2VkLiBBbnl0aGluZyBvdXRzaWRlIHRoZW0gaXMgbGVmdCBleGFjdGx5IGFzIHdyaXR0ZW4sCiMgc28gaGFuZC13cml0dGVuIHByb3NlIGFuZCB0aGVzZSBnZW5lcmF0ZWQgZmFjdHMgY29leGlzdCBpbiB0aGUgc2FtZSBmaWxlLgoKcGFyYW0oCiAgICBbc3dpdGNoXSRDaGVjawopCgokRXJyb3JBY3Rpb25QcmVmZXJlbmNlID0gJ1N0b3AnCiRyb290ID0gJFBTU2NyaXB0Um9vdAoKIyAtLS0tLS0tLS0tIGZhY3RzIC0tLS0tLS0tLS0KCmZ1bmN0aW9uIEdldC1GYWN0cyB7CiAgICAkZiA9IEB7fQoKICAgICMgQXNzZXJ0aW9uczogdGFrZW4gZnJvbSB0aGUgbGFzdCBsaW5lIHRoZSB0ZXN0IHJ1bm5lciBwcmludGVkLCBub3QgZnJvbSBhIHNvdXJjZSBzY2FuLgogICAgIyBBIHJlZ2V4IG92ZXIgVGVzdFJ1bm5lci5jcyB1bmRlcmNvdW50cyAoZ2VuZXJpYyBhcmd1bWVudHMgY29udGFpbiBjb21tYXMpIGFuZCB3b3VsZCBoYXBwaWx5CiAgICAjIHJlcG9ydCBhIG51bWJlciBubyB0ZXN0IGV2ZXIgZXhlY3V0ZWQuIFJ1bm5pbmcgdGhlIHN1aXRlIGlzIHRoZSBvbmx5IGhvbmVzdCBzb3VyY2UsIHNvIHdlCiAgICAjIGFzayBWZXJpZnkucHMxIHRvIGxlYXZlIGl0cyBzdW1tYXJ5IGJlaGluZCBhbmQgcmVhZCBpdCBiYWNrIGhlcmUuCiAgICAkc3RhbXAgPSBKb2luLVBhdGggJHJvb3QgJy52ZXJpZnktbGFzdCcKICAgICRjb3VudCA9ICRudWxsCiAgICBpZiAoVGVzdC1QYXRoICRzdGFtcCkgewogICAgICAgICRtYXRjaCA9IFNlbGVjdC1TdHJpbmcgLVBhdGggJHN0YW1wIC1QYXR0ZXJuICdwYXNzZWQ6XHMqKFxkKylccytmYWlsZWQ6XHMqMCcgfCBTZWxlY3QtT2JqZWN0IC1GaXJzdCAxCiAgICAgICAgaWYgKCRtYXRjaCkgeyAkY291bnQgPSAkbWF0Y2guTWF0Y2hlc1swXS5Hcm91cHNbMV0uVmFsdWUgfQogICAgICAgIGVsc2UgewogICAgICAgICAgICAjIFN1aXRlIHdhcyByZWQ6IGRvIG5vdCBwdWJsaXNoIGEgc3RhbGUgZ3JlZW4gbnVtYmVyLgogICAgICAgICAgICAkbTIgPSBTZWxlY3QtU3RyaW5nIC1QYXRoICRzdGFtcCAtUGF0dGVybiAnKFxkKylccyrpobknIHwgU2VsZWN0LU9iamVjdCAtRmlyc3QgMQogICAgICAgICAgICAkY291bnQgPSBpZiAoJG0yKSB7ICRtMi5NYXRjaGVzWzBdLkdyb3Vwc1sxXS5WYWx1ZSArICfvvIjlkKvlpLHotKXvvIknIH0gZWxzZSB7ICc/JyB9CiAgICAgICAgfQogICAgfQppZiAoJGNvdW50KSB7ICRmWydhc3NlcnRpb25zJ10gPSAkY291bnQgKyAnIOmhuScgfQogICAgZWxzZSB7ICRmLlJlbW92ZSgnYXNzZXJ0aW9ucycpIH0gICAjIHVua25vd24gLT4gbGVhdmUgdGhlIG1hcmtlciB1bnRvdWNoZWQgcmF0aGVyIHRoYW4gd3JpdGUgIj8iCgogICAgIyBTb3VyY2Ugc2l6ZQogICAgJHNyY0ZpbGVzID0gQChHZXQtQ2hpbGRJdGVtIChKb2luLVBhdGggJHJvb3QgJ3NyYycpIC1GaWx0ZXIgKi5jcykKICAgICRsaW5lcyA9IDAKICAgICRsYXJnZXN0ID0gJG51bGw7ICRsYXJnZXN0TGluZXMgPSAwCiAgICBmb3JlYWNoICgkZmlsZSBpbiAkc3JjRmlsZXMpIHsKICAgICAgICAkbiA9IChbU3lzdGVtLklPLkZpbGVdOjpSZWFkQWxsTGluZXMoJGZpbGUuRnVsbE5hbWUsIFtTeXN0ZW0uVGV4dC5FbmNvZGluZ106OlVURjgpKS5Db3VudAogICAgICAgICRsaW5lcyArPSAkbgogICAgICAgIGlmICgkbiAtZ3QgJGxhcmdlc3RMaW5lcykgeyAkbGFyZ2VzdExpbmVzID0gJG47ICRsYXJnZXN0ID0gJGZpbGUuTmFtZSB9CiAgICB9CiAgICAkZlsnc3JjbGluZXMnXSA9ICRsaW5lcy5Ub1N0cmluZygpCiAgICAkZlsnc3JjZmlsZXMnXSA9ICRzcmNGaWxlcy5Db3VudC5Ub1N0cmluZygpCiAgICAkZlsnbGFyZ2VzdCddID0gJGxhcmdlc3QgKyAnICcgKyAkbGFyZ2VzdExpbmVzICsgJyDooYwnCgogICAgIyBSb2FkbWFwIHByb2dyZXNzOiBhIFAtaXRlbSBpcyAiZG9uZSIgd2hlbiBpdHMgaGVhZGluZyBzYXlzIHNvLgogICAgJHJvYWRtYXAgPSBKb2luLVBhdGggJHJvb3QgJ2RvY3NcUk9BRE1BUC5tZCcKICAgICRkb25lID0gMDsgJHRvdGFsID0gMAogICAgaWYgKFRlc3QtUGF0aCAkcm9hZG1hcCkgewogICAgICAgIGZvcmVhY2ggKCRsaW5lIGluIFtTeXN0ZW0uSU8uRmlsZV06OlJlYWRBbGxMaW5lcygkcm9hZG1hcCwgW1N5c3RlbS5UZXh0LkVuY29kaW5nXTo6VVRGOCkpIHsKICAgICAgICAgICAgaWYgKCRsaW5lIC1tYXRjaCAnXlxzKiMjI1xzK1BcZC1cZCcpIHsKICAgICAgICAgICAgICAgICR0b3RhbCsrCiAgICAgICAgICAgICAgICBpZiAoJGxpbmUgLW1hdGNoICflt7LlrozmiJB85bey5a6e546wJykgeyAkZG9uZSsrIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KICAgICRmWydyb2FkbWFwJ10gPSAoJGRvbmUuVG9TdHJpbmcoKSArICcgLyAnICsgJHRvdGFsLlRvU3RyaW5nKCkpCgogICAgcmV0dXJuICRmCn0KCiMgLS0tLS0tLS0tLSByZXdyaXRpbmcgLS0tLS0tLS0tLQoKZnVuY3Rpb24gVXBkYXRlLU1hcmtlcnMoW3N0cmluZ10kcGF0aCwgW2hhc2h0YWJsZV0kZmFjdHMpIHsKICAgIGlmICgtbm90IChUZXN0LVBhdGggJHBhdGgpKSB7IHJldHVybiAwIH0KCiAgICAkdGV4dCA9IFtTeXN0ZW0uSU8uRmlsZV06OlJlYWRBbGxUZXh0KCRwYXRoLCBbU3lzdGVtLlRleHQuRW5jb2RpbmddOjpVVEY4KQogICAgJG9yaWdpbmFsID0gJHRleHQKICAgICRyZXBsYWNlZCA9IDAKCiAgICAjIDwhLS0gQVVUTzprZXkgLS0+IC4uLiA8IS0tIC9BVVRPIC0tPgogICAgJHBhdHRlcm4gPSAnPCEtLVxzKkFVVE86KFx3KylccyotLT4uKj88IS0tXHMqL0FVVE9ccyotLT4nCiAgICAkZXZhbHVhdG9yID0gW1N5c3RlbS5UZXh0LlJlZ3VsYXJFeHByZXNzaW9ucy5NYXRjaEV2YWx1YXRvcl17CiAgICAgICAgcGFyYW0oJG0pCiAgICAgICAgJGtleSA9ICRtLkdyb3Vwc1sxXS5WYWx1ZQogICAgICAgIGlmICgtbm90ICRmYWN0cy5Db250YWluc0tleSgka2V5KSkgewogICAgICAgICAgICAjIFVua25vd24ga2V5OiBsZWF2ZSBpdCBhbG9uZSByYXRoZXIgdGhhbiBibGFua2luZyB0aGUgcmVhZGVyJ3MgY29udGVudCwgYnV0IHNheSBzby4KICAgICAgICAgICAgIyBBIHNpbGVudGx5IHNraXBwZWQgbWFya2VyIGlzIGhvdyAiODgg6aG5IiB0dXJucyBpbnRvIGEgc3RhbGUgIj8iIG5vYm9keSBub3RpY2VzLgogICAgICAgICAgICBXcml0ZS1Ib3N0ICgnICAhIHVua25vd24gbWFya2VyICcgKyAka2V5KSAtRm9yZWdyb3VuZENvbG9yIFllbGxvdwogICAgICAgICAgICAkc2NyaXB0OnVua25vd24rKwogICAgICAgICAgICByZXR1cm4gJG0uVmFsdWUKICAgICAgICB9CiAgICAgICAgcmV0dXJuICc8IS0tIEFVVE86JyArICRrZXkgKyAnIC0tPicgKyAkZmFjdHNbJGtleV0gKyAnPCEtLSAvQVVUTyAtLT4nCiAgICB9CiAgICAkdGV4dCA9IFtyZWdleF06OlJlcGxhY2UoJHRleHQsICRwYXR0ZXJuLCAkZXZhbHVhdG9yKQoKICAgIGlmICgkdGV4dCAtbmUgJG9yaWdpbmFsKSB7CiAgICAgICAgJHJlcGxhY2VkID0gKFtyZWdleF06Ok1hdGNoZXMoJHRleHQsICc8IS0tXHMqQVVUTzpcdytccyotLT4nKSkuQ291bnQKICAgICAgICBpZiAoLW5vdCAkQ2hlY2spIHsKICAgICAgICAgICAgW1N5c3RlbS5JTy5GaWxlXTo6V3JpdGVBbGxUZXh0KCRwYXRoLCAkdGV4dCwgKE5ldy1PYmplY3QgU3lzdGVtLlRleHQuVVRGOEVuY29kaW5nICRmYWxzZSkpCiAgICAgICAgfQogICAgICAgICRyZWwgPSAkcGF0aC5TdWJzdHJpbmcoJHJvb3QuTGVuZ3RoKS5UcmltU3RhcnQoJ1wnLCAnLycpCiAgICAgICAgV3JpdGUtSG9zdCAoJyAgJyArICRyZWwgKyAnOiAnICsgJHJlcGxhY2VkICsgJyBtYXJrZXIocyknKQogICAgfQogICAgcmV0dXJuICRyZXBsYWNlZAp9CgojIC0tLS0tLS0tLS0gbWFpbiAtLS0tLS0tLS0tCgokZmFjdHMgPSBHZXQtRmFjdHMKCldyaXRlLUhvc3QgJycKV3JpdGUtSG9zdCAnZmFjdHMnIC1Gb3JlZ3JvdW5kQ29sb3IgQ3lhbgpmb3JlYWNoICgkayBpbiAoJGZhY3RzLktleXMgfCBTb3J0LU9iamVjdCkpIHsKICAgIFdyaXRlLUhvc3QgKCcgICcgKyAkay5QYWRSaWdodCgxMikgKyAnID0gJyArICRmYWN0c1ska10pIC1Gb3JlZ3JvdW5kQ29sb3IgR3JheQp9CldyaXRlLUhvc3QgJycKCldyaXRlLUhvc3QgJ2RvY3VtZW50cycgLUZvcmVncm91bmRDb2xvciBDeWFuCgokdGFyZ2V0cyA9IEAoCiAgICAoSm9pbi1QYXRoICRyb290ICdSRUFETUUubWQnKSwKICAgIChKb2luLVBhdGggJHJvb3QgJ1NUQVJULUhFUkUubWQnKQopICsgQChHZXQtQ2hpbGRJdGVtIChKb2luLVBhdGggJHJvb3QgJ2RvY3MnKSAtRmlsdGVyICoubWQgfCBGb3JFYWNoLU9iamVjdCB7ICRfLkZ1bGxOYW1lIH0pCgokc2NyaXB0OnVua25vd24gPSAwCiRjaGFuZ2VkID0gMApmb3JlYWNoICgkdCBpbiAkdGFyZ2V0cykgeyAkY2hhbmdlZCArPSAoVXBkYXRlLU1hcmtlcnMgJHQgJGZhY3RzKSB9CgpXcml0ZS1Ib3N0ICcnCmlmICgkc2NyaXB0OnVua25vd24gLWd0IDApIHsKICAgIFdyaXRlLUhvc3QgKCcgICcgKyAkc2NyaXB0OnVua25vd24gKyAnIG1hcmtlcihzKSBjb3VsZCBub3QgYmUgcmVzb2x2ZWQgLSBpcyAudmVyaWZ5LWxhc3QgbWlzc2luZz8nKSAtRm9yZWdyb3VuZENvbG9yIFllbGxvdwogICAgV3JpdGUtSG9zdCAnICBydW4gVmVyaWZ5LnBzMSBmaXJzdCcgLUZvcmVncm91bmRDb2xvciBHcmF5CiAgICBleGl0IDEKfQoKaWYgKCRDaGVjaykgewogICAgaWYgKCRjaGFuZ2VkIC1ndCAwKSB7CiAgICAgICAgV3JpdGUtSG9zdCAnICBkb2NzIGFyZSBzdGFsZSAtIHJ1biBTeW5jLURvY3MucHMxIHRvIGZpeCcgLUZvcmVncm91bmRDb2xvciBZZWxsb3cKICAgICAgICBleGl0IDEKICAgIH0KICAgIFdyaXRlLUhvc3QgJyAgZG9jcyBhcmUgaW4gc3luYycgLUZvcmVncm91bmRDb2xvciBHcmVlbgogICAgZXhpdCAwCn0KCmlmICgkY2hhbmdlZCAtZXEgMCkgeyBXcml0ZS1Ib3N0ICcgIG5vdGhpbmcgdG8gdXBkYXRlJyAtRm9yZWdyb3VuZENvbG9yIEdyZWVuIH0KZWxzZSB7IFdyaXRlLUhvc3QgKCcgIHVwZGF0ZWQgJyArICRjaGFuZ2VkICsgJyBtYXJrZXIocyknKSAtRm9yZWdyb3VuZENvbG9yIEdyZWVuIH0KV3JpdGUtSG9zdCAnJwo=
+﻿# Sync-Docs.ps1 - regenerate the numbers and the file tree inside the markdown docs.
+#
+#   powershell -ExecutionPolicy Bypass -File .\Sync-Docs.ps1
+#   powershell -ExecutionPolicy Bypass -File .\Sync-Docs.ps1 -Check   (verify only, no writes)
+#
+# Why: "88 项断言" lived in README.md and START-HERE.md by hand. It went 66 -> 71 -> 88 and one
+# of the three places was missed every time. The counts are now derived from the tree, so the
+# docs cannot drift — if they would drift, this script says so and -Check fails the commit.
+#
+# How it works: each generated region is fenced by markers.
+#
+#     <!-- AUTO:assertions -->88 项<!-- /AUTO -->
+#
+# Everything between the markers is replaced. Anything outside them is left exactly as written,
+# so hand-written prose and these generated facts coexist in the same file.
+
+param(
+    [switch]$Check
+)
+
+$ErrorActionPreference = 'Stop'
+$root = $PSScriptRoot
+
+# ---------- facts ----------
+
+function Get-Facts {
+    $f = @{}
+
+    # Assertions: taken from the last line the test runner printed, not from a source scan.
+    # A regex over TestRunner.cs undercounts (generic arguments contain commas) and would happily
+    # report a number no test ever executed. Running the suite is the only honest source, so we
+    # ask Verify.ps1 to leave its summary behind and read it back here.
+    $stamp = Join-Path $root '.verify-last'
+    $count = $null
+    if (Test-Path $stamp) {
+        $match = Select-String -Path $stamp -Pattern 'passed:\s*(\d+)\s+failed:\s*0' | Select-Object -First 1
+        if ($match) { $count = $match.Matches[0].Groups[1].Value }
+        else {
+            # Suite was red: do not publish a stale green number.
+            $m2 = Select-String -Path $stamp -Pattern '(\d+)\s*项' | Select-Object -First 1
+            $count = if ($m2) { $m2.Matches[0].Groups[1].Value + '（含失败）' } else { '?' }
+        }
+    }
+if ($count) { $f['assertions'] = $count + ' 项' }
+    else { $f.Remove('assertions') }   # unknown -> leave the marker untouched rather than write "?"
+
+    # Source size
+    $srcFiles = @(Get-ChildItem (Join-Path $root 'src') -Filter *.cs)
+    $lines = 0
+    $largest = $null; $largestLines = 0
+    foreach ($file in $srcFiles) {
+        $n = ([System.IO.File]::ReadAllLines($file.FullName, [System.Text.Encoding]::UTF8)).Count
+        $lines += $n
+        if ($n -gt $largestLines) { $largestLines = $n; $largest = $file.Name }
+    }
+    $f['srclines'] = $lines.ToString()
+    $f['srcfiles'] = $srcFiles.Count.ToString()
+    $f['largest'] = $largest + ' ' + $largestLines + ' 行'
+
+    # Roadmap progress: a P-item is "done" when its heading says so.
+    $roadmap = Join-Path $root 'docs\ROADMAP.md'
+    $done = 0; $total = 0
+    if (Test-Path $roadmap) {
+        foreach ($line in [System.IO.File]::ReadAllLines($roadmap, [System.Text.Encoding]::UTF8)) {
+            if ($line -match '^\s*###\s+P\d-\d') {
+                $total++
+                if ($line -match '已完成|已实现') { $done++ }
+            }
+        }
+    }
+    $f['roadmap'] = ($done.ToString() + ' / ' + $total.ToString())
+
+    return $f
+}
+
+# ---------- rewriting ----------
+
+function Update-Markers([string]$path, [hashtable]$facts) {
+    if (-not (Test-Path $path)) { return 0 }
+
+    $text = [System.IO.File]::ReadAllText($path, [System.Text.Encoding]::UTF8)
+    $original = $text
+    $replaced = 0
+
+    # <!-- AUTO:key --> ... <!-- /AUTO -->
+    $pattern = '<!--\s*AUTO:(\w+)\s*-->.*?<!--\s*/AUTO\s*-->'
+    $evaluator = [System.Text.RegularExpressions.MatchEvaluator]{
+        param($m)
+        $key = $m.Groups[1].Value
+        if (-not $facts.ContainsKey($key)) {
+            # Unknown key: leave it alone rather than blanking the reader's content, but say so.
+            # A silently skipped marker is how "88 项" turns into a stale "?" nobody notices.
+            Write-Host ('  ! unknown marker ' + $key) -ForegroundColor Yellow
+            $script:unknown++
+            return $m.Value
+        }
+        return '<!-- AUTO:' + $key + ' -->' + $facts[$key] + '<!-- /AUTO -->'
+    }
+    $text = [regex]::Replace($text, $pattern, $evaluator)
+
+    if ($text -ne $original) {
+        $replaced = ([regex]::Matches($text, '<!--\s*AUTO:\w+\s*-->')).Count
+        if (-not $Check) {
+            [System.IO.File]::WriteAllText($path, $text, (New-Object System.Text.UTF8Encoding $false))
+        }
+        $rel = $path.Substring($root.Length).TrimStart('\', '/')
+        Write-Host ('  ' + $rel + ': ' + $replaced + ' marker(s)')
+    }
+    return $replaced
+}
+
+# ---------- main ----------
+
+$facts = Get-Facts
+
+Write-Host ''
+Write-Host 'facts' -ForegroundColor Cyan
+foreach ($k in ($facts.Keys | Sort-Object)) {
+    Write-Host ('  ' + $k.PadRight(12) + ' = ' + $facts[$k]) -ForegroundColor Gray
+}
+Write-Host ''
+
+Write-Host 'documents' -ForegroundColor Cyan
+
+$targets = @(
+    (Join-Path $root 'README.md'),
+    (Join-Path $root 'START-HERE.md')
+) + @(Get-ChildItem (Join-Path $root 'docs') -Filter *.md | ForEach-Object { $_.FullName })
+
+$script:unknown = 0
+$changed = 0
+foreach ($t in $targets) { $changed += (Update-Markers $t $facts) }
+
+Write-Host ''
+if ($script:unknown -gt 0) {
+    Write-Host ('  ' + $script:unknown + ' marker(s) could not be resolved - is .verify-last missing?') -ForegroundColor Yellow
+    Write-Host '  run Verify.ps1 first' -ForegroundColor Gray
+    exit 1
+}
+
+if ($Check) {
+    if ($changed -gt 0) {
+        Write-Host '  docs are stale - run Sync-Docs.ps1 to fix' -ForegroundColor Yellow
+        exit 1
+    }
+    Write-Host '  docs are in sync' -ForegroundColor Green
+    exit 0
+}
+
+if ($changed -eq 0) { Write-Host '  nothing to update' -ForegroundColor Green }
+else { Write-Host ('  updated ' + $changed + ' marker(s)') -ForegroundColor Green }
+Write-Host ''

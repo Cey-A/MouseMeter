@@ -1,1 +1,402 @@
-dXNpbmcgU3lzdGVtOwp1c2luZyBTeXN0ZW0uRHJhd2luZzsKdXNpbmcgU3lzdGVtLkRyYXdpbmcuRHJhd2luZzJEOwp1c2luZyBTeXN0ZW0uV2luZG93cy5Gb3JtczsKCm5hbWVzcGFjZSBNb3VzZU1ldGVyCnsKICAgIC8vLyA8c3VtbWFyeT5pT1Mgc3R5bGUgc3dpdGNoLiA0NCB4IDI2IGxvZ2ljYWwgcGl4ZWxzLjwvc3VtbWFyeT4KICAgIHB1YmxpYyBjbGFzcyBUb2dnbGVTd2l0Y2ggOiBDb250cm9sCiAgICB7CiAgICAgICAgYm9vbCBfY2hlY2tlZDsKICAgICAgICBkb3VibGUgX2FuaW07CiAgICAgICAgcmVhZG9ubHkgU3lzdGVtLldpbmRvd3MuRm9ybXMuVGltZXIgX3RpbWVyOwoKICAgICAgICBwdWJsaWMgZXZlbnQgRXZlbnRIYW5kbGVyIENoZWNrZWRDaGFuZ2VkOwoKICAgICAgICBwdWJsaWMgVG9nZ2xlU3dpdGNoKFBhbGV0dGUgcCkKICAgICAgICB7CiAgICAgICAgICAgIFBhbGV0dGUgPSBwOwogICAgICAgICAgICBTZXRTdHlsZShDb250cm9sU3R5bGVzLkFsbFBhaW50aW5nSW5XbVBhaW50IHwgQ29udHJvbFN0eWxlcy5PcHRpbWl6ZWREb3VibGVCdWZmZXIgfAogICAgICAgICAgICAgICAgICAgICBDb250cm9sU3R5bGVzLlVzZXJQYWludCB8IENvbnRyb2xTdHlsZXMuU3VwcG9ydHNUcmFuc3BhcmVudEJhY2tDb2xvciwgdHJ1ZSk7CiAgICAgICAgICAgIEJhY2tDb2xvciA9IENvbG9yLlRyYW5zcGFyZW50OwogICAgICAgICAgICBDdXJzb3IgPSBDdXJzb3JzLkhhbmQ7CiAgICAgICAgICAgIF90aW1lciA9IG5ldyBTeXN0ZW0uV2luZG93cy5Gb3Jtcy5UaW1lcigpOwogICAgICAgICAgICBfdGltZXIuSW50ZXJ2YWwgPSAxNTsKICAgICAgICAgICAgX3RpbWVyLlRpY2sgKz0gZGVsZWdhdGUKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgZG91YmxlIHRhcmdldCA9IF9jaGVja2VkID8gMSA6IDA7CiAgICAgICAgICAgICAgICBkb3VibGUgZCA9IHRhcmdldCAtIF9hbmltOwogICAgICAgICAgICAgICAgaWYgKE1hdGguQWJzKGQpIDwgMC4wNikgeyBfYW5pbSA9IHRhcmdldDsgX3RpbWVyLlN0b3AoKTsgfQogICAgICAgICAgICAgICAgZWxzZSBfYW5pbSArPSBkICogMC4zMjsKICAgICAgICAgICAgICAgIEludmFsaWRhdGUoKTsKICAgICAgICAgICAgfTsKICAgICAgICB9CgogICAgICAgIHB1YmxpYyBQYWxldHRlIFBhbGV0dGUgeyBnZXQ7IHNldDsgfQoKICAgICAgICBwdWJsaWMgYm9vbCBDaGVja2VkCiAgICAgICAgewogICAgICAgICAgICBnZXQgeyByZXR1cm4gX2NoZWNrZWQ7IH0KICAgICAgICAgICAgc2V0CiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgIGlmIChfY2hlY2tlZCA9PSB2YWx1ZSkgcmV0dXJuOwogICAgICAgICAgICAgICAgX2NoZWNrZWQgPSB2YWx1ZTsKICAgICAgICAgICAgICAgIF90aW1lci5TdGFydCgpOwogICAgICAgICAgICAgICAgdmFyIGggPSBDaGVja2VkQ2hhbmdlZDsKICAgICAgICAgICAgICAgIGlmIChoICE9IG51bGwpIGgodGhpcywgRXZlbnRBcmdzLkVtcHR5KTsKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgcHVibGljIHZvaWQgU2V0Q2hlY2tlZFNpbGVudChib29sIHZhbHVlKQogICAgICAgIHsKICAgICAgICAgICAgX2NoZWNrZWQgPSB2YWx1ZTsKICAgICAgICAgICAgX2FuaW0gPSB2YWx1ZSA/IDEgOiAwOwogICAgICAgICAgICBJbnZhbGlkYXRlKCk7CiAgICAgICAgfQoKICAgICAgICBwcm90ZWN0ZWQgb3ZlcnJpZGUgdm9pZCBPbkNsaWNrKEV2ZW50QXJncyBlKQogICAgICAgIHsKICAgICAgICAgICAgYmFzZS5PbkNsaWNrKGUpOwogICAgICAgICAgICBDaGVja2VkID0gIUNoZWNrZWQ7CiAgICAgICAgfQoKICAgICAgICBwcm90ZWN0ZWQgb3ZlcnJpZGUgdm9pZCBPblBhaW50KFBhaW50RXZlbnRBcmdzIGUpCiAgICAgICAgewogICAgICAgICAgICB2YXIgZyA9IGUuR3JhcGhpY3M7CiAgICAgICAgICAgIFRoZW1lLkNvbmZpZ3VyZShnKTsKCiAgICAgICAgICAgIGZsb2F0IHcgPSBXaWR0aCwgaCA9IEhlaWdodDsKICAgICAgICAgICAgZmxvYXQgaW5zZXQgPSBoICogMC4wOGY7CiAgICAgICAgICAgIHZhciB0cmFjayA9IG5ldyBSZWN0YW5nbGVGKDAsIGluc2V0LCB3LCBoIC0gaW5zZXQgKiAyKTsKICAgICAgICAgICAgZmxvYXQgciA9IHRyYWNrLkhlaWdodCAvIDJmOwoKICAgICAgICAgICAgQ29sb3Igb2ZmID0gUGFsZXR0ZS5Jc0RhcmsgPyBQYWxldHRlLkNvbnRyb2xPZmYgOiBDb2xvci5Gcm9tQXJnYigyMjYsIDIyNiwgMjMxKTsKICAgICAgICAgICAgQ29sb3Igb24gPSBQYWxldHRlLkdyZWVuOwogICAgICAgICAgICBDb2xvciB0cmFja0NvbG9yID0gVGhlbWUuTWl4KG9mZiwgb24sIF9hbmltKTsKCiAgICAgICAgICAgIHVzaW5nICh2YXIgcGF0aCA9IFRoZW1lLlJvdW5kUmVjdCh0cmFjaywgcikpCiAgICAgICAgICAgIHVzaW5nICh2YXIgYiA9IG5ldyBTb2xpZEJydXNoKHRyYWNrQ29sb3IpKQogICAgICAgICAgICAgICAgZy5GaWxsUGF0aChiLCBwYXRoKTsKCiAgICAgICAgICAgIGZsb2F0IHBhZCA9IHRyYWNrLkhlaWdodCAqIDAuMTFmOwogICAgICAgICAgICBmbG9hdCB0aHVtYkQgPSB0cmFjay5IZWlnaHQgLSBwYWQgKiAyOwogICAgICAgICAgICBmbG9hdCB4ID0gdHJhY2suWCArIHBhZCArIChmbG9hdCkoKHRyYWNrLldpZHRoIC0gdGh1bWJEIC0gcGFkICogMikgKiBfYW5pbSk7CiAgICAgICAgICAgIGZsb2F0IHkgPSB0cmFjay5ZICsgcGFkOwoKICAgICAgICAgICAgdXNpbmcgKHZhciBzaGFkb3cgPSBuZXcgU29saWRCcnVzaChDb2xvci5Gcm9tQXJnYigyOCwgMCwgMCwgMCkpKQogICAgICAgICAgICAgICAgZy5GaWxsRWxsaXBzZShzaGFkb3csIHggLSAwLjVmLCB5ICsgMS4yZiwgdGh1bWJEICsgMWYsIHRodW1iRCArIDFmKTsKCiAgICAgICAgICAgIHVzaW5nICh2YXIgYiA9IG5ldyBTb2xpZEJydXNoKENvbG9yLldoaXRlKSkKICAgICAgICAgICAgICAgIGcuRmlsbEVsbGlwc2UoYiwgeCwgeSwgdGh1bWJELCB0aHVtYkQpOwogICAgICAgIH0KICAgIH0KCiAgICAvLy8gPHN1bW1hcnk+SGFpcmxpbmUgc2xpZGVyIHdpdGggYSB3aGl0ZSBrbm9iLjwvc3VtbWFyeT4KICAgIHB1YmxpYyBjbGFzcyBNTVNsaWRlciA6IENvbnRyb2wKICAgIHsKICAgICAgICBpbnQgX21pbiwgX21heCA9IDEwMCwgX3ZhbHVlID0gNTA7CiAgICAgICAgYm9vbCBfZHJhZ2dpbmc7CgogICAgICAgIHB1YmxpYyBldmVudCBFdmVudEhhbmRsZXIgVmFsdWVDaGFuZ2VkOwoKICAgICAgICBwdWJsaWMgTU1TbGlkZXIoUGFsZXR0ZSBwKQogICAgICAgIHsKICAgICAgICAgICAgUGFsZXR0ZSA9IHA7CiAgICAgICAgICAgIFNldFN0eWxlKENvbnRyb2xTdHlsZXMuQWxsUGFpbnRpbmdJbldtUGFpbnQgfCBDb250cm9sU3R5bGVzLk9wdGltaXplZERvdWJsZUJ1ZmZlciB8CiAgICAgICAgICAgICAgICAgICAgIENvbnRyb2xTdHlsZXMuVXNlclBhaW50IHwgQ29udHJvbFN0eWxlcy5TdXBwb3J0c1RyYW5zcGFyZW50QmFja0NvbG9yLCB0cnVlKTsKICAgICAgICAgICAgQmFja0NvbG9yID0gQ29sb3IuVHJhbnNwYXJlbnQ7CiAgICAgICAgICAgIEN1cnNvciA9IEN1cnNvcnMuSGFuZDsKICAgICAgICB9CgogICAgICAgIHB1YmxpYyBQYWxldHRlIFBhbGV0dGUgeyBnZXQ7IHNldDsgfQoKICAgICAgICBwdWJsaWMgaW50IE1pbmltdW0geyBnZXQgeyByZXR1cm4gX21pbjsgfSBzZXQgeyBfbWluID0gdmFsdWU7IH0gfQogICAgICAgIHB1YmxpYyBpbnQgTWF4aW11bSB7IGdldCB7IHJldHVybiBfbWF4OyB9IHNldCB7IF9tYXggPSB2YWx1ZTsgfSB9CgogICAgICAgIHB1YmxpYyBpbnQgVmFsdWUKICAgICAgICB7CiAgICAgICAgICAgIGdldCB7IHJldHVybiBfdmFsdWU7IH0KICAgICAgICAgICAgc2V0CiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgIGludCB2ID0gTWF0aC5NYXgoX21pbiwgTWF0aC5NaW4oX21heCwgdmFsdWUpKTsKICAgICAgICAgICAgICAgIGlmICh2ID09IF92YWx1ZSkgcmV0dXJuOwogICAgICAgICAgICAgICAgX3ZhbHVlID0gdjsKICAgICAgICAgICAgICAgIEludmFsaWRhdGUoKTsKICAgICAgICAgICAgICAgIHZhciBoID0gVmFsdWVDaGFuZ2VkOwogICAgICAgICAgICAgICAgaWYgKGggIT0gbnVsbCkgaCh0aGlzLCBFdmVudEFyZ3MuRW1wdHkpOwogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBmbG9hdCBSYXRpbyB7IGdldCB7IHJldHVybiAoZmxvYXQpKF92YWx1ZSAtIF9taW4pIC8gTWF0aC5NYXgoMSwgX21heCAtIF9taW4pOyB9IH0KCiAgICAgICAgUmVjdGFuZ2xlRiBUcmFja1JlY3QoKQogICAgICAgIHsKICAgICAgICAgICAgZmxvYXQgdGggPSA0ZjsKICAgICAgICAgICAgcmV0dXJuIG5ldyBSZWN0YW5nbGVGKHRoLCAoSGVpZ2h0IC0gdGgpIC8gMmYsIFdpZHRoIC0gdGggKiAyLCB0aCk7CiAgICAgICAgfQoKICAgICAgICBwcm90ZWN0ZWQgb3ZlcnJpZGUgdm9pZCBPbk1vdXNlRG93bihNb3VzZUV2ZW50QXJncyBlKQogICAgICAgIHsKICAgICAgICAgICAgYmFzZS5Pbk1vdXNlRG93bihlKTsKICAgICAgICAgICAgaWYgKGUuQnV0dG9uID09IE1vdXNlQnV0dG9ucy5MZWZ0KSB7IF9kcmFnZ2luZyA9IHRydWU7IFNldEZyb21YKGUuWCk7IH0KICAgICAgICB9CgogICAgICAgIHByb3RlY3RlZCBvdmVycmlkZSB2b2lkIE9uTW91c2VNb3ZlKE1vdXNlRXZlbnRBcmdzIGUpCiAgICAgICAgewogICAgICAgICAgICBiYXNlLk9uTW91c2VNb3ZlKGUpOwogICAgICAgICAgICBpZiAoX2RyYWdnaW5nKSBTZXRGcm9tWChlLlgpOwogICAgICAgIH0KCiAgICAgICAgcHJvdGVjdGVkIG92ZXJyaWRlIHZvaWQgT25Nb3VzZVVwKE1vdXNlRXZlbnRBcmdzIGUpCiAgICAgICAgewogICAgICAgICAgICBiYXNlLk9uTW91c2VVcChlKTsKICAgICAgICAgICAgX2RyYWdnaW5nID0gZmFsc2U7CiAgICAgICAgfQoKICAgICAgICB2b2lkIFNldEZyb21YKGludCB4KQogICAgICAgIHsKICAgICAgICAgICAgdmFyIHQgPSBUcmFja1JlY3QoKTsKICAgICAgICAgICAgZG91YmxlIHIgPSAoeCAtIHQuWCkgLyBNYXRoLk1heCgxLCB0LldpZHRoKTsKICAgICAgICAgICAgciA9IE1hdGguTWF4KDAsIE1hdGguTWluKDEsIHIpKTsKICAgICAgICAgICAgVmFsdWUgPSAoaW50KU1hdGguUm91bmQoX21pbiArIHIgKiAoX21heCAtIF9taW4pKTsKICAgICAgICB9CgogICAgICAgIHByb3RlY3RlZCBvdmVycmlkZSB2b2lkIE9uUGFpbnQoUGFpbnRFdmVudEFyZ3MgZSkKICAgICAgICB7CiAgICAgICAgICAgIHZhciBnID0gZS5HcmFwaGljczsKICAgICAgICAgICAgVGhlbWUuQ29uZmlndXJlKGcpOwoKICAgICAgICAgICAgdmFyIHQgPSBUcmFja1JlY3QoKTsKICAgICAgICAgICAgZmxvYXQgcmggPSB0LkhlaWdodCAvIDJmOwogICAgICAgICAgICBDb2xvciByYWlsID0gUGFsZXR0ZS5Jc0RhcmsgPyBQYWxldHRlLkNvbnRyb2xPZmYgOiBDb2xvci5Gcm9tQXJnYigyMjYsIDIyNiwgMjMxKTsKCiAgICAgICAgICAgIHVzaW5nICh2YXIgcGF0aCA9IFRoZW1lLlJvdW5kUmVjdCh0LCByaCkpCiAgICAgICAgICAgIHVzaW5nICh2YXIgYiA9IG5ldyBTb2xpZEJydXNoKHJhaWwpKQogICAgICAgICAgICAgICAgZy5GaWxsUGF0aChiLCBwYXRoKTsKCiAgICAgICAgICAgIGZsb2F0IGZpbGxXID0gdC5XaWR0aCAqIFJhdGlvOwogICAgICAgICAgICBpZiAoZmlsbFcgPiAwLjVmKQogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICB2YXIgZiA9IG5ldyBSZWN0YW5nbGVGKHQuWCwgdC5ZLCBNYXRoLk1heChyaCAqIDIsIGZpbGxXKSwgdC5IZWlnaHQpOwogICAgICAgICAgICAgICAgdXNpbmcgKHZhciBwYXRoID0gVGhlbWUuUm91bmRSZWN0KGYsIHJoKSkKICAgICAgICAgICAgICAgIHVzaW5nICh2YXIgYiA9IG5ldyBTb2xpZEJydXNoKFBhbGV0dGUuQWNjZW50KSkKICAgICAgICAgICAgICAgICAgICBnLkZpbGxQYXRoKGIsIHBhdGgpOwogICAgICAgICAgICB9CgogICAgICAgICAgICBmbG9hdCBkID0gTWF0aC5NaW4oSGVpZ2h0IC0gNCwgMThmKTsKICAgICAgICAgICAgZmxvYXQgY3ggPSB0LlggKyB0LldpZHRoICogUmF0aW87CiAgICAgICAgICAgIGZsb2F0IGN5ID0gSGVpZ2h0IC8gMmY7CiAgICAgICAgICAgIHZhciBrbm9iID0gbmV3IFJlY3RhbmdsZUYoY3ggLSBkIC8gMmYsIGN5IC0gZCAvIDJmLCBkLCBkKTsKCiAgICAgICAgICAgIHVzaW5nICh2YXIgc2ggPSBuZXcgU29saWRCcnVzaChDb2xvci5Gcm9tQXJnYigzMCwgMCwgMCwgMCkpKQogICAgICAgICAgICAgICAgZy5GaWxsRWxsaXBzZShzaCwga25vYi5YLCBrbm9iLlkgKyAxZiwgZCwgZCk7CgogICAgICAgICAgICB1c2luZyAodmFyIGIgPSBuZXcgU29saWRCcnVzaChDb2xvci5XaGl0ZSkpCiAgICAgICAgICAgICAgICBnLkZpbGxFbGxpcHNlKGIsIGtub2IpOwoKICAgICAgICAgICAgdXNpbmcgKHZhciBwID0gbmV3IFBlbihDb2xvci5Gcm9tQXJnYigxOCwgMCwgMCwgMCksIDFmKSkKICAgICAgICAgICAgICAgIGcuRHJhd0VsbGlwc2UocCwga25vYi5YLCBrbm9iLlksIGQgLSAwLjVmLCBkIC0gMC41Zik7CiAgICAgICAgfQogICAgfQoKICAgIC8vLyA8c3VtbWFyeT5Db21wYWN0IHNlZ21lbnRlZCBwaWNrZXIgKGlPUyAiQXBwZWFyYW5jZSIgc3R5bGUpLjwvc3VtbWFyeT4KICAgIHB1YmxpYyBjbGFzcyBTZWdtZW50ZWQgOiBDb250cm9sCiAgICB7CiAgICAgICAgc3RyaW5nW10gX2l0ZW1zID0gbmV3IHN0cmluZ1swXTsKICAgICAgICBpbnQgX3NlbGVjdGVkOwogICAgICAgIGludCBfaG92ZXIgPSAtMTsKCiAgICAgICAgcHVibGljIGV2ZW50IEV2ZW50SGFuZGxlciBTZWxlY3Rpb25DaGFuZ2VkOwoKICAgICAgICBwdWJsaWMgU2VnbWVudGVkKFBhbGV0dGUgcCkKICAgICAgICB7CiAgICAgICAgICAgIFBhbGV0dGUgPSBwOwogICAgICAgICAgICBTZXRTdHlsZShDb250cm9sU3R5bGVzLkFsbFBhaW50aW5nSW5XbVBhaW50IHwgQ29udHJvbFN0eWxlcy5PcHRpbWl6ZWREb3VibGVCdWZmZXIgfAogICAgICAgICAgICAgICAgICAgICBDb250cm9sU3R5bGVzLlVzZXJQYWludCB8IENvbnRyb2xTdHlsZXMuU3VwcG9ydHNUcmFuc3BhcmVudEJhY2tDb2xvciwgdHJ1ZSk7CiAgICAgICAgICAgIEJhY2tDb2xvciA9IENvbG9yLlRyYW5zcGFyZW50OwogICAgICAgICAgICBDdXJzb3IgPSBDdXJzb3JzLkhhbmQ7CiAgICAgICAgfQoKICAgICAgICBwdWJsaWMgUGFsZXR0ZSBQYWxldHRlIHsgZ2V0OyBzZXQ7IH0KCiAgICAgICAgcHVibGljIHN0cmluZ1tdIEl0ZW1zCiAgICAgICAgewogICAgICAgICAgICBnZXQgeyByZXR1cm4gX2l0ZW1zOyB9CiAgICAgICAgICAgIHNldCB7IF9pdGVtcyA9IHZhbHVlID8/IG5ldyBzdHJpbmdbMF07IEludmFsaWRhdGUoKTsgfQogICAgICAgIH0KCiAgICAgICAgcHVibGljIGludCBTZWxlY3RlZEluZGV4CiAgICAgICAgewogICAgICAgICAgICBnZXQgeyByZXR1cm4gX3NlbGVjdGVkOyB9CiAgICAgICAgICAgIHNldAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBpbnQgdiA9IE1hdGguTWF4KDAsIE1hdGguTWluKF9pdGVtcy5MZW5ndGggLSAxLCB2YWx1ZSkpOwogICAgICAgICAgICAgICAgaWYgKHYgPT0gX3NlbGVjdGVkKSByZXR1cm47CiAgICAgICAgICAgICAgICBfc2VsZWN0ZWQgPSB2OwogICAgICAgICAgICAgICAgSW52YWxpZGF0ZSgpOwogICAgICAgICAgICAgICAgdmFyIGggPSBTZWxlY3Rpb25DaGFuZ2VkOwogICAgICAgICAgICAgICAgaWYgKGggIT0gbnVsbCkgaCh0aGlzLCBFdmVudEFyZ3MuRW1wdHkpOwogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBwcm90ZWN0ZWQgb3ZlcnJpZGUgdm9pZCBPbk1vdXNlTW92ZShNb3VzZUV2ZW50QXJncyBlKQogICAgICAgIHsKICAgICAgICAgICAgYmFzZS5Pbk1vdXNlTW92ZShlKTsKICAgICAgICAgICAgaW50IGlkeCA9IEhpdFRlc3QoZS5YKTsKICAgICAgICAgICAgaWYgKGlkeCAhPSBfaG92ZXIpIHsgX2hvdmVyID0gaWR4OyBJbnZhbGlkYXRlKCk7IH0KICAgICAgICB9CgogICAgICAgIHByb3RlY3RlZCBvdmVycmlkZSB2b2lkIE9uTW91c2VMZWF2ZShFdmVudEFyZ3MgZSkKICAgICAgICB7CiAgICAgICAgICAgIGJhc2UuT25Nb3VzZUxlYXZlKGUpOwogICAgICAgICAgICBfaG92ZXIgPSAtMTsKICAgICAgICAgICAgSW52YWxpZGF0ZSgpOwogICAgICAgIH0KCiAgICAgICAgcHJvdGVjdGVkIG92ZXJyaWRlIHZvaWQgT25Nb3VzZURvd24oTW91c2VFdmVudEFyZ3MgZSkKICAgICAgICB7CiAgICAgICAgICAgIGJhc2UuT25Nb3VzZURvd24oZSk7CiAgICAgICAgICAgIGludCBpZHggPSBIaXRUZXN0KGUuWCk7CiAgICAgICAgICAgIGlmIChpZHggPj0gMCkgU2VsZWN0ZWRJbmRleCA9IGlkeDsKICAgICAgICB9CgogICAgICAgIGludCBIaXRUZXN0KGludCB4KQogICAgICAgIHsKICAgICAgICAgICAgaWYgKF9pdGVtcy5MZW5ndGggPT0gMCkgcmV0dXJuIC0xOwogICAgICAgICAgICBmbG9hdCBzZWcgPSAoZmxvYXQpV2lkdGggLyBfaXRlbXMuTGVuZ3RoOwogICAgICAgICAgICBpbnQgaSA9IChpbnQpKHggLyBNYXRoLk1heCgxZiwgc2VnKSk7CiAgICAgICAgICAgIHJldHVybiBpIDwgMCA/IDAgOiAoaSA+PSBfaXRlbXMuTGVuZ3RoID8gX2l0ZW1zLkxlbmd0aCAtIDEgOiBpKTsKICAgICAgICB9CgogICAgICAgIHByb3RlY3RlZCBvdmVycmlkZSB2b2lkIE9uUGFpbnQoUGFpbnRFdmVudEFyZ3MgZSkKICAgICAgICB7CiAgICAgICAgICAgIHZhciBnID0gZS5HcmFwaGljczsKICAgICAgICAgICAgVGhlbWUuQ29uZmlndXJlKGcpOwoKICAgICAgICAgICAgQ29sb3IgcmFpbCA9IFBhbGV0dGUuSXNEYXJrID8gQ29sb3IuRnJvbUFyZ2IoNTgsIDU4LCA2MCkgOiBDb2xvci5Gcm9tQXJnYigyMjgsIDIyOCwgMjMzKTsKICAgICAgICAgICAgdmFyIGFsbCA9IG5ldyBSZWN0YW5nbGVGKDAsIDAsIFdpZHRoLCBIZWlnaHQpOwogICAgICAgICAgICB1c2luZyAodmFyIHBhdGggPSBUaGVtZS5Sb3VuZFJlY3QoYWxsLCBIZWlnaHQgKiAwLjMwZikpCiAgICAgICAgICAgIHVzaW5nICh2YXIgYiA9IG5ldyBTb2xpZEJydXNoKHJhaWwpKQogICAgICAgICAgICAgICAgZy5GaWxsUGF0aChiLCBwYXRoKTsKCiAgICAgICAgICAgIGlmIChfaXRlbXMuTGVuZ3RoID09IDApIHJldHVybjsKCiAgICAgICAgICAgIGZsb2F0IHNlZyA9IChmbG9hdClXaWR0aCAvIF9pdGVtcy5MZW5ndGg7CiAgICAgICAgICAgIGZsb2F0IHBhZCA9IDIuNWY7CiAgICAgICAgICAgIHZhciBzZWwgPSBuZXcgUmVjdGFuZ2xlRihfc2VsZWN0ZWQgKiBzZWcgKyBwYWQsIHBhZCwgc2VnIC0gcGFkICogMiwgSGVpZ2h0IC0gcGFkICogMik7CgogICAgICAgICAgICB1c2luZyAodmFyIHBhdGggPSBUaGVtZS5Sb3VuZFJlY3Qoc2VsLCBzZWwuSGVpZ2h0ICogMC4zMGYpKQogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICB2YXIgc2ggPSBzZWw7CiAgICAgICAgICAgICAgICBzaC5PZmZzZXQoMCwgMS41Zik7CiAgICAgICAgICAgICAgICBzaC5IZWlnaHQgKz0gMS41ZjsKICAgICAgICAgICAgICAgIHVzaW5nICh2YXIgcDIgPSBUaGVtZS5Sb3VuZFJlY3Qoc2gsIHNoLkhlaWdodCAqIDAuMzBmKSkKICAgICAgICAgICAgICAgIHVzaW5nICh2YXIgYiA9IG5ldyBTb2xpZEJydXNoKENvbG9yLkZyb21BcmdiKDMyLCAwLCAwLCAwKSkpCiAgICAgICAgICAgICAgICAgICAgZy5GaWxsUGF0aChiLCBwMik7CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHVzaW5nICh2YXIgcGF0aCA9IFRoZW1lLlJvdW5kUmVjdChzZWwsIHNlbC5IZWlnaHQgKiAwLjMwZikpCiAgICAgICAgICAgIHVzaW5nICh2YXIgYiA9IG5ldyBTb2xpZEJydXNoKFBhbGV0dGUuSXNEYXJrID8gQ29sb3IuRnJvbUFyZ2IoOTksIDk5LCAxMDIpIDogQ29sb3IuV2hpdGUpKQogICAgICAgICAgICAgICAgZy5GaWxsUGF0aChiLCBwYXRoKTsKCiAgICAgICAgICAgIHZhciBzZiA9IG5ldyBTdHJpbmdGb3JtYXQoKTsKICAgICAgICAgICAgc2YuQWxpZ25tZW50ID0gU3RyaW5nQWxpZ25tZW50LkNlbnRlcjsKICAgICAgICAgICAgc2YuTGluZUFsaWdubWVudCA9IFN0cmluZ0FsaWdubWVudC5DZW50ZXI7CiAgICAgICAgICAgIHNmLkZvcm1hdEZsYWdzID0gU3RyaW5nRm9ybWF0RmxhZ3MuTm9XcmFwOwoKICAgICAgICAgICAgZm9yIChpbnQgaSA9IDA7IGkgPCBfaXRlbXMuTGVuZ3RoOyBpKyspCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgIHZhciBjZWxsID0gbmV3IFJlY3RhbmdsZUYoaSAqIHNlZywgMCwgc2VnLCBIZWlnaHQpOwogICAgICAgICAgICAgICAgQ29sb3IgYyA9IChpID09IF9zZWxlY3RlZCkgPyBQYWxldHRlLlRleHQgOiBQYWxldHRlLlRleHREaW07CiAgICAgICAgICAgICAgICB1c2luZyAodmFyIGIgPSBuZXcgU29saWRCcnVzaChjKSkKICAgICAgICAgICAgICAgICAgICBnLkRyYXdTdHJpbmcoX2l0ZW1zW2ldLCBUaGVtZS5GQyg5ZiwgaSA9PSBfc2VsZWN0ZWQpLCBiLCBjZWxsLCBzZik7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgc2YuRGlzcG9zZSgpOwogICAgICAgIH0KICAgIH0KCiAgICAvLy8gPHN1bW1hcnk+RmxhdCByb3VuZGVkIGJ1dHRvbiB1c2VkIGZvciBzZWNvbmRhcnkgYWN0aW9ucy48L3N1bW1hcnk+CiAgICBwdWJsaWMgY2xhc3MgRmxhdEJ1dHRvbiA6IENvbnRyb2wKICAgIHsKICAgICAgICBib29sIF9ob3ZlcjsKCiAgICAgICAgcHVibGljIGV2ZW50IEV2ZW50SGFuZGxlciBDbGlja2VkOwoKICAgICAgICBwdWJsaWMgRmxhdEJ1dHRvbihQYWxldHRlIHAsIHN0cmluZyB0ZXh0KQogICAgICAgIHsKICAgICAgICAgICAgUGFsZXR0ZSA9IHA7CiAgICAgICAgICAgIFRleHQgPSB0ZXh0OwogICAgICAgICAgICBTZXRTdHlsZShDb250cm9sU3R5bGVzLkFsbFBhaW50aW5nSW5XbVBhaW50IHwgQ29udHJvbFN0eWxlcy5PcHRpbWl6ZWREb3VibGVCdWZmZXIgfAogICAgICAgICAgICAgICAgICAgICBDb250cm9sU3R5bGVzLlVzZXJQYWludCB8IENvbnRyb2xTdHlsZXMuU3VwcG9ydHNUcmFuc3BhcmVudEJhY2tDb2xvciwgdHJ1ZSk7CiAgICAgICAgICAgIEJhY2tDb2xvciA9IENvbG9yLlRyYW5zcGFyZW50OwogICAgICAgICAgICBDdXJzb3IgPSBDdXJzb3JzLkhhbmQ7CiAgICAgICAgfQoKICAgICAgICBwdWJsaWMgUGFsZXR0ZSBQYWxldHRlIHsgZ2V0OyBzZXQ7IH0KICAgICAgICBwdWJsaWMgYm9vbCBQcmltYXJ5IHsgZ2V0OyBzZXQ7IH0KCiAgICAgICAgcHJvdGVjdGVkIG92ZXJyaWRlIHZvaWQgT25Nb3VzZUVudGVyKEV2ZW50QXJncyBlKSB7IGJhc2UuT25Nb3VzZUVudGVyKGUpOyBfaG92ZXIgPSB0cnVlOyBJbnZhbGlkYXRlKCk7IH0KICAgICAgICBwcm90ZWN0ZWQgb3ZlcnJpZGUgdm9pZCBPbk1vdXNlTGVhdmUoRXZlbnRBcmdzIGUpIHsgYmFzZS5Pbk1vdXNlTGVhdmUoZSk7IF9ob3ZlciA9IGZhbHNlOyBJbnZhbGlkYXRlKCk7IH0KCiAgICAgICAgcHJvdGVjdGVkIG92ZXJyaWRlIHZvaWQgT25DbGljayhFdmVudEFyZ3MgZSkKICAgICAgICB7CiAgICAgICAgICAgIGJhc2UuT25DbGljayhlKTsKICAgICAgICAgICAgdmFyIGggPSBDbGlja2VkOwogICAgICAgICAgICBpZiAoaCAhPSBudWxsKSBoKHRoaXMsIEV2ZW50QXJncy5FbXB0eSk7CiAgICAgICAgfQoKICAgICAgICBwcm90ZWN0ZWQgb3ZlcnJpZGUgdm9pZCBPblBhaW50KFBhaW50RXZlbnRBcmdzIGUpCiAgICAgICAgewogICAgICAgICAgICB2YXIgZyA9IGUuR3JhcGhpY3M7CiAgICAgICAgICAgIFRoZW1lLkNvbmZpZ3VyZShnKTsKCiAgICAgICAgICAgIENvbG9yIGJnOwogICAgICAgICAgICBDb2xvciBmZzsKICAgICAgICAgICAgaWYgKFByaW1hcnkpCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgIGJnID0gX2hvdmVyID8gVGhlbWUuTWl4KFBhbGV0dGUuQWNjZW50LCBDb2xvci5XaGl0ZSwgMC4xMikgOiBQYWxldHRlLkFjY2VudDsKICAgICAgICAgICAgICAgIGZnID0gQ29sb3IuV2hpdGU7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxzZQogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBDb2xvciBiYXNlYyA9IFBhbGV0dGUuSXNEYXJrID8gQ29sb3IuRnJvbUFyZ2IoNTgsIDU4LCA2MCkgOiBDb2xvci5Gcm9tQXJnYigyMzMsIDIzMywgMjM4KTsKICAgICAgICAgICAgICAgIGJnID0gX2hvdmVyID8gVGhlbWUuTWl4KGJhc2VjLCBQYWxldHRlLlRleHQsIDAuMTApIDogYmFzZWM7CiAgICAgICAgICAgICAgICBmZyA9IFBhbGV0dGUuVGV4dDsKICAgICAgICAgICAgfQoKICAgICAgICAgICAgdmFyIHIgPSBuZXcgUmVjdGFuZ2xlRigwLCAwLCBXaWR0aCAtIDAuNWYsIEhlaWdodCAtIDAuNWYpOwogICAgICAgICAgICB1c2luZyAodmFyIHBhdGggPSBUaGVtZS5Sb3VuZFJlY3QociwgSGVpZ2h0ICogMC4zMGYpKQogICAgICAgICAgICB1c2luZyAodmFyIGIgPSBuZXcgU29saWRCcnVzaChiZykpCiAgICAgICAgICAgICAgICBnLkZpbGxQYXRoKGIsIHBhdGgpOwoKICAgICAgICAgICAgdmFyIHNmID0gbmV3IFN0cmluZ0Zvcm1hdCgpOwogICAgICAgICAgICBzZi5BbGlnbm1lbnQgPSBTdHJpbmdBbGlnbm1lbnQuQ2VudGVyOwogICAgICAgICAgICBzZi5MaW5lQWxpZ25tZW50ID0gU3RyaW5nQWxpZ25tZW50LkNlbnRlcjsKICAgICAgICAgICAgc2YuRm9ybWF0RmxhZ3MgPSBTdHJpbmdGb3JtYXRGbGFncy5Ob1dyYXA7CiAgICAgICAgICAgIHVzaW5nICh2YXIgYiA9IG5ldyBTb2xpZEJydXNoKGZnKSkKICAgICAgICAgICAgICAgIGcuRHJhd1N0cmluZyhUZXh0LCBUaGVtZS5GQyg5ZiwgZmFsc2UpLCBiLCBuZXcgUmVjdGFuZ2xlRigwLCAwLCBXaWR0aCwgSGVpZ2h0KSwgc2YpOwogICAgICAgICAgICBzZi5EaXNwb3NlKCk7CiAgICAgICAgfQogICAgfQoKICAgIC8vLyA8c3VtbWFyeT5Sb3VuZGVkIGdyb3VwIGNvbnRhaW5lciBkcmF3biBiZWhpbmQgcm93cy48L3N1bW1hcnk+CiAgICBwdWJsaWMgc3RhdGljIGNsYXNzIENhcmQKICAgIHsKICAgICAgICBwdWJsaWMgc3RhdGljIHZvaWQgRHJhdyhHcmFwaGljcyBnLCBQYWxldHRlIHAsIFJlY3RhbmdsZUYgciwgZmxvYXQgcmFkaXVzKQogICAgICAgIHsKICAgICAgICAgICAgdXNpbmcgKHZhciBwYXRoID0gVGhlbWUuUm91bmRSZWN0KHIsIHJhZGl1cykpCiAgICAgICAgICAgIHVzaW5nICh2YXIgYiA9IG5ldyBTb2xpZEJydXNoKHAuQ2FyZCkpCiAgICAgICAgICAgICAgICBnLkZpbGxQYXRoKGIsIHBhdGgpOwogICAgICAgIH0KCiAgICAgICAgcHVibGljIHN0YXRpYyB2b2lkIFNlcGFyYXRvcihHcmFwaGljcyBnLCBQYWxldHRlIHAsIGZsb2F0IHgxLCBmbG9hdCB4MiwgZmxvYXQgeSkKICAgICAgICB7CiAgICAgICAgICAgIHVzaW5nICh2YXIgcGVuID0gbmV3IFBlbihwLlNlcGFyYXRvciwgMWYpKQogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBwZW4uQWxpZ25tZW50ID0gUGVuQWxpZ25tZW50LkNlbnRlcjsKICAgICAgICAgICAgICAgIGcuRHJhd0xpbmUocGVuLCB4MSwgeSwgeDIsIHkpOwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9Cg==
+using System;
+using System.Drawing;
+using System.Drawing.Drawing2D;
+using System.Windows.Forms;
+
+namespace MouseMeter
+{
+    /// <summary>iOS style switch. 44 x 26 logical pixels.</summary>
+    public class ToggleSwitch : Control
+    {
+        bool _checked;
+        double _anim;
+        readonly System.Windows.Forms.Timer _timer;
+
+        public event EventHandler CheckedChanged;
+
+        public ToggleSwitch(Palette p)
+        {
+            Palette = p;
+            SetStyle(ControlStyles.AllPaintingInWmPaint | ControlStyles.OptimizedDoubleBuffer |
+                     ControlStyles.UserPaint | ControlStyles.SupportsTransparentBackColor, true);
+            BackColor = Color.Transparent;
+            Cursor = Cursors.Hand;
+            _timer = new System.Windows.Forms.Timer();
+            _timer.Interval = 15;
+            _timer.Tick += delegate
+            {
+                double target = _checked ? 1 : 0;
+                double d = target - _anim;
+                if (Math.Abs(d) < 0.06) { _anim = target; _timer.Stop(); }
+                else _anim += d * 0.32;
+                Invalidate();
+            };
+        }
+
+        public Palette Palette { get; set; }
+
+        public bool Checked
+        {
+            get { return _checked; }
+            set
+            {
+                if (_checked == value) return;
+                _checked = value;
+                _timer.Start();
+                var h = CheckedChanged;
+                if (h != null) h(this, EventArgs.Empty);
+            }
+        }
+
+        public void SetCheckedSilent(bool value)
+        {
+            _checked = value;
+            _anim = value ? 1 : 0;
+            Invalidate();
+        }
+
+        protected override void OnClick(EventArgs e)
+        {
+            base.OnClick(e);
+            Checked = !Checked;
+        }
+
+        protected override void OnPaint(PaintEventArgs e)
+        {
+            var g = e.Graphics;
+            Theme.Configure(g);
+
+            float w = Width, h = Height;
+            float inset = h * 0.08f;
+            var track = new RectangleF(0, inset, w, h - inset * 2);
+            float r = track.Height / 2f;
+
+            Color off = Palette.IsDark ? Palette.ControlOff : Color.FromArgb(226, 226, 231);
+            Color on = Palette.Green;
+            Color trackColor = Theme.Mix(off, on, _anim);
+
+            using (var path = Theme.RoundRect(track, r))
+            using (var b = new SolidBrush(trackColor))
+                g.FillPath(b, path);
+
+            float pad = track.Height * 0.11f;
+            float thumbD = track.Height - pad * 2;
+            float x = track.X + pad + (float)((track.Width - thumbD - pad * 2) * _anim);
+            float y = track.Y + pad;
+
+            using (var shadow = new SolidBrush(Color.FromArgb(28, 0, 0, 0)))
+                g.FillEllipse(shadow, x - 0.5f, y + 1.2f, thumbD + 1f, thumbD + 1f);
+
+            using (var b = new SolidBrush(Color.White))
+                g.FillEllipse(b, x, y, thumbD, thumbD);
+        }
+    }
+
+    /// <summary>Hairline slider with a white knob.</summary>
+    public class MMSlider : Control
+    {
+        int _min, _max = 100, _value = 50;
+        bool _dragging;
+
+        public event EventHandler ValueChanged;
+
+        public MMSlider(Palette p)
+        {
+            Palette = p;
+            SetStyle(ControlStyles.AllPaintingInWmPaint | ControlStyles.OptimizedDoubleBuffer |
+                     ControlStyles.UserPaint | ControlStyles.SupportsTransparentBackColor, true);
+            BackColor = Color.Transparent;
+            Cursor = Cursors.Hand;
+        }
+
+        public Palette Palette { get; set; }
+
+        public int Minimum { get { return _min; } set { _min = value; } }
+        public int Maximum { get { return _max; } set { _max = value; } }
+
+        public int Value
+        {
+            get { return _value; }
+            set
+            {
+                int v = Math.Max(_min, Math.Min(_max, value));
+                if (v == _value) return;
+                _value = v;
+                Invalidate();
+                var h = ValueChanged;
+                if (h != null) h(this, EventArgs.Empty);
+            }
+        }
+
+        float Ratio { get { return (float)(_value - _min) / Math.Max(1, _max - _min); } }
+
+        RectangleF TrackRect()
+        {
+            float th = 4f;
+            return new RectangleF(th, (Height - th) / 2f, Width - th * 2, th);
+        }
+
+        protected override void OnMouseDown(MouseEventArgs e)
+        {
+            base.OnMouseDown(e);
+            if (e.Button == MouseButtons.Left) { _dragging = true; SetFromX(e.X); }
+        }
+
+        protected override void OnMouseMove(MouseEventArgs e)
+        {
+            base.OnMouseMove(e);
+            if (_dragging) SetFromX(e.X);
+        }
+
+        protected override void OnMouseUp(MouseEventArgs e)
+        {
+            base.OnMouseUp(e);
+            _dragging = false;
+        }
+
+        void SetFromX(int x)
+        {
+            var t = TrackRect();
+            double r = (x - t.X) / Math.Max(1, t.Width);
+            r = Math.Max(0, Math.Min(1, r));
+            Value = (int)Math.Round(_min + r * (_max - _min));
+        }
+
+        protected override void OnPaint(PaintEventArgs e)
+        {
+            var g = e.Graphics;
+            Theme.Configure(g);
+
+            var t = TrackRect();
+            float rh = t.Height / 2f;
+            Color rail = Palette.IsDark ? Palette.ControlOff : Color.FromArgb(226, 226, 231);
+
+            using (var path = Theme.RoundRect(t, rh))
+            using (var b = new SolidBrush(rail))
+                g.FillPath(b, path);
+
+            float fillW = t.Width * Ratio;
+            if (fillW > 0.5f)
+            {
+                var f = new RectangleF(t.X, t.Y, Math.Max(rh * 2, fillW), t.Height);
+                using (var path = Theme.RoundRect(f, rh))
+                using (var b = new SolidBrush(Palette.Accent))
+                    g.FillPath(b, path);
+            }
+
+            float d = Math.Min(Height - 4, 18f);
+            float cx = t.X + t.Width * Ratio;
+            float cy = Height / 2f;
+            var knob = new RectangleF(cx - d / 2f, cy - d / 2f, d, d);
+
+            using (var sh = new SolidBrush(Color.FromArgb(30, 0, 0, 0)))
+                g.FillEllipse(sh, knob.X, knob.Y + 1f, d, d);
+
+            using (var b = new SolidBrush(Color.White))
+                g.FillEllipse(b, knob);
+
+            using (var p = new Pen(Color.FromArgb(18, 0, 0, 0), 1f))
+                g.DrawEllipse(p, knob.X, knob.Y, d - 0.5f, d - 0.5f);
+        }
+    }
+
+    /// <summary>Compact segmented picker (iOS "Appearance" style).</summary>
+    public class Segmented : Control
+    {
+        string[] _items = new string[0];
+        int _selected;
+        int _hover = -1;
+
+        public event EventHandler SelectionChanged;
+
+        public Segmented(Palette p)
+        {
+            Palette = p;
+            SetStyle(ControlStyles.AllPaintingInWmPaint | ControlStyles.OptimizedDoubleBuffer |
+                     ControlStyles.UserPaint | ControlStyles.SupportsTransparentBackColor, true);
+            BackColor = Color.Transparent;
+            Cursor = Cursors.Hand;
+        }
+
+        public Palette Palette { get; set; }
+
+        public string[] Items
+        {
+            get { return _items; }
+            set { _items = value ?? new string[0]; Invalidate(); }
+        }
+
+        public int SelectedIndex
+        {
+            get { return _selected; }
+            set
+            {
+                int v = Math.Max(0, Math.Min(_items.Length - 1, value));
+                if (v == _selected) return;
+                _selected = v;
+                Invalidate();
+                var h = SelectionChanged;
+                if (h != null) h(this, EventArgs.Empty);
+            }
+        }
+
+        protected override void OnMouseMove(MouseEventArgs e)
+        {
+            base.OnMouseMove(e);
+            int idx = HitTest(e.X);
+            if (idx != _hover) { _hover = idx; Invalidate(); }
+        }
+
+        protected override void OnMouseLeave(EventArgs e)
+        {
+            base.OnMouseLeave(e);
+            _hover = -1;
+            Invalidate();
+        }
+
+        protected override void OnMouseDown(MouseEventArgs e)
+        {
+            base.OnMouseDown(e);
+            int idx = HitTest(e.X);
+            if (idx >= 0) SelectedIndex = idx;
+        }
+
+        int HitTest(int x)
+        {
+            if (_items.Length == 0) return -1;
+            float seg = (float)Width / _items.Length;
+            int i = (int)(x / Math.Max(1f, seg));
+            return i < 0 ? 0 : (i >= _items.Length ? _items.Length - 1 : i);
+        }
+
+        protected override void OnPaint(PaintEventArgs e)
+        {
+            var g = e.Graphics;
+            Theme.Configure(g);
+
+            Color rail = Palette.IsDark ? Color.FromArgb(58, 58, 60) : Color.FromArgb(228, 228, 233);
+            var all = new RectangleF(0, 0, Width, Height);
+            using (var path = Theme.RoundRect(all, Height * 0.30f))
+            using (var b = new SolidBrush(rail))
+                g.FillPath(b, path);
+
+            if (_items.Length == 0) return;
+
+            float seg = (float)Width / _items.Length;
+            float pad = 2.5f;
+            var sel = new RectangleF(_selected * seg + pad, pad, seg - pad * 2, Height - pad * 2);
+
+            using (var path = Theme.RoundRect(sel, sel.Height * 0.30f))
+            {
+                var sh = sel;
+                sh.Offset(0, 1.5f);
+                sh.Height += 1.5f;
+                using (var p2 = Theme.RoundRect(sh, sh.Height * 0.30f))
+                using (var b = new SolidBrush(Color.FromArgb(32, 0, 0, 0)))
+                    g.FillPath(b, p2);
+            }
+
+            using (var path = Theme.RoundRect(sel, sel.Height * 0.30f))
+            using (var b = new SolidBrush(Palette.IsDark ? Color.FromArgb(99, 99, 102) : Color.White))
+                g.FillPath(b, path);
+
+            var sf = new StringFormat();
+            sf.Alignment = StringAlignment.Center;
+            sf.LineAlignment = StringAlignment.Center;
+            sf.FormatFlags = StringFormatFlags.NoWrap;
+
+            for (int i = 0; i < _items.Length; i++)
+            {
+                var cell = new RectangleF(i * seg, 0, seg, Height);
+                Color c = (i == _selected) ? Palette.Text : Palette.TextDim;
+                using (var b = new SolidBrush(c))
+                    g.DrawString(_items[i], Theme.FC(9f, i == _selected), b, cell, sf);
+            }
+            sf.Dispose();
+        }
+    }
+
+    /// <summary>Flat rounded button used for secondary actions.</summary>
+    public class FlatButton : Control
+    {
+        bool _hover;
+
+        public event EventHandler Clicked;
+
+        public FlatButton(Palette p, string text)
+        {
+            Palette = p;
+            Text = text;
+            SetStyle(ControlStyles.AllPaintingInWmPaint | ControlStyles.OptimizedDoubleBuffer |
+                     ControlStyles.UserPaint | ControlStyles.SupportsTransparentBackColor, true);
+            BackColor = Color.Transparent;
+            Cursor = Cursors.Hand;
+        }
+
+        public Palette Palette { get; set; }
+        public bool Primary { get; set; }
+
+        protected override void OnMouseEnter(EventArgs e) { base.OnMouseEnter(e); _hover = true; Invalidate(); }
+        protected override void OnMouseLeave(EventArgs e) { base.OnMouseLeave(e); _hover = false; Invalidate(); }
+
+        protected override void OnClick(EventArgs e)
+        {
+            base.OnClick(e);
+            var h = Clicked;
+            if (h != null) h(this, EventArgs.Empty);
+        }
+
+        protected override void OnPaint(PaintEventArgs e)
+        {
+            var g = e.Graphics;
+            Theme.Configure(g);
+
+            Color bg;
+            Color fg;
+            if (Primary)
+            {
+                bg = _hover ? Theme.Mix(Palette.Accent, Color.White, 0.12) : Palette.Accent;
+                fg = Color.White;
+            }
+            else
+            {
+                Color basec = Palette.IsDark ? Color.FromArgb(58, 58, 60) : Color.FromArgb(233, 233, 238);
+                bg = _hover ? Theme.Mix(basec, Palette.Text, 0.10) : basec;
+                fg = Palette.Text;
+            }
+
+            var r = new RectangleF(0, 0, Width - 0.5f, Height - 0.5f);
+            using (var path = Theme.RoundRect(r, Height * 0.30f))
+            using (var b = new SolidBrush(bg))
+                g.FillPath(b, path);
+
+            var sf = new StringFormat();
+            sf.Alignment = StringAlignment.Center;
+            sf.LineAlignment = StringAlignment.Center;
+            sf.FormatFlags = StringFormatFlags.NoWrap;
+            using (var b = new SolidBrush(fg))
+                g.DrawString(Text, Theme.FC(9f, false), b, new RectangleF(0, 0, Width, Height), sf);
+            sf.Dispose();
+        }
+    }
+
+    /// <summary>Rounded group container drawn behind rows.</summary>
+    public static class Card
+    {
+        public static void Draw(Graphics g, Palette p, RectangleF r, float radius)
+        {
+            using (var path = Theme.RoundRect(r, radius))
+            using (var b = new SolidBrush(p.Card))
+                g.FillPath(b, path);
+        }
+
+        public static void Separator(Graphics g, Palette p, float x1, float x2, float y)
+        {
+            using (var pen = new Pen(p.Separator, 1f))
+            {
+                pen.Alignment = PenAlignment.Center;
+                g.DrawLine(pen, x1, y, x2, y);
+            }
+        }
+    }
+}

@@ -1,1 +1,115 @@
-dXNpbmcgU3lzdGVtOwp1c2luZyBTeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYzsKdXNpbmcgU3lzdGVtLlJ1bnRpbWUuSW50ZXJvcFNlcnZpY2VzOwp1c2luZyBTeXN0ZW0uVGhyZWFkaW5nOwoKbmFtZXNwYWNlIE1vdXNlTWV0ZXIKewogICAgLy8vIDxzdW1tYXJ5PgogICAgLy8vIFJlYWRzIGJhdHRlcnkgbGV2ZWxzIGZvciBwZXJpcGhlcmFscyBXaW5kb3dzIGFscmVhZHkga25vd3MgYWJvdXQgKEJMRSBHQVRUIGJhdHRlcnkgc2VydmljZSwKICAgIC8vLyBCbHVldG9vdGggSElELCBIRlAgaGVhZHNldHMpLiBObyB2ZW5kb3IgcHJvdG9jb2wgaW52b2x2ZWQsIHNvIGl0IGNvdmVycyBrZXlib2FyZHMgYW5kCiAgICAvLy8gaGVhZHNldHMgdGhhdCB0aGUgZG9uZ2xlIHByb3RvY29sIGNhbm5vdCBkZXNjcmliZS4KICAgIC8vLyA8L3N1bW1hcnk+CiAgICBwdWJsaWMgY2xhc3MgU3lzdGVtQmF0dGVyeVNvdXJjZSA6IElCYXR0ZXJ5U291cmNlCiAgICB7CiAgICAgICAgcHVibGljIHN0cmluZyBOYW1lIHsgZ2V0IHsgcmV0dXJuICJXaW5kb3dzIOeUteaxoOaOpeWPoyI7IH0gfQoKICAgICAgICByZWFkb25seSBGdW5jPGJvb2w+IF9lbmFibGVkOwogICAgICAgIHJlYWRvbmx5IEZ1bmM8TGlzdDxzdHJpbmc+PiBfZG9uZ2xlTmFtZXM7CiAgICAgICAgRGF0ZVRpbWUgX2xhc3RFbnVtZXJhdGUgPSBEYXRlVGltZS5NaW5WYWx1ZTsKICAgICAgICBMaXN0PFBucERldmljZT4gX2NhY2hlID0gbmV3IExpc3Q8UG5wRGV2aWNlPigpOwogICAgICAgIHN0cmluZyBfbGFzdEVycm9yID0gIiI7CgogICAgICAgIC8vLyA8cGFyYW0gbmFtZT0iZG9uZ2xlTmFtZXMiPm5hbWVzIG9mIGRldmljZXMgYWxyZWFkeSByZXBvcnRlZCB0aHJvdWdoIGEgbGl2ZSBkb25nbGU7IHRob3NlIG11c3QKICAgICAgICAvLy8gbm90IGJlIGR1cGxpY2F0ZWQgZnJvbSB0aGUgKGNhY2hlZCkgV2luZG93cyB2aWV3LjwvcGFyYW0+CiAgICAgICAgcHVibGljIFN5c3RlbUJhdHRlcnlTb3VyY2UoRnVuYzxib29sPiBlbmFibGVkLCBGdW5jPExpc3Q8c3RyaW5nPj4gZG9uZ2xlTmFtZXMpCiAgICAgICAgewogICAgICAgICAgICBfZW5hYmxlZCA9IGVuYWJsZWQ7CiAgICAgICAgICAgIF9kb25nbGVOYW1lcyA9IGRvbmdsZU5hbWVzOwogICAgICAgIH0KCiAgICAgICAgcHVibGljIExpc3Q8UmVhZGluZz4gUmVhZCgpCiAgICAgICAgewogICAgICAgICAgICB2YXIgbGlzdCA9IG5ldyBMaXN0PFJlYWRpbmc+KCk7CiAgICAgICAgICAgIGlmICghX2VuYWJsZWQoKSkgcmV0dXJuIGxpc3Q7CgogICAgICAgICAgICAvLyBlbnVtZXJhdGluZyB0aGUgZGV2aWNlIHRyZWUgaXMgbm90IGZyZWU7IG9uY2UgYSBtaW51dGUgaXMgcGxlbnR5IGFuZCBrZWVwcwogICAgICAgICAgICAvLyB0aGUgMTUgcyAiY2hhcmdpbmciIGNhZGVuY2UgZnJvbSBoYW1tZXJpbmcgc2V0dXBhcGkuCiAgICAgICAgICAgIExpc3Q8UG5wRGV2aWNlPiBkZXZpY2VzOwogICAgICAgICAgICBpZiAoKERhdGVUaW1lLk5vdyAtIF9sYXN0RW51bWVyYXRlKS5Ub3RhbFNlY29uZHMgPCA0NSAmJiBfY2FjaGUuQ291bnQgPiAwKQogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBkZXZpY2VzID0gX2NhY2hlOwogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsc2UKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgdHJ5IHsgZGV2aWNlcyA9IFBucEJhdHRlcnkuRW51bWVyYXRlKCk7IH0KICAgICAgICAgICAgICAgIGNhdGNoIChFeGNlcHRpb24gZXgpIHsgX2xhc3RFcnJvciA9IGV4Lk1lc3NhZ2U7IGRldmljZXMgPSBfY2FjaGU7IH0KICAgICAgICAgICAgICAgIF9jYWNoZSA9IGRldmljZXM7CiAgICAgICAgICAgICAgICBfbGFzdEVudW1lcmF0ZSA9IERhdGVUaW1lLk5vdzsKICAgICAgICAgICAgfQoKICAgICAgICAgICAgTGlzdDxzdHJpbmc+IG93bmVkID0gbnVsbDsKICAgICAgICAgICAgdHJ5IHsgaWYgKF9kb25nbGVOYW1lcyAhPSBudWxsKSBvd25lZCA9IF9kb25nbGVOYW1lcygpOyB9IGNhdGNoIHsgfQoKICAgICAgICAgICAgZm9yIChpbnQgaSA9IDA7IGkgPCBkZXZpY2VzLkNvdW50OyBpKyspCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgIHZhciBkID0gZGV2aWNlc1tpXTsKICAgICAgICAgICAgICAgIGlmICghZC5Db25uZWN0ZWQpIGNvbnRpbnVlOwogICAgICAgICAgICAgICAgaWYgKG93bmVkICE9IG51bGwgJiYgZC5CYXR0ZXJ5U291cmNlICE9ICJIRlAiICYmIE1hdGNoZXNBbnkoZC5GcmllbmRseU5hbWUsIG93bmVkKSkgY29udGludWU7CgogICAgICAgICAgICAgICAgc3RyaW5nIGtpbmQgPSBEZXZpY2VIZXVyaXN0aWNzLkZyb21OYW1lKGQuRnJpZW5kbHlOYW1lKTsKICAgICAgICAgICAgICAgIGlmIChraW5kID09IG51bGwgJiYgZC5Jc0F1ZGlvKSBraW5kID0gRGV2aWNlS2luZC5IZWFkc2V0OwogICAgICAgICAgICAgICAgaWYgKGtpbmQgPT0gbnVsbCkgY29udGludWU7ICAgLy8gdW5rbm93biBnYWRnZXRzIGFyZSBsZWZ0IHRvIHRoZSB2ZW5kb3IgcHJvYmUKICAgICAgICAgICAgICAgIC8vIGxldmVsIC0xIGlzIGFsbG93ZWQgZm9yIGhlYWRzZXRzOiB0aGUgZGV2aWNlIGlzIGNvbm5lY3RlZCwgV2luZG93cyBqdXN0IGhhcyBubwogICAgICAgICAgICAgICAgLy8gcGVyY2VudGFnZSB5ZXQuIFRoZSBVSSBzaG93cyAi55S16YeP5pyq55+lIiBpbnN0ZWFkIG9mIGludmVudGluZyBhIG51bWJlci4KICAgICAgICAgICAgICAgIGlmIChkLkxldmVsIDwgMCAmJiBraW5kICE9IERldmljZUtpbmQuSGVhZHNldCkgY29udGludWU7CgogICAgICAgICAgICAgICAgdmFyIHIgPSBuZXcgUmVhZGluZygpOwogICAgICAgICAgICAgICAgci5JZCA9ICJzeXN8IiArIGQuSW5zdGFuY2VJZC5Ub0xvd2VySW52YXJpYW50KCk7CiAgICAgICAgICAgICAgICByLktpbmQgPSBraW5kOwogICAgICAgICAgICAgICAgci5EZXZpY2VOYW1lID0gc3RyaW5nLklzTnVsbE9yRW1wdHkoZC5GcmllbmRseU5hbWUpID8gQXV0b05hbWUoa2luZCkgOiBkLkZyaWVuZGx5TmFtZTsKICAgICAgICAgICAgICAgIHIuTW9kZWwgPSAiIjsKICAgICAgICAgICAgICAgIHIuTGV2ZWwgPSBkLkxldmVsOwogICAgICAgICAgICAgICAgci5DaGFyZ2luZyA9IGZhbHNlOyAgICAgICAgICAgLy8gdGhlIGdlbmVyaWMgYmF0dGVyeSBpbnRlcmZhY2UgZG9lcyBub3QgcmVwb3J0IGNoYXJnaW5nCiAgICAgICAgICAgICAgICByLlRyYW5zcG9ydCA9IGQuVHJhbnNwb3J0OwogICAgICAgICAgICAgICAgci5IYXJkd2FyZUlkID0gU2hvcnRJZChkLkluc3RhbmNlSWQpOwogICAgICAgICAgICAgICAgci5Tb3VyY2UgPSBOYW1lOwogICAgICAgICAgICAgICAgci5BdCA9IERhdGVUaW1lLk5vdzsKICAgICAgICAgICAgICAgIGxpc3QuQWRkKHIpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIHJldHVybiBsaXN0OwogICAgICAgIH0KCiAgICAgICAgc3RhdGljIGJvb2wgTWF0Y2hlc0FueShzdHJpbmcgbmFtZSwgTGlzdDxzdHJpbmc+IG93bmVkKQogICAgICAgIHsKICAgICAgICAgICAgaWYgKHN0cmluZy5Jc051bGxPckVtcHR5KG5hbWUpKSByZXR1cm4gZmFsc2U7CiAgICAgICAgICAgIGZvciAoaW50IGkgPSAwOyBpIDwgb3duZWQuQ291bnQ7IGkrKykKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgc3RyaW5nIG8gPSAob3duZWRbaV0gPz8gIiIpLlRyaW0oKTsKICAgICAgICAgICAgICAgIGlmIChvLkxlbmd0aCA8IDMpIGNvbnRpbnVlOwogICAgICAgICAgICAgICAgaWYgKHN0cmluZy5FcXVhbHMobmFtZS5UcmltKCksIG8sIFN0cmluZ0NvbXBhcmlzb24uT3JkaW5hbElnbm9yZUNhc2UpKSByZXR1cm4gdHJ1ZTsKICAgICAgICAgICAgICAgIGlmIChuYW1lLkluZGV4T2YobywgU3RyaW5nQ29tcGFyaXNvbi5PcmRpbmFsSWdub3JlQ2FzZSkgPj0gMCkgcmV0dXJuIHRydWU7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgcmV0dXJuIGZhbHNlOwogICAgICAgIH0KCiAgICAgICAgc3RhdGljIHN0cmluZyBBdXRvTmFtZShzdHJpbmcga2luZCkKICAgICAgICB7CiAgICAgICAgICAgIGlmIChraW5kID09IERldmljZUtpbmQuS2V5Ym9hcmQpIHJldHVybiAi6ZSu55uYIjsKICAgICAgICAgICAgaWYgKGtpbmQgPT0gRGV2aWNlS2luZC5IZWFkc2V0KSByZXR1cm4gIuiAs+acuiI7CiAgICAgICAgICAgIHJldHVybiAi6byg5qCHIjsKICAgICAgICB9CgogICAgICAgIC8vLyA8c3VtbWFyeT5CTEUgaW5zdGFuY2UgaWRzIGNhcnJ5IGEgMTIgaGV4IGRpZ2l0IGFkZHJlc3M7IHNob3cgdGhhdCwgaXQgaXMgd2hhdCB1c2VycyBtYXRjaC48L3N1bW1hcnk+CiAgICAgICAgcHVibGljIHN0YXRpYyBzdHJpbmcgU2hvcnRJZChzdHJpbmcgaW5zdGFuY2VJZCkKICAgICAgICB7CiAgICAgICAgICAgIGlmIChzdHJpbmcuSXNOdWxsT3JFbXB0eShpbnN0YW5jZUlkKSkgcmV0dXJuICIiOwogICAgICAgICAgICBzdHJpbmcgcyA9IGluc3RhbmNlSWQ7CiAgICAgICAgICAgIGludCBkYXNoID0gcy5JbmRleE9mKCctJyk7CiAgICAgICAgICAgIGlmIChzLlN0YXJ0c1dpdGgoIkJMRSMiLCBTdHJpbmdDb21wYXJpc29uLk9yZGluYWxJZ25vcmVDYXNlKSAmJiBkYXNoID4gNCkgcmV0dXJuIHMuU3Vic3RyaW5nKDQsIGRhc2ggLSA0KTsKICAgICAgICAgICAgcmV0dXJuIHMuTGVuZ3RoIDw9IDMyID8gcyA6IHMuU3Vic3RyaW5nKDAsIDMyKTsKICAgICAgICB9CgogICAgICAgIHB1YmxpYyBzdHJpbmcgTGFzdEVycm9yIHsgZ2V0IHsgcmV0dXJuIF9sYXN0RXJyb3I7IH0gfQogICAgfQp9Cg==
+using System;
+using System.Collections.Generic;
+using System.Runtime.InteropServices;
+using System.Threading;
+
+namespace MouseMeter
+{
+    /// <summary>
+    /// Reads battery levels for peripherals Windows already knows about (BLE GATT battery service,
+    /// Bluetooth HID, HFP headsets). No vendor protocol involved, so it covers keyboards and
+    /// headsets that the dongle protocol cannot describe.
+    /// </summary>
+    public class SystemBatterySource : IBatterySource
+    {
+        public string Name { get { return "Windows 电池接口"; } }
+
+        readonly Func<bool> _enabled;
+        readonly Func<List<string>> _dongleNames;
+        DateTime _lastEnumerate = DateTime.MinValue;
+        List<PnpDevice> _cache = new List<PnpDevice>();
+        string _lastError = "";
+
+        /// <param name="dongleNames">names of devices already reported through a live dongle; those must
+        /// not be duplicated from the (cached) Windows view.</param>
+        public SystemBatterySource(Func<bool> enabled, Func<List<string>> dongleNames)
+        {
+            _enabled = enabled;
+            _dongleNames = dongleNames;
+        }
+
+        public List<Reading> Read()
+        {
+            var list = new List<Reading>();
+            if (!_enabled()) return list;
+
+            // enumerating the device tree is not free; once a minute is plenty and keeps
+            // the 15 s "charging" cadence from hammering setupapi.
+            List<PnpDevice> devices;
+            if ((DateTime.Now - _lastEnumerate).TotalSeconds < 45 && _cache.Count > 0)
+            {
+                devices = _cache;
+            }
+            else
+            {
+                try { devices = PnpBattery.Enumerate(); }
+                catch (Exception ex) { _lastError = ex.Message; devices = _cache; }
+                _cache = devices;
+                _lastEnumerate = DateTime.Now;
+            }
+
+            List<string> owned = null;
+            try { if (_dongleNames != null) owned = _dongleNames(); } catch { }
+
+            for (int i = 0; i < devices.Count; i++)
+            {
+                var d = devices[i];
+                if (!d.Connected) continue;
+                if (owned != null && d.BatterySource != "HFP" && MatchesAny(d.FriendlyName, owned)) continue;
+
+                string kind = DeviceHeuristics.FromName(d.FriendlyName);
+                if (kind == null && d.IsAudio) kind = DeviceKind.Headset;
+                if (kind == null) continue;   // unknown gadgets are left to the vendor probe
+                // level -1 is allowed for headsets: the device is connected, Windows just has no
+                // percentage yet. The UI shows "电量未知" instead of inventing a number.
+                if (d.Level < 0 && kind != DeviceKind.Headset) continue;
+
+                var r = new Reading();
+                r.Id = "sys|" + d.InstanceId.ToLowerInvariant();
+                r.Kind = kind;
+                r.DeviceName = string.IsNullOrEmpty(d.FriendlyName) ? AutoName(kind) : d.FriendlyName;
+                r.Model = "";
+                r.Level = d.Level;
+                r.Charging = false;           // the generic battery interface does not report charging
+                r.Transport = d.Transport;
+                r.HardwareId = ShortId(d.InstanceId);
+                r.Source = Name;
+                r.At = DateTime.Now;
+                list.Add(r);
+            }
+            return list;
+        }
+
+        static bool MatchesAny(string name, List<string> owned)
+        {
+            if (string.IsNullOrEmpty(name)) return false;
+            for (int i = 0; i < owned.Count; i++)
+            {
+                string o = (owned[i] ?? "").Trim();
+                if (o.Length < 3) continue;
+                if (string.Equals(name.Trim(), o, StringComparison.OrdinalIgnoreCase)) return true;
+                if (name.IndexOf(o, StringComparison.OrdinalIgnoreCase) >= 0) return true;
+            }
+            return false;
+        }
+
+        static string AutoName(string kind)
+        {
+            if (kind == DeviceKind.Keyboard) return "键盘";
+            if (kind == DeviceKind.Headset) return "耳机";
+            return "鼠标";
+        }
+
+        /// <summary>BLE instance ids carry a 12 hex digit address; show that, it is what users match.</summary>
+        public static string ShortId(string instanceId)
+        {
+            if (string.IsNullOrEmpty(instanceId)) return "";
+            string s = instanceId;
+            int dash = s.IndexOf('-');
+            if (s.StartsWith("BLE#", StringComparison.OrdinalIgnoreCase) && dash > 4) return s.Substring(4, dash - 4);
+            return s.Length <= 32 ? s : s.Substring(0, 32);
+        }
+
+        public string LastError { get { return _lastError; } }
+    }
+}

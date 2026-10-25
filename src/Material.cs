@@ -1,1 +1,59 @@
-dXNpbmcgU3lzdGVtOwoKbmFtZXNwYWNlIE1vdXNlTWV0ZXIKewogICAgLy8vIDxzdW1tYXJ5PgogICAgLy8vIFB1cmUgZGVjaXNpb25zIGJlaGluZCB0aGUgd2lkZ2V0J3MgbWF0ZXJpYWwgKGJsdXIpIGxheWVyLiBLZXB0IGFwYXJ0IGZyb20gPHNlZSBjcmVmPSJIdWRGb3JtIi8+CiAgICAvLy8gb24gcHVycG9zZTogZXZlcnl0aGluZyBoZXJlIGNhbiBiZSBhc3NlcnRlZCBpbiB0aGUgdGVzdCBydW5uZXIsIHdoaWNoIGxvYWRzIHdpdGhvdXQgYQogICAgLy8vIG1lc3NhZ2UgbG9vcCBhbmQgd291bGQgb3RoZXJ3aXNlIGRyYWcgV2luRm9ybXMgaW5pdGlhbGlzYXRpb24gaW50byBhIGNvbnNvbGUgdGVzdC4KICAgIC8vLyA8L3N1bW1hcnk+CiAgICBwdWJsaWMgc3RhdGljIGNsYXNzIE1hdGVyaWFsCiAgICB7CiAgICAgICAgLy8vIDxzdW1tYXJ5PlNvbGlkIGNhcmQ6IG5vIGJsdXIgcmVxdWVzdGVkLjwvc3VtbWFyeT4KICAgICAgICBwdWJsaWMgY29uc3QgaW50IFNvbGlkID0gMDsKCiAgICAgICAgLy8vIDxzdW1tYXJ5PkJsdXIgdmlhIFNldFdpbmRvd0NvbXBvc2l0aW9uQXR0cmlidXRlKEFDQ0VOVF9FTkFCTEVfQUNSWUxJQ0JMVVJCRUhJTkQpLjwvc3VtbWFyeT4KICAgICAgICBwdWJsaWMgY29uc3QgaW50IEFjY2VudCA9IDE7CgogICAgICAgIC8vLyA8c3VtbWFyeT5CbHVyIHZpYSBEd21TZXRXaW5kb3dBdHRyaWJ1dGUoRFdNV0FfU1lTVEVNQkFDS0RST1BfVFlQRSkuPC9zdW1tYXJ5PgogICAgICAgIHB1YmxpYyBjb25zdCBpbnQgQmFja2Ryb3AgPSAyOwoKICAgICAgICAvLy8gPHN1bW1hcnk+CiAgICAgICAgLy8vIFdoaWNoIGxheWVyIHRvIGFzayBmb3IuIFRoZSBvcmRlciBvZiB0aGUgY2hlY2tzIGlzIHRoZSBmYWxsYmFjayBjaGFpbiwgYW5kIGVhY2gKICAgICAgICAvLy8gZ3VhcmQgZXhpc3RzIGZvciBhIGNvbmNyZXRlIGZhaWx1cmUgd2UgaGF2ZSBzZWVuOgogICAgICAgIC8vLwogICAgICAgIC8vLyAgIDEwMCUgICAgICAgICAgICAgdGhlIHVzZXIgYXNrZWQgZm9yIGEgcGxhaW4gY2FyZDsgaG9ub3VyIGl0IGluc3RlYWQgb2Ygc2Vjb25kLWd1ZXNzaW5nCiAgICAgICAgLy8vICAgdHJhbnNwYXJlbmN5IG9mZiBEV00gaWdub3JlcyB0aGUgYWNjZW50IHBvbGljeSwgbGVhdmluZyBhbiB1bnJlYWRhYmxlIHNsYWIKICAgICAgICAvLy8gICBubyBhY3J5bGljICAgICAgIFdpbmRvd3MgMTAgMTcwOSBhbmQgb2xkZXIgaGFzIG5laXRoZXIgQVBJCiAgICAgICAgLy8vICAgYmFja2Ryb3AgICAgICAgICBXaW4xMSAyMkgyKzsgb2xkZXIgV2luMTAga2VlcHMgd29ya2luZyB0aHJvdWdoIHRoZSBhY2NlbnQgcG9saWN5CiAgICAgICAgLy8vIDwvc3VtbWFyeT4KICAgICAgICBwdWJsaWMgc3RhdGljIGludCBQaWNrKGludCBodWRPcGFjaXR5LCBib29sIHRyYW5zcGFyZW5jeU9uLCBib29sIGFjcnlsaWNPaywgYm9vbCBiYWNrZHJvcE9rKQogICAgICAgIHsKICAgICAgICAgICAgaWYgKGh1ZE9wYWNpdHkgPj0gMTAwKSByZXR1cm4gU29saWQ7CiAgICAgICAgICAgIGlmICghdHJhbnNwYXJlbmN5T24pIHJldHVybiBTb2xpZDsKICAgICAgICAgICAgaWYgKCFhY3J5bGljT2spIHJldHVybiBTb2xpZDsKICAgICAgICAgICAgcmV0dXJuIGJhY2tkcm9wT2sgPyBCYWNrZHJvcCA6IEFjY2VudDsKICAgICAgICB9CgogICAgICAgIC8vLyA8c3VtbWFyeT4KICAgICAgICAvLy8gU2xpZGVyICg1NS4uOTkpIHRvIHRpbnQgYWxwaGEuIFRoZSBsb3cgZW5kIGhhcyB0byBzdGF5IGNsZWFybHkgc2VlLXRocm91Z2gg4oCUIHRoYXQgaXMKICAgICAgICAvLy8gdGhlIHdob2xlIHBvaW50IG9mIHRoZSBtYXRlcmlhbCDigJQgd2hpbGUgdGhlIGhpZ2ggZW5kIHN0aWxsIGhhcyB0byByZWFkIGFzIGEgY2FyZAogICAgICAgIC8vLyByYXRoZXIgdGhhbiBhIGhvbGUgaW4gdGhlIGRlc2t0b3AsIGhlbmNlIHRoZSAxMzAuLjIyOCB3aW5kb3cgaW5zdGVhZCBvZiAwLi4yNTUuCiAgICAgICAgLy8vIDwvc3VtbWFyeT4KICAgICAgICBwdWJsaWMgc3RhdGljIGludCBUaW50QWxwaGEoaW50IGh1ZE9wYWNpdHksIGJvb2wgZGFyaykKICAgICAgICB7CiAgICAgICAgICAgIGludCBwY3QgPSBNYXRoLk1heCg1NSwgTWF0aC5NaW4oOTksIGh1ZE9wYWNpdHkpKTsKICAgICAgICAgICAgaW50IGEgPSAoaW50KU1hdGguUm91bmQoMTMwICsgKHBjdCAtIDU1KSAqICgyMjggLSAxMzApIC8gNDQuMCk7CiAgICAgICAgICAgIC8vIExpZ2h0IHRleHQgb24gYSBicmlnaHQgd2FsbHBhcGVyIGlzIHRoZSBmYWlsdXJlIG1vZGUgY2FsbGVkIG91dCBpbiB0aGUgcm9hZG1hcDsKICAgICAgICAgICAgLy8gYSB0aGluIGRhcmsgdGludCBzaW1wbHkgZGlzYXBwZWFycyBhZ2FpbnN0IGJ1c3kgY29udGVudCwgc28gZ2l2ZSBpdCBleHRyYSBib2R5LgogICAgICAgICAgICBpZiAoZGFyaykgYSA9IE1hdGguTWluKDI1NSwgYSArIDIyKTsKICAgICAgICAgICAgcmV0dXJuIGE7CiAgICAgICAgfQoKICAgICAgICAvLy8gPHN1bW1hcnk+RFdNIHRpbnQgd29yZCwgMHhBQUJCR0dSUi4gU3dhcHBpbmcgUiBhbmQgQiBoZXJlIGlzIGludmlzaWJsZSBpbiByZXZpZXcuPC9zdW1tYXJ5PgogICAgICAgIHB1YmxpYyBzdGF0aWMgaW50IFRpbnRXb3JkKGludCBhbHBoYSwgaW50IHIsIGludCBnLCBpbnQgYikKICAgICAgICB7CiAgICAgICAgICAgIHJldHVybiAoKGFscGhhICYgMHhGRikgPDwgMjQpIHwgKChyICYgMHhGRikgPDwgMTYpIHwgKChnICYgMHhGRikgPDwgOCkgfCAoYiAmIDB4RkYpOwogICAgICAgIH0KICAgIH0KfQo=
+using System;
+
+namespace MouseMeter
+{
+    /// <summary>
+    /// Pure decisions behind the widget's material (blur) layer. Kept apart from <see cref="HudForm"/>
+    /// on purpose: everything here can be asserted in the test runner, which loads without a
+    /// message loop and would otherwise drag WinForms initialisation into a console test.
+    /// </summary>
+    public static class Material
+    {
+        /// <summary>Solid card: no blur requested.</summary>
+        public const int Solid = 0;
+
+        /// <summary>Blur via SetWindowCompositionAttribute(ACCENT_ENABLE_ACRYLICBLURBEHIND).</summary>
+        public const int Accent = 1;
+
+        /// <summary>Blur via DwmSetWindowAttribute(DWMWA_SYSTEMBACKDROP_TYPE).</summary>
+        public const int Backdrop = 2;
+
+        /// <summary>
+        /// Which layer to ask for. The order of the checks is the fallback chain, and each
+        /// guard exists for a concrete failure we have seen:
+        ///
+        ///   100%             the user asked for a plain card; honour it instead of second-guessing
+        ///   transparency off DWM ignores the accent policy, leaving an unreadable slab
+        ///   no acrylic       Windows 10 1709 and older has neither API
+        ///   backdrop         Win11 22H2+; older Win10 keeps working through the accent policy
+        /// </summary>
+        public static int Pick(int hudOpacity, bool transparencyOn, bool acrylicOk, bool backdropOk)
+        {
+            if (hudOpacity >= 100) return Solid;
+            if (!transparencyOn) return Solid;
+            if (!acrylicOk) return Solid;
+            return backdropOk ? Backdrop : Accent;
+        }
+
+        /// <summary>
+        /// Slider (55..99) to tint alpha. The low end has to stay clearly see-through — that is
+        /// the whole point of the material — while the high end still has to read as a card
+        /// rather than a hole in the desktop, hence the 130..228 window instead of 0..255.
+        /// </summary>
+        public static int TintAlpha(int hudOpacity, bool dark)
+        {
+            int pct = Math.Max(55, Math.Min(99, hudOpacity));
+            int a = (int)Math.Round(130 + (pct - 55) * (228 - 130) / 44.0);
+            // Light text on a bright wallpaper is the failure mode called out in the roadmap;
+            // a thin dark tint simply disappears against busy content, so give it extra body.
+            if (dark) a = Math.Min(255, a + 22);
+            return a;
+        }
+
+        /// <summary>DWM tint word, 0xAABBGGRR. Swapping R and B here is invisible in review.</summary>
+        public static int TintWord(int alpha, int r, int g, int b)
+        {
+            return ((alpha & 0xFF) << 24) | ((r & 0xFF) << 16) | ((g & 0xFF) << 8) | (b & 0xFF);
+        }
+    }
+}

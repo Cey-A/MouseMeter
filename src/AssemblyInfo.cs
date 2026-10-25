@@ -1,1 +1,15 @@
-dXNpbmcgU3lzdGVtLlJlZmxlY3Rpb247CgovLyBTaG93biBpbiBFeHBsb3JlcidzIFByb3BlcnRpZXMg4oaSIERldGFpbHMgZm9yIE1vdXNlTWV0ZXIuZXhlLgovLyBDb2RlRE9NIGhhcyBubyBjc3Byb2ogdG8gcmVhZCBhIHZlcnNpb24gZnJvbSwgc28gdGhpcyBmaWxlIGlzIHRoZSBzaW5nbGUgc291cmNlIG9mIHRydXRoOwovLyBrZWVwIGl0IGluIHN0ZXAgd2l0aCB0aGUgIjMuMCIgYmFkZ2UgaW4gU2V0dGluZ3NGb3JtLgovLwovLyBOb3RlOiBDb2RlRE9NIGRlcml2ZXMgdGhlIGFzc2VtYmx5ICppZGVudGl0eSogZnJvbSB0aGUgb3V0cHV0IGZpbGUgbmFtZSAoTW91c2VNZXRlci5leGUpLAovLyBzbyB0aGVyZSBpcyBubyBBc3NlbWJseU5hbWUgYXR0cmlidXRlIGhlcmUg4oCUIGFkZGluZyBvbmUgd291bGQgYmUgaWdub3JlZC4KW2Fzc2VtYmx5OiBBc3NlbWJseVRpdGxlKCJNb3VzZU1ldGVyIildClthc3NlbWJseTogQXNzZW1ibHlEZXNjcmlwdGlvbigi5qGM6Z2i5aSW6K6+55S16YeP5oyC5Lu277ya55u06K+7IDIuNEcg5o6l5pS25ZmoIEhJRCDmiqXmlofvvIzlubbmsYfmgLvns7vnu5/nlLXmsaDmjqXlj6MiKV0KW2Fzc2VtYmx5OiBBc3NlbWJseVByb2R1Y3QoIk1vdXNlTWV0ZXIiKV0KW2Fzc2VtYmx5OiBBc3NlbWJseUNvbXBhbnkoIiIpXQpbYXNzZW1ibHk6IEFzc2VtYmx5Q29weXJpZ2h0KCIiKV0KW2Fzc2VtYmx5OiBBc3NlbWJseVZlcnNpb24oIjMuMC4wLjAiKV0KW2Fzc2VtYmx5OiBBc3NlbWJseUZpbGVWZXJzaW9uKCIzLjAuMC4wIildCg==
+using System.Reflection;
+
+// Shown in Explorer's Properties → Details for MouseMeter.exe.
+// CodeDOM has no csproj to read a version from, so this file is the single source of truth;
+// keep it in step with the "3.0" badge in SettingsForm.
+//
+// Note: CodeDOM derives the assembly *identity* from the output file name (MouseMeter.exe),
+// so there is no AssemblyName attribute here — adding one would be ignored.
+[assembly: AssemblyTitle("MouseMeter")]
+[assembly: AssemblyDescription("桌面外设电量挂件：直读 2.4G 接收器 HID 报文，并汇总系统电池接口")]
+[assembly: AssemblyProduct("MouseMeter")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyCopyright("")]
+[assembly: AssemblyVersion("3.0.0.0")]
+[assembly: AssemblyFileVersion("3.0.0.0")]

@@ -1,1 +1,529 @@
-77u/dXNpbmcgU3lzdGVtOwp1c2luZyBTeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYzsKdXNpbmcgU3lzdGVtLkRyYXdpbmc7CnVzaW5nIFN5c3RlbS5EcmF3aW5nLkRyYXdpbmcyRDsKdXNpbmcgU3lzdGVtLlJ1bnRpbWUuSW50ZXJvcFNlcnZpY2VzOwp1c2luZyBTeXN0ZW0uV2luZG93cy5Gb3JtczsKCm5hbWVzcGFjZSBNb3VzZU1ldGVyCnsKICAgIC8vLyA8c3VtbWFyeT4KICAgIC8vLyBGcmFtZWxlc3MgZGVza3RvcCB3aWRnZXQuIHYzIHNob3dzIG9uZSByb3cgcGVyIGRldmljZSAobW91c2UgLyBrZXlib2FyZCAvIGhlYWRzZXQpIGluc3RlYWQKICAgIC8vLyBvZiBhIHNpbmdsZSBudW1iZXIsIGFuZCBncm93cyAvIHNocmlua3Mgd2l0aCB0aGUgZGV2aWNlIGNvdW50LgogICAgLy8vCiAgICAvLy8gRHJhZyBhbnl3aGVyZSB0byBtb3ZlLCB3aGVlbCB0byBzY3JvbGwgd2hlbiB0aGVyZSBhcmUgbW9yZSBkZXZpY2VzIHRoYW4gZml0LAogICAgLy8vIGRvdWJsZSBjbGljayBvcGVucyBzZXR0aW5ncywgcmlnaHQgY2xpY2sgaGFzIHRoZSBtZW51LgogICAgLy8vIDwvc3VtbWFyeT4KICAgIHB1YmxpYyBjbGFzcyBIdWRGb3JtIDogRm9ybQogICAgewogICAgICAgIGNvbnN0IGludCBXSURUSCA9IDE5NjsKICAgICAgICBjb25zdCBpbnQgSEVBREVSX0ggPSAzNDsKICAgICAgICBjb25zdCBpbnQgUk9XX0ggPSA2NDsKICAgICAgICBjb25zdCBpbnQgRk9PVEVSX0ggPSA4OwogICAgICAgIGNvbnN0IGludCBNQVhfUk9XUyA9IDM7CgogICAgICAgIHJlYWRvbmx5IFNldHRpbmdzIF9jZmc7CiAgICAgICAgUGFsZXR0ZSBfcDsKCiAgICAgICAgTGlzdDxSZWFkaW5nPiBfcm93cyA9IG5ldyBMaXN0PFJlYWRpbmc+KCk7CiAgICAgICAgYm9vbCBfaGFzOwogICAgICAgIGJvb2wgX3N0YWxlOwogICAgICAgIGludCBfbG93ID0gMjA7CiAgICAgICAgaW50IF9zY3JvbGw7CgogICAgICAgIGJvb2wgX2RyYWdnaW5nOwogICAgICAgIFBvaW50IF9kcmFnT3JpZ2luOwogICAgICAgIGJvb2wgX3Bvc2l0aW9uZWQ7CiAgICAgICAgaW50IF9kcGkgPSA5NjsKCiAgICAgICAgYm9vbCBfaG92ZXI7CiAgICAgICAgZG91YmxlIF9ob3ZlckFuaW07CiAgICAgICAgU3lzdGVtLldpbmRvd3MuRm9ybXMuVGltZXIgX2hvdmVyVGltZXI7CgogICAgICAgIC8vIE1hdGVyaWFsIHN0YXRlLiAwID0gc29saWQgY2FyZCAoYW55IE9TLCB0cmFuc3BhcmVuY3kgZGlzYWJsZWQsIG9yIHVzZXIgc2V0IDEwMCUpLAogICAgICAgIC8vIDEgPSBBY3J5bGljIHZpYSBXQ0FfQUNDRU5UX1BPTElDWSwgMiA9IEFjcnlsaWMgdmlhIERXTVdBX1NZU1RFTUJBQ0tEUk9QX1RZUEUuCiAgICAgICAgLy8gUmVzb2x2ZWQgb25jZSBwZXIgaGFuZGxlIGFuZCByZS1yZXNvbHZlZCB3aGVuIFdNX1RIRU1FQ0hBTkdFRCAvIFdNX0RXTUNPTVBPU0lUSU9OQ0hBTkdFRAogICAgICAgIC8vIHRlbGxzIHVzIHRoZSB1c2VyIHRvZ2dsZWQgIumAj+aYjuaViOaenCIgaW4gU2V0dGluZ3MuCiAgICAgICAgaW50IF9tYXRlcmlhbDsKICAgICAgICBib29sIF90cmFuc3BhcmVuY3lPbiA9IHRydWU7CgogICAgICAgIHB1YmxpYyBldmVudCBFdmVudEhhbmRsZXIgT3BlblNldHRpbmdzUmVxdWVzdGVkOwogICAgICAgIHB1YmxpYyBldmVudCBFdmVudEhhbmRsZXIgUmVmcmVzaFJlcXVlc3RlZDsKICAgICAgICBwdWJsaWMgZXZlbnQgRXZlbnRIYW5kbGVyIEhpZGVSZXF1ZXN0ZWQ7CiAgICAgICAgcHVibGljIGV2ZW50IEV2ZW50SGFuZGxlciBFeGl0UmVxdWVzdGVkOwoKICAgICAgICBbRGxsSW1wb3J0KCJ1c2VyMzIuZGxsIildCiAgICAgICAgc3RhdGljIGV4dGVybiB1aW50IEdldERwaUZvcldpbmRvdyhJbnRQdHIgaHduZCk7CgogICAgICAgIHB1YmxpYyBIdWRGb3JtKFNldHRpbmdzIGNmZykKICAgICAgICB7CiAgICAgICAgICAgIF9jZmcgPSBjZmc7CiAgICAgICAgICAgIF9wID0gUmVzb2x2ZShjZmcuSHVkVGhlbWUpOwoKICAgICAgICAgICAgRm9ybUJvcmRlclN0eWxlID0gRm9ybUJvcmRlclN0eWxlLk5vbmU7CiAgICAgICAgICAgIFNob3dJblRhc2tiYXIgPSBmYWxzZTsKICAgICAgICAgICAgVG9wTW9zdCA9IHRydWU7CiAgICAgICAgICAgIFN0YXJ0UG9zaXRpb24gPSBGb3JtU3RhcnRQb3NpdGlvbi5NYW51YWw7CiAgICAgICAgICAgIERvdWJsZUJ1ZmZlcmVkID0gdHJ1ZTsKICAgICAgICAgICAgQXV0b1NjYWxlTW9kZSA9IEF1dG9TY2FsZU1vZGUuTm9uZTsKICAgICAgICAgICAgU2V0U3R5bGUoQ29udHJvbFN0eWxlcy5PcHRpbWl6ZWREb3VibGVCdWZmZXIgfCBDb250cm9sU3R5bGVzLkFsbFBhaW50aW5nSW5XbVBhaW50IHwKICAgICAgICAgICAgICAgICAgICAgQ29udHJvbFN0eWxlcy5Vc2VyUGFpbnQgfCBDb250cm9sU3R5bGVzLlN1cHBvcnRzVHJhbnNwYXJlbnRCYWNrQ29sb3IsIHRydWUpOwogICAgICAgICAgICBCYWNrQ29sb3IgPSBfcC5DYXJkOwogICAgICAgICAgICBDdXJzb3IgPSBDdXJzb3JzLkhhbmQ7CgogICAgICAgICAgICBIb29rTWVudSgpOwogICAgICAgIH0KCiAgICAgICAgcHVibGljIFBhbGV0dGUgUGFsZXR0ZSB7IGdldCB7IHJldHVybiBfcDsgfSB9CgogICAgICAgIHN0YXRpYyBQYWxldHRlIFJlc29sdmUoc3RyaW5nIG1vZGUpCiAgICAgICAgewogICAgICAgICAgICBpZiAobW9kZSA9PSAibGlnaHQiKSByZXR1cm4gVGhlbWUuTGlnaHQoKTsKICAgICAgICAgICAgaWYgKG1vZGUgPT0gImRhcmsiKSByZXR1cm4gVGhlbWUuRGFyaygpOwogICAgICAgICAgICByZXR1cm4gVGhlbWUuU3lzdGVtVXNlc0xpZ2h0KCkgPyBUaGVtZS5MaWdodCgpIDogVGhlbWUuRGFyaygpOwogICAgICAgIH0KCiAgICAgICAgZmxvYXQgU2YgeyBnZXQgeyByZXR1cm4gX2RwaSAvIDk2ZjsgfSB9CgogICAgICAgIHB1YmxpYyB2b2lkIEFwcGx5VGhlbWUoc3RyaW5nIG1vZGUpCiAgICAgICAgewogICAgICAgICAgICBfcCA9IG1vZGUgPT0gImxpZ2h0IiA/IFRoZW1lLkxpZ2h0KCkgOiBUaGVtZS5EYXJrKCk7CiAgICAgICAgICAgIEJhY2tDb2xvciA9IF9tYXRlcmlhbCAhPSBNYXRlcmlhbC5Tb2xpZCA/IENvbG9yLlRyYW5zcGFyZW50IDogX3AuQ2FyZDsKICAgICAgICAgICAgaWYgKENvbnRleHRNZW51U3RyaXAgIT0gbnVsbCkgQ29udGV4dE1lbnVTdHJpcC5SZW5kZXJlciA9IG5ldyBBcHBsZU1lbnVSZW5kZXJlcihfcCk7CiAgICAgICAgICAgIGlmIChfbWF0ZXJpYWwgPT0gTWF0ZXJpYWwuQWNjZW50KSBEd20uQWNjZW50KEhhbmRsZSwgdHJ1ZSwgVGludEFyZ2IoKSwgVGludEFscGhhKCkpOyAgIC8vIHRpbnQgZm9sbG93cyB0aGUgdGhlbWUKICAgICAgICAgICAgSW52YWxpZGF0ZSgpOwogICAgICAgIH0KCiAgICAgICAgaW50IFZpc2libGVSb3dzIHsgZ2V0IHsgcmV0dXJuIE1hdGguTWluKE1BWF9ST1dTLCBNYXRoLk1heCgxLCBfcm93cy5Db3VudCkpOyB9IH0KCiAgICAgICAgaW50IExvZ2ljYWxIZWlnaHQKICAgICAgICB7CiAgICAgICAgICAgIGdldAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBpbnQgbiA9IF9yb3dzLkNvdW50ID09IDAgPyAxIDogVmlzaWJsZVJvd3M7CiAgICAgICAgICAgICAgICByZXR1cm4gSEVBREVSX0ggKyBST1dfSCAqIG4gKyBGT09URVJfSDsKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgcHVibGljIHZvaWQgQXBwbHlTY2FsZSgpCiAgICAgICAgewogICAgICAgICAgICB1aW50IGQgPSAwOwogICAgICAgICAgICB0cnkgeyBkID0gR2V0RHBpRm9yV2luZG93KEhhbmRsZSk7IH0gY2F0Y2ggeyB9CiAgICAgICAgICAgIGlmIChkID49IDk2ICYmIGQgPD0gNDgwKSBfZHBpID0gKGludClkOwoKICAgICAgICAgICAgZG91YmxlIHVzZXJTY2FsZSA9IE1hdGguTWF4KDAuNSwgX2NmZy5IdWRTY2FsZSAvIDEwMC4wKTsKICAgICAgICAgICAgaW50IHcgPSAoaW50KU1hdGguUm91bmQoV0lEVEggKiB1c2VyU2NhbGUgKiBTZik7CiAgICAgICAgICAgIGludCBoID0gKGludClNYXRoLlJvdW5kKExvZ2ljYWxIZWlnaHQgKiB1c2VyU2NhbGUgKiBTZik7CgogICAgICAgICAgICBpZiAoV2lkdGggIT0gdyB8fCBIZWlnaHQgIT0gaCkKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgLy8ga2VlcCB0aGUgdG9wLXJpZ2h0IGNvcm5lciBwaW5uZWQgd2hpbGUgdGhlIGNhcmQgZ3Jvd3MgZG93bndhcmRzCiAgICAgICAgICAgICAgICBpZiAoX3Bvc2l0aW9uZWQpIExvY2F0aW9uID0gbmV3IFBvaW50KFJpZ2h0IC0gdywgVG9wKTsKICAgICAgICAgICAgICAgIFNpemUgPSBuZXcgU2l6ZSh3LCBoKTsKICAgICAgICAgICAgICAgIGlmIChfcG9zaXRpb25lZCkgTG9jYXRpb24gPSBDbGFtcFRvU2NyZWVuKExvY2F0aW9uLCB3LCBoKTsKICAgICAgICAgICAgICAgIFJlYnVpbGRSZWdpb24oKTsKICAgICAgICAgICAgfQoKICAgICAgICAgICAgaWYgKCFfcG9zaXRpb25lZCkKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgdmFyIHdhID0gU2NyZWVuLlByaW1hcnlTY3JlZW4uV29ya2luZ0FyZWE7CiAgICAgICAgICAgICAgICBpbnQgeCA9IF9jZmcuSHVkWCA8IDAgPyB3YS5SaWdodCAtIHcgLSAoaW50KSg0OCAqIFNmKSA6IF9jZmcuSHVkWDsKICAgICAgICAgICAgICAgIGludCB5ID0gX2NmZy5IdWRZIDwgMCA/IHdhLkJvdHRvbSAtIGggLSAoaW50KSgxMjAgKiBTZikgOiBfY2ZnLkh1ZFk7CiAgICAgICAgICAgICAgICBMb2NhdGlvbiA9IENsYW1wVG9TY3JlZW4obmV3IFBvaW50KHgsIHkpLCB3LCBoKTsKICAgICAgICAgICAgICAgIF9wb3NpdGlvbmVkID0gdHJ1ZTsKICAgICAgICAgICAgfQoKICAgICAgICAgICAgT3BhY2l0eSA9IE1hdGVyaWFsT3BhY2l0eSgpOwogICAgICAgIH0KCiAgICAgICAgUG9pbnQgQ2xhbXBUb1NjcmVlbihQb2ludCBwLCBpbnQgdywgaW50IGgpCiAgICAgICAgewogICAgICAgICAgICB2YXIgd2EgPSBTY3JlZW4uRnJvbVBvaW50KHApLldvcmtpbmdBcmVhOwogICAgICAgICAgICBpbnQgeCA9IE1hdGguTWF4KHdhLkxlZnQgKyA4LCBNYXRoLk1pbih3YS5SaWdodCAtIHcgLSA4LCBwLlgpKTsKICAgICAgICAgICAgaW50IHkgPSBNYXRoLk1heCh3YS5Ub3AgKyA4LCBNYXRoLk1pbih3YS5Cb3R0b20gLSBoIC0gOCwgcC5ZKSk7CiAgICAgICAgICAgIHJldHVybiBuZXcgUG9pbnQoeCwgeSk7CiAgICAgICAgfQoKICAgICAgICBjb25zdCBpbnQgV01fVEhFTUVDSEFOR0VEID0gMHgwMzFBOwogICAgICAgIGNvbnN0IGludCBXTV9EV01DT01QT1NJVElPTkNIQU5HRUQgPSAweDAzMUU7CgogICAgICAgIHByb3RlY3RlZCBvdmVycmlkZSB2b2lkIFduZFByb2MocmVmIE1lc3NhZ2UgbSkKICAgICAgICB7CiAgICAgICAgICAgIGJhc2UuV25kUHJvYyhyZWYgbSk7CgogICAgICAgICAgICAvLyBTZXR0aW5ncyAtPiBQZXJzb25hbGlzYXRpb24gLT4gQ29sb3VycyAtPiAiVHJhbnNwYXJlbmN5IGVmZmVjdHMiIGFuZCBzd2l0Y2hpbmcgdGhlCiAgICAgICAgICAgIC8vIHdhbGxwYXBlciBlbmdpbmUgYm90aCBsYW5kIGhlcmUuIFJlLXJlc29sdmUgaW5zdGVhZCBvZiBhc3N1bWluZyB0aGUgc3RhdGUgd2UgcmVhZAogICAgICAgICAgICAvLyBhdCBzdGFydHVwIGlzIHN0aWxsIHRydWU7IGEgc3RhbGUgYWNjZW50IHBvbGljeSBsZWF2ZXMgYW4gb3BhcXVlIGdyZXkgYm94LgogICAgICAgICAgICBpZiAobS5Nc2cgPT0gV01fVEhFTUVDSEFOR0VEIHx8IG0uTXNnID09IFdNX0RXTUNPTVBPU0lUSU9OQ0hBTkdFRCkKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgYm9vbCB3YXMgPSBfdHJhbnNwYXJlbmN5T247CiAgICAgICAgICAgICAgICBfdHJhbnNwYXJlbmN5T24gPSBEd20uVHJhbnNwYXJlbmN5RW5hYmxlZCgpOwogICAgICAgICAgICAgICAgaWYgKHdhcyAhPSBfdHJhbnNwYXJlbmN5T24gfHwgX21hdGVyaWFsID09IE1hdGVyaWFsLlNvbGlkKSBBcHBseU1hdGVyaWFsKCk7CiAgICAgICAgICAgICAgICBlbHNlIGlmIChfbWF0ZXJpYWwgPT0gTWF0ZXJpYWwuQWNjZW50KSBEd20uQWNjZW50KEhhbmRsZSwgdHJ1ZSwgVGludEFyZ2IoKSwgVGludEFscGhhKCkpOwogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBwcm90ZWN0ZWQgb3ZlcnJpZGUgQ3JlYXRlUGFyYW1zIENyZWF0ZVBhcmFtcwogICAgICAgIHsKICAgICAgICAgICAgZ2V0CiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgIHZhciBjcCA9IGJhc2UuQ3JlYXRlUGFyYW1zOwogICAgICAgICAgICAgICAgY3AuQ2xhc3NTdHlsZSB8PSAweDIwMDAwOwogICAgICAgICAgICAgICAgcmV0dXJuIGNwOwogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBwcm90ZWN0ZWQgb3ZlcnJpZGUgdm9pZCBPbkhhbmRsZUNyZWF0ZWQoRXZlbnRBcmdzIGUpCiAgICAgICAgewogICAgICAgICAgICBiYXNlLk9uSGFuZGxlQ3JlYXRlZChlKTsKICAgICAgICAgICAgRHdtLlJvdW5kZWRDb3JuZXJzKEhhbmRsZSwgdHJ1ZSk7CiAgICAgICAgICAgIEFwcGx5TWF0ZXJpYWwoKTsKICAgICAgICB9CgogICAgICAgIC8vIC0tLS0tLS0tLS0gbWF0ZXJpYWwgLS0tLS0tLS0tLQoKICAgICAgICAvLy8gPHN1bW1hcnk+CiAgICAgICAgLy8vIERlY2lkZXMgaG93IHRoZSBjYXJkIGlzIGNvbXBvc2l0ZWQuIFRoZSBzbGlkZXIgaXMgdGhlIHVzZXIncyAiaG93IHNvbGlkIGRvIEkgd2FudCBpdCIKICAgICAgICAvLy8ga25vYiBhbmQgbWVhbnMgZGlmZmVyZW50IHRoaW5ncyBwZXIgbGF5ZXI6CiAgICAgICAgLy8vCiAgICAgICAgLy8vICAgMTAwJSAgLT4gc29saWQgY2FyZCwgbm8gYmx1ciBhdCBhbGwgKGFsc28gd2hhdCB5b3UgZ2V0IG9uIFdpbjEwIC8gdHJhbnNwYXJlbmN5IG9mZikKICAgICAgICAvLy8gICA1NS05OSAtPiBBY3J5bGljOyB0aGUgc2xpZGVyIGJlY29tZXMgdGhlIHRpbnQgYWxwaGEgKm9uIHRvcCBvZiogdGhlIGJsdXIsIHNvIDU1JSBpcwogICAgICAgIC8vLyAgICAgICAgICAgIGEgdmVyeSBzZWUtdGhyb3VnaCBmcm9zdGVkIHBhbmUgYW5kIDk5JSBpcyBhIGJhcmVseSBibHVycmVkIHNvbGlkLWlzaCBjYXJkLgogICAgICAgIC8vLwogICAgICAgIC8vLyBGYWxsaW5nIGJhY2sgaXMgZGVsaWJlcmF0ZSByYXRoZXIgdGhhbiBiZXN0LWVmZm9ydDogYSBoYWxmLWFwcGxpZWQgYWNjZW50IHBvbGljeSBsZWF2ZXMKICAgICAgICAvLy8gYW4gdW5yZWFkYWJsZSBibGFjayByZWN0YW5nbGUsIHdoaWNoIGlzIHdvcnNlIHRoYW4gdGhlIGZsYXQgY2FyZCB3ZSBoYWQgYmVmb3JlLgogICAgICAgIC8vLyA8L3N1bW1hcnk+CiAgICAgICAgdm9pZCBBcHBseU1hdGVyaWFsKCkKICAgICAgICB7CiAgICAgICAgICAgIGlmICghSXNIYW5kbGVDcmVhdGVkKSByZXR1cm47CgogICAgICAgICAgICBfdHJhbnNwYXJlbmN5T24gPSBEd20uVHJhbnNwYXJlbmN5RW5hYmxlZCgpOwogICAgICAgICAgICAvLyBCYWNrZHJvcCBpcyBwcmVmZXJyZWQgd2hlbiBhdmFpbGFibGU6IGl0IGlzIHRoZSBjb21wb3NpdG9yJ3Mgb3duIG1hdGVyaWFsLCBzbyBpdAogICAgICAgICAgICAvLyBwaWNrcyB1cCB0aGUgd2FsbHBhcGVyLCB0aGUgdGhlbWUgYWNjZW50IGFuZCB0aGUgdXNlcidzIGNvbnRyYXN0IHNldHRpbmdzIHdpdGhvdXQKICAgICAgICAgICAgLy8gdXMgaGFuZC10dW5pbmcgYSB0aW50LiBUaGUgV2luMTAgYWNjZW50IHBvbGljeSBzdGF5cyBhcyB0aGUgZmFsbGJhY2suCiAgICAgICAgICAgIGludCB3YW50ID0gTWF0ZXJpYWwuUGljayhfY2ZnLkh1ZE9wYWNpdHksIF90cmFuc3BhcmVuY3lPbiwKICAgICAgICAgICAgICAgIER3bS5BY3J5bGljU3VwcG9ydGVkKCksIER3bS5CYWNrZHJvcFN1cHBvcnRlZCgpKTsKCiAgICAgICAgICAgIF9tYXRlcmlhbCA9IHdhbnQ7CgogICAgICAgICAgICBpZiAoX21hdGVyaWFsID09IE1hdGVyaWFsLkJhY2tkcm9wKQogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAvLyBXU19FWF9MQVlFUkVEICh3aGF0IEZvcm0uT3BhY2l0eSB1c2VzKSBhbmQgYSBEV00gYmFja2Ryb3AgZmlnaHQgZWFjaCBvdGhlcjoKICAgICAgICAgICAgICAgIC8vIHRoZSBiYWNrZHJvcCBpcyBjb21wb3NpdGVkIGJlbG93IHRoZSBsYXllcmVkIHN1cmZhY2UsIHNvIHRoZSB3aW5kb3cgbG9va3MKICAgICAgICAgICAgICAgIC8vIGZsYXQtYnV0LXdhc2hlZC1vdXQuIEF0IGZ1bGwgb3BhY2l0eSB3ZSBkcm9wIHRoZSBsYXllcmVkIHN0eWxlIGVudGlyZWx5LgogICAgICAgICAgICAgICAgRHdtLkV4dGVuZEZyYW1lKEhhbmRsZSk7CiAgICAgICAgICAgICAgICBpZiAoRHdtLkJhY2tkcm9wKEhhbmRsZSwgMykgIT0gMCkKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICAvLyBUaGUgYXR0cmlidXRlIGlzIGRvY3VtZW50ZWQgYnV0IHJlamVjdGVkIGJ5IHNvbWUgYnVpbGRzIC8gR1BVcy4gUmF0aGVyCiAgICAgICAgICAgICAgICAgICAgLy8gdGhhbiBzaGlwIGEgdHJhbnNwYXJlbnQgd2luZG93IHdpdGggbm90aGluZyBiZWhpbmQgaXQsIGRyb3AgdG8gdGhlCiAgICAgICAgICAgICAgICAgICAgLy8gYWNjZW50IHBvbGljeSwgd2hpY2ggaGFzIGJlZW4gYXJvdW5kIHNpbmNlIFdpbjEwIDE4MDMuCiAgICAgICAgICAgICAgICAgICAgX21hdGVyaWFsID0gTWF0ZXJpYWwuQWNjZW50OwogICAgICAgICAgICAgICAgICAgIER3bS5BY2NlbnQoSGFuZGxlLCB0cnVlLCBUaW50QXJnYigpLCBUaW50QWxwaGEoKSk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBlbHNlIER3bS5BY2NlbnQoSGFuZGxlLCBmYWxzZSk7IC8vIGNsZWFyIGFueSBXQ0EgYWNjZW50IGxlZnQgb3ZlciBmcm9tIGEgZmFsbGJhY2sKICAgICAgICAgICAgfQogICAgICAgICAgICBlbHNlIGlmIChfbWF0ZXJpYWwgPT0gTWF0ZXJpYWwuQWNjZW50KQogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBEd20uRXh0ZW5kRnJhbWUoSGFuZGxlKTsKICAgICAgICAgICAgICAgIER3bS5BY2NlbnQoSGFuZGxlLCB0cnVlLCBUaW50QXJnYigpLCBUaW50QWxwaGEoKSk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxzZQogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBEd20uQWNjZW50KEhhbmRsZSwgZmFsc2UpOwogICAgICAgICAgICAgICAgRHdtLkV4dGVuZEZyYW1lKEhhbmRsZSwgZmFsc2UpOwogICAgICAgICAgICB9CgogICAgICAgICAgICAvLyBPcmRlciBtYXR0ZXJzOiB0aGUgQmFja2Ryb3AgYnJhbmNoIGFib3ZlIG1heSBoYXZlIGRlbW90ZWQgX21hdGVyaWFsIHRvIEFjY2VudCwgYW5kCiAgICAgICAgICAgIC8vIHRoZXJlZm9yZSBhbHNvIHRvIFNvbGlkLiBEZWNpZGluZyB0aGUgc3VyZmFjZSBiZWZvcmUgdGhhdCBoYXBwZW5zIHdvdWxkIGxlYXZlIGEKICAgICAgICAgICAgLy8gdHJhbnNwYXJlbnQgd2luZG93IG9uIHRoZSBzb2xpZCBwYXRoIOKAlCBpLmUuIGFuIGludmlzaWJsZSB3aWRnZXQuCiAgICAgICAgICAgIE9wYWNpdHkgPSBNYXRlcmlhbE9wYWNpdHkoKTsKICAgICAgICAgICAgLy8gVHJhbnNwYXJlbnQgQmFja0NvbG9yIGlzIHdoYXQgbGV0cyB0aGUgRFdNIG1hdGVyaWFsIHNob3cgdGhyb3VnaCBpbiB0aGUgZ2FwcyBvdXIKICAgICAgICAgICAgLy8gb3duIHBhaW50aW5nIGxlYXZlcy4gRm9ybS5PcGFjaXR5ICh0aGUgbGF5ZXJlZCBwYXRoKSBuZWVkcyBhIHJlYWwgY29sb3VyIHRob3VnaCwKICAgICAgICAgICAgLy8gc28gb25seSB0aGUgYmx1ciBwYXRocyBnZXQgdG8gZ28gc2VlLXRocm91Z2guCiAgICAgICAgICAgIEJhY2tDb2xvciA9IF9tYXRlcmlhbCAhPSBNYXRlcmlhbC5Tb2xpZCA/IENvbG9yLlRyYW5zcGFyZW50IDogX3AuQ2FyZDsKICAgICAgICAgICAgLy8gUmVxdWlyZWQgYmVmb3JlIFdpbkZvcm1zIHdpbGwgYWNjZXB0IENvbG9yLlRyYW5zcGFyZW50IGF0IGFsbC4KICAgICAgICAgICAgU2V0U3R5bGUoQ29udHJvbFN0eWxlcy5TdXBwb3J0c1RyYW5zcGFyZW50QmFja0NvbG9yLCB0cnVlKTsKCiAgICAgICAgICAgIFJlYnVpbGRSZWdpb24oKTsKICAgICAgICAgICAgSW52YWxpZGF0ZSgpOwogICAgICAgIH0KCiAgICAgICAgLy8vIDxzdW1tYXJ5Pk9ubHkgdGhlIHNvbGlkIHBhdGggZGltcyB0aGUgd2hvbGUgd2luZG93OyBibHVyIHBhdGhzIGRpbSB2aWEgdGhlIHRpbnQgaW5zdGVhZC48L3N1bW1hcnk+CiAgICAgICAgZG91YmxlIE1hdGVyaWFsT3BhY2l0eSgpCiAgICAgICAgewogICAgICAgICAgICBpZiAoX21hdGVyaWFsICE9IE1hdGVyaWFsLlNvbGlkKSByZXR1cm4gMS4wOwogICAgICAgICAgICByZXR1cm4gTWF0aC5NYXgoMC41NSwgTWF0aC5NaW4oMS4wLCBfY2ZnLkh1ZE9wYWNpdHkgLyAxMDAuMCkpOwogICAgICAgIH0KCiAgICAgICAgLy8vIDxzdW1tYXJ5PkFCR1IgdGludCBmb3IgdGhlIGFjY2VudCBwb2xpY3kg4oCUIERXTSByZWFkcyBpdCBhcyAweEFBQkJHR1JSLjwvc3VtbWFyeT4KICAgICAgICBpbnQgVGludEFyZ2IoKQogICAgICAgIHsKICAgICAgICAgICAgQ29sb3IgYyA9IF9wLklzRGFyayA/IENvbG9yLkZyb21BcmdiKDMyLCAzMiwgMzQpIDogQ29sb3IuRnJvbUFyZ2IoMjUwLCAyNTAsIDI1Mik7CiAgICAgICAgICAgIC8vIFRoZSBzY2FsYXIgcmlkZXMgaW4gdGhlIGhpZ2ggYnl0ZTsgdGhlIGFjY2VudCBwb2xpY3kgbXVsdGlwbGllcyBpdCBieSB0aGUgYWxwaGEuCiAgICAgICAgICAgIHJldHVybiBNYXRlcmlhbC5UaW50V29yZChUaW50QWxwaGEoKSwgYy5SLCBjLkcsIGMuQik7CiAgICAgICAgfQoKICAgICAgICAvLy8gPHN1bW1hcnk+RGVsZWdhdGVzIHRvIDxzZWUgY3JlZj0iTWF0ZXJpYWwiLz4gc28gdGhlIG1hcHBpbmcgc3RheXMgdGVzdGFibGUgb2ZmLVVJLjwvc3VtbWFyeT4KICAgICAgICBpbnQgVGludEFscGhhKCkKICAgICAgICB7CiAgICAgICAgICAgIHJldHVybiBNYXRlcmlhbC5UaW50QWxwaGEoX2NmZy5IdWRPcGFjaXR5LCBfcC5Jc0RhcmspOwogICAgICAgIH0KCiAgICAgICAgLy8vIDxzdW1tYXJ5PgogICAgICAgIC8vLyBUaGUgd2luZG93IHN0YXlzIHJlY3Rhbmd1bGFyIGluIGV2ZXJ5IG1hdGVyaWFsIG1vZGUuIEEgV2luZG93LlJlZ2lvbiBpcyBjbGlwcGVkIGJ5CiAgICAgICAgLy8vIFVTRVIzMiBiZWZvcmUgRFdNIGNvbXBvc2l0ZXMsIHdoaWNoIChhKSBhbGlhc2VzIHRoZSBjb3JuZXJzIGFuZCAoYikgY3V0cyBhIDEgcHggc2VhbQogICAgICAgIC8vLyB3aGVyZSB0aGUgbWF0ZXJpYWwgZW5kcy4gUm91bmRpbmcgaXMgZHJhd24gaW5zdGVhZDogdGhlIGJsdXIgcGF0aHMgZ2V0IGEKICAgICAgICAvLy8gRHdtU2V0V2luZG93QXR0cmlidXRlKDMzKSByb3VuZCBjb3JuZXIgZnJvbSB0aGUgY29tcG9zaXRvciwgdGhlIHNvbGlkIHBhdGggZ2V0cyBhCiAgICAgICAgLy8vIHBhaW50ZWQgc2lsaG91ZXR0ZSBpbiA8c2VlIGNyZWY9Ik9uUGFpbnQiLz4uIFJlLWFwcGxpZWQgb24gcmVzaXplIGJlY2F1c2UgdGhlIGNvcm5lcgogICAgICAgIC8vLyByYWRpdXMgZm9sbG93cyB0aGUgd2luZG93IGhlaWdodC4KICAgICAgICAvLy8gPC9zdW1tYXJ5PgogICAgICAgIHZvaWQgUmVidWlsZFJlZ2lvbigpCiAgICAgICAgewogICAgICAgICAgICBSZWdpb24gPSBudWxsOwogICAgICAgICAgICBEd20uUm91bmRlZENvcm5lcnMoSGFuZGxlLCB0cnVlKTsKICAgICAgICB9CgogICAgICAgIHZvaWQgSG9va01lbnUoKQogICAgICAgIHsKICAgICAgICAgICAgdmFyIG1lbnUgPSBNZW51QnVpbGRlci5DcmVhdGUoX3ApOwoKICAgICAgICAgICAgdmFyIHJlZnJlc2ggPSBNZW51QnVpbGRlci5JdGVtKCLnq4vljbPliLfmlrAiKTsKICAgICAgICAgICAgcmVmcmVzaC5DbGljayArPSBkZWxlZ2F0ZSB7IHZhciBoID0gUmVmcmVzaFJlcXVlc3RlZDsgaWYgKGggIT0gbnVsbCkgaCh0aGlzLCBFdmVudEFyZ3MuRW1wdHkpOyB9OwogICAgICAgICAgICB2YXIgc2V0dGluZ3MgPSBNZW51QnVpbGRlci5JdGVtKCLorr7nva7igKYiKTsKICAgICAgICAgICAgc2V0dGluZ3MuQ2xpY2sgKz0gZGVsZWdhdGUgeyB2YXIgaCA9IE9wZW5TZXR0aW5nc1JlcXVlc3RlZDsgaWYgKGggIT0gbnVsbCkgaCh0aGlzLCBFdmVudEFyZ3MuRW1wdHkpOyB9OwogICAgICAgICAgICB2YXIgaGlkZSA9IE1lbnVCdWlsZGVyLkl0ZW0oIumakOiXj+aMguS7tiIpOwogICAgICAgICAgICBoaWRlLkNsaWNrICs9IGRlbGVnYXRlIHsgdmFyIGggPSBIaWRlUmVxdWVzdGVkOyBpZiAoaCAhPSBudWxsKSBoKHRoaXMsIEV2ZW50QXJncy5FbXB0eSk7IH07CiAgICAgICAgICAgIHZhciBleGl0ID0gTWVudUJ1aWxkZXIuSXRlbSgi6YCA5Ye6IE1vdXNlTWV0ZXIiKTsKICAgICAgICAgICAgZXhpdC5DbGljayArPSBkZWxlZ2F0ZSB7IHZhciBoID0gRXhpdFJlcXVlc3RlZDsgaWYgKGggIT0gbnVsbCkgaCh0aGlzLCBFdmVudEFyZ3MuRW1wdHkpOyB9OwoKICAgICAgICAgICAgbWVudS5JdGVtcy5BZGQocmVmcmVzaCk7CiAgICAgICAgICAgIG1lbnUuSXRlbXMuQWRkKHNldHRpbmdzKTsKICAgICAgICAgICAgbWVudS5JdGVtcy5BZGQoaGlkZSk7CiAgICAgICAgICAgIG1lbnUuSXRlbXMuQWRkKE1lbnVCdWlsZGVyLlNlcCgpKTsKICAgICAgICAgICAgbWVudS5JdGVtcy5BZGQoZXhpdCk7CiAgICAgICAgICAgIENvbnRleHRNZW51U3RyaXAgPSBtZW51OwogICAgICAgIH0KCiAgICAgICAgLy8vIDxzdW1tYXJ5PkZlZWQgdGhlIHdpZGdldCBhIGZyZXNoIHNuYXBzaG90LiBSZS1sYXlzIG91dCB3aGVuIHRoZSBkZXZpY2UgY291bnQgY2hhbmdlcy48L3N1bW1hcnk+CiAgICAgICAgcHVibGljIHZvaWQgVXBkYXRlUmVhZGluZ3MoTGlzdDxSZWFkaW5nPiByb3dzLCBib29sIGhhcywgYm9vbCBzdGFsZSwgaW50IGxvd1RocmVzaG9sZCkKICAgICAgICB7CiAgICAgICAgICAgIF9yb3dzID0gcm93cyA/PyBuZXcgTGlzdDxSZWFkaW5nPigpOwogICAgICAgICAgICBfaGFzID0gaGFzOwogICAgICAgICAgICBfc3RhbGUgPSBzdGFsZTsKICAgICAgICAgICAgX2xvdyA9IGxvd1RocmVzaG9sZDsKICAgICAgICAgICAgaWYgKF9zY3JvbGwgPiBNYXRoLk1heCgwLCBfcm93cy5Db3VudCAtIE1BWF9ST1dTKSkgX3Njcm9sbCA9IE1hdGguTWF4KDAsIF9yb3dzLkNvdW50IC0gTUFYX1JPV1MpOwogICAgICAgICAgICBBcHBseVNjYWxlKCk7ICAgLy8gY2hlYXAgd2hlbiB0aGUgc2l6ZSBkaWQgbm90IGNoYW5nZQogICAgICAgICAgICBJbnZhbGlkYXRlKCk7CiAgICAgICAgfQoKICAgICAgICAvLyAtLS0tLS0tLS0tIGludGVyYWN0aW9uIC0tLS0tLS0tLS0KCiAgICAgICAgcHJvdGVjdGVkIG92ZXJyaWRlIHZvaWQgT25Nb3VzZURvd24oTW91c2VFdmVudEFyZ3MgZSkKICAgICAgICB7CiAgICAgICAgICAgIGJhc2UuT25Nb3VzZURvd24oZSk7CiAgICAgICAgICAgIGlmIChlLkJ1dHRvbiA9PSBNb3VzZUJ1dHRvbnMuTGVmdCkKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgX2RyYWdnaW5nID0gdHJ1ZTsKICAgICAgICAgICAgICAgIF9kcmFnT3JpZ2luID0gZS5Mb2NhdGlvbjsKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgcHJvdGVjdGVkIG92ZXJyaWRlIHZvaWQgT25Nb3VzZU1vdmUoTW91c2VFdmVudEFyZ3MgZSkKICAgICAgICB7CiAgICAgICAgICAgIGJhc2UuT25Nb3VzZU1vdmUoZSk7CiAgICAgICAgICAgIGlmIChfZHJhZ2dpbmcpCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgIHZhciBwID0gUG9pbnRUb1NjcmVlbihlLkxvY2F0aW9uKTsKICAgICAgICAgICAgICAgIExvY2F0aW9uID0gbmV3IFBvaW50KHAuWCAtIF9kcmFnT3JpZ2luLlgsIHAuWSAtIF9kcmFnT3JpZ2luLlkpOwogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBwcm90ZWN0ZWQgb3ZlcnJpZGUgdm9pZCBPbk1vdXNlVXAoTW91c2VFdmVudEFyZ3MgZSkKICAgICAgICB7CiAgICAgICAgICAgIGJhc2UuT25Nb3VzZVVwKGUpOwogICAgICAgICAgICBpZiAoX2RyYWdnaW5nKQogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBfZHJhZ2dpbmcgPSBmYWxzZTsKICAgICAgICAgICAgICAgIF9jZmcuSHVkWCA9IExvY2F0aW9uLlg7CiAgICAgICAgICAgICAgICBfY2ZnLkh1ZFkgPSBMb2NhdGlvbi5ZOwogICAgICAgICAgICAgICAgX2NmZy5TYXZlKCk7CiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIHByb3RlY3RlZCBvdmVycmlkZSB2b2lkIE9uTW91c2VXaGVlbChNb3VzZUV2ZW50QXJncyBlKQogICAgICAgIHsKICAgICAgICAgICAgYmFzZS5Pbk1vdXNlV2hlZWwoZSk7CiAgICAgICAgICAgIGlmIChfcm93cy5Db3VudCA8PSBNQVhfUk9XUykgcmV0dXJuOwogICAgICAgICAgICBpbnQgbWF4ID0gX3Jvd3MuQ291bnQgLSBNQVhfUk9XUzsKICAgICAgICAgICAgaW50IG5leHQgPSBlLkRlbHRhID4gMCA/IF9zY3JvbGwgLSAxIDogX3Njcm9sbCArIDE7CiAgICAgICAgICAgIF9zY3JvbGwgPSBNYXRoLk1heCgwLCBNYXRoLk1pbihtYXgsIG5leHQpKTsKICAgICAgICAgICAgSW52YWxpZGF0ZSgpOwogICAgICAgIH0KCiAgICAgICAgcHJvdGVjdGVkIG92ZXJyaWRlIHZvaWQgT25Eb3VibGVDbGljayhFdmVudEFyZ3MgZSkKICAgICAgICB7CiAgICAgICAgICAgIGJhc2UuT25Eb3VibGVDbGljayhlKTsKICAgICAgICAgICAgdmFyIGggPSBPcGVuU2V0dGluZ3NSZXF1ZXN0ZWQ7CiAgICAgICAgICAgIGlmIChoICE9IG51bGwpIGgodGhpcywgRXZlbnRBcmdzLkVtcHR5KTsKICAgICAgICB9CgogICAgICAgIHByb3RlY3RlZCBvdmVycmlkZSB2b2lkIE9uTW91c2VFbnRlcihFdmVudEFyZ3MgZSkKICAgICAgICB7CiAgICAgICAgICAgIGJhc2UuT25Nb3VzZUVudGVyKGUpOwogICAgICAgICAgICBfaG92ZXIgPSB0cnVlOwogICAgICAgICAgICBBbmltYXRlSG92ZXIoKTsKICAgICAgICB9CgogICAgICAgIHByb3RlY3RlZCBvdmVycmlkZSB2b2lkIE9uTW91c2VMZWF2ZShFdmVudEFyZ3MgZSkKICAgICAgICB7CiAgICAgICAgICAgIGJhc2UuT25Nb3VzZUxlYXZlKGUpOwogICAgICAgICAgICBfaG92ZXIgPSBmYWxzZTsKICAgICAgICAgICAgQW5pbWF0ZUhvdmVyKCk7CiAgICAgICAgfQoKICAgICAgICB2b2lkIEFuaW1hdGVIb3ZlcigpCiAgICAgICAgewogICAgICAgICAgICBpZiAoX2hvdmVyVGltZXIgPT0gbnVsbCkKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgX2hvdmVyVGltZXIgPSBuZXcgU3lzdGVtLldpbmRvd3MuRm9ybXMuVGltZXIoKTsKICAgICAgICAgICAgICAgIF9ob3ZlclRpbWVyLkludGVydmFsID0gMTY7CiAgICAgICAgICAgICAgICBfaG92ZXJUaW1lci5UaWNrICs9IGRlbGVnYXRlCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgZG91YmxlIHRhcmdldCA9IF9ob3ZlciA/IDEgOiAwOwogICAgICAgICAgICAgICAgICAgIGRvdWJsZSBkID0gdGFyZ2V0IC0gX2hvdmVyQW5pbTsKICAgICAgICAgICAgICAgICAgICBpZiAoTWF0aC5BYnMoZCkgPCAwLjA0KSB7IF9ob3ZlckFuaW0gPSB0YXJnZXQ7IF9ob3ZlclRpbWVyLlN0b3AoKTsgfQogICAgICAgICAgICAgICAgICAgIGVsc2UgX2hvdmVyQW5pbSArPSBkICogMC4yNTsKICAgICAgICAgICAgICAgICAgICBJbnZhbGlkYXRlKCk7CiAgICAgICAgICAgICAgICB9OwogICAgICAgICAgICB9CiAgICAgICAgICAgIF9ob3ZlclRpbWVyLlN0YXJ0KCk7CiAgICAgICAgfQoKICAgICAgICAvLyAtLS0tLS0tLS0tIHBhaW50aW5nIC0tLS0tLS0tLS0KCiAgICAgICAgcHJvdGVjdGVkIG92ZXJyaWRlIHZvaWQgT25QYWludChQYWludEV2ZW50QXJncyBlKQogICAgICAgIHsKICAgICAgICAgICAgdmFyIGcgPSBlLkdyYXBoaWNzOwogICAgICAgICAgICBUaGVtZS5Db25maWd1cmUoZyk7CgogICAgICAgICAgICAvLyBFdmVyeSBwYXRoIHBhaW50cyBpdHMgb3duIHB1bmNoZWQgc2lsaG91ZXR0ZTogdGhlIHdpbmRvdyByZWN0YW5nbGUgaXMgd2lkZXIgdGhhbgogICAgICAgICAgICAvLyB0aGUgdmlzaWJsZSBjYXJkIGJlY2F1c2UgRFdNIG5lZWRzIGFuIHVuY2xpcHBlZCBzdXJmYWNlIGZvciB0aGUgbWF0ZXJpYWwsIGFuZCB0aGUKICAgICAgICAgICAgLy8gbGVmdG92ZXIgcGl4ZWxzIG11c3Qgc3RheSBlbXB0eSBvciB0aGUgInJvdW5kZWQiIGNhcmQgc2hvd3Mgc3F1YXJlIHNob3VsZGVycy4KICAgICAgICAgICAgZmxvYXQgcmFkaXVzID0gSGVpZ2h0ICogMC4xMTVmOwogICAgICAgICAgICB2YXIgY2FyZFJlY3QgPSBuZXcgUmVjdGFuZ2xlRigwLjVmLCAwLjVmLCBXaWR0aCAtIDFmLCBIZWlnaHQgLSAxZik7CiAgICAgICAgICAgIHVzaW5nICh2YXIgY2FyZFBhdGggPSBUaGVtZS5Sb3VuZFJlY3QoY2FyZFJlY3QsIHJhZGl1cykpCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgIGlmIChfbWF0ZXJpYWwgIT0gTWF0ZXJpYWwuU29saWQpCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgLy8gSGFsZiBvZiB0aGUgdGludCBsaXZlcyBoZXJlIGFuZCBoYWxmIGluIHRoZSBhY2NlbnQgcG9saWN5IChvciBiYWNrZHJvcCk6CiAgICAgICAgICAgICAgICAgICAgLy8gcGFpbnRpbmcgaXQgYWxsIGluIEdESSB3b3VsZCBtYWtlIHRoZSBibHVyIGludmlzaWJsZSwgcGFpbnRpbmcgbm9uZSB3b3VsZAogICAgICAgICAgICAgICAgICAgIC8vIGxldCB3aGl0ZSB0ZXh0IHNpdCBvbiBhIGJyaWdodCB3YWxscGFwZXIuCiAgICAgICAgICAgICAgICAgICAgaW50IGEgPSAoaW50KU1hdGguUm91bmQoVGludEFscGhhKCkgKiAwLjU1KTsKICAgICAgICAgICAgICAgICAgICB1c2luZyAodmFyIGIgPSBuZXcgU29saWRCcnVzaChDb2xvci5Gcm9tQXJnYihhLCBfcC5DYXJkKSkpCiAgICAgICAgICAgICAgICAgICAgICAgIGcuRmlsbFBhdGgoYiwgY2FyZFBhdGgpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgZWxzZQogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAgIGcuQ2xlYXIoX3AuQ2FyZCk7ICAgLy8gb3BhcXVlIHBhdGg6IG5vdGhpbmcgb3V0c2lkZSB0aGUgcmVjdGFuZ2xlIHRvIHdvcnJ5IGFib3V0CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGZsb2F0IHMgPSBXaWR0aCAvIChmbG9hdClXSURUSDsKICAgICAgICAgICAgZmxvYXQgZnMgPSAoZmxvYXQpKF9jZmcuSHVkU2NhbGUgLyAxMDAuMCk7ICAgLy8gZm9udCBwdCBhbHJlYWR5IHNjYWxlcyB3aXRoIERQSQoKICAgICAgICAgICAgaWYgKF9ob3ZlckFuaW0gPiAwLjAxKQogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICB1c2luZyAodmFyIGIgPSBuZXcgU29saWRCcnVzaChDb2xvci5Gcm9tQXJnYigoaW50KSg4ICogX2hvdmVyQW5pbSksIDI1NSwgMjU1LCAyNTUpKSkKICAgICAgICAgICAgICAgIHVzaW5nICh2YXIgaHAgPSBUaGVtZS5Sb3VuZFJlY3QobmV3IFJlY3RhbmdsZUYoMCwgMCwgV2lkdGgsIEhlaWdodCksIHJhZGl1cykpCiAgICAgICAgICAgICAgICAgICAgZy5GaWxsUGF0aChiLCBocCk7CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGZsb2F0IHBhZCA9IDE4ZiAqIHM7CgogICAgICAgICAgICAvLyBoYWlybGluZSBib3JkZXI6IGxpZ2h0IGNhcmQgbmVlZHMgYSBkYXJrZXIgZWRnZSwgZGFyayBjYXJkIGEgaGlnaGxpZ2h0CiAgICAgICAgICAgIENvbG9yIGJvcmRlckNvbG9yID0gX3AuSXNEYXJrCiAgICAgICAgICAgICAgICA/IENvbG9yLkZyb21BcmdiKDI2LCAyNTUsIDI1NSwgMjU1KQogICAgICAgICAgICAgICAgOiBDb2xvci5Gcm9tQXJnYigxNiwgMCwgMCwgMCk7CiAgICAgICAgICAgIHVzaW5nICh2YXIgcGF0aCA9IFRoZW1lLlJvdW5kUmVjdChuZXcgUmVjdGFuZ2xlRigwLjVmLCAwLjVmLCBXaWR0aCAtIDFmLCBIZWlnaHQgLSAxZiksIEhlaWdodCAqIDAuMTE1ZikpCiAgICAgICAgICAgIHVzaW5nICh2YXIgcGVuID0gbmV3IFBlbihib3JkZXJDb2xvciwgMWYpKQogICAgICAgICAgICAgICAgZy5EcmF3UGF0aChwZW4sIHBhdGgpOwoKICAgICAgICAgICAgRHJhd0hlYWRlcihnLCBzLCBmcywgcGFkKTsKCiAgICAgICAgICAgIGlmIChfcm93cy5Db3VudCA9PSAwKQogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBSb3dQYWludGVyLkRyYXdFbXB0eShnLCBfcCwKICAgICAgICAgICAgICAgICAgICBuZXcgUmVjdGFuZ2xlRihwYWQsIEhFQURFUl9IICogcywgV2lkdGggLSBwYWQgKiAyLCBST1dfSCAqIHMgKiAwLjhmKSwgcywgZnMsCiAgICAgICAgICAgICAgICAgICAgX2hhcyA/ICLor7vlj5bkuK3igKYiIDogIuacquajgOa1i+WIsOiuvuWkhyIpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsc2UKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgaW50IG4gPSBWaXNpYmxlUm93czsKICAgICAgICAgICAgICAgIGZvciAoaW50IGkgPSAwOyBpIDwgbjsgaSsrKQogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAgIGludCBpZHggPSBfc2Nyb2xsICsgaTsKICAgICAgICAgICAgICAgICAgICBpZiAoaWR4ID49IF9yb3dzLkNvdW50KSBicmVhazsKICAgICAgICAgICAgICAgICAgICBmbG9hdCB5ID0gKEhFQURFUl9IICsgUk9XX0ggKiBpKSAqIHM7CiAgICAgICAgICAgICAgICAgICAgaWYgKGkgPiAwKQogICAgICAgICAgICAgICAgICAgICAgICBDYXJkLlNlcGFyYXRvcihnLCBfcCwgcGFkLCBXaWR0aCAtIHBhZCwgeSAtIDJmICogcyk7CiAgICAgICAgICAgICAgICAgICAgdmFyIHJlY3QgPSBuZXcgUmVjdGFuZ2xlRigwLCB5LCBXaWR0aCwgKFJPV19IIC0gNikgKiBzKTsKICAgICAgICAgICAgICAgICAgICBSb3dQYWludGVyLkRyYXcoZywgX3AsIF9yb3dzW2lkeF0sIHJlY3QsIHMsIGZzLCBfbG93LCB0cnVlKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGlmIChfcm93cy5Db3VudCA+IE1BWF9ST1dTKSBEcmF3U2Nyb2xsSGludChnLCBzLCBmcywgcGFkLCBuKTsKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgdm9pZCBEcmF3SGVhZGVyKEdyYXBoaWNzIGcsIGZsb2F0IHMsIGZsb2F0IGZzLCBmbG9hdCBwYWQpCiAgICAgICAgewogICAgICAgICAgICB2YXIgZmlyc3QgPSBfcm93cy5Db3VudCA+IDAgPyBfcm93c1swXSA6IFJlYWRpbmcuSW52YWxpZCgpOwogICAgICAgICAgICBib29sIGNoYXJnaW5nID0gX3Jvd3MuQ291bnQgPiAwICYmIGZpcnN0LkNoYXJnaW5nOwogICAgICAgICAgICBib29sIGFueVN0YWxlID0gX3Jvd3MuQ291bnQgPiAwICYmIF9zdGFsZTsKCiAgICAgICAgICAgIHN0cmluZyB0aXRsZTsKICAgICAgICAgICAgLy8gV2l0aCBhIHNpbmdsZSBkZXZpY2UgdGhlIHJvdyBhbHJlYWR5IGNhcnJpZXMgdGhlIG5hbWUg4oCUIHJlcGVhdGluZyBpdCAzNCBweCBhYm92ZQogICAgICAgICAgICAvLyB0aGUgYmlnIG51bWJlciBpcyBwdXJlIG5vaXNlLCBzbyB0aGUgaGVhZGVyIG9ubHkgbWFya3MgdGhlIHN0YXRlLgogICAgICAgICAgICBpZiAoX3Jvd3MuQ291bnQgPT0gMCkgdGl0bGUgPSAiTW91c2VNZXRlciI7CiAgICAgICAgICAgIGVsc2UgaWYgKF9yb3dzLkNvdW50ID09IDEpIHRpdGxlID0gIueUtemHjyI7CiAgICAgICAgICAgIGVsc2UgdGl0bGUgPSBfcm93cy5Db3VudCArICIg5Liq6K6+5aSHIjsKCiAgICAgICAgICAgIHZhciBzZkxlZnQgPSBuZXcgU3RyaW5nRm9ybWF0KCk7CiAgICAgICAgICAgIHNmTGVmdC5MaW5lQWxpZ25tZW50ID0gU3RyaW5nQWxpZ25tZW50LkNlbnRlcjsKICAgICAgICAgICAgc2ZMZWZ0LkZvcm1hdEZsYWdzID0gU3RyaW5nRm9ybWF0RmxhZ3MuTm9XcmFwOwogICAgICAgICAgICBzZkxlZnQuVHJpbW1pbmcgPSBTdHJpbmdUcmltbWluZy5FbGxpcHNpc0NoYXJhY3RlcjsKICAgICAgICAgICAgZmxvYXQgcmlnaHRSZXNlcnZlID0gNjRmICogczsKICAgICAgICAgICAgdXNpbmcgKHZhciBiID0gbmV3IFNvbGlkQnJ1c2goX3AuVGV4dEZhaW50KSkKICAgICAgICAgICAgICAgIGcuRHJhd1N0cmluZyh0aXRsZSwgVGhlbWUuRkMoOC41ZiAqIGZzLCBmYWxzZSksIGIsCiAgICAgICAgICAgICAgICAgICAgbmV3IFJlY3RhbmdsZUYocGFkLCA4ZiAqIHMsIFdpZHRoIC0gcGFkICogMiAtIHJpZ2h0UmVzZXJ2ZSwgMThmICogcyksIHNmTGVmdCk7CiAgICAgICAgICAgIHNmTGVmdC5EaXNwb3NlKCk7CgogICAgICAgICAgICBpZiAoY2hhcmdpbmcpIFJvd1BhaW50ZXIuRHJhd0JvbHQoZywgV2lkdGggLSBwYWQgLSAxMCAqIHMsIDEwZiAqIHMsIDEyICogcywgX3AuR3JlZW4pOwogICAgICAgICAgICBlbHNlIGlmIChhbnlTdGFsZSkKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgdmFyIHNmID0gbmV3IFN0cmluZ0Zvcm1hdCgpOwogICAgICAgICAgICAgICAgc2YuQWxpZ25tZW50ID0gU3RyaW5nQWxpZ25tZW50LkZhcjsKICAgICAgICAgICAgICAgIHNmLkxpbmVBbGlnbm1lbnQgPSBTdHJpbmdBbGlnbm1lbnQuQ2VudGVyOwogICAgICAgICAgICAgICAgc2YuRm9ybWF0RmxhZ3MgPSBTdHJpbmdGb3JtYXRGbGFncy5Ob1dyYXA7CiAgICAgICAgICAgICAgICB1c2luZyAodmFyIGIgPSBuZXcgU29saWRCcnVzaChfcC5UZXh0RmFpbnQpKQogICAgICAgICAgICAgICAgICAgIGcuRHJhd1N0cmluZygi5bey5LyR55ygIiwgVGhlbWUuRkMoOGYgKiBmcywgZmFsc2UpLCBiLAogICAgICAgICAgICAgICAgICAgICAgICBuZXcgUmVjdGFuZ2xlRihXaWR0aCAtIHBhZCAtIDU2ICogcywgOGYgKiBzLCA1NiAqIHMsIDE4ZiAqIHMpLCBzZik7CiAgICAgICAgICAgICAgICBzZi5EaXNwb3NlKCk7CiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIHZvaWQgRHJhd1Njcm9sbEhpbnQoR3JhcGhpY3MgZywgZmxvYXQgcywgZmxvYXQgZnMsIGZsb2F0IHBhZCwgaW50IG4pCiAgICAgICAgewogICAgICAgICAgICAvLyBTaXRzIGluc2lkZSB0aGUgcm91bmRlZCBib3R0b206IHRoZSBvbGQgMTAgcHggYm94IGVuZGVkIG9uIHRoZSBjYXJkIGVkZ2UgYW5kIHRoZQogICAgICAgICAgICAvLyBjb3JuZXIgcmFkaXVzIGNsaXBwZWQgdGhlIGxhc3QgZ2x5cGguIENlbnRyZSBpdCBpbiB0aGUgZm9vdGVyIGJhbmQgaW5zdGVhZC4KICAgICAgICAgICAgc3RyaW5nIGhpbnQgPSAoX3Njcm9sbCArIDEpICsgIuKAkyIgKyAoX3Njcm9sbCArIG4pICsgIiAvICIgKyBfcm93cy5Db3VudDsKICAgICAgICAgICAgZmxvYXQgaCA9IDExZiAqIHM7CiAgICAgICAgICAgIHZhciBzZiA9IG5ldyBTdHJpbmdGb3JtYXQoKTsKICAgICAgICAgICAgc2YuQWxpZ25tZW50ID0gU3RyaW5nQWxpZ25tZW50LkZhcjsKICAgICAgICAgICAgc2YuTGluZUFsaWdubWVudCA9IFN0cmluZ0FsaWdubWVudC5DZW50ZXI7CiAgICAgICAgICAgIHNmLkZvcm1hdEZsYWdzID0gU3RyaW5nRm9ybWF0RmxhZ3MuTm9XcmFwOwogICAgICAgICAgICB1c2luZyAodmFyIGIgPSBuZXcgU29saWRCcnVzaChUaGVtZS5BbHBoYShfcC5UZXh0RmFpbnQsIDAuOCkpKQogICAgICAgICAgICAgICAgZy5EcmF3U3RyaW5nKGhpbnQsIFRoZW1lLkZDKDcuNWYgKiBmcywgZmFsc2UpLCBiLAogICAgICAgICAgICAgICAgICAgIG5ldyBSZWN0YW5nbGVGKFdpZHRoIC0gcGFkIC0gNzAgKiBzLCBIZWlnaHQgLSBGT09URVJfSCAqIHMgLSA0ZiAqIHMgKyAoRk9PVEVSX0ggKiBzIC0gaCkgKiAwLjVmLCA3MCAqIHMsIGgpLCBzZik7CiAgICAgICAgICAgIHNmLkRpc3Bvc2UoKTsKICAgICAgICB9CiAgICB9Cn0K
+﻿using System;
+using System.Collections.Generic;
+using System.Drawing;
+using System.Drawing.Drawing2D;
+using System.Runtime.InteropServices;
+using System.Windows.Forms;
+
+namespace MouseMeter
+{
+    /// <summary>
+    /// Frameless desktop widget. v3 shows one row per device (mouse / keyboard / headset) instead
+    /// of a single number, and grows / shrinks with the device count.
+    ///
+    /// Drag anywhere to move, wheel to scroll when there are more devices than fit,
+    /// double click opens settings, right click has the menu.
+    /// </summary>
+    public class HudForm : Form
+    {
+        const int WIDTH = 196;
+        const int HEADER_H = 34;
+        const int ROW_H = 64;
+        const int FOOTER_H = 8;
+        const int MAX_ROWS = 3;
+
+        readonly Settings _cfg;
+        Palette _p;
+
+        List<Reading> _rows = new List<Reading>();
+        bool _has;
+        bool _stale;
+        int _low = 20;
+        int _scroll;
+
+        bool _dragging;
+        Point _dragOrigin;
+        bool _positioned;
+        int _dpi = 96;
+
+        bool _hover;
+        double _hoverAnim;
+        System.Windows.Forms.Timer _hoverTimer;
+
+        // Material state. 0 = solid card (any OS, transparency disabled, or user set 100%),
+        // 1 = Acrylic via WCA_ACCENT_POLICY, 2 = Acrylic via DWMWA_SYSTEMBACKDROP_TYPE.
+        // Resolved once per handle and re-resolved when WM_THEMECHANGED / WM_DWMCOMPOSITIONCHANGED
+        // tells us the user toggled "透明效果" in Settings.
+        int _material;
+        bool _transparencyOn = true;
+
+        public event EventHandler OpenSettingsRequested;
+        public event EventHandler RefreshRequested;
+        public event EventHandler HideRequested;
+        public event EventHandler ExitRequested;
+
+        [DllImport("user32.dll")]
+        static extern uint GetDpiForWindow(IntPtr hwnd);
+
+        public HudForm(Settings cfg)
+        {
+            _cfg = cfg;
+            _p = Resolve(cfg.HudTheme);
+
+            FormBorderStyle = FormBorderStyle.None;
+            ShowInTaskbar = false;
+            TopMost = true;
+            StartPosition = FormStartPosition.Manual;
+            DoubleBuffered = true;
+            AutoScaleMode = AutoScaleMode.None;
+            SetStyle(ControlStyles.OptimizedDoubleBuffer | ControlStyles.AllPaintingInWmPaint |
+                     ControlStyles.UserPaint | ControlStyles.SupportsTransparentBackColor, true);
+            BackColor = _p.Card;
+            Cursor = Cursors.Hand;
+
+            HookMenu();
+        }
+
+        public Palette Palette { get { return _p; } }
+
+        static Palette Resolve(string mode)
+        {
+            if (mode == "light") return Theme.Light();
+            if (mode == "dark") return Theme.Dark();
+            return Theme.SystemUsesLight() ? Theme.Light() : Theme.Dark();
+        }
+
+        float Sf { get { return _dpi / 96f; } }
+
+        public void ApplyTheme(string mode)
+        {
+            _p = mode == "light" ? Theme.Light() : Theme.Dark();
+            BackColor = _material != Material.Solid ? Color.Transparent : _p.Card;
+            if (ContextMenuStrip != null) ContextMenuStrip.Renderer = new AppleMenuRenderer(_p);
+            if (_material == Material.Accent) Dwm.Accent(Handle, true, TintArgb(), TintAlpha());   // tint follows the theme
+            Invalidate();
+        }
+
+        int VisibleRows { get { return Math.Min(MAX_ROWS, Math.Max(1, _rows.Count)); } }
+
+        int LogicalHeight
+        {
+            get
+            {
+                int n = _rows.Count == 0 ? 1 : VisibleRows;
+                return HEADER_H + ROW_H * n + FOOTER_H;
+            }
+        }
+
+        public void ApplyScale()
+        {
+            uint d = 0;
+            try { d = GetDpiForWindow(Handle); } catch { }
+            if (d >= 96 && d <= 480) _dpi = (int)d;
+
+            double userScale = Math.Max(0.5, _cfg.HudScale / 100.0);
+            int w = (int)Math.Round(WIDTH * userScale * Sf);
+            int h = (int)Math.Round(LogicalHeight * userScale * Sf);
+
+            if (Width != w || Height != h)
+            {
+                // keep the top-right corner pinned while the card grows downwards
+                if (_positioned) Location = new Point(Right - w, Top);
+                Size = new Size(w, h);
+                if (_positioned) Location = ClampToScreen(Location, w, h);
+                RebuildRegion();
+            }
+
+            if (!_positioned)
+            {
+                var wa = Screen.PrimaryScreen.WorkingArea;
+                int x = _cfg.HudX < 0 ? wa.Right - w - (int)(48 * Sf) : _cfg.HudX;
+                int y = _cfg.HudY < 0 ? wa.Bottom - h - (int)(120 * Sf) : _cfg.HudY;
+                Location = ClampToScreen(new Point(x, y), w, h);
+                _positioned = true;
+            }
+
+            Opacity = MaterialOpacity();
+        }
+
+        Point ClampToScreen(Point p, int w, int h)
+        {
+            var wa = Screen.FromPoint(p).WorkingArea;
+            int x = Math.Max(wa.Left + 8, Math.Min(wa.Right - w - 8, p.X));
+            int y = Math.Max(wa.Top + 8, Math.Min(wa.Bottom - h - 8, p.Y));
+            return new Point(x, y);
+        }
+
+        const int WM_THEMECHANGED = 0x031A;
+        const int WM_DWMCOMPOSITIONCHANGED = 0x031E;
+
+        protected override void WndProc(ref Message m)
+        {
+            base.WndProc(ref m);
+
+            // Settings -> Personalisation -> Colours -> "Transparency effects" and switching the
+            // wallpaper engine both land here. Re-resolve instead of assuming the state we read
+            // at startup is still true; a stale accent policy leaves an opaque grey box.
+            if (m.Msg == WM_THEMECHANGED || m.Msg == WM_DWMCOMPOSITIONCHANGED)
+            {
+                bool was = _transparencyOn;
+                _transparencyOn = Dwm.TransparencyEnabled();
+                if (was != _transparencyOn || _material == Material.Solid) ApplyMaterial();
+                else if (_material == Material.Accent) Dwm.Accent(Handle, true, TintArgb(), TintAlpha());
+            }
+        }
+
+        protected override CreateParams CreateParams
+        {
+            get
+            {
+                var cp = base.CreateParams;
+                cp.ClassStyle |= 0x20000;
+                return cp;
+            }
+        }
+
+        protected override void OnHandleCreated(EventArgs e)
+        {
+            base.OnHandleCreated(e);
+            Dwm.RoundedCorners(Handle, true);
+            ApplyMaterial();
+        }
+
+        // ---------- material ----------
+
+        /// <summary>
+        /// Decides how the card is composited. The slider is the user's "how solid do I want it"
+        /// knob and means different things per layer:
+        ///
+        ///   100%  -> solid card, no blur at all (also what you get on Win10 / transparency off)
+        ///   55-99 -> Acrylic; the slider becomes the tint alpha *on top of* the blur, so 55% is
+        ///            a very see-through frosted pane and 99% is a barely blurred solid-ish card.
+        ///
+        /// Falling back is deliberate rather than best-effort: a half-applied accent policy leaves
+        /// an unreadable black rectangle, which is worse than the flat card we had before.
+        /// </summary>
+        void ApplyMaterial()
+        {
+            if (!IsHandleCreated) return;
+
+            _transparencyOn = Dwm.TransparencyEnabled();
+            // Backdrop is preferred when available: it is the compositor's own material, so it
+            // picks up the wallpaper, the theme accent and the user's contrast settings without
+            // us hand-tuning a tint. The Win10 accent policy stays as the fallback.
+            int want = Material.Pick(_cfg.HudOpacity, _transparencyOn,
+                Dwm.AcrylicSupported(), Dwm.BackdropSupported());
+
+            _material = want;
+
+            if (_material == Material.Backdrop)
+            {
+                // WS_EX_LAYERED (what Form.Opacity uses) and a DWM backdrop fight each other:
+                // the backdrop is composited below the layered surface, so the window looks
+                // flat-but-washed-out. At full opacity we drop the layered style entirely.
+                Dwm.ExtendFrame(Handle);
+                if (Dwm.Backdrop(Handle, 3) != 0)
+                {
+                    // The attribute is documented but rejected by some builds / GPUs. Rather
+                    // than ship a transparent window with nothing behind it, drop to the
+                    // accent policy, which has been around since Win10 1803.
+                    _material = Material.Accent;
+                    Dwm.Accent(Handle, true, TintArgb(), TintAlpha());
+                }
+                else Dwm.Accent(Handle, false); // clear any WCA accent left over from a fallback
+            }
+            else if (_material == Material.Accent)
+            {
+                Dwm.ExtendFrame(Handle);
+                Dwm.Accent(Handle, true, TintArgb(), TintAlpha());
+            }
+            else
+            {
+                Dwm.Accent(Handle, false);
+                Dwm.ExtendFrame(Handle, false);
+            }
+
+            // Order matters: the Backdrop branch above may have demoted _material to Accent, and
+            // therefore also to Solid. Deciding the surface before that happens would leave a
+            // transparent window on the solid path — i.e. an invisible widget.
+            Opacity = MaterialOpacity();
+            // Transparent BackColor is what lets the DWM material show through in the gaps our
+            // own painting leaves. Form.Opacity (the layered path) needs a real colour though,
+            // so only the blur paths get to go see-through.
+            BackColor = _material != Material.Solid ? Color.Transparent : _p.Card;
+            // Required before WinForms will accept Color.Transparent at all.
+            SetStyle(ControlStyles.SupportsTransparentBackColor, true);
+
+            RebuildRegion();
+            Invalidate();
+        }
+
+        /// <summary>Only the solid path dims the whole window; blur paths dim via the tint instead.</summary>
+        double MaterialOpacity()
+        {
+            if (_material != Material.Solid) return 1.0;
+            return Math.Max(0.55, Math.Min(1.0, _cfg.HudOpacity / 100.0));
+        }
+
+        /// <summary>ABGR tint for the accent policy — DWM reads it as 0xAABBGGRR.</summary>
+        int TintArgb()
+        {
+            Color c = _p.IsDark ? Color.FromArgb(32, 32, 34) : Color.FromArgb(250, 250, 252);
+            // The scalar rides in the high byte; the accent policy multiplies it by the alpha.
+            return Material.TintWord(TintAlpha(), c.R, c.G, c.B);
+        }
+
+        /// <summary>Delegates to <see cref="Material"/> so the mapping stays testable off-UI.</summary>
+        int TintAlpha()
+        {
+            return Material.TintAlpha(_cfg.HudOpacity, _p.IsDark);
+        }
+
+        /// <summary>
+        /// The window stays rectangular in every material mode. A Window.Region is clipped by
+        /// USER32 before DWM composites, which (a) aliases the corners and (b) cuts a 1 px seam
+        /// where the material ends. Rounding is drawn instead: the blur paths get a
+        /// DwmSetWindowAttribute(33) round corner from the compositor, the solid path gets a
+        /// painted silhouette in <see cref="OnPaint"/>. Re-applied on resize because the corner
+        /// radius follows the window height.
+        /// </summary>
+        void RebuildRegion()
+        {
+            Region = null;
+            Dwm.RoundedCorners(Handle, true);
+        }
+
+        void HookMenu()
+        {
+            var menu = MenuBuilder.Create(_p);
+
+            var refresh = MenuBuilder.Item("立即刷新");
+            refresh.Click += delegate { var h = RefreshRequested; if (h != null) h(this, EventArgs.Empty); };
+            var settings = MenuBuilder.Item("设置…");
+            settings.Click += delegate { var h = OpenSettingsRequested; if (h != null) h(this, EventArgs.Empty); };
+            var hide = MenuBuilder.Item("隐藏挂件");
+            hide.Click += delegate { var h = HideRequested; if (h != null) h(this, EventArgs.Empty); };
+            var exit = MenuBuilder.Item("退出 MouseMeter");
+            exit.Click += delegate { var h = ExitRequested; if (h != null) h(this, EventArgs.Empty); };
+
+            menu.Items.Add(refresh);
+            menu.Items.Add(settings);
+            menu.Items.Add(hide);
+            menu.Items.Add(MenuBuilder.Sep());
+            menu.Items.Add(exit);
+            ContextMenuStrip = menu;
+        }
+
+        /// <summary>Feed the widget a fresh snapshot. Re-lays out when the device count changes.</summary>
+        public void UpdateReadings(List<Reading> rows, bool has, bool stale, int lowThreshold)
+        {
+            _rows = rows ?? new List<Reading>();
+            _has = has;
+            _stale = stale;
+            _low = lowThreshold;
+            if (_scroll > Math.Max(0, _rows.Count - MAX_ROWS)) _scroll = Math.Max(0, _rows.Count - MAX_ROWS);
+            ApplyScale();   // cheap when the size did not change
+            Invalidate();
+        }
+
+        // ---------- interaction ----------
+
+        protected override void OnMouseDown(MouseEventArgs e)
+        {
+            base.OnMouseDown(e);
+            if (e.Button == MouseButtons.Left)
+            {
+                _dragging = true;
+                _dragOrigin = e.Location;
+            }
+        }
+
+        protected override void OnMouseMove(MouseEventArgs e)
+        {
+            base.OnMouseMove(e);
+            if (_dragging)
+            {
+                var p = PointToScreen(e.Location);
+                Location = new Point(p.X - _dragOrigin.X, p.Y - _dragOrigin.Y);
+            }
+        }
+
+        protected override void OnMouseUp(MouseEventArgs e)
+        {
+            base.OnMouseUp(e);
+            if (_dragging)
+            {
+                _dragging = false;
+                _cfg.HudX = Location.X;
+                _cfg.HudY = Location.Y;
+                _cfg.Save();
+            }
+        }
+
+        protected override void OnMouseWheel(MouseEventArgs e)
+        {
+            base.OnMouseWheel(e);
+            if (_rows.Count <= MAX_ROWS) return;
+            int max = _rows.Count - MAX_ROWS;
+            int next = e.Delta > 0 ? _scroll - 1 : _scroll + 1;
+            _scroll = Math.Max(0, Math.Min(max, next));
+            Invalidate();
+        }
+
+        protected override void OnDoubleClick(EventArgs e)
+        {
+            base.OnDoubleClick(e);
+            var h = OpenSettingsRequested;
+            if (h != null) h(this, EventArgs.Empty);
+        }
+
+        protected override void OnMouseEnter(EventArgs e)
+        {
+            base.OnMouseEnter(e);
+            _hover = true;
+            AnimateHover();
+        }
+
+        protected override void OnMouseLeave(EventArgs e)
+        {
+            base.OnMouseLeave(e);
+            _hover = false;
+            AnimateHover();
+        }
+
+        void AnimateHover()
+        {
+            if (_hoverTimer == null)
+            {
+                _hoverTimer = new System.Windows.Forms.Timer();
+                _hoverTimer.Interval = 16;
+                _hoverTimer.Tick += delegate
+                {
+                    double target = _hover ? 1 : 0;
+                    double d = target - _hoverAnim;
+                    if (Math.Abs(d) < 0.04) { _hoverAnim = target; _hoverTimer.Stop(); }
+                    else _hoverAnim += d * 0.25;
+                    Invalidate();
+                };
+            }
+            _hoverTimer.Start();
+        }
+
+        // ---------- painting ----------
+
+        protected override void OnPaint(PaintEventArgs e)
+        {
+            var g = e.Graphics;
+            Theme.Configure(g);
+
+            // Every path paints its own punched silhouette: the window rectangle is wider than
+            // the visible card because DWM needs an unclipped surface for the material, and the
+            // leftover pixels must stay empty or the "rounded" card shows square shoulders.
+            float radius = Height * 0.115f;
+            var cardRect = new RectangleF(0.5f, 0.5f, Width - 1f, Height - 1f);
+            using (var cardPath = Theme.RoundRect(cardRect, radius))
+            {
+                if (_material != Material.Solid)
+                {
+                    // Half of the tint lives here and half in the accent policy (or backdrop):
+                    // painting it all in GDI would make the blur invisible, painting none would
+                    // let white text sit on a bright wallpaper.
+                    int a = (int)Math.Round(TintAlpha() * 0.55);
+                    using (var b = new SolidBrush(Color.FromArgb(a, _p.Card)))
+                        g.FillPath(b, cardPath);
+                }
+                else
+                {
+                    g.Clear(_p.Card);   // opaque path: nothing outside the rectangle to worry about
+                }
+            }
+
+            float s = Width / (float)WIDTH;
+            float fs = (float)(_cfg.HudScale / 100.0);   // font pt already scales with DPI
+
+            if (_hoverAnim > 0.01)
+            {
+                using (var b = new SolidBrush(Color.FromArgb((int)(8 * _hoverAnim), 255, 255, 255)))
+                using (var hp = Theme.RoundRect(new RectangleF(0, 0, Width, Height), radius))
+                    g.FillPath(b, hp);
+            }
+
+            float pad = 18f * s;
+
+            // hairline border: light card needs a darker edge, dark card a highlight
+            Color borderColor = _p.IsDark
+                ? Color.FromArgb(26, 255, 255, 255)
+                : Color.FromArgb(16, 0, 0, 0);
+            using (var path = Theme.RoundRect(new RectangleF(0.5f, 0.5f, Width - 1f, Height - 1f), Height * 0.115f))
+            using (var pen = new Pen(borderColor, 1f))
+                g.DrawPath(pen, path);
+
+            DrawHeader(g, s, fs, pad);
+
+            if (_rows.Count == 0)
+            {
+                RowPainter.DrawEmpty(g, _p,
+                    new RectangleF(pad, HEADER_H * s, Width - pad * 2, ROW_H * s * 0.8f), s, fs,
+                    _has ? "读取中…" : "未检测到设备");
+            }
+            else
+            {
+                int n = VisibleRows;
+                for (int i = 0; i < n; i++)
+                {
+                    int idx = _scroll + i;
+                    if (idx >= _rows.Count) break;
+                    float y = (HEADER_H + ROW_H * i) * s;
+                    if (i > 0)
+                        Card.Separator(g, _p, pad, Width - pad, y - 2f * s);
+                    var rect = new RectangleF(0, y, Width, (ROW_H - 6) * s);
+                    RowPainter.Draw(g, _p, _rows[idx], rect, s, fs, _low, true);
+                }
+                if (_rows.Count > MAX_ROWS) DrawScrollHint(g, s, fs, pad, n);
+            }
+        }
+
+        void DrawHeader(Graphics g, float s, float fs, float pad)
+        {
+            var first = _rows.Count > 0 ? _rows[0] : Reading.Invalid();
+            bool charging = _rows.Count > 0 && first.Charging;
+            bool anyStale = _rows.Count > 0 && _stale;
+
+            string title;
+            // With a single device the row already carries the name — repeating it 34 px above
+            // the big number is pure noise, so the header only marks the state.
+            if (_rows.Count == 0) title = "MouseMeter";
+            else if (_rows.Count == 1) title = "电量";
+            else title = _rows.Count + " 个设备";
+
+            var sfLeft = new StringFormat();
+            sfLeft.LineAlignment = StringAlignment.Center;
+            sfLeft.FormatFlags = StringFormatFlags.NoWrap;
+            sfLeft.Trimming = StringTrimming.EllipsisCharacter;
+            float rightReserve = 64f * s;
+            using (var b = new SolidBrush(_p.TextFaint))
+                g.DrawString(title, Theme.FC(8.5f * fs, false), b,
+                    new RectangleF(pad, 8f * s, Width - pad * 2 - rightReserve, 18f * s), sfLeft);
+            sfLeft.Dispose();
+
+            if (charging) RowPainter.DrawBolt(g, Width - pad - 10 * s, 10f * s, 12 * s, _p.Green);
+            else if (anyStale)
+            {
+                var sf = new StringFormat();
+                sf.Alignment = StringAlignment.Far;
+                sf.LineAlignment = StringAlignment.Center;
+                sf.FormatFlags = StringFormatFlags.NoWrap;
+                using (var b = new SolidBrush(_p.TextFaint))
+                    g.DrawString("已休眠", Theme.FC(8f * fs, false), b,
+                        new RectangleF(Width - pad - 56 * s, 8f * s, 56 * s, 18f * s), sf);
+                sf.Dispose();
+            }
+        }
+
+        void DrawScrollHint(Graphics g, float s, float fs, float pad, int n)
+        {
+            // Sits inside the rounded bottom: the old 10 px box ended on the card edge and the
+            // corner radius clipped the last glyph. Centre it in the footer band instead.
+            string hint = (_scroll + 1) + "–" + (_scroll + n) + " / " + _rows.Count;
+            float h = 11f * s;
+            var sf = new StringFormat();
+            sf.Alignment = StringAlignment.Far;
+            sf.LineAlignment = StringAlignment.Center;
+            sf.FormatFlags = StringFormatFlags.NoWrap;
+            using (var b = new SolidBrush(Theme.Alpha(_p.TextFaint, 0.8)))
+                g.DrawString(hint, Theme.FC(7.5f * fs, false), b,
+                    new RectangleF(Width - pad - 70 * s, Height - FOOTER_H * s - 4f * s + (FOOTER_H * s - h) * 0.5f, 70 * s, h), sf);
+            sf.Dispose();
+        }
+    }
+}

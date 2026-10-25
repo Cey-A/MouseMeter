@@ -1,1 +1,45 @@
-77u/cGFyYW0oCiAgICBbc3dpdGNoXSRTZXR0aW5ncwopCgojIE1vdXNlTWV0ZXIgbGF1bmNoZXIKIyBDb21waWxlcyBzcmNcKi5jcyBvbiBmaXJzdCBydW4gKGNhY2hlZCBieSBjb250ZW50IGhhc2gpLCB0aGVuIHN0YXJ0cyB0aGUgYXBwLgojIE5vdGhpbmcgaXMgaW5zdGFsbGVkIHN5c3RlbS13aWRlOyBldmVyeXRoaW5nIGxpdmVzIG5leHQgdG8gdGhpcyBmaWxlLgoKJEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwokcm9vdCA9ICRQU1NjcmlwdFJvb3QKCi4gKEpvaW4tUGF0aCAkcm9vdCAnQ29tcGlsZXIucHMxJykKCmZ1bmN0aW9uIEZhaWwoW3N0cmluZ10kbWVzc2FnZSkgewogICAgJGxvZ0RpciA9IEpvaW4tUGF0aCAkZW52OkxPQ0FMQVBQREFUQSAnTW91c2VNZXRlcicKICAgIE5ldy1JdGVtIC1JdGVtVHlwZSBEaXJlY3RvcnkgLUZvcmNlIC1QYXRoICRsb2dEaXIgfCBPdXQtTnVsbAogICAgQWRkLUNvbnRlbnQgLVBhdGggKEpvaW4tUGF0aCAkbG9nRGlyICdlcnJvci5sb2cnKSAtVmFsdWUgKAogICAgICAgIChHZXQtRGF0ZSkuVG9TdHJpbmcoJ3l5eXktTU0tZGQgSEg6bW06c3MnKSArICJgcmBuIiArICRtZXNzYWdlICsgImByYG4iKQogICAgQWRkLVR5cGUgLUFzc2VtYmx5TmFtZSBTeXN0ZW0uV2luZG93cy5Gb3JtcwogICAgW3ZvaWRdW1N5c3RlbS5XaW5kb3dzLkZvcm1zLk1lc3NhZ2VCb3hdOjpTaG93KCRtZXNzYWdlLCAnTW91c2VNZXRlciDlkK/liqjlpLHotKUnLAogICAgICAgIFtTeXN0ZW0uV2luZG93cy5Gb3Jtcy5NZXNzYWdlQm94QnV0dG9uc106Ok9LLCBbU3lzdGVtLldpbmRvd3MuRm9ybXMuTWVzc2FnZUJveEljb25dOjpFcnJvcikKICAgIGV4aXQgMQp9Cgp0cnkgewogICAgJGJ1aWxkID0gQnVpbGQtTW91c2VNZXRlciAtUm9vdCAkcm9vdAp9IGNhdGNoIHsKICAgIEZhaWwgJF8uRXhjZXB0aW9uLk1lc3NhZ2UKfQoKdHJ5IHsKICAgIFt2b2lkXVtTeXN0ZW0uUmVmbGVjdGlvbi5Bc3NlbWJseV06OkxvYWRGcm9tKCRidWlsZC5QYXRoKQoKICAgICRpY29QYXRoID0gSm9pbi1QYXRoICRyb290ICdNb3VzZU1ldGVyLmljbycKICAgIGlmICgtbm90IChUZXN0LVBhdGggJGljb1BhdGgpKSB7CiAgICAgICAgdHJ5IHsgW01vdXNlTWV0ZXIuSWNvbkZhY3RvcnldOjpXcml0ZUljbygkaWNvUGF0aCkgfSBjYXRjaCB7IH0KICAgIH0KCiAgICAkYXJndiA9IEAoKQogICAgaWYgKCRTZXR0aW5ncykgeyAkYXJndiArPSAnLS1zZXR0aW5ncycgfQoKICAgIFtNb3VzZU1ldGVyLlByb2dyYW1dOjpNYWluKFtzdHJpbmdbXV0kYXJndikKfSBjYXRjaCB7CiAgICBGYWlsICgkXy5FeGNlcHRpb24uVG9TdHJpbmcoKSkKfQo=
+﻿param(
+    [switch]$Settings
+)
+
+# MouseMeter launcher
+# Compiles src\*.cs on first run (cached by content hash), then starts the app.
+# Nothing is installed system-wide; everything lives next to this file.
+
+$ErrorActionPreference = 'Stop'
+$root = $PSScriptRoot
+
+. (Join-Path $root 'Compiler.ps1')
+
+function Fail([string]$message) {
+    $logDir = Join-Path $env:LOCALAPPDATA 'MouseMeter'
+    New-Item -ItemType Directory -Force -Path $logDir | Out-Null
+    Add-Content -Path (Join-Path $logDir 'error.log') -Value (
+        (Get-Date).ToString('yyyy-MM-dd HH:mm:ss') + "`r`n" + $message + "`r`n")
+    Add-Type -AssemblyName System.Windows.Forms
+    [void][System.Windows.Forms.MessageBox]::Show($message, 'MouseMeter 启动失败',
+        [System.Windows.Forms.MessageBoxButtons]::OK, [System.Windows.Forms.MessageBoxIcon]::Error)
+    exit 1
+}
+
+try {
+    $build = Build-MouseMeter -Root $root
+} catch {
+    Fail $_.Exception.Message
+}
+
+try {
+    [void][System.Reflection.Assembly]::LoadFrom($build.Path)
+
+    $icoPath = Join-Path $root 'MouseMeter.ico'
+    if (-not (Test-Path $icoPath)) {
+        try { [MouseMeter.IconFactory]::WriteIco($icoPath) } catch { }
+    }
+
+    $argv = @()
+    if ($Settings) { $argv += '--settings' }
+
+    [MouseMeter.Program]::Main([string[]]$argv)
+} catch {
+    Fail ($_.Exception.ToString())
+}

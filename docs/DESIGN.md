@@ -1,1 +1,201 @@
-IyBERVNJR04g4oCUIOinhuinieinhOiMgwoKPiDnm67moIfpo47moLzvvJoqKuiLueaenOeahOeugOa0gSoq44CC55So5oi35piO56Gu5o+Q5Ye655qE77yM5LiN5piv5oiR55qE5YGP5aW944CCCj4g5Yik5pat5qCH5YeG77ya5Lu75L2V5YWD57Sg5aaC5p6c5Y675o6J5LmL5ZCO5Yqf6IO95LiN5Y+X5b2x5ZON44CB5LiU5LiN5Lya6K6p5bGC57qn5pu05qih57OK77yM5bCx5bqU6K+l5Y675o6J44CCCgotLS0KCiMjIDEuIOWOn+WImQoKMS4gKirnlKjlrZfph43lkozngbDluqbmi4nlvIDlsYLnuqfvvIzkuI3pnaDlrZflj7flkozovrnmoYYqKuOAguagh+mimCBTZW1pYm9sZOOAgeato+aWhyBSZWd1bGFy44CB5pWw5a2XIEJvbGTvvJvmrKHopoHkv6Hmga/pmY3ngbDluqbvvIzkuI3liqDliIblibLmoYbjgIIKMi4gKirkuIDkuKrnlYzpnaLlj6rmnInkuIDkuKrlvLrosIPoibIqKuOAguiTneiJsuWPqueUqOS6juOAjOW9k+WJjemAieS4rS/kuLvopoHmk43kvZzjgI3vvIzlhbbkvZnpnaDkuK3mgKfngbDpmLbjgILnirbmgIHoibLvvIjnu78v5qmZL+e6ou+8ieWPquWcqOecn+ato+ihqOi+vueKtuaAgeaXtuWHuueOsOOAggozLiAqKuWuueWZqOmdoOeVmeeZveWSjOaegea3oeeahOiDjOaZr+W3ru+8jOS4jemdoOmYtOW9sSoq44CC5Y2h54mH5LiO6IOM5pmv55qE5beu5YC85Y+q5pyJIDF+MiDkuKrkuq7luqbnuqfjgIIKNC4gKirkuI3nlKjmuJDlj5jjgIHkuI3nlKjlpJrlsYLpmLTlvbHjgIHkuI3nlKjmj4/ovrkr6Zi05b2x5Y+g5YqgKirjgIIKNS4gKirmlbDlrZfmmK/kuLvop5IqKuOAguaMguS7tuS4iueZvuWIhuavlOWNoOinhuiniemdouenr+eahOS4gOWNiuS7peS4iu+8jOWFtuS9meWFg+e0oOmDveimgemAgOiuqeOAggoKLS0tCgojIyAyLiDpopzoibIgdG9rZW7vvIhgVGhlbWUuY3Ng77yJCgojIyMg5rWF6ImyCgp8IFRva2VuIHwg5YC8IHwg55So6YCUIHwKfC0tLXwtLS18LS0tfAp8IGBCZ2AgfCBgI0YyRjJGN2AgfCDorr7nva7nqpflj6PlupXoibLvvIhpT1Mg5YiG57uE5YiX6KGo6IOM5pmv77yJIHwKfCBgQ2FyZGAgfCBgI0ZGRkZGRmAgfCDljaHniYfjgIHmjILku7blupUgfAp8IGBDYXJkQWx0YCB8IGAjRjlGOUZCYCB8IOWNoeeJh+WGheasoee6p+WMuuWdlyB8CnwgYFRleHRgIHwgYCMxRDFEMUZgIHwg5Li75paH5a2XIHwKfCBgVGV4dERpbWAgfCBgIzg2ODY4QmAgfCDmrKHopoHmloflrZcgfAp8IGBUZXh0RmFpbnRgIHwgYCNBRUFFQjRgIHwg6L6F5Yqp6K+05piOIHwKfCBgU2VwYXJhdG9yYCB8IGAjRTVFNUVBYCB8IOWIhumalOe6v++8iDFweO+8iSB8CnwgYEFjY2VudGAgfCBgIzAwN0FGRmAgfCBpT1Mg6JOd77yM6YCJ5Lit5oCBIHwKfCBgR3JlZW5gIHwgYCMzNEM3NTlgIHwg5YWF55S15LitIHwKfCBgT3JhbmdlYCB8IGAjRkY5RjBBYCB8IOS9jueUtemHjyB8CnwgYFJlZGAgfCBgI0ZGNDUzQWAgfCDljbHpmakgfAp8IGBHcmF5YCB8IGAjOEU4RTkzYCB8IOS4reaApyB8CnwgYENvbnRyb2xPZmZgIHwgYCNFM0UzRThgIHwg5byA5YWz5YWz6Zet5oCB6L2o6YGTIHwKCiMjIyDmt7HoibIKCnwgVG9rZW4gfCDlgLwgfCDnlKjpgJQgfAp8LS0tfC0tLXwtLS18CnwgYEJnYCB8IGAjMUMxQzFFYCB8IOeql+WPo+W6lSB8CnwgYENhcmRgIHwgYCMyQzJDMkVgIHwg5Y2h54mH44CB5oyC5Lu25bqVIHwKfCBgQ2FyZEFsdGAgfCBgIzI0MjQyNmAgfCDmrKHnuqfljLrlnZcgfAp8IGBUZXh0YCB8IGAjRjVGNUY3YCB8IOS4u+aWh+WtlyB8CnwgYFRleHREaW1gIHwgYCM5ODk4OURgIHwg5qyh6KaB5paH5a2XIHwKfCBgVGV4dEZhaW50YCB8IGAjNkU2RTczYCB8IOi+heWKqeivtOaYjiB8CnwgYFNlcGFyYXRvcmAgfCBgIzM4MzgzQWAgfCDliIbpmpTnur8gfAp8IGBBY2NlbnRgIHwgYCMwQTg0RkZgIHwgaU9TIOa3seiJsuiTnSB8CnwgYEdyZWVuYCB8IGAjMzBEMTU4YCB8IHwKfCBgT3JhbmdlYCB8IGAjRkZCMzQwYCB8IHwKfCBgUmVkYCB8IGAjRkY2OTYxYCB8IHwKfCBgQ29udHJvbE9mZmAgfCBgIzM4MzgzQWAgfCB8Cgo+IOa3seiJsuS4jeaYr+a1heiJsuWPjeebuO+8jOaYryoq54us56uL5LiA5aWXKirvvJrmt7HoibLkuIvppbHlkozluqblkozkuq7luqbpg73opoHlm57osIPvvIzlkKbliJnlnKjmmpfog4zmma/kuIrkvJrjgIzlj5HlhYnjgI3jgIIKCiMjIyDkuLvpopjop6PmnpDop4TliJkKCmBgYAp0aGVtZSA9ICJzeXN0ZW0iICDihpIg6K+75rOo5YaM6KGoIEhLQ1VcLi4uXFRoZW1lc1xQZXJzb25hbGl6ZVxTeXN0ZW1Vc2VzTGlnaHRUaGVtZQogICAgICAgICAgICAgICAgICAgIO+8iDEgPSDmtYXoibLvvIzlhbblroMgPSDmt7HoibLvvIkKYGBgCgrms6jmhI8gYFN5c3RlbVVzZXNMaWdodFRoZW1lYCDmmK8qKuezu+e7n+S4u+mimCoq77yI5Yaz5a6a5Lu75Yqh5qCP44CB5byA5aeL6I+c5Y2V77yJ77yM5LiN5piv5bqU55So5Li76aKY44CCCuaJmOebmOWbvuagh+eahOWPjeiJsuS+nei1luWug++8jOWIq+aUueaIkOivu+W6lOeUqOS4u+mimOOAggoKLS0tCgojIyAzLiDlrZfkvZMKCnwg55So6YCUIHwg5a2X5pePIHwg6K+05piOIHwKfC0tLXwtLS18LS0tfAp8IOaYvuekui/mlbDlrZcgfCBgU2Vnb2UgVUkgVmFyaWFibGUgRGlzcGxheWAg4oaSIGBTZWdvZSBVSSBTZW1pYm9sZGAg4oaSIGBTZWdvZSBVSWAgfCBXaW4xMSDoh6rluKbnmoTlh6DkvZXml6Dooaznur/vvIzmnIDmjqXov5EgU0YgUHJvIHwKfCDmraPmlocgfCBgU2Vnb2UgVUkgVmFyaWFibGUgVGV4dGAg4oaSIGBTZWdvZSBVSWAg4oaSIGBUYWhvbWFgIHwgfAp8IOS4reaWhyB8IGBNaWNyb3NvZnQgWWFIZWkgVUlgIOKGkiBgTWljcm9zb2Z0IFlhSGVpYCDihpIgYFNpbVN1bmAgfCDkuI4gU2Vnb2UgVUkg55qEIHgtaGVpZ2h0IOi+g+aOpei/kSB8CgpgVGhlbWUuUGlja0ZhbWlseSgpYCDlnKjov5DooYzml7bnlKggYEluc3RhbGxlZEZvbnRDb2xsZWN0aW9uYCDpgJDkuKrmjqLmtYvvvIzlj5bnrKzkuIDkuKrlrZjlnKjnmoTvvIzlhajpg6jkuI3lrZjlnKjmiY3lm57pgIDjgIIK5a2X5L2T5a+56LGh55So5a2X5YW457yT5a2Y77yIYF9mb250c2DvvInvvIzpgb/lhY3mr4/mrKEgYE9uUGFpbnRgIOaWsOW7uiBgRm9udGDvvIhHREkg5Y+l5p+E5rOE5ryP77yJ44CCCgojIyMg5o6S54mI5q+U5L6L77yIcHTvvIwxMjUlIERQSSDkuIvlrp7pmYXmuLLmn5PkvJogw5cxLjI177yJCgp8IOWcuuaZryB8IOWtl+WPtyB8IOWtl+mHjSB8CnwtLS18LS0tfC0tLXwKfCDmjILku7blpKfmlbDlrZcgfCAyNu+8iOS4gOS9je+8iS8gMjTvvIjkuKTkvY3vvIkvIDE577yI5LiJ5L2N77yJ77yM5YaN5oyJ5Y+v55So5a695bqm5pS25pWbIHwgQm9sZCB8Cnwg5oyC5Lu2IGAlYCB8IDExIHwgUmVndWxhciB8Cnwg5oyC5Lu26K6+5aSH5ZCNIHwgOS41IHwgUmVndWxhciB8Cnwg5oyC5Lu254q25oCB77yI5Y+z5LiL6KeS77yJIHwgOC41IHwgUmVndWxhciB8Cnwg6K6+572u56qX5Y+j5qCH6aKYIHwgMTIuNSB8IEJvbGQgfAp8IOiuvue9rueql+WPo+iuvuWkh+WQjSB8IDEyIHwgQm9sZCB8Cnwg6K6+572u56qX5Y+j5YiG57uE5qCH6aKYIHwgOS41IHwgUmVndWxhciB8Cnwg6K6+572u56qX5Y+j6KGM5qCH562+IHwgMTAgfCBSZWd1bGFyIHwKfCDorr7nva7nqpflj6PlupXpg6jor7TmmI4gfCA4LjUgfCBSZWd1bGFyIHwKfCDoj5zljZXpobkgfCA5IHwgUmVndWxhciB8Cnwg6I+c5Y2V5qCH6aKY77yI5Y+q6K+76aG577yJIHwgOC41IHwgUmVndWxhciB8Cnwg5YiG5q615o6n5Lu2IC8g5oyJ6ZKuIHwgOSB8IFJlZ3VsYXLvvIjpgInkuK0gQm9sZO+8iSB8CgoqKuinhOWImSoq77ya5q2j5paH5a2X5Y+35LiN5bCP5LqOIDguNXB077yM5L2O5LqO6L+Z5Liq5ZyoIDEwMCUgRFBJIOS4i+S8mueziuOAggoKLS0tCgojIyA0LiDlsLrlr7jkuI7lnIbop5IKCiMjIyDmoYzpnaLmjILku7YKCmBgYArpgLvovpHlsLrlr7ggICAgICAxOTYgw5cgKDM0IOagh+mimCArIDY0IMOXIOihjOaVsCArIDgg6aG16ISaKSAgIOKAlOKAlCDljZXooYwgMTA277yM5LiJ6KGMIDIzNO+8jOacgOWkmiAzIOihjArlnIbop5IgICAgICAgICAgSGVpZ2h0IMOXIDAuMTE1CuWGhei+uei3nSAgICAgICAgMTgK5a6e6ZmF5bC65a+4ICAgICAgIOmAu+i+keWAvCDDlyAoaHVkU2NhbGUvMTAwKSDDlyAoRFBJLzk2KQrpu5jorqTkvY3nva4gICAgICAg5bel5L2c5Yy65Y+z5LiL6KeS77yM6Led5Y+zIDQ444CB6Led5LiLIDEyMArlnIbop5Llrp7njrAgICAgICAg55SoIFJlZ2lvbiDoo4Hliarnqpflj6MgKyBEV00g5ZyG6KeS77yM5LiN5piv55S75YGH5ZyG6KeSCmBgYAoKKirlpKfmlbDlrZfnmoTlrr3luqbnuqbmnZ8qKu+8mmBSb3dQYWludGVyLk51bUZpdFNpemUoKWAg5Lul44CM6KGM5a69IOKIkiAyIMOXIOWGhei+uei3neOAjeS4uumihOeul++8jArku44gYE51bVNpemUoKWAg6LW354K56YCQ57qn57yp5bCP77yM55u05YiwIGDmlbDlrZcgKyAiJSJgIOaUvuW+l+S4i++8iOS4i+mZkCAxMyBwdO+8ieOAggrkuInkvY3mlbDvvIgxMDDvvInlnKggMTk2IHB4IOWuveeahOWNoeeJh+S4iue6puaUtuaVm+WIsCAxOSBwdO+8jOinhuinieS4iuS7jeS4juS4pOS9jeaVsOetiemHjeOAggrmlbDlrZflupXpg6jlr7npvZDliLDlm7rlrprln7rnur/vvIzmiYDku6UgNyDlkowgMTAwIOWHuueOsOWcqOebuOmCu+S4pOihjOaXtuS4jeS8muS4gOmrmOS4gOS9juOAggoKKirmoIfpopjooYwqKu+8muWNleiuvuWkh+aXtuagh+mimOS4uuOAjOeUtemHj+OAjeKAlOKAlOiuvuWkh+WQjeWwseWcqOS4i+mdoiAyNCBweCDlpITvvIzph43lpI3kuIDpgY3mmK/lmarpn7PvvJsK5aSa6K6+5aSH5pe25Li644CMTiDkuKrorr7lpIfjgI3jgILlj7Pkvqflj6rmlL7nirbmgIHmoIforrDvvIjlhYXnlLXpl6rnlLUgLyDlt7LkvJHnnKDvvInjgIIKCioq6K6+5aSH57G75b695qCHKirvvJrorr7lpIflkI3mnKzouqvlt7Lku6XnsbvliKvor43nu5PlsL7ml7bvvIjlpoLjgIxBNSB1bHRyYSDpvKDmoIfjgI3vvInkuI3lho3nlLvlj7PkvqfjgIzpvKDmoIfjgI3vvIwK6YG/5YWN5ZCM5LiA6KGM5Ye6546w5Lik5qyh5ZCM5qC355qE6K+N44CCCgojIyMg6K6+572u56qX5Y+jCgpgYGAK6YC76L6R5bC65a+4ICAgICAgNDQ4IMOXIDYwMArmoIfpopjmoI/pq5ggICAgICA1Mgrorr7lpIfljaEgICAgICAgIHk9NjAsICBoPTExNgrliIbnu4QxIOagh+etviAgICB5PTE4NiAgIOWNoeeJhyB5PTIxMiwgaD0xMjYK5YiG57uEMiDmoIfnrb4gICAgeT0zNTIgICDljaHniYcgeT0zNzgsIGg9MTY4CuihjOmrmCAgICAgICAgICA0MgrljaHniYflnIbop5IgICAgICAxMApgYGAKCiMjIyDmiZjnm5jlm77moIcKCmBgYArlsLrlr7ggICAgICAgICAgICBTeXN0ZW1JbmZvcm1hdGlvbi5TbWFsbEljb25TaXplLldpZHRo77yI5LiN5piv5Zu65a6aIDE277yJCui/m+W6puadoemrmOW6piAgICAgIG1heCgxLjYsIHNpemUvMTEpCui/m+W6puadoeW3puWPs+e8qei/myAgc2l6ZSDDlyAwLjEzCuaVsOWtl+WMuuWfnyAgICAgICAg6L+b5bqm5p2h5LmL5LiK77yMRml0Rm9udCDpgJDnuqfpmY3lrZflj7fnm7TliLDmlL7kuIsKYGBgCgpgRml0Rm9udGAg55qE5YCZ6YCJ5q+U5L6L77yaYDAuNzIg4oaSIDAuNjYg4oaSIDAuNjAg4oaSIDAuNTUg4oaSIDAuNTAg4oaSIDAuNDYg4oaSIDAuNDIg4oaSIDAuMzhg77yI55u45a+5IHNpemXvvInvvIwK5Y+W56ys5LiA5Liq44CM5a696auY6YO95pS+5b6X5LiL44CN55qE44CC5LiJ5L2N5pWw77yIMTAw77yJ5Lya6JC95Yiw5bqV6YOo5Yeg5qGj77yM6YWN5rex6Imy5a2XICsg5pa55b2i5rWF5bqV44CCCgotLS0KCiMjIDUuIOWKqOaViAoK5YWL5Yi25Yiw5Y+q5pyJ5Lik5aSE77yaCgp8IOS9jee9riB8IOaViOaenCB8IOWPguaVsCB8CnwtLS18LS0tfC0tLXwKfCDlvIDlhbPliIfmjaIgfCDmu5HlnZflvLnmgKfov4fmuKEgfCDnuqYgMTgwbXPvvIxgRWFzZU91dGAgfAp8IOaMguS7tuaCrOWBnCB8IOi9u+W+ruS4iua1riArIOaal+ekuuWPr+aLluWKqCB8IOe6piAxNTBtcyB8CgoqKuayoeaciSoq77ya56qX5Y+j5Ye6546w5Yqo55S744CB6I+c5Y2V5bGV5byA5Yqo55S744CB5pWw5a2X5rua5Yqo5Yqo55S744CCCueQhueUse+8muW4uOmpu+W3peWFt+eahOS7u+S9leWKqOaViO+8jOS4gOWkqeS8muiiq+eci+WHoOWNgeasoe+8jOesrOS4ieasoeS5i+WQjuWwseaYr+W5suaJsOOAggoKLS0tCgojIyA2LiDmjqfku7bop4TojIMKCnwg5o6n5Lu2IHwg6KeE5qC8IHwKfC0tLXwtLS18CnwgKirlvIDlhbMqKiBgVG9nZ2xlU3dpdGNoYCB8IOi9qOmBk+mrmCDiiYggNjAlIOaOp+S7tumrmO+8jOWchuW9oua7keWdl++8jOWFsz1Db250cm9sT2Zm77yM5byAPUdyZWVu77yI5LiN5pivIEFjY2VudO+8jOiLueaenOeahOW8gOWFs+aYr+e7v+iJsu+8iSB8CnwgKirmu5HlnZcqKiBgTU1TbGlkZXJgIHwg6L2o6YGTIDRweCDlnIbop5Log7blm4rvvIzlt7LloavlhYXpg6jliIYgQWNjZW5077yM5pyq5aGr5YWFIENvbnRyb2xPZmbvvIzmi5bmn4Tnmb3oibLluKYgMXB4IOmYtOW9sSB8CnwgKirliIbmrrXmjqfku7YqKiBgU2VnbWVudGVkYCB8IOaVtOS9k+WchuinkiBgSGVpZ2h0w5cwLjMwYO+8jOi9qOmBkyBDb250cm9sT2Zm77yM6YCJ5Lit5Z2X55m96Imy77yI5rex6Imy55SoIGAjNjM2MzY2YO+8iSsg5ZCR5LiLIDFweCDpmLTlvbEgfAp8ICoq5oyJ6ZKuKiogYEZsYXRCdXR0b25gIHwg6buY6K6k6YCP5piOICsgVGV4dERpbe+8m2BQcmltYXJ5PXRydWVgIOaXtiBBY2NlbnQg5bqVICsg55m95a2XIHwKfCAqKuWNoeeJhyoqIGBDYXJkLkRyYXdgIHwgQ2FyZCDlupUgKyDlnIbop5IgMTDvvIwqKuaXoOi+ueahhuaXoOmYtOW9sSoq77yb5YaF6YOo5YiG6ZqU57q/55SoIFNlcGFyYXRvcu+8jOW3puerr+e8qei/myAxNu+8iOiLueaenOeahOWIhumalOe6v+S4jemhtuWIsOi+ue+8iSB8CnwgKiroj5zljZUqKiB8IOWchuinkiArIENhcmQg5bqV77yM6aG56auY57qmIDI277yM5Yu+6YCJ55So5bem5L6n5bCP5a+55Yu+6ICM6Z2e5aSN6YCJ5qGGIHwKCi0tLQoKIyMgNy4g54q25oCB6K+t5LmJCgp8IOeKtuaAgSB8IOminOiJsiB8IOaMguS7tuihqOeOsCB8IOaJmOebmOihqOeOsCB8CnwtLS18LS0tfC0tLXwtLS18Cnwg5q2j5bi4IHwg6Lef6ZqP5Li76aKY5paH5a2X6ImyIHwg5pWw5a2XICsg6L+b5bqm5p2hIHwg5pWw5a2XICsg57uG6L+b5bqm5p2hIHwKfCDkvY7nlLXph4/vvIjiiaTpmIjlgLzvvIkgfCBPcmFuZ2UgfCDmlbDlrZfovazmqZnvvIzov5vluqbmnaHovazmqZkgfCDmqZnoibLmlbDlrZcgfAp8IOWNsemZqe+8iOKJpDEwJe+8iSB8IFJlZCB8IOWQjOS4iiB8IOe6ouiJsuaVsOWtlyB8Cnwg5YWF55S15LitIHwgR3JlZW4gfCDlj7PkuIvop5LjgIzlhYXnlLXkuK3jgI3vvIzov5vluqbmnaHovaznu78gfCDnu7/oibLmlbDlrZcgfAp8IOW3suS8keecoO+8iD45MHMg5peg5paw6K+75pWw77yJIHwg4oCUIHwg5pW05L2T6ZmN6YCP5piO5bqmICsg5Y+z5LiL6KeS44CM5bey5LyR55yg44CNIHwg5L+d55WZ5pWw5a2X77yM5LiN6Zeq54OBIHwKfCDmnKrmo4DmtYvliLDorr7lpIcgfCDngbAgfCDmmL7npLogYC0tYCB8IOeBsCBgLS1gICsgdG9vbHRpcCDor7TmmI7ljp/lm6AgfAoKKirlhbPplK4qKu+8muS8keecoCAhPSDnprvnur/jgILkvJHnnKAqKuS/neeVmSoq5pyA5ZCO6K+75pWw5bm25reh5pi+77yb5Y+q5pyJ55yf5q2j5om+5LiN5Yiw5o6l5pS25Zmo5omN5pi+56S6IGAtLWDjgIIK55So5oi355yL5LiA55y85bCx55+l6YGT44CM5piv5rKh5o+S77yM6L+Y5piv6byg5qCH552h5LqG44CN4oCU4oCU6L+Z5Liq5Yy65YiG5b6I6YeN6KaB77yM5Yir5ZCI5bm244CCCgotLS0KCiMjIDguIOS4jeimgeWBmueahOS6iwoKLSDinYwg57uZ5Y2h54mH5Yqg6Zi05b2x44CM5pi+5b6X56uL5L2T44CNCi0g4p2MIOeUqOa4kOWPmOiJsuWBmuW8uuiwgwotIOKdjCDlnKjmjILku7bkuIrliqDlnIbngrkv5p2h5b2i5Zu+5LmL5aSW55qE6KOF6aWw5Zu+5b2iCi0g4p2MIOaKiuaVsOWtl+WBmuaIkOa7mui9ruWKqOeUuwotIOKdjCDkvb/nlKjns7vnu5/pu5jorqTmjqfku7blpJbop4LvvIjlv4Xpobvoh6rnu5jvvIzlkKbliJnkuIDnnLwgV2luRm9ybe+8iQotIOKdjCDkuK3oi7Hmlofmt7fmjpLml7bnlKjoi7HmlofmoIfngrnvvIjkuK3mlofnlYzpnaLph4wgYMK3YCDnlKjpl7TpmpTlj7fvvIzkuI3nlKggYHxg77yJCg==
+# DESIGN — 视觉规范
+
+> 目标风格：**苹果的简洁**。用户明确提出的，不是我的偏好。
+> 判断标准：任何元素如果去掉之后功能不受影响、且不会让层级更模糊，就应该去掉。
+
+---
+
+## 1. 原则
+
+1. **用字重和灰度拉开层级，不靠字号和边框**。标题 Semibold、正文 Regular、数字 Bold；次要信息降灰度，不加分割框。
+2. **一个界面只有一个强调色**。蓝色只用于「当前选中/主要操作」，其余靠中性灰阶。状态色（绿/橙/红）只在真正表达状态时出现。
+3. **容器靠留白和极淡的背景差，不靠阴影**。卡片与背景的差值只有 1~2 个亮度级。
+4. **不用渐变、不用多层阴影、不用描边+阴影叠加**。
+5. **数字是主角**。挂件上百分比占视觉面积的一半以上，其余元素都要退让。
+
+---
+
+## 2. 颜色 token（`Theme.cs`）
+
+### 浅色
+
+| Token | 值 | 用途 |
+|---|---|---|
+| `Bg` | `#F2F2F7` | 设置窗口底色（iOS 分组列表背景） |
+| `Card` | `#FFFFFF` | 卡片、挂件底 |
+| `CardAlt` | `#F9F9FB` | 卡片内次级区块 |
+| `Text` | `#1D1D1F` | 主文字 |
+| `TextDim` | `#86868B` | 次要文字 |
+| `TextFaint` | `#AEAEB4` | 辅助说明 |
+| `Separator` | `#E5E5EA` | 分隔线（1px） |
+| `Accent` | `#007AFF` | iOS 蓝，选中态 |
+| `Green` | `#34C759` | 充电中 |
+| `Orange` | `#FF9F0A` | 低电量 |
+| `Red` | `#FF453A` | 危险 |
+| `Gray` | `#8E8E93` | 中性 |
+| `ControlOff` | `#E3E3E8` | 开关关闭态轨道 |
+
+### 深色
+
+| Token | 值 | 用途 |
+|---|---|---|
+| `Bg` | `#1C1C1E` | 窗口底 |
+| `Card` | `#2C2C2E` | 卡片、挂件底 |
+| `CardAlt` | `#242426` | 次级区块 |
+| `Text` | `#F5F5F7` | 主文字 |
+| `TextDim` | `#98989D` | 次要文字 |
+| `TextFaint` | `#6E6E73` | 辅助说明 |
+| `Separator` | `#38383A` | 分隔线 |
+| `Accent` | `#0A84FF` | iOS 深色蓝 |
+| `Green` | `#30D158` | |
+| `Orange` | `#FFB340` | |
+| `Red` | `#FF6961` | |
+| `ControlOff` | `#38383A` | |
+
+> 深色不是浅色反相，是**独立一套**：深色下饱和度和亮度都要回调，否则在暗背景上会「发光」。
+
+### 主题解析规则
+
+```
+theme = "system"  → 读注册表 HKCU\...\Themes\Personalize\SystemUsesLightTheme
+                    （1 = 浅色，其它 = 深色）
+```
+
+注意 `SystemUsesLightTheme` 是**系统主题**（决定任务栏、开始菜单），不是应用主题。
+托盘图标的反色依赖它，别改成读应用主题。
+
+---
+
+## 3. 字体
+
+| 用途 | 字族 | 说明 |
+|---|---|---|
+| 显示/数字 | `Segoe UI Variable Display` → `Segoe UI Semibold` → `Segoe UI` | Win11 自带的几何无衬线，最接近 SF Pro |
+| 正文 | `Segoe UI Variable Text` → `Segoe UI` → `Tahoma` | |
+| 中文 | `Microsoft YaHei UI` → `Microsoft YaHei` → `SimSun` | 与 Segoe UI 的 x-height 较接近 |
+
+`Theme.PickFamily()` 在运行时用 `InstalledFontCollection` 逐个探测，取第一个存在的，全部不存在才回退。
+字体对象用字典缓存（`_fonts`），避免每次 `OnPaint` 新建 `Font`（GDI 句柄泄漏）。
+
+### 排版比例（pt，125% DPI 下实际渲染会 ×1.25）
+
+| 场景 | 字号 | 字重 |
+|---|---|---|
+| 挂件大数字 | 26（一位）/ 24（两位）/ 19（三位），再按可用宽度收敛 | Bold |
+| 挂件 `%` | 11 | Regular |
+| 挂件设备名 | 9.5 | Regular |
+| 挂件状态（右下角） | 8.5 | Regular |
+| 设置窗口标题 | 12.5 | Bold |
+| 设置窗口设备名 | 12 | Bold |
+| 设置窗口分组标题 | 9.5 | Regular |
+| 设置窗口行标签 | 10 | Regular |
+| 设置窗口底部说明 | 8.5 | Regular |
+| 菜单项 | 9 | Regular |
+| 菜单标题（只读项） | 8.5 | Regular |
+| 分段控件 / 按钮 | 9 | Regular（选中 Bold） |
+
+**规则**：正文字号不小于 8.5pt，低于这个在 100% DPI 下会糊。
+
+---
+
+## 4. 尺寸与圆角
+
+### 桌面挂件
+
+```
+逻辑尺寸      196 × (34 标题 + 64 × 行数 + 8 页脚)   —— 单行 106，三行 234，最多 3 行
+圆角          Height × 0.115
+内边距        18
+实际尺寸       逻辑值 × (hudScale/100) × (DPI/96)
+默认位置       工作区右下角，距右 48、距下 120
+圆角实现       用 Region 裁剪窗口 + DWM 圆角，不是画假圆角
+```
+
+**大数字的宽度约束**：`RowPainter.NumFitSize()` 以「行宽 − 2 × 内边距」为预算，
+从 `NumSize()` 起点逐级缩小，直到 `数字 + "%"` 放得下（下限 13 pt）。
+三位数（100）在 196 px 宽的卡片上约收敛到 19 pt，视觉上仍与两位数等重。
+数字底部对齐到固定基线，所以 7 和 100 出现在相邻两行时不会一高一低。
+
+**标题行**：单设备时标题为「电量」——设备名就在下面 24 px 处，重复一遍是噪音；
+多设备时为「N 个设备」。右侧只放状态标记（充电闪电 / 已休眠）。
+
+**设备类徽标**：设备名本身已以类别词结尾时（如「A5 ultra 鼠标」）不再画右侧「鼠标」，
+避免同一行出现两次同样的词。
+
+### 设置窗口
+
+```
+逻辑尺寸      448 × 600
+标题栏高      52
+设备卡        y=60,  h=116
+分组1 标签    y=186   卡片 y=212, h=126
+分组2 标签    y=352   卡片 y=378, h=168
+行高          42
+卡片圆角      10
+```
+
+### 托盘图标
+
+```
+尺寸            SystemInformation.SmallIconSize.Width（不是固定 16）
+进度条高度      max(1.6, size/11)
+进度条左右缩进  size × 0.13
+数字区域        进度条之上，FitFont 逐级降字号直到放下
+```
+
+`FitFont` 的候选比例：`0.72 → 0.66 → 0.60 → 0.55 → 0.50 → 0.46 → 0.42 → 0.38`（相对 size），
+取第一个「宽高都放得下」的。三位数（100）会落到底部几档，配深色字 + 方形浅底。
+
+---
+
+## 5. 动效
+
+克制到只有两处：
+
+| 位置 | 效果 | 参数 |
+|---|---|---|
+| 开关切换 | 滑块弹性过渡 | 约 180ms，`EaseOut` |
+| 挂件悬停 | 轻微上浮 + 暗示可拖动 | 约 150ms |
+
+**没有**：窗口出现动画、菜单展开动画、数字滚动动画。
+理由：常驻工具的任何动效，一天会被看几十次，第三次之后就是干扰。
+
+---
+
+## 6. 控件规范
+
+| 控件 | 规格 |
+|---|---|
+| **开关** `ToggleSwitch` | 轨道高 ≈ 60% 控件高，圆形滑块，关=ControlOff，开=Green（不是 Accent，苹果的开关是绿色） |
+| **滑块** `MMSlider` | 轨道 4px 圆角胶囊，已填充部分 Accent，未填充 ControlOff，拖柄白色带 1px 阴影 |
+| **分段控件** `Segmented` | 整体圆角 `Height×0.30`，轨道 ControlOff，选中块白色（深色用 `#636366`）+ 向下 1px 阴影 |
+| **按钮** `FlatButton` | 默认透明 + TextDim；`Primary=true` 时 Accent 底 + 白字 |
+| **卡片** `Card.Draw` | Card 底 + 圆角 10，**无边框无阴影**；内部分隔线用 Separator，左端缩进 16（苹果的分隔线不顶到边） |
+| **菜单** | 圆角 + Card 底，项高约 26，勾选用左侧小对勾而非复选框 |
+
+---
+
+## 7. 状态语义
+
+| 状态 | 颜色 | 挂件表现 | 托盘表现 |
+|---|---|---|---|
+| 正常 | 跟随主题文字色 | 数字 + 进度条 | 数字 + 细进度条 |
+| 低电量（≤阈值） | Orange | 数字转橙，进度条转橙 | 橙色数字 |
+| 危险（≤10%） | Red | 同上 | 红色数字 |
+| 充电中 | Green | 右下角「充电中」，进度条转绿 | 绿色数字 |
+| 已休眠（>90s 无新读数） | — | 整体降透明度 + 右下角「已休眠」 | 保留数字，不闪烁 |
+| 未检测到设备 | 灰 | 显示 `--` | 灰 `--` + tooltip 说明原因 |
+
+**关键**：休眠 != 离线。休眠**保留**最后读数并淡显；只有真正找不到接收器才显示 `--`。
+用户看一眼就知道「是没插，还是鼠标睡了」——这个区分很重要，别合并。
+
+---
+
+## 8. 不要做的事
+
+- ❌ 给卡片加阴影「显得立体」
+- ❌ 用渐变色做强调
+- ❌ 在挂件上加圆点/条形图之外的装饰图形
+- ❌ 把数字做成滚轮动画
+- ❌ 使用系统默认控件外观（必须自绘，否则一眼 WinForm）
+- ❌ 中英文混排时用英文标点（中文界面里 `·` 用间隔号，不用 `|`）

@@ -1,1 +1,266 @@
-dXNpbmcgU3lzdGVtOwp1c2luZyBTeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYzsKdXNpbmcgU3lzdGVtLkRyYXdpbmc7CnVzaW5nIFN5c3RlbS5EcmF3aW5nLkRyYXdpbmcyRDsKdXNpbmcgU3lzdGVtLldpbmRvd3MuRm9ybXM7CgpuYW1lc3BhY2UgTW91c2VNZXRlcgp7CiAgICAvLy8gPHN1bW1hcnk+CiAgICAvLy8gU2hhcmVkIHBhaW50aW5nIGZvciAiYSBsaXN0IG9mIGJhdHRlcnkgcm93cyIg4oCUIHVzZWQgYnkgdGhlIGRlc2t0b3Agd2lkZ2V0IGFuZCB0aGUgdHJheQogICAgLy8vIHBhbmVsLCBzbyBib3RoIGFsd2F5cyBhZ3JlZSBvbiBzcGFjaW5nLCBjb2xvdXJzIGFuZCB3b3JkaW5nLgogICAgLy8vCiAgICAvLy8gUm93IGdlb21ldHJ5IChsb2dpY2FsIHB4LCBtdWx0aXBsaWVkIGJ5IHRoZSBjYWxsZXIncyBzY2FsZSk6CiAgICAvLy8gICBuYW1lIC4uLi4uLi4uLiA5LjUgcHQsIGRpbSwgZWxsaXBzaXMKICAgIC8vLyAgIGJhZGdlIC4uLi4uLi4uIGRldmljZSBjbGFzcywgcmlnaHQgYWxpZ25lZCBvbiB0aGUgbmFtZSBsaW5lIGFzIHBsYWluIGNhcHRpb24gdGV4dAogICAgLy8vICAgbnVtYmVyIC4uLi4uLi4gMjYgcHQgYm9sZCArIDExIHB0ICIlIgogICAgLy8vICAgc3RhdHVzIC4uLi4uLi4gOC41IHB0LCBmYWludCDigJQg5YWF55S15LitIC8gdHJhbnNwb3J0LCBsZWZ0IGFsaWduZWQgb24gdGhlIG1ldGVyIGxpbmUKICAgIC8vLyAgIG1ldGVyIC4uLi4uLi4uIDMgcHggaGFpcmxpbmUgYXQgdGhlIGJvdHRvbSBvZiB0aGUgcm93CiAgICAvLy8gPC9zdW1tYXJ5PgogICAgcHVibGljIHN0YXRpYyBjbGFzcyBSb3dQYWludGVyCiAgICB7CiAgICAgICAgcHVibGljIGNvbnN0IGZsb2F0IE5hbWVQdCA9IDkuNWY7CiAgICAgICAgcHVibGljIGNvbnN0IGZsb2F0IE51bVB0ID0gMjZmOwogICAgICAgIHB1YmxpYyBjb25zdCBmbG9hdCBQY3RQdCA9IDExZjsKICAgICAgICBwdWJsaWMgY29uc3QgZmxvYXQgU21hbGxQdCA9IDguNWY7CiAgICAgICAgY29uc3QgZmxvYXQgTnVtRmxvb3IgPSAxM2Y7ICAgLy8gYmVsb3cgdGhpcyB0aGUgbnVtYmVyIHN0b3BzIHJlYWRpbmcgYXMgdGhlIGhlcm8KCiAgICAgICAgLy8vIDxzdW1tYXJ5PkFjY2VudCBjb2xvdXIgZm9yIGEgcmVhZGluZywgZm9sbG93aW5nIERFU0lHTi5tZCDCpzcuPC9zdW1tYXJ5PgogICAgICAgIHB1YmxpYyBzdGF0aWMgQ29sb3IgQWNjZW50KFBhbGV0dGUgcCwgUmVhZGluZyByLCBpbnQgbG93LCBib29sIHN0YWxlKQogICAgICAgIHsKICAgICAgICAgICAgaWYgKCFyLklzVmFsaWQpIHJldHVybiBwLlRleHRGYWludDsKICAgICAgICAgICAgaWYgKHIuQ2hhcmdpbmcpIHJldHVybiBwLkdyZWVuOwogICAgICAgICAgICBpZiAoci5MZXZlbCA8PSAxMCkgcmV0dXJuIHAuUmVkOwogICAgICAgICAgICBpZiAoci5MZXZlbCA8PSBsb3cpIHJldHVybiBwLk9yYW5nZTsKICAgICAgICAgICAgcmV0dXJuIHN0YWxlID8gVGhlbWUuQWxwaGEocC5UZXh0LCAwLjU1KSA6IHAuVGV4dDsKICAgICAgICB9CgogICAgICAgIHB1YmxpYyBzdGF0aWMgc3RyaW5nIFN0YXR1c1RleHQoUmVhZGluZyByLCBQYWxldHRlIHApCiAgICAgICAgewogICAgICAgICAgICBpZiAoIXIuSXNWYWxpZCkgcmV0dXJuICIiOwogICAgICAgICAgICBpZiAoci5DaGFyZ2luZykgcmV0dXJuICLlhYXnlLXkuK0iOwogICAgICAgICAgICBpZiAoRnJlc2huZXNzLklzU3RhbGUocikpIHJldHVybiAi5bey5LyR55ygIjsKICAgICAgICAgICAgcmV0dXJuIHIuVHJhbnNwb3J0OwogICAgICAgIH0KCiAgICAgICAgLy8vIDxzdW1tYXJ5PkJhZGdlIGxhYmVsOiB0aGUgZGV2aWNlIGNsYXNzLCBidXQgZm9yIHRoZSBwcmltYXJ5IGRldmljZSBpdCBzdGF5cyBxdWlldC48L3N1bW1hcnk+CiAgICAgICAgcHVibGljIHN0YXRpYyBzdHJpbmcgQmFkZ2VUZXh0KFJlYWRpbmcgcikKICAgICAgICB7CiAgICAgICAgICAgIHJldHVybiBEZXZpY2VLaW5kLkxhYmVsT3JFbXB0eShyLktpbmQpOwogICAgICAgIH0KCiAgICAgICAgLy8vIDxzdW1tYXJ5PkRyYXcgb25lIHJvdyBpbnNpZGUgcmVjdCAoYWxyZWFkeSBpbiBkZXZpY2UgcGl4ZWxzKS48L3N1bW1hcnk+CiAgICAgICAgcHVibGljIHN0YXRpYyB2b2lkIERyYXcoR3JhcGhpY3MgZywgUGFsZXR0ZSBwLCBSZWFkaW5nIHIsIFJlY3RhbmdsZUYgcmVjdCwgZmxvYXQgcywgZmxvYXQgZnMsCiAgICAgICAgICAgIGludCBsb3csIGJvb2wgc2hvd0JhZGdlKQogICAgICAgIHsKICAgICAgICAgICAgYm9vbCBvbmxpbmUgPSAhc3RyaW5nLklzTnVsbE9yRW1wdHkoci5LaW5kKSB8fCByLklzVmFsaWQ7CiAgICAgICAgICAgIGJvb2wga25vd24gPSByLklzVmFsaWQ7CiAgICAgICAgICAgIGJvb2wgc3RhbGUgPSBvbmxpbmUgJiYgRnJlc2huZXNzLklzU3RhbGUocik7CiAgICAgICAgICAgIENvbG9yIGFjY2VudCA9IEFjY2VudChwLCByLCBsb3csIHN0YWxlKTsKICAgICAgICAgICAgQ29sb3IgaW5rID0gb25saW5lID8gKHN0YWxlID8gVGhlbWUuQWxwaGEocC5UZXh0LCAwLjYyKSA6IHAuVGV4dCkgOiBwLlRleHRGYWludDsKCiAgICAgICAgICAgIGZsb2F0IHBhZCA9IDE4ZiAqIHM7CgogICAgICAgICAgICAvLyAtLS0tIG5hbWUgKGxlZnQpICsgY2xhc3MgY2FwdGlvbiAocmlnaHQsIHNhbWUgYmFzZWxpbmUpIC0tLS0KICAgICAgICAgICAgc3RyaW5nIG5hbWUgPSBvbmxpbmUgPyByLkRldmljZU5hbWUgOiAi5pyq5qOA5rWL5Yiw6K6+5aSHIjsKICAgICAgICAgICAgZmxvYXQgYmFkZ2VXID0gMGY7CiAgICAgICAgICAgIGlmIChvbmxpbmUgJiYgc2hvd0JhZGdlICYmICFCYWRnZVJlZHVuZGFudChyKSkgYmFkZ2VXID0gQmFkZ2VXaWR0aChnLCByLCBzLCBmcyk7CiAgICAgICAgICAgIGZsb2F0IG5hbWVXID0gcmVjdC5XaWR0aCAtIHBhZCAqIDIgLSBiYWRnZVcgLSAoYmFkZ2VXID4gMCA/IDhmICogcyA6IDBmKTsKCiAgICAgICAgICAgIC8vIFRoZSBiYWRnZSBib3ggbXVzdCBub3Qgc3RhcnQgZXhhY3RseSBvbiB0aGUgcm93J3MgdG9wIGVkZ2U6IGxpYmdkaXBsdXMKICAgICAgICAgICAgLy8gKGFuZCBzb21lIEdESSsgYnVpbGRzKSByZWplY3QgYSBDZW50cmUtYWxpZ25lZCBib3ggdGhhdCBiZWdpbnMgb24gdGhlCiAgICAgICAgICAgIC8vIGJpdG1hcCBncmlkIGxpbmUsIHNvIGJvdGggY2FwdGlvbnMgYXJlIG51ZGdlZCB1cCBieSAxIGxvZ2ljYWwgcHguCiAgICAgICAgICAgIGZsb2F0IGNhcFRvcCA9IHJlY3QuWSAtIDFmICogczsKICAgICAgICAgICAgZmxvYXQgY2FwSCA9IDE4ZiAqIHM7CgogICAgICAgICAgICB2YXIgc2ZOYW1lID0gbmV3IFN0cmluZ0Zvcm1hdCgpOwogICAgICAgICAgICBzZk5hbWUuTGluZUFsaWdubWVudCA9IFN0cmluZ0FsaWdubWVudC5DZW50ZXI7CiAgICAgICAgICAgIHNmTmFtZS5Gb3JtYXRGbGFncyA9IFN0cmluZ0Zvcm1hdEZsYWdzLk5vV3JhcDsKICAgICAgICAgICAgc2ZOYW1lLlRyaW1taW5nID0gU3RyaW5nVHJpbW1pbmcuRWxsaXBzaXNDaGFyYWN0ZXI7CiAgICAgICAgICAgIHVzaW5nICh2YXIgYiA9IG5ldyBTb2xpZEJydXNoKHAuVGV4dERpbSkpCiAgICAgICAgICAgICAgICBnLkRyYXdTdHJpbmcobmFtZSwgVGhlbWUuRkMoTmFtZVB0ICogZnMsIGZhbHNlKSwgYiwKICAgICAgICAgICAgICAgICAgICBuZXcgUmVjdGFuZ2xlRihyZWN0LlggKyBwYWQsIGNhcFRvcCwgbmFtZVcsIGNhcEgpLCBzZk5hbWUpOwogICAgICAgICAgICBzZk5hbWUuRGlzcG9zZSgpOwoKICAgICAgICAgICAgaWYgKGJhZGdlVyA+IDApCiAgICAgICAgICAgICAgICBEcmF3QmFkZ2UoZywgcCwgciwgbmV3IFJlY3RhbmdsZUYocmVjdC5SaWdodCAtIHBhZCAtIGJhZGdlVywgY2FwVG9wLCBiYWRnZVcsIGNhcEgpLCBmcyk7CgogICAgICAgICAgICAvLyAtLS0tIG51bWJlciAtLS0tCiAgICAgICAgICAgIC8vIGhlcm8gbGluZSA9IGRpZ2l0cyArICIlIjsgaXQgbWF5IHVzZSBldmVyeXRoaW5nIHVwIHRvIHRoZSByb3cncyByaWdodCBwYWRkaW5nCiAgICAgICAgICAgIHN0cmluZyBudW0gPSBrbm93biA/IHIuTGV2ZWwuVG9TdHJpbmcoKSA6ICItLSI7CiAgICAgICAgICAgIGZsb2F0IGhlcm9CdWRnZXQgPSByZWN0LldpZHRoIC0gcGFkICogMjsKICAgICAgICAgICAgZmxvYXQgbnVtU2l6ZSA9IE51bUZpdFNpemUoZywgbnVtLCBmcywgaGVyb0J1ZGdldCk7CiAgICAgICAgICAgIEZvbnQgZk51bSA9IFRoZW1lLkYobnVtU2l6ZSwgdHJ1ZSk7CiAgICAgICAgICAgIEZvbnQgZlBjdCA9IFRoZW1lLkYoUGN0UHQgKiBmcywgZmFsc2UpOwogICAgICAgICAgICB2YXIgc2ZUeXBvID0gU3RyaW5nRm9ybWF0LkdlbmVyaWNUeXBvZ3JhcGhpYzsKICAgICAgICAgICAgdmFyIHN6TnVtID0gZy5NZWFzdXJlU3RyaW5nKG51bSwgZk51bSwgOTk5LCBzZlR5cG8pOwogICAgICAgICAgICB2YXIgc3pQY3QgPSBnLk1lYXN1cmVTdHJpbmcoIiUiLCBmUGN0LCA5OTksIHNmVHlwbyk7CgogICAgICAgICAgICAvLyBTaXQgdGhlIGRpZ2l0cyBvbiBhIGZpeGVkIGJvdHRvbSBsaW5lIGluc3RlYWQgb2YgYSBmaXhlZCB0b3A6IEdESSsgcHV0cyBleHRyYQogICAgICAgICAgICAvLyBsZWFkaW5nIGFib3ZlIGEgcG9pbnQtc2l6ZWQgZm9udCwgYW5kIHRoZSBhbW91bnQgZGlmZmVycyBiZXR3ZWVuIDI2IHB0IGFuZCB0aGUKICAgICAgICAgICAgLy8gc21hbGxlciAzLWRpZ2l0IHNpemUg4oCUIGEgZml4ZWQgdG9wIG1ha2VzICI3IiBmbG9hdCBoaWdoZXIgdGhhbiAiMTAwIi4KICAgICAgICAgICAgZmxvYXQgYmFzZVNpemUgPSBOdW1TaXplKG51bSkgKiBmczsKICAgICAgICAgICAgZmxvYXQgYmFzZUJvdHRvbSA9IHJlY3QuWSArIDE0ZiAqIHMgKyBnLk1lYXN1cmVTdHJpbmcoIjAiLCBUaGVtZS5GKGJhc2VTaXplLCB0cnVlKSwgOTk5LCBzZlR5cG8pLkhlaWdodDsKICAgICAgICAgICAgZmxvYXQgbnVtVG9wID0gYmFzZUJvdHRvbSAtIHN6TnVtLkhlaWdodDsKICAgICAgICAgICAgdXNpbmcgKHZhciBiID0gbmV3IFNvbGlkQnJ1c2goaW5rKSkKICAgICAgICAgICAgICAgIGcuRHJhd1N0cmluZyhudW0sIGZOdW0sIGIsIHJlY3QuWCArIHBhZCAtIDEuNWYgKiBzLCBudW1Ub3AsIHNmVHlwbyk7CgogICAgICAgICAgICBpZiAoa25vd24pCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgIGZsb2F0IHBjdFRvcCA9IG51bVRvcCArIHN6TnVtLkhlaWdodCAtIHN6UGN0LkhlaWdodCAtIDdmICogczsKICAgICAgICAgICAgICAgIHVzaW5nICh2YXIgYiA9IG5ldyBTb2xpZEJydXNoKFRoZW1lLkFscGhhKGFjY2VudCwgMC43MikpKQogICAgICAgICAgICAgICAgICAgIGcuRHJhd1N0cmluZygiJSIsIGZQY3QsIGIsIHJlY3QuWCArIHBhZCArIHN6TnVtLldpZHRoICsgMWYgKiBzLCBwY3RUb3AsIHNmVHlwbyk7CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIC8vIC0tLS0gc3RhdHVzIGNhcHRpb24sIGxlZnQgYWxpZ25lZCBvbiB0aGUgbWV0ZXIgbGluZSAtLS0tCiAgICAgICAgICAgIC8vICLlt7LkvJHnnKAiIGlzIGFscmVhZHkgYW5ub3VuY2VkIG9uY2UgaW4gdGhlIGhlYWRlcjsgcmVwZWF0aW5nIGl0IHBlciByb3cgaXMgbm9pc2UuCiAgICAgICAgICAgIHN0cmluZyBzdGF0dXMgPSBrbm93biA/IFN0YXR1c1RleHQociwgcCkgOiAob25saW5lID8gci5UcmFuc3BvcnQgOiAiIik7CiAgICAgICAgICAgIGlmIChzdGF0dXMgPT0gIuW3suS8keecoCIpIHN0YXR1cyA9ICIiOwogICAgICAgICAgICBpZiAoc3RhdHVzLkxlbmd0aCA+IDAgJiYgcmVjdC5IZWlnaHQgPiA1OGYgKiBmcykKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgdmFyIHNmU3RhdHVzID0gbmV3IFN0cmluZ0Zvcm1hdCgpOwogICAgICAgICAgICAgICAgc2ZTdGF0dXMuTGluZUFsaWdubWVudCA9IFN0cmluZ0FsaWdubWVudC5DZW50ZXI7CiAgICAgICAgICAgICAgICBzZlN0YXR1cy5Gb3JtYXRGbGFncyA9IFN0cmluZ0Zvcm1hdEZsYWdzLk5vV3JhcDsKICAgICAgICAgICAgICAgIHNmU3RhdHVzLlRyaW1taW5nID0gU3RyaW5nVHJpbW1pbmcuRWxsaXBzaXNDaGFyYWN0ZXI7CiAgICAgICAgICAgICAgICB1c2luZyAodmFyIGIgPSBuZXcgU29saWRCcnVzaChyLkNoYXJnaW5nID8gVGhlbWUuQWxwaGEocC5HcmVlbiwgMC45NSkgOiBwLlRleHRGYWludCkpCiAgICAgICAgICAgICAgICAgICAgZy5EcmF3U3RyaW5nKHN0YXR1cywgVGhlbWUuRkMoU21hbGxQdCAqIGZzLCBmYWxzZSksIGIsCiAgICAgICAgICAgICAgICAgICAgICAgIG5ldyBSZWN0YW5nbGVGKHJlY3QuWCArIHBhZCwgcmVjdC5Cb3R0b20gLSAxOWYgKiBzLCByZWN0LldpZHRoIC0gcGFkICogMiwgMTNmICogcyksIHNmU3RhdHVzKTsKICAgICAgICAgICAgICAgIHNmU3RhdHVzLkRpc3Bvc2UoKTsKICAgICAgICAgICAgfQoKICAgICAgICAgICAgLy8gLS0tLSBtZXRlciAtLS0tCiAgICAgICAgICAgIGZsb2F0IG1ldGVySCA9IDMuNWYgKiBzOwogICAgICAgICAgICBmbG9hdCBtZXRlclkgPSByZWN0LkJvdHRvbSAtIDNmICogcyAtIG1ldGVySDsKICAgICAgICAgICAgdmFyIHRyYWNrID0gbmV3IFJlY3RhbmdsZUYocmVjdC5YICsgcGFkLCBtZXRlclksIHJlY3QuV2lkdGggLSBwYWQgKiAyLCBtZXRlckgpOwogICAgICAgICAgICBmbG9hdCByYWRpdXMgPSBtZXRlckggLyAyZjsKCiAgICAgICAgICAgIHVzaW5nICh2YXIgcGF0aCA9IFRoZW1lLlJvdW5kUmVjdCh0cmFjaywgcmFkaXVzKSkKICAgICAgICAgICAgdXNpbmcgKHZhciBiID0gbmV3IFNvbGlkQnJ1c2goQ29sb3IuRnJvbUFyZ2IocC5Jc0RhcmsgPyAzMiA6IDI0LCBpbmspKSkKICAgICAgICAgICAgICAgIGcuRmlsbFBhdGgoYiwgcGF0aCk7CgogICAgICAgICAgICBmbG9hdCBwY3QgPSBrbm93biA/IE1hdGguTWF4KDBmLCBNYXRoLk1pbigxZiwgci5MZXZlbCAvIDEwMGYpKSA6IDBmOwogICAgICAgICAgICBpZiAocGN0ID4gMC4wMDFmKQogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICB2YXIgZmlsbCA9IG5ldyBSZWN0YW5nbGVGKHRyYWNrLlgsIG1ldGVyWSwgTWF0aC5NYXgobWV0ZXJILCB0cmFjay5XaWR0aCAqIHBjdCksIG1ldGVySCk7CiAgICAgICAgICAgICAgICB1c2luZyAodmFyIHBhdGggPSBUaGVtZS5Sb3VuZFJlY3QoZmlsbCwgcmFkaXVzKSkKICAgICAgICAgICAgICAgIHVzaW5nICh2YXIgYiA9IG5ldyBTb2xpZEJydXNoKGFjY2VudCkpCiAgICAgICAgICAgICAgICAgICAgZy5GaWxsUGF0aChiLCBwYXRoKTsKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgc3RhdGljIGZsb2F0IEJhZGdlV2lkdGgoR3JhcGhpY3MgZywgUmVhZGluZyByLCBmbG9hdCBzLCBmbG9hdCBmcykKICAgICAgICB7CiAgICAgICAgICAgIHN0cmluZyB0ID0gQmFkZ2VUZXh0KHIpOwogICAgICAgICAgICAvLyBUaGVtZSBmb250cyBhcmUgY2FjaGVkIGFuZCBzaGFyZWQ6IG5ldmVyIHdyYXAgdGhlbSBpbiB1c2luZyguLi4pIOKAlCBkaXNwb3NpbmcgYQogICAgICAgICAgICAvLyBzaGFyZWQgZm9udCBraWxscyBldmVyeSBsYXRlciBEcmF3U3RyaW5nIG9uIHNvbWUgR0RJKyBidWlsZHMgKGxpYmdkaXBsdXMpLgogICAgICAgICAgICB2YXIgc3ogPSBnLk1lYXN1cmVTdHJpbmcodCwgVGhlbWUuRkMoOGYgKiBmcywgZmFsc2UpLCA5OTksIFN0cmluZ0Zvcm1hdC5HZW5lcmljVHlwb2dyYXBoaWMpOwogICAgICAgICAgICByZXR1cm4gc3ouV2lkdGggKyAyZiAqIHM7CiAgICAgICAgfQoKICAgICAgICAvLy8gPHN1bW1hcnk+CiAgICAgICAgLy8vIEhpZGUgd2hlbiB0aGUgaW5zdGFuY2UgbmFtZSBhbHJlYWR5IGVuZHMgd2l0aCB0aGUgY2xhc3MgKCJBNSB1bHRyYSDpvKDmoIciKTogdGhlIGJhZGdlCiAgICAgICAgLy8vIHdvdWxkIHJlcGVhdCB0aGUgc2FtZSB3b3JkIHR3aWNlIG9uIG9uZSBsaW5lLgogICAgICAgIC8vLyA8L3N1bW1hcnk+CiAgICAgICAgcHVibGljIHN0YXRpYyBib29sIEJhZGdlUmVkdW5kYW50KFJlYWRpbmcgcikKICAgICAgICB7CiAgICAgICAgICAgIGlmIChzdHJpbmcuSXNOdWxsT3JFbXB0eShyLkRldmljZU5hbWUpKSByZXR1cm4gZmFsc2U7CiAgICAgICAgICAgIHN0cmluZyBsYWJlbCA9IEJhZGdlVGV4dChyKTsKICAgICAgICAgICAgaWYgKGxhYmVsLkxlbmd0aCA9PSAwKSByZXR1cm4gZmFsc2U7CiAgICAgICAgICAgIHJldHVybiByLkRldmljZU5hbWUuVHJpbSgpLkVuZHNXaXRoKGxhYmVsLCBTdHJpbmdDb21wYXJpc29uLk9yZGluYWxJZ25vcmVDYXNlKTsKICAgICAgICB9CgogICAgICAgIC8vLyA8c3VtbWFyeT4KICAgICAgICAvLy8gUGxhaW4gY2FwdGlvbiBpbnN0ZWFkIG9mIGEgY2Fwc3VsZS4gT24gYSAxOTYgcHggY2FyZCBmb3VyIG91dGxpbmVkIHBpbGxzIHJlYWQgYXMKICAgICAgICAvLy8gZm91ciBtb3JlIGNvbnRyb2xzOyBxdWlldCB0ZXh0IGtlZXBzIHRoZSBleWUgb24gdGhlIG51bWJlcnMuCiAgICAgICAgLy8vIDwvc3VtbWFyeT4KICAgICAgICBzdGF0aWMgdm9pZCBEcmF3QmFkZ2UoR3JhcGhpY3MgZywgUGFsZXR0ZSBwLCBSZWFkaW5nIHIsIFJlY3RhbmdsZUYgYm94LCBmbG9hdCBmcykKICAgICAgICB7CiAgICAgICAgICAgIHN0cmluZyB0ID0gQmFkZ2VUZXh0KHIpOwogICAgICAgICAgICBpZiAodC5MZW5ndGggPT0gMCkgcmV0dXJuOwogICAgICAgICAgICB2YXIgc2YgPSBuZXcgU3RyaW5nRm9ybWF0KCk7CiAgICAgICAgICAgIHNmLkFsaWdubWVudCA9IFN0cmluZ0FsaWdubWVudC5GYXI7CiAgICAgICAgICAgIHNmLkxpbmVBbGlnbm1lbnQgPSBTdHJpbmdBbGlnbm1lbnQuQ2VudGVyOwogICAgICAgICAgICBzZi5Gb3JtYXRGbGFncyA9IFN0cmluZ0Zvcm1hdEZsYWdzLk5vV3JhcDsKICAgICAgICAgICAgc2YuVHJpbW1pbmcgPSBTdHJpbmdUcmltbWluZy5Ob25lOwogICAgICAgICAgICB1c2luZyAodmFyIGIgPSBuZXcgU29saWRCcnVzaChUaGVtZS5BbHBoYShwLlRleHREaW0sIDAuODUpKSkKICAgICAgICAgICAgICAgIGcuRHJhd1N0cmluZyh0LCBUaGVtZS5GQyg4ZiAqIGZzLCBmYWxzZSksIGIsIGJveCwgc2YpOwogICAgICAgICAgICBzZi5EaXNwb3NlKCk7CiAgICAgICAgfQoKICAgICAgICAvLy8gPHN1bW1hcnk+MyBkaWdpdHMgbmVlZCB0byBiZSB+MzAlIG5hcnJvd2VyIG9yICIxMDAlIiBvdmVycnVucyB0aGUgbWV0ZXIuPC9zdW1tYXJ5PgogICAgICAgIHB1YmxpYyBzdGF0aWMgZmxvYXQgTnVtU2l6ZShzdHJpbmcgbnVtKQogICAgICAgIHsKICAgICAgICAgICAgaWYgKG51bS5MZW5ndGggPj0gMykgcmV0dXJuIDE5ZjsKICAgICAgICAgICAgaWYgKG51bS5MZW5ndGggPT0gMikgcmV0dXJuIDI0ZjsKICAgICAgICAgICAgcmV0dXJuIE51bVB0OwogICAgICAgIH0KCiAgICAgICAgLy8vIDxzdW1tYXJ5PgogICAgICAgIC8vLyBTaXplIGZvciB0aGUgYmlnIG51bWJlciBzbyBkaWdpdCArICIlIiBuZXZlciBlYXQgdGhlIHdob2xlIG1ldGVyIGxpbmUuCiAgICAgICAgLy8vIFN0YXJ0cyBhdCBOdW1TaXplKCkgYW5kIHN0ZXBzIGRvd24gdW50aWwgdGhlIHBhaXIgZml0cyA8cGFyYW1yZWYgbmFtZT0iYnVkZ2V0Ii8+LgogICAgICAgIC8vLyBNZWFzdXJlU3RyaW5nIGlzIG9ubHkgdHJ1c3RlZCBmb3IgdGhlIGZpcnN0IHN0ZXA7IHRoZSBlc3RpbWF0ZSB0aGVuIHVzZXMgYSBwZXItZ2x5cGgKICAgICAgICAvLy8gYWR2YW5jZSwgYmVjYXVzZSB0aGUgR0RJKyBtZWFzdXJlbWVudCBvZiBhIGJvbGQgMjYgcHQgc3RyaW5nIGlzIGEgZmV3IHB4IGxvb3NlIGFuZAogICAgICAgIC8vLyBmb250IG1ldHJpY3MgZGlmZmVyIGJldHdlZW4gV2luZG93cyBhbmQgbGliZ2RpcGx1cy4KICAgICAgICAvLy8gPC9zdW1tYXJ5PgogICAgICAgIHB1YmxpYyBzdGF0aWMgZmxvYXQgTnVtRml0U2l6ZShHcmFwaGljcyBnLCBzdHJpbmcgbnVtLCBmbG9hdCBmcywgZmxvYXQgYnVkZ2V0KQogICAgICAgIHsKICAgICAgICAgICAgZmxvYXQgc2l6ZSA9IE51bVNpemUobnVtKSAqIGZzOwogICAgICAgICAgICBpZiAoYnVkZ2V0IDw9IDBmKSByZXR1cm4gc2l6ZTsKCiAgICAgICAgICAgIEZvbnQgZk51bSA9IFRoZW1lLkYoc2l6ZSwgdHJ1ZSk7CiAgICAgICAgICAgIEZvbnQgZlBjdCA9IFRoZW1lLkYoUGN0UHQgKiBmcywgZmFsc2UpOwogICAgICAgICAgICB2YXIgdHlwbyA9IFN0cmluZ0Zvcm1hdC5HZW5lcmljVHlwb2dyYXBoaWM7CiAgICAgICAgICAgIGZsb2F0IHdOdW0gPSBnLk1lYXN1cmVTdHJpbmcobnVtLCBmTnVtLCA5OTksIHR5cG8pLldpZHRoOwogICAgICAgICAgICBmbG9hdCB3UGN0ID0gZy5NZWFzdXJlU3RyaW5nKCIlIiwgZlBjdCwgOTk5LCB0eXBvKS5XaWR0aDsKICAgICAgICAgICAgZmxvYXQgZ2FwID0gMWYgKiAoZnMgPD0gMGYgPyAxZiA6IGZzKTsKCiAgICAgICAgICAgIGZvciAoaW50IGd1YXJkID0gMDsgZ3VhcmQgPCAxMiAmJiB3TnVtICsgZ2FwICsgd1BjdCA+IGJ1ZGdldDsgZ3VhcmQrKykKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgZmxvYXQgayA9IChidWRnZXQgLSB3UGN0IC0gZ2FwKSAvIE1hdGguTWF4KDAuMDAxZiwgd051bSk7CiAgICAgICAgICAgICAgICBpZiAoayA+IDAuOTg1ZikgayA9IDAuOTg1ZjsgICAgICAgICAvLyBhbHdheXMgbWFrZSBwcm9ncmVzcwogICAgICAgICAgICAgICAgaWYgKGsgPCAwLjZmKSBrID0gMC42ZjsgICAgICAgICAgICAgLy8gb25lIGhhcmQgc3RlcCwgdGhlbiByZS1tZWFzdXJlCiAgICAgICAgICAgICAgICBzaXplICo9IGs7CiAgICAgICAgICAgICAgICBpZiAoc2l6ZSA8IE51bUZsb29yKSB7IHNpemUgPSBOdW1GbG9vcjsgYnJlYWs7IH0KCiAgICAgICAgICAgICAgICBmTnVtID0gVGhlbWUuRihzaXplLCB0cnVlKTsKICAgICAgICAgICAgICAgIHdOdW0gPSBnLk1lYXN1cmVTdHJpbmcobnVtLCBmTnVtLCA5OTksIHR5cG8pLldpZHRoOwogICAgICAgICAgICAgICAgd1BjdCA9IGcuTWVhc3VyZVN0cmluZygiJSIsIGZQY3QsIDk5OSwgdHlwbykuV2lkdGg7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgcmV0dXJuIE1hdGguTWluKHNpemUsIE51bVNpemUobnVtKSAqIGZzKTsKICAgICAgICB9CgogICAgICAgIC8vLyA8c3VtbWFyeT5DaGFyZ2luZyBib2x0LCB1c2VkIGJ5IHRoZSB3aWRnZXQgaGVhZGVyLjwvc3VtbWFyeT4KICAgICAgICBwdWJsaWMgc3RhdGljIHZvaWQgRHJhd0JvbHQoR3JhcGhpY3MgZywgZmxvYXQgeCwgZmxvYXQgeSwgZmxvYXQgaCwgQ29sb3IgYykKICAgICAgICB7CiAgICAgICAgICAgIGZsb2F0IHcgPSBoICogMC42NGY7CiAgICAgICAgICAgIHZhciBwdHMgPSBuZXcgUG9pbnRGW10KICAgICAgICAgICAgewogICAgICAgICAgICAgICAgbmV3IFBvaW50Rih4ICsgdyAqIDAuNjBmLCB5KSwKICAgICAgICAgICAgICAgIG5ldyBQb2ludEYoeCArIHcgKiAwLjA4ZiwgeSArIGggKiAwLjU2ZiksCiAgICAgICAgICAgICAgICBuZXcgUG9pbnRGKHggKyB3ICogMC40NGYsIHkgKyBoICogMC41NmYpLAogICAgICAgICAgICAgICAgbmV3IFBvaW50Rih4ICsgdyAqIDAuMzJmLCB5ICsgaCksCiAgICAgICAgICAgICAgICBuZXcgUG9pbnRGKHggKyB3ICogMC45NGYsIHkgKyBoICogMC40MGYpLAogICAgICAgICAgICAgICAgbmV3IFBvaW50Rih4ICsgdyAqIDAuNTJmLCB5ICsgaCAqIDAuNDBmKQogICAgICAgICAgICB9OwogICAgICAgICAgICB1c2luZyAodmFyIHBhdGggPSBuZXcgR3JhcGhpY3NQYXRoKCkpCiAgICAgICAgICAgIHVzaW5nICh2YXIgYiA9IG5ldyBTb2xpZEJydXNoKGMpKQogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBwYXRoLkFkZFBvbHlnb24ocHRzKTsKICAgICAgICAgICAgICAgIGcuRmlsbFBhdGgoYiwgcGF0aCk7CiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIC8vLyA8c3VtbWFyeT5PZmZsaW5lIC8gZW1wdHkgc3RhdGUgdGV4dC48L3N1bW1hcnk+CiAgICAgICAgcHVibGljIHN0YXRpYyB2b2lkIERyYXdFbXB0eShHcmFwaGljcyBnLCBQYWxldHRlIHAsIFJlY3RhbmdsZUYgcmVjdCwgZmxvYXQgcywgZmxvYXQgZnMsIHN0cmluZyBtc2cpCiAgICAgICAgewogICAgICAgICAgICB2YXIgc2YgPSBuZXcgU3RyaW5nRm9ybWF0KCk7CiAgICAgICAgICAgIHNmLkFsaWdubWVudCA9IFN0cmluZ0FsaWdubWVudC5DZW50ZXI7CiAgICAgICAgICAgIHNmLkxpbmVBbGlnbm1lbnQgPSBTdHJpbmdBbGlnbm1lbnQuQ2VudGVyOwogICAgICAgICAgICBzZi5Gb3JtYXRGbGFncyA9IFN0cmluZ0Zvcm1hdEZsYWdzLk5vV3JhcDsKICAgICAgICAgICAgc2YuVHJpbW1pbmcgPSBTdHJpbmdUcmltbWluZy5FbGxpcHNpc0NoYXJhY3RlcjsKICAgICAgICAgICAgdXNpbmcgKHZhciBiID0gbmV3IFNvbGlkQnJ1c2gocC5UZXh0RmFpbnQpKQogICAgICAgICAgICAgICAgZy5EcmF3U3RyaW5nKG1zZywgVGhlbWUuRkMoOS41ZiAqIGZzLCBmYWxzZSksIGIsIHJlY3QsIHNmKTsKICAgICAgICAgICAgc2YuRGlzcG9zZSgpOwogICAgICAgIH0KICAgIH0KfQo=
+using System;
+using System.Collections.Generic;
+using System.Drawing;
+using System.Drawing.Drawing2D;
+using System.Windows.Forms;
+
+namespace MouseMeter
+{
+    /// <summary>
+    /// Shared painting for "a list of battery rows" — used by the desktop widget and the tray
+    /// panel, so both always agree on spacing, colours and wording.
+    ///
+    /// Row geometry (logical px, multiplied by the caller's scale):
+    ///   name ......... 9.5 pt, dim, ellipsis
+    ///   badge ........ device class, right aligned on the name line as plain caption text
+    ///   number ....... 26 pt bold + 11 pt "%"
+    ///   status ....... 8.5 pt, faint — 充电中 / transport, left aligned on the meter line
+    ///   meter ........ 3 px hairline at the bottom of the row
+    /// </summary>
+    public static class RowPainter
+    {
+        public const float NamePt = 9.5f;
+        public const float NumPt = 26f;
+        public const float PctPt = 11f;
+        public const float SmallPt = 8.5f;
+        const float NumFloor = 13f;   // below this the number stops reading as the hero
+
+        /// <summary>Accent colour for a reading, following DESIGN.md §7.</summary>
+        public static Color Accent(Palette p, Reading r, int low, bool stale)
+        {
+            if (!r.IsValid) return p.TextFaint;
+            if (r.Charging) return p.Green;
+            if (r.Level <= 10) return p.Red;
+            if (r.Level <= low) return p.Orange;
+            return stale ? Theme.Alpha(p.Text, 0.55) : p.Text;
+        }
+
+        public static string StatusText(Reading r, Palette p)
+        {
+            if (!r.IsValid) return "";
+            if (r.Charging) return "充电中";
+            if (Freshness.IsStale(r)) return "已休眠";
+            return r.Transport;
+        }
+
+        /// <summary>Badge label: the device class, but for the primary device it stays quiet.</summary>
+        public static string BadgeText(Reading r)
+        {
+            return DeviceKind.LabelOrEmpty(r.Kind);
+        }
+
+        /// <summary>Draw one row inside rect (already in device pixels).</summary>
+        public static void Draw(Graphics g, Palette p, Reading r, RectangleF rect, float s, float fs,
+            int low, bool showBadge)
+        {
+            bool online = !string.IsNullOrEmpty(r.Kind) || r.IsValid;
+            bool known = r.IsValid;
+            bool stale = online && Freshness.IsStale(r);
+            Color accent = Accent(p, r, low, stale);
+            Color ink = online ? (stale ? Theme.Alpha(p.Text, 0.62) : p.Text) : p.TextFaint;
+
+            float pad = 18f * s;
+
+            // ---- name (left) + class caption (right, same baseline) ----
+            string name = online ? r.DeviceName : "未检测到设备";
+            float badgeW = 0f;
+            if (online && showBadge && !BadgeRedundant(r)) badgeW = BadgeWidth(g, r, s, fs);
+            float nameW = rect.Width - pad * 2 - badgeW - (badgeW > 0 ? 8f * s : 0f);
+
+            // The badge box must not start exactly on the row's top edge: libgdiplus
+            // (and some GDI+ builds) reject a Centre-aligned box that begins on the
+            // bitmap grid line, so both captions are nudged up by 1 logical px.
+            float capTop = rect.Y - 1f * s;
+            float capH = 18f * s;
+
+            var sfName = new StringFormat();
+            sfName.LineAlignment = StringAlignment.Center;
+            sfName.FormatFlags = StringFormatFlags.NoWrap;
+            sfName.Trimming = StringTrimming.EllipsisCharacter;
+            using (var b = new SolidBrush(p.TextDim))
+                g.DrawString(name, Theme.FC(NamePt * fs, false), b,
+                    new RectangleF(rect.X + pad, capTop, nameW, capH), sfName);
+            sfName.Dispose();
+
+            if (badgeW > 0)
+                DrawBadge(g, p, r, new RectangleF(rect.Right - pad - badgeW, capTop, badgeW, capH), fs);
+
+            // ---- number ----
+            // hero line = digits + "%"; it may use everything up to the row's right padding
+            string num = known ? r.Level.ToString() : "--";
+            float heroBudget = rect.Width - pad * 2;
+            float numSize = NumFitSize(g, num, fs, heroBudget);
+            Font fNum = Theme.F(numSize, true);
+            Font fPct = Theme.F(PctPt * fs, false);
+            var sfTypo = StringFormat.GenericTypographic;
+            var szNum = g.MeasureString(num, fNum, 999, sfTypo);
+            var szPct = g.MeasureString("%", fPct, 999, sfTypo);
+
+            // Sit the digits on a fixed bottom line instead of a fixed top: GDI+ puts extra
+            // leading above a point-sized font, and the amount differs between 26 pt and the
+            // smaller 3-digit size — a fixed top makes "7" float higher than "100".
+            float baseSize = NumSize(num) * fs;
+            float baseBottom = rect.Y + 14f * s + g.MeasureString("0", Theme.F(baseSize, true), 999, sfTypo).Height;
+            float numTop = baseBottom - szNum.Height;
+            using (var b = new SolidBrush(ink))
+                g.DrawString(num, fNum, b, rect.X + pad - 1.5f * s, numTop, sfTypo);
+
+            if (known)
+            {
+                float pctTop = numTop + szNum.Height - szPct.Height - 7f * s;
+                using (var b = new SolidBrush(Theme.Alpha(accent, 0.72)))
+                    g.DrawString("%", fPct, b, rect.X + pad + szNum.Width + 1f * s, pctTop, sfTypo);
+            }
+
+            // ---- status caption, left aligned on the meter line ----
+            // "已休眠" is already announced once in the header; repeating it per row is noise.
+            string status = known ? StatusText(r, p) : (online ? r.Transport : "");
+            if (status == "已休眠") status = "";
+            if (status.Length > 0 && rect.Height > 58f * fs)
+            {
+                var sfStatus = new StringFormat();
+                sfStatus.LineAlignment = StringAlignment.Center;
+                sfStatus.FormatFlags = StringFormatFlags.NoWrap;
+                sfStatus.Trimming = StringTrimming.EllipsisCharacter;
+                using (var b = new SolidBrush(r.Charging ? Theme.Alpha(p.Green, 0.95) : p.TextFaint))
+                    g.DrawString(status, Theme.FC(SmallPt * fs, false), b,
+                        new RectangleF(rect.X + pad, rect.Bottom - 19f * s, rect.Width - pad * 2, 13f * s), sfStatus);
+                sfStatus.Dispose();
+            }
+
+            // ---- meter ----
+            float meterH = 3.5f * s;
+            float meterY = rect.Bottom - 3f * s - meterH;
+            var track = new RectangleF(rect.X + pad, meterY, rect.Width - pad * 2, meterH);
+            float radius = meterH / 2f;
+
+            using (var path = Theme.RoundRect(track, radius))
+            using (var b = new SolidBrush(Color.FromArgb(p.IsDark ? 32 : 24, ink)))
+                g.FillPath(b, path);
+
+            float pct = known ? Math.Max(0f, Math.Min(1f, r.Level / 100f)) : 0f;
+            if (pct > 0.001f)
+            {
+                var fill = new RectangleF(track.X, meterY, Math.Max(meterH, track.Width * pct), meterH);
+                using (var path = Theme.RoundRect(fill, radius))
+                using (var b = new SolidBrush(accent))
+                    g.FillPath(b, path);
+            }
+        }
+
+        static float BadgeWidth(Graphics g, Reading r, float s, float fs)
+        {
+            string t = BadgeText(r);
+            // Theme fonts are cached and shared: never wrap them in using(...) — disposing a
+            // shared font kills every later DrawString on some GDI+ builds (libgdiplus).
+            var sz = g.MeasureString(t, Theme.FC(8f * fs, false), 999, StringFormat.GenericTypographic);
+            return sz.Width + 2f * s;
+        }
+
+        /// <summary>
+        /// Hide when the instance name already ends with the class ("A5 ultra 鼠标"): the badge
+        /// would repeat the same word twice on one line.
+        /// </summary>
+        public static bool BadgeRedundant(Reading r)
+        {
+            if (string.IsNullOrEmpty(r.DeviceName)) return false;
+            string label = BadgeText(r);
+            if (label.Length == 0) return false;
+            return r.DeviceName.Trim().EndsWith(label, StringComparison.OrdinalIgnoreCase);
+        }
+
+        /// <summary>
+        /// Plain caption instead of a capsule. On a 196 px card four outlined pills read as
+        /// four more controls; quiet text keeps the eye on the numbers.
+        /// </summary>
+        static void DrawBadge(Graphics g, Palette p, Reading r, RectangleF box, float fs)
+        {
+            string t = BadgeText(r);
+            if (t.Length == 0) return;
+            var sf = new StringFormat();
+            sf.Alignment = StringAlignment.Far;
+            sf.LineAlignment = StringAlignment.Center;
+            sf.FormatFlags = StringFormatFlags.NoWrap;
+            sf.Trimming = StringTrimming.None;
+            using (var b = new SolidBrush(Theme.Alpha(p.TextDim, 0.85)))
+                g.DrawString(t, Theme.FC(8f * fs, false), b, box, sf);
+            sf.Dispose();
+        }
+
+        /// <summary>3 digits need to be ~30% narrower or "100%" overruns the meter.</summary>
+        public static float NumSize(string num)
+        {
+            if (num.Length >= 3) return 19f;
+            if (num.Length == 2) return 24f;
+            return NumPt;
+        }
+
+        /// <summary>
+        /// Size for the big number so digit + "%" never eat the whole meter line.
+        /// Starts at NumSize() and steps down until the pair fits <paramref name="budget"/>.
+        /// MeasureString is only trusted for the first step; the estimate then uses a per-glyph
+        /// advance, because the GDI+ measurement of a bold 26 pt string is a few px loose and
+        /// font metrics differ between Windows and libgdiplus.
+        /// </summary>
+        public static float NumFitSize(Graphics g, string num, float fs, float budget)
+        {
+            float size = NumSize(num) * fs;
+            if (budget <= 0f) return size;
+
+            Font fNum = Theme.F(size, true);
+            Font fPct = Theme.F(PctPt * fs, false);
+            var typo = StringFormat.GenericTypographic;
+            float wNum = g.MeasureString(num, fNum, 999, typo).Width;
+            float wPct = g.MeasureString("%", fPct, 999, typo).Width;
+            float gap = 1f * (fs <= 0f ? 1f : fs);
+
+            for (int guard = 0; guard < 12 && wNum + gap + wPct > budget; guard++)
+            {
+                float k = (budget - wPct - gap) / Math.Max(0.001f, wNum);
+                if (k > 0.985f) k = 0.985f;         // always make progress
+                if (k < 0.6f) k = 0.6f;             // one hard step, then re-measure
+                size *= k;
+                if (size < NumFloor) { size = NumFloor; break; }
+
+                fNum = Theme.F(size, true);
+                wNum = g.MeasureString(num, fNum, 999, typo).Width;
+                wPct = g.MeasureString("%", fPct, 999, typo).Width;
+            }
+            return Math.Min(size, NumSize(num) * fs);
+        }
+
+        /// <summary>Charging bolt, used by the widget header.</summary>
+        public static void DrawBolt(Graphics g, float x, float y, float h, Color c)
+        {
+            float w = h * 0.64f;
+            var pts = new PointF[]
+            {
+                new PointF(x + w * 0.60f, y),
+                new PointF(x + w * 0.08f, y + h * 0.56f),
+                new PointF(x + w * 0.44f, y + h * 0.56f),
+                new PointF(x + w * 0.32f, y + h),
+                new PointF(x + w * 0.94f, y + h * 0.40f),
+                new PointF(x + w * 0.52f, y + h * 0.40f)
+            };
+            using (var path = new GraphicsPath())
+            using (var b = new SolidBrush(c))
+            {
+                path.AddPolygon(pts);
+                g.FillPath(b, path);
+            }
+        }
+
+        /// <summary>Offline / empty state text.</summary>
+        public static void DrawEmpty(Graphics g, Palette p, RectangleF rect, float s, float fs, string msg)
+        {
+            var sf = new StringFormat();
+            sf.Alignment = StringAlignment.Center;
+            sf.LineAlignment = StringAlignment.Center;
+            sf.FormatFlags = StringFormatFlags.NoWrap;
+            sf.Trimming = StringTrimming.EllipsisCharacter;
+            using (var b = new SolidBrush(p.TextFaint))
+                g.DrawString(msg, Theme.FC(9.5f * fs, false), b, rect, sf);
+            sf.Dispose();
+        }
+    }
+}

@@ -1,1 +1,83 @@
-77u/IyBDb21waWxlci5wczEgLSBtZXJnZXMgc3JjXCouY3MgaW50byBvbmUgdHJhbnNsYXRpb24gdW5pdCwgY2FjaGVzIHRoZSBjb21waWxlZCBETEwKIyBrZXllZCBieSBhIGNvbnRlbnQgaGFzaCBzbyByZXN0YXJ0cyBjb3N0IH4xNSBtcyBpbnN0ZWFkIG9mIH4xIHMuCgpmdW5jdGlvbiBHZXQtTW91c2VNZXRlclNvdXJjZSB7CiAgICBwYXJhbShbc3RyaW5nXSRSb290KQoKICAgICRzcmNEaXIgPSBKb2luLVBhdGggJFJvb3QgJ3NyYycKICAgICRmaWxlcyA9IEdldC1DaGlsZEl0ZW0gJHNyY0RpciAtRmlsdGVyICouY3MgfCBTb3J0LU9iamVjdCBOYW1lCiAgICBpZiAoJGZpbGVzLkNvdW50IC1lcSAwKSB7IHRocm93ICJubyAuY3MgZmlsZXMgdW5kZXIgJHNyY0RpciIgfQoKICAgICR1c2luZ3MgPSBOZXctT2JqZWN0ICdTeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5MaXN0W3N0cmluZ10nCiAgICAkYm9keSA9IE5ldy1PYmplY3QgU3lzdGVtLlRleHQuU3RyaW5nQnVpbGRlcgoKICAgIGZvcmVhY2ggKCRmIGluICRmaWxlcykgewogICAgICAgICR0ZXh0ID0gW1N5c3RlbS5JTy5GaWxlXTo6UmVhZEFsbFRleHQoJGYuRnVsbE5hbWUsIFtTeXN0ZW0uVGV4dC5FbmNvZGluZ106OlVURjgpCiAgICAgICAgZm9yZWFjaCAoJGxpbmUgaW4gKCR0ZXh0IC1zcGxpdCAiYHI/YG4iKSkgewogICAgICAgICAgICBpZiAoJGxpbmUgLW1hdGNoICdeXHMqdXNpbmdccytbQS1aYS16MC05Xy5dK1xzKjtccyokJykgewogICAgICAgICAgICAgICAgJHRyaW0gPSAkbGluZS5UcmltKCkKICAgICAgICAgICAgICAgIGlmICgtbm90ICR1c2luZ3MuQ29udGFpbnMoJHRyaW0pKSB7ICR1c2luZ3MuQWRkKCR0cmltKSB9CiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICBbdm9pZF0kYm9keS5BcHBlbmRMaW5lKCRsaW5lKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIFt2b2lkXSRib2R5LkFwcGVuZExpbmUoJycpCiAgICB9CgogICAgcmV0dXJuICgoJHVzaW5ncyB8IEZvckVhY2gtT2JqZWN0IHsgJF8gfSkgLWpvaW4gImBuIikgKyAiYG5gbiIgKyAkYm9keS5Ub1N0cmluZygpCn0KCmZ1bmN0aW9uIEJ1aWxkLU1vdXNlTWV0ZXIgewogICAgcGFyYW0oCiAgICAgICAgW3N0cmluZ10kUm9vdCA9ICdDOlxVc2Vyc1wyMzM4MVxUb29sc1xNb3VzZU1ldGVyJywKICAgICAgICBbc3dpdGNoXSRGb3JjZQogICAgKQoKICAgICMgTE9DQUxBUFBEQVRBIGlzIG51bGwgb3V0c2lkZSBXaW5kb3dzIChMaW51eCBwd3NoLCBDSSBjb250YWluZXJzKSwgYW5kIEpvaW4tUGF0aCB3aXRoIGEKICAgICMgbnVsbCBiYXNlIHRocm93cyAiQ2Fubm90IGJpbmQgYXJndW1lbnQgdG8gcGFyYW1ldGVyICdQYXRoJyIuIEZhbGxpbmcgYmFjayBrZWVwcyB0aGUKICAgICMgdmVyaWZ5IGdhdGUgcnVubmFibGUgb24gYSBidWlsZCBtYWNoaW5lIHdpdGhvdXQgY2hhbmdpbmcgd2hlcmUgV2luZG93cyBjYWNoZXMgZ28uCiAgICAkYmFzZSA9ICRlbnY6TE9DQUxBUFBEQVRBCiAgICBpZiAoLW5vdCAkYmFzZSkgeyAkYmFzZSA9IEpvaW4tUGF0aCAoW1N5c3RlbS5JTy5QYXRoXTo6R2V0VGVtcFBhdGgoKSkgJ01vdXNlTWV0ZXInIH0KICAgICRjYWNoZURpciA9IEpvaW4tUGF0aCAkYmFzZSAnTW91c2VNZXRlclxjYWNoZScKICAgIE5ldy1JdGVtIC1JdGVtVHlwZSBEaXJlY3RvcnkgLUZvcmNlIC1QYXRoICRjYWNoZURpciB8IE91dC1OdWxsCgogICAgJHNyYyA9IEdldC1Nb3VzZU1ldGVyU291cmNlIC1Sb290ICRSb290CiAgICAkc2hhID0gW1N5c3RlbS5TZWN1cml0eS5DcnlwdG9ncmFwaHkuU0hBMjU2XTo6Q3JlYXRlKCkKICAgICRoYXNoID0gW1N5c3RlbS5CaXRDb252ZXJ0ZXJdOjpUb1N0cmluZygKICAgICAgICAkc2hhLkNvbXB1dGVIYXNoKFtTeXN0ZW0uVGV4dC5FbmNvZGluZ106OlVURjguR2V0Qnl0ZXMoJHNyYykpKS5SZXBsYWNlKCctJywgJycpLlN1YnN0cmluZygwLCAxNikKICAgICRzaGEuRGlzcG9zZSgpCgogICAgJGRsbCA9IEpvaW4tUGF0aCAkY2FjaGVEaXIgKCJNb3VzZU1ldGVyLSIgKyAkaGFzaCArICIuZGxsIikKCiAgICBpZiAoKFRlc3QtUGF0aCAkZGxsKSAtYW5kIC1ub3QgJEZvcmNlKSB7CiAgICAgICAgcmV0dXJuIEB7IFBhdGggPSAkZGxsOyBDb21waWxlZCA9ICRmYWxzZTsgQ2hhcnMgPSAkc3JjLkxlbmd0aCB9CiAgICB9CgogICAgJHByb3ZpZGVyID0gTmV3LU9iamVjdCBNaWNyb3NvZnQuQ1NoYXJwLkNTaGFycENvZGVQcm92aWRlcgogICAgJGNwID0gTmV3LU9iamVjdCBTeXN0ZW0uQ29kZURvbS5Db21waWxlci5Db21waWxlclBhcmFtZXRlcnMKICAgICRjcC5HZW5lcmF0ZUluTWVtb3J5ID0gJGZhbHNlCiAgICAkY3AuT3V0cHV0QXNzZW1ibHkgPSAkZGxsCiAgICAkY3AuQ29tcGlsZXJPcHRpb25zID0gJy9vcHRpbWl6ZSAvd2FybjowJwogICAgZm9yZWFjaCAoJGEgaW4gQCgnU3lzdGVtLmRsbCcsICdTeXN0ZW0uQ29yZS5kbGwnLCAnU3lzdGVtLkRyYXdpbmcuZGxsJywgJ1N5c3RlbS5XaW5kb3dzLkZvcm1zLmRsbCcpKSB7CiAgICAgICAgW3ZvaWRdJGNwLlJlZmVyZW5jZWRBc3NlbWJsaWVzLkFkZCgkYSkKICAgIH0KCiAgICAkcmVzID0gJHByb3ZpZGVyLkNvbXBpbGVBc3NlbWJseUZyb21Tb3VyY2UoJGNwLCAkc3JjKQogICAgaWYgKCRyZXMuRXJyb3JzLkNvdW50IC1ndCAwKSB7CiAgICAgICAgJG1zZ3MgPSBAKCkKICAgICAgICBmb3JlYWNoICgkZSBpbiAkcmVzLkVycm9ycykgewogICAgICAgICAgICBpZiAoJGUuSXNXYXJuaW5nKSB7IGNvbnRpbnVlIH0KICAgICAgICAgICAgJG1zZ3MgKz0gKCdsaW5lICcgKyAkZS5MaW5lICsgJzogJyArICRlLkVycm9yVGV4dCkKICAgICAgICB9CiAgICAgICAgdGhyb3cgKCJCVUlMRCBGQUlMRURgbiIgKyAoJG1zZ3MgLWpvaW4gImBuIikpCiAgICB9CgogICAgIyBrZWVwIG9ubHkgdGhlIGZyZXNoZXN0IGZldyBkbGxzIGFyb3VuZAogICAgR2V0LUNoaWxkSXRlbSAkY2FjaGVEaXIgLUZpbHRlciAnTW91c2VNZXRlci0qLmRsbCcgfAogICAgICAgIFdoZXJlLU9iamVjdCB7ICRfLkZ1bGxOYW1lIC1uZSAkZGxsIH0gfAogICAgICAgIFNvcnQtT2JqZWN0IExhc3RXcml0ZVRpbWUgLURlc2NlbmRpbmcgfAogICAgICAgIFNlbGVjdC1PYmplY3QgLVNraXAgMSB8CiAgICAgICAgUmVtb3ZlLUl0ZW0gLUZvcmNlIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlCgogICAgcmV0dXJuIEB7IFBhdGggPSAkZGxsOyBDb21waWxlZCA9ICR0cnVlOyBDaGFycyA9ICRzcmMuTGVuZ3RoIH0KfQo=
+﻿# Compiler.ps1 - merges src\*.cs into one translation unit, caches the compiled DLL
+# keyed by a content hash so restarts cost ~15 ms instead of ~1 s.
+
+function Get-MouseMeterSource {
+    param([string]$Root)
+
+    $srcDir = Join-Path $Root 'src'
+    $files = Get-ChildItem $srcDir -Filter *.cs | Sort-Object Name
+    if ($files.Count -eq 0) { throw "no .cs files under $srcDir" }
+
+    $usings = New-Object 'System.Collections.Generic.List[string]'
+    $body = New-Object System.Text.StringBuilder
+
+    foreach ($f in $files) {
+        $text = [System.IO.File]::ReadAllText($f.FullName, [System.Text.Encoding]::UTF8)
+        foreach ($line in ($text -split "`r?`n")) {
+            if ($line -match '^\s*using\s+[A-Za-z0-9_.]+\s*;\s*$') {
+                $trim = $line.Trim()
+                if (-not $usings.Contains($trim)) { $usings.Add($trim) }
+            } else {
+                [void]$body.AppendLine($line)
+            }
+        }
+        [void]$body.AppendLine('')
+    }
+
+    return (($usings | ForEach-Object { $_ }) -join "`n") + "`n`n" + $body.ToString()
+}
+
+function Build-MouseMeter {
+    param(
+        [string]$Root = 'C:\Users\23381\Tools\MouseMeter',
+        [switch]$Force
+    )
+
+    # LOCALAPPDATA is null outside Windows (Linux pwsh, CI containers), and Join-Path with a
+    # null base throws "Cannot bind argument to parameter 'Path'". Falling back keeps the
+    # verify gate runnable on a build machine without changing where Windows caches go.
+    $base = $env:LOCALAPPDATA
+    if (-not $base) { $base = Join-Path ([System.IO.Path]::GetTempPath()) 'MouseMeter' }
+    $cacheDir = Join-Path $base 'MouseMeter\cache'
+    New-Item -ItemType Directory -Force -Path $cacheDir | Out-Null
+
+    $src = Get-MouseMeterSource -Root $Root
+    $sha = [System.Security.Cryptography.SHA256]::Create()
+    $hash = [System.BitConverter]::ToString(
+        $sha.ComputeHash([System.Text.Encoding]::UTF8.GetBytes($src))).Replace('-', '').Substring(0, 16)
+    $sha.Dispose()
+
+    $dll = Join-Path $cacheDir ("MouseMeter-" + $hash + ".dll")
+
+    if ((Test-Path $dll) -and -not $Force) {
+        return @{ Path = $dll; Compiled = $false; Chars = $src.Length }
+    }
+
+    $provider = New-Object Microsoft.CSharp.CSharpCodeProvider
+    $cp = New-Object System.CodeDom.Compiler.CompilerParameters
+    $cp.GenerateInMemory = $false
+    $cp.OutputAssembly = $dll
+    $cp.CompilerOptions = '/optimize /warn:0'
+    foreach ($a in @('System.dll', 'System.Core.dll', 'System.Drawing.dll', 'System.Windows.Forms.dll')) {
+        [void]$cp.ReferencedAssemblies.Add($a)
+    }
+
+    $res = $provider.CompileAssemblyFromSource($cp, $src)
+    if ($res.Errors.Count -gt 0) {
+        $msgs = @()
+        foreach ($e in $res.Errors) {
+            if ($e.IsWarning) { continue }
+            $msgs += ('line ' + $e.Line + ': ' + $e.ErrorText)
+        }
+        throw ("BUILD FAILED`n" + ($msgs -join "`n"))
+    }
+
+    # keep only the freshest few dlls around
+    Get-ChildItem $cacheDir -Filter 'MouseMeter-*.dll' |
+        Where-Object { $_.FullName -ne $dll } |
+        Sort-Object LastWriteTime -Descending |
+        Select-Object -Skip 1 |
+        Remove-Item -Force -ErrorAction SilentlyContinue
+
+    return @{ Path = $dll; Compiled = $true; Chars = $src.Length }
+}

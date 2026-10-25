@@ -1,1 +1,238 @@
-dXNpbmcgU3lzdGVtOwp1c2luZyBTeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYzsKCm5hbWVzcGFjZSBNb3VzZU1ldGVyCnsKICAgIC8vLyA8c3VtbWFyeT4KICAgIC8vLyBPbmUgd2F5IG9mIGZpbmRpbmcgYmF0dGVyaWVzLiA8c2VlIGNyZWY9IlJlYWQiLz4gbXVzdCBuZXZlciB0aHJvdyBhbmQgbXVzdCBiZSBjaGVhcCB3aGVuCiAgICAvLy8gbm90aGluZyBpcyBhcm91bmQuCiAgICAvLy8gPC9zdW1tYXJ5PgogICAgcHVibGljIGludGVyZmFjZSBJQmF0dGVyeVNvdXJjZQogICAgewogICAgICAgIHN0cmluZyBOYW1lIHsgZ2V0OyB9CiAgICAgICAgTGlzdDxSZWFkaW5nPiBSZWFkKCk7CiAgICB9CgogICAgLy8vIDxzdW1tYXJ5PgogICAgLy8vIFZlbmRvciBmZWF0dXJlLXJlcG9ydCBwcm90b2NvbCBvdmVyIEhJRCAoTUNIT1NFIC8gUmVhbHRlayBkb25nbGVzKS4KICAgIC8vLwogICAgLy8vIHYzIGNoYW5nZXMgdnMgdjI6CiAgICAvLy8gICogb25lIHF1ZXJ5IHBlciBwaHlzaWNhbCBkZXZpY2UgaW5zdGVhZCBvZiBwZXIgY29sbGVjdGlvbiDigJQgYSBkb25nbGUgZXhwb3NlcyB1cCB0byB0aHJlZQogICAgLy8vICAgIHZlbmRvciBjb2xsZWN0aW9ucyBhbmQgd2UgdXNlZCB0byBwcm9iZSBldmVyeSBvbmUgb2YgdGhlbSwgOCB0aW1lcyBlYWNoOwogICAgLy8vICAqIHRoZSBkZXZpY2UgY2xhc3MgY29tZXMgZnJvbSB0aGUgcmVzcG9uc2UgLyBzaWJsaW5nIHVzYWdlcywgc28ga2V5Ym9hcmRzIGFuZCBoZWFkc2V0cyBvbgogICAgLy8vICAgIHRoZSBzYW1lIHByb3RvY29sIGFyZSByZXBvcnRlZCBzZXBhcmF0ZWx5IGluc3RlYWQgb2YgYmVpbmcgY29sbGFwc2VkIGludG8gInRoZSBtb3VzZSI7CiAgICAvLy8gICogcGVyLWRldmljZSBhdHRlbXB0IGJ1ZGdldCwgc28gYSBzbGVlcGluZyBtb3VzZSBubyBsb25nZXIgc3RhcnZlcyB0aGUgb3RoZXIgZGV2aWNlcy4KICAgIC8vLyA8L3N1bW1hcnk+CiAgICBwdWJsaWMgY2xhc3MgVmVuZG9ySGlkU291cmNlIDogSUJhdHRlcnlTb3VyY2UKICAgIHsKICAgICAgICBwdWJsaWMgc3RyaW5nIE5hbWUgeyBnZXQgeyByZXR1cm4gIkhJRCDnp4HmnInljY/orq4iOyB9IH0KCiAgICAgICAgcmVhZG9ubHkgRnVuYzxib29sPiBfZW5hYmxlZDsKICAgICAgICByZWFkb25seSBMaXN0PHN0cmluZz4gX2tub3duSWRzOwogICAgICAgIHJlYWRvbmx5IERpY3Rpb25hcnk8c3RyaW5nLCBpbnQ+IF9mYWlsdXJlcyA9IG5ldyBEaWN0aW9uYXJ5PHN0cmluZywgaW50PihTdHJpbmdDb21wYXJlci5PcmRpbmFsSWdub3JlQ2FzZSk7CgogICAgICAgIHB1YmxpYyBzdHJpbmcgTGFzdEVycm9yID0gIiI7CiAgICAgICAgcHVibGljIGludCBRdWVyaWVzOwoKICAgICAgICBwdWJsaWMgVmVuZG9ySGlkU291cmNlKEZ1bmM8Ym9vbD4gZW5hYmxlZCwgTGlzdDxzdHJpbmc+IGtub3duSGFyZHdhcmVJZHMpCiAgICAgICAgewogICAgICAgICAgICBfZW5hYmxlZCA9IGVuYWJsZWQ7CiAgICAgICAgICAgIF9rbm93bklkcyA9IGtub3duSGFyZHdhcmVJZHMgPz8gbmV3IExpc3Q8c3RyaW5nPigpOwogICAgICAgIH0KCiAgICAgICAgcHVibGljIExpc3Q8UmVhZGluZz4gUmVhZCgpCiAgICAgICAgewogICAgICAgICAgICB2YXIgb3V0cHV0ID0gbmV3IExpc3Q8UmVhZGluZz4oKTsKICAgICAgICAgICAgaWYgKCFfZW5hYmxlZCgpKSByZXR1cm4gb3V0cHV0OwoKICAgICAgICAgICAgTGlzdDxIaWRDb2xsZWN0aW9uPiBhbGw7CiAgICAgICAgICAgIHRyeSB7IGFsbCA9IEhpZC5FbnVtZXJhdGUoKTsgfQogICAgICAgICAgICBjYXRjaCAoRXhjZXB0aW9uIGV4KSB7IExhc3RFcnJvciA9IGV4Lk1lc3NhZ2U7IHJldHVybiBvdXRwdXQ7IH0KICAgICAgICAgICAgaWYgKGFsbC5Db3VudCA9PSAwKSB7IExhc3RFcnJvciA9ICJubyBoaWQiOyByZXR1cm4gb3V0cHV0OyB9CgogICAgICAgICAgICB2YXIgZ3JvdXBzID0gR3JvdXBCeURldmljZShhbGwpOwogICAgICAgICAgICBmb3IgKGludCBpID0gMDsgaSA8IGdyb3Vwcy5Db3VudDsgaSsrKQogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICB2YXIgZyA9IGdyb3Vwc1tpXTsKICAgICAgICAgICAgICAgIHZhciB0YXJnZXQgPSBEZXZpY2VIZXVyaXN0aWNzLlBpY2tQcm9iZVRhcmdldChnLkl0ZW1zKTsKICAgICAgICAgICAgICAgIGlmICh0YXJnZXQgPT0gbnVsbCkgY29udGludWU7CgogICAgICAgICAgICAgICAgc3RyaW5nIGtpbmQgPSBEZXZpY2VIZXVyaXN0aWNzLkNsYXNzaWZ5KHRhcmdldCwgZy5JdGVtcyk7CiAgICAgICAgICAgICAgICBib29sIHdoaXRlbGlzdGVkID0gSXNLbm93bihnLlZpZCwgZy5QaWQpOwoKICAgICAgICAgICAgICAgIC8vIHVua25vd24gZGV2aWNlIGFuZCB0aGUgZmlyc3QgcHJvYmUgYWxyZWFkeSBmYWlsZWQ6IHN0b3AgcG9raW5nIGl0IGV2ZXJ5IGN5Y2xlLgogICAgICAgICAgICAgICAgaW50IGZhaWxzOwogICAgICAgICAgICAgICAgaWYgKF9mYWlsdXJlcy5UcnlHZXRWYWx1ZShnLkRldmljZUtleSwgb3V0IGZhaWxzKSAmJiBmYWlscyA+PSAzICYmICF3aGl0ZWxpc3RlZCkgY29udGludWU7CiAgICAgICAgICAgICAgICBpZiAoIXdoaXRlbGlzdGVkICYmICFMb29rc0xpa2VXaXJlbGVzc0RvbmdsZShnLCB0YXJnZXQpKSBjb250aW51ZTsKCiAgICAgICAgICAgICAgICBRdWVyaWVzKys7CiAgICAgICAgICAgICAgICB2YXIgcmVzID0gUHJvYmUoKEhpZENvbGxlY3Rpb24pdGFyZ2V0LCBmYWlscyk7CiAgICAgICAgICAgICAgICBpZiAocmVzLk9rKQogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAgIF9mYWlsdXJlcy5SZW1vdmUoZy5EZXZpY2VLZXkpOwogICAgICAgICAgICAgICAgICAgIHZhciByID0gcmVzLlZhbHVlOwogICAgICAgICAgICAgICAgICAgIHIuS2luZCA9IGtpbmQgPz8gRGV2aWNlS2luZC5Nb3VzZTsKICAgICAgICAgICAgICAgICAgICByLkRldmljZU5hbWUgPSBEaXNwbGF5TmFtZShnLCByLktpbmQpOwogICAgICAgICAgICAgICAgICAgIHIuTW9kZWwgPSBQcm90b2NvbC5QYXJzZU1vZGVsKHJlcy5SZXBseSk7CiAgICAgICAgICAgICAgICAgICAgci5UcmFuc3BvcnQgPSAiMi40RyI7CiAgICAgICAgICAgICAgICAgICAgci5IYXJkd2FyZUlkID0gZy5WaWQuVG9TdHJpbmcoIlg0IikgKyAiOiIgKyBnLlBpZC5Ub1N0cmluZygiWDQiKTsKICAgICAgICAgICAgICAgICAgICByLklkID0gImhpZHwiICsgZy5EZXZpY2VLZXkgKyAifCIgKyByLktpbmQ7CiAgICAgICAgICAgICAgICAgICAgci5Tb3VyY2UgPSBOYW1lOwogICAgICAgICAgICAgICAgICAgIG91dHB1dC5BZGQocik7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBlbHNlCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgX2ZhaWx1cmVzW2cuRGV2aWNlS2V5XSA9IGZhaWxzICsgMTsKICAgICAgICAgICAgICAgICAgICBMYXN0RXJyb3IgPSByZXMuUmVhc29uOwogICAgICAgICAgICAgICAgICAgIExvZy5JbmZvKCJwcm9iZSAiICsgZy5EZXZpY2VLZXkgKyAiIC0+ICIgKyByZXMuUmVhc29uICsgIiAoZmFpbCAjIiArIChmYWlscyArIDEpICsgIikiKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICByZXR1cm4gb3V0cHV0OwogICAgICAgIH0KCiAgICAgICAgc3RydWN0IFByb2JlUmVzdWx0CiAgICAgICAgewogICAgICAgICAgICBwdWJsaWMgYm9vbCBPazsKICAgICAgICAgICAgcHVibGljIFJlYWRpbmcgVmFsdWU7CiAgICAgICAgICAgIHB1YmxpYyBzdHJpbmcgUmVhc29uOwogICAgICAgICAgICBwdWJsaWMgYnl0ZVtdIFJlcGx5OwogICAgICAgIH0KCiAgICAgICAgUHJvYmVSZXN1bHQgUHJvYmUoSGlkQ29sbGVjdGlvbiBjb2wsIGludCBmYWlsdXJlcykKICAgICAgICB7CiAgICAgICAgICAgIHZhciByZXMgPSBuZXcgUHJvYmVSZXN1bHQoKTsKICAgICAgICAgICAgcmVzLlZhbHVlID0gUmVhZGluZy5JbnZhbGlkKCk7CgogICAgICAgICAgICAvLyBmaXJzdCBzaWdodGluZzogdHdvIGF0dGVtcHRzOyBhIGRldmljZSB0aGF0IGtlZXBzIGZhaWxpbmcgZ2V0cyBvbmUgYXR0ZW1wdCBzbyBpdCBjYW4KICAgICAgICAgICAgLy8gbmV2ZXIgdGFrZSB0aGUgcG9sbCB0aHJlYWQgaG9zdGFnZSAoYSBzbGVlcGluZyBtb3VzZSBpcyB0aGUgbm9ybWFsIGNhc2UpLgogICAgICAgICAgICBpbnQgYXR0ZW1wdHMgPSBmYWlsdXJlcyA9PSAwID8gMiA6IDE7CiAgICAgICAgICAgIHZhciBmcmFtZSA9IFByb3RvY29sLkJ1aWxkUmVxdWVzdCgweDA2KTsKCiAgICAgICAgICAgIGZvciAoaW50IGEgPSAwOyBhIDwgYXR0ZW1wdHM7IGErKykKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgdmFyIGggPSBIaWQuT3Blbihjb2wuUGF0aCwgdHJ1ZSk7CiAgICAgICAgICAgICAgICBpZiAoaC5Jc0ludmFsaWQpCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgcmVzLlJlYXNvbiA9ICJvcGVuICIgKyBIaWQuRGVzY3JpYmVFcnJvcihIaWQuTGFzdEVycm9yKTsKICAgICAgICAgICAgICAgICAgICBTeXN0ZW0uVGhyZWFkaW5nLlRocmVhZC5TbGVlcChSZXRyeS5EZWxheUZvcihhKSk7CiAgICAgICAgICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB0cnkKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICBpZiAoIUhpZC5TZXRGZWF0dXJlKGgsIGZyYW1lKSkKICAgICAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgICAgIHJlcy5SZWFzb24gPSAic2V0ICIgKyBIaWQuRGVzY3JpYmVFcnJvcihIaWQuTGFzdEVycm9yKTsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgZWxzZQogICAgICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICAgICAgU3lzdGVtLlRocmVhZGluZy5UaHJlYWQuU2xlZXAoMzApOwogICAgICAgICAgICAgICAgICAgICAgICB2YXIgcmVwbHkgPSBIaWQuR2V0RmVhdHVyZShoLCBQcm90b2NvbC5GcmFtZUxlbmd0aCwgUHJvdG9jb2wuUmVzcG9uc2VSZXBvcnRJZCk7CiAgICAgICAgICAgICAgICAgICAgICAgIFJlYWRpbmcgcjsKICAgICAgICAgICAgICAgICAgICAgICAgc3RyaW5nIHdoeTsKICAgICAgICAgICAgICAgICAgICAgICAgaWYgKHJlcGx5ID09IG51bGwpCiAgICAgICAgICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJlcy5SZWFzb24gPSAiZ2V0ICIgKyBIaWQuRGVzY3JpYmVFcnJvcihIaWQuTGFzdEVycm9yKTsKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICBlbHNlIGlmIChQcm90b2NvbC5UcnlQYXJzZShyZXBseSwgb3V0IHIsIG91dCB3aHkpKQogICAgICAgICAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXMuT2sgPSB0cnVlOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgcmVzLlZhbHVlID0gcjsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJlcy5SZXBseSA9IHJlcGx5OwogICAgICAgICAgICAgICAgICAgICAgICAgICAgcmVzLlJlYXNvbiA9IHdoeTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiByZXM7CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgZWxzZQogICAgICAgICAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXMuUmVhc29uID0gInBhcnNlICIgKyB3aHk7CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBjYXRjaCAoRXhjZXB0aW9uIGV4KSB7IHJlcy5SZWFzb24gPSAiZXhjZXB0aW9uICIgKyBleC5NZXNzYWdlOyB9CiAgICAgICAgICAgICAgICBmaW5hbGx5IHsgaC5DbG9zZSgpOyB9CgogICAgICAgICAgICAgICAgaWYgKGEgKyAxIDwgYXR0ZW1wdHMpIFN5c3RlbS5UaHJlYWRpbmcuVGhyZWFkLlNsZWVwKFJldHJ5LkRlbGF5Rm9yKGEpKTsKICAgICAgICAgICAgfQogICAgICAgICAgICByZXR1cm4gcmVzOwogICAgICAgIH0KCiAgICAgICAgYm9vbCBJc0tub3duKHVzaG9ydCB2aWQsIHVzaG9ydCBwaWQpCiAgICAgICAgewogICAgICAgICAgICBzdHJpbmcgaWQgPSB2aWQuVG9TdHJpbmcoIlg0IikgKyAiOiIgKyBwaWQuVG9TdHJpbmcoIlg0Iik7CiAgICAgICAgICAgIGZvciAoaW50IGkgPSAwOyBpIDwgX2tub3duSWRzLkNvdW50OyBpKyspCiAgICAgICAgICAgICAgICBpZiAoc3RyaW5nLkVxdWFscyhfa25vd25JZHNbaV0sIGlkLCBTdHJpbmdDb21wYXJpc29uLk9yZGluYWxJZ25vcmVDYXNlKSkgcmV0dXJuIHRydWU7CiAgICAgICAgICAgIHJldHVybiBmYWxzZTsKICAgICAgICB9CgogICAgICAgIC8vLyA8c3VtbWFyeT4KICAgICAgICAvLy8gVW5rbm93biBWSUQ6UElEOiBvbmx5IHByb2JlIHdoZW4gdGhlIHN0cmluZ3MgbG9vayBsaWtlIGEgd2lyZWxlc3MgcmVjZWl2ZXIsIG90aGVyd2lzZSBhCiAgICAgICAgLy8vIHJhbmRvbSB2ZW5kb3IgaW50ZXJmYWNlIHdvdWxkIGJlIHBva2VkIG9uIGV2ZXJ5IHBvbGwuCiAgICAgICAgLy8vIDwvc3VtbWFyeT4KICAgICAgICBzdGF0aWMgYm9vbCBMb29rc0xpa2VXaXJlbGVzc0RvbmdsZShEZXZpY2VHcm91cCBnLCBIaWRDb2xsZWN0aW9uTGlrZSB0YXJnZXQpCiAgICAgICAgewogICAgICAgICAgICBzdHJpbmcgcyA9ICgodGFyZ2V0LlByb2R1Y3ROYW1lID8/ICIiKSArICIgIiArICh0YXJnZXQuTWFudWZhY3R1cmVyID8/ICIiKSkuVG9Mb3dlckludmFyaWFudCgpOwogICAgICAgICAgICBpZiAocy5Db250YWlucygicmVjZWl2ZXIiKSB8fCBzLkNvbnRhaW5zKCJkb25nbGUiKSB8fCBzLkNvbnRhaW5zKCIyLjQiKSkgcmV0dXJuIHRydWU7CiAgICAgICAgICAgIC8vIGEga2V5Ym9hcmQgLyBtb3VzZSB3aG9zZSB2ZW5kb3IgY29sbGVjdGlvbiBjYXJyaWVzIG5vIHN0cmluZ3Mgc3RpbGwgZGVzZXJ2ZXMgb25lIHRyeQogICAgICAgICAgICBzdHJpbmcgayA9IERldmljZUhldXJpc3RpY3MuQ2xhc3NpZnkodGFyZ2V0LCBnLkl0ZW1zKTsKICAgICAgICAgICAgcmV0dXJuIGsgIT0gbnVsbDsKICAgICAgICB9CgogICAgICAgIHN0YXRpYyBzdHJpbmcgRGlzcGxheU5hbWUoRGV2aWNlR3JvdXAgZywgc3RyaW5nIGtpbmQpCiAgICAgICAgewogICAgICAgICAgICBzdHJpbmcgbiA9IGcuUHJvZHVjdE5hbWU7CiAgICAgICAgICAgIGlmIChzdHJpbmcuSXNOdWxsT3JFbXB0eShuKSB8fCBuLkxlbmd0aCA8PSAyKSBuID0gIiI7CiAgICAgICAgICAgIC8vIGRvbmdsZXMgcmVwb3J0ICIyLjRHIFJlY2VpdmVyIiDigJQgbm90IHNvbWV0aGluZyB0byBzaG93IGFzIHRoZSBkZXZpY2UgbmFtZQogICAgICAgICAgICBpZiAobi5Ub0xvd2VySW52YXJpYW50KCkuQ29udGFpbnMoInJlY2VpdmVyIikgfHwgbi5Ub0xvd2VySW52YXJpYW50KCkuQ29udGFpbnMoImRvbmdsZSIpKSBuID0gIiI7CiAgICAgICAgICAgIGlmIChuLkxlbmd0aCA+IDApIHJldHVybiBuOwogICAgICAgICAgICBpZiAoa2luZCA9PSBEZXZpY2VLaW5kLktleWJvYXJkKSByZXR1cm4gIuaXoOe6v+mUruebmCI7CiAgICAgICAgICAgIGlmIChraW5kID09IERldmljZUtpbmQuSGVhZHNldCkgcmV0dXJuICLml6Dnur/ogLPmnLoiOwogICAgICAgICAgICByZXR1cm4gIuaXoOe6v+m8oOaghyI7CiAgICAgICAgfQoKICAgICAgICAvLyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KICAgICAgICAvLyBncm91cGluZwogICAgICAgIC8vIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQoKICAgICAgICBzZWFsZWQgY2xhc3MgRGV2aWNlR3JvdXAKICAgICAgICB7CiAgICAgICAgICAgIHB1YmxpYyBzdHJpbmcgRGV2aWNlS2V5OwogICAgICAgICAgICBwdWJsaWMgdXNob3J0IFZpZDsKICAgICAgICAgICAgcHVibGljIHVzaG9ydCBQaWQ7CiAgICAgICAgICAgIHB1YmxpYyBzdHJpbmcgUHJvZHVjdE5hbWUgPSAiIjsKICAgICAgICAgICAgcHVibGljIExpc3Q8SGlkQ29sbGVjdGlvbkxpa2U+IEl0ZW1zID0gbmV3IExpc3Q8SGlkQ29sbGVjdGlvbkxpa2U+KCk7CiAgICAgICAgfQoKICAgICAgICAvLy8gPHN1bW1hcnk+CiAgICAgICAgLy8vIENvbGxhcHNlIGFsbCB0b3AgbGV2ZWwgY29sbGVjdGlvbnMgdGhhdCBzaGFyZSBvbmUgcGh5c2ljYWwgZGV2aWNlIGludG8gYSBncm91cC4KICAgICAgICAvLy8gRG9uZ2xlcyBleHBvc2Uga2V5Ym9hcmQgKyBjb25zdW1lciArIHZlbmRvciBjb2xsZWN0aW9ucyB1bmRlciB0aGUgc2FtZSBpbnN0YW5jZSBrZXk7CiAgICAgICAgLy8vIHByb2JpbmcgZWFjaCBvZiB0aGVtIHNlcGFyYXRlbHkgaXMgYm90aCBzbG93ZXIgYW5kIGNhbiByZXR1cm4gdGhlIHNhbWUgYW5zd2VyIHR3aWNlLgogICAgICAgIC8vLyA8L3N1bW1hcnk+CiAgICAgICAgc3RhdGljIExpc3Q8RGV2aWNlR3JvdXA+IEdyb3VwQnlEZXZpY2UoTGlzdDxIaWRDb2xsZWN0aW9uPiBhbGwpCiAgICAgICAgewogICAgICAgICAgICB2YXIgbWFwID0gbmV3IERpY3Rpb25hcnk8c3RyaW5nLCBEZXZpY2VHcm91cD4oU3RyaW5nQ29tcGFyZXIuT3JkaW5hbElnbm9yZUNhc2UpOwogICAgICAgICAgICB2YXIgb3JkZXIgPSBuZXcgTGlzdDxEZXZpY2VHcm91cD4oKTsKCiAgICAgICAgICAgIGZvciAoaW50IGkgPSAwOyBpIDwgYWxsLkNvdW50OyBpKyspCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgIHZhciBjID0gYWxsW2ldOwogICAgICAgICAgICAgICAgc3RyaW5nIGtleSA9IGMuSW5zdGFuY2VLZXk7CiAgICAgICAgICAgICAgICBEZXZpY2VHcm91cCBnOwogICAgICAgICAgICAgICAgaWYgKCFtYXAuVHJ5R2V0VmFsdWUoa2V5LCBvdXQgZykpCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgZyA9IG5ldyBEZXZpY2VHcm91cCgpOwogICAgICAgICAgICAgICAgICAgIGcuRGV2aWNlS2V5ID0ga2V5OwogICAgICAgICAgICAgICAgICAgIGcuVmlkID0gYy5WaWQ7CiAgICAgICAgICAgICAgICAgICAgZy5QaWQgPSBjLlBpZDsKICAgICAgICAgICAgICAgICAgICBnLlByb2R1Y3ROYW1lID0gYy5Qcm9kdWN0TmFtZSA/PyAiIjsKICAgICAgICAgICAgICAgICAgICBtYXBba2V5XSA9IGc7CiAgICAgICAgICAgICAgICAgICAgb3JkZXIuQWRkKGcpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgZWxzZSBpZiAoc3RyaW5nLklzTnVsbE9yRW1wdHkoZy5Qcm9kdWN0TmFtZSkgJiYgIXN0cmluZy5Jc051bGxPckVtcHR5KGMuUHJvZHVjdE5hbWUpKQogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAgIGcuUHJvZHVjdE5hbWUgPSBjLlByb2R1Y3ROYW1lOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgZy5JdGVtcy5BZGQoYyk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgcmV0dXJuIG9yZGVyOwogICAgICAgIH0KICAgIH0KfQo=
+using System;
+using System.Collections.Generic;
+
+namespace MouseMeter
+{
+    /// <summary>
+    /// One way of finding batteries. <see cref="Read"/> must never throw and must be cheap when
+    /// nothing is around.
+    /// </summary>
+    public interface IBatterySource
+    {
+        string Name { get; }
+        List<Reading> Read();
+    }
+
+    /// <summary>
+    /// Vendor feature-report protocol over HID (MCHOSE / Realtek dongles).
+    ///
+    /// v3 changes vs v2:
+    ///  * one query per physical device instead of per collection — a dongle exposes up to three
+    ///    vendor collections and we used to probe every one of them, 8 times each;
+    ///  * the device class comes from the response / sibling usages, so keyboards and headsets on
+    ///    the same protocol are reported separately instead of being collapsed into "the mouse";
+    ///  * per-device attempt budget, so a sleeping mouse no longer starves the other devices.
+    /// </summary>
+    public class VendorHidSource : IBatterySource
+    {
+        public string Name { get { return "HID 私有协议"; } }
+
+        readonly Func<bool> _enabled;
+        readonly List<string> _knownIds;
+        readonly Dictionary<string, int> _failures = new Dictionary<string, int>(StringComparer.OrdinalIgnoreCase);
+
+        public string LastError = "";
+        public int Queries;
+
+        public VendorHidSource(Func<bool> enabled, List<string> knownHardwareIds)
+        {
+            _enabled = enabled;
+            _knownIds = knownHardwareIds ?? new List<string>();
+        }
+
+        public List<Reading> Read()
+        {
+            var output = new List<Reading>();
+            if (!_enabled()) return output;
+
+            List<HidCollection> all;
+            try { all = Hid.Enumerate(); }
+            catch (Exception ex) { LastError = ex.Message; return output; }
+            if (all.Count == 0) { LastError = "no hid"; return output; }
+
+            var groups = GroupByDevice(all);
+            for (int i = 0; i < groups.Count; i++)
+            {
+                var g = groups[i];
+                var target = DeviceHeuristics.PickProbeTarget(g.Items);
+                if (target == null) continue;
+
+                string kind = DeviceHeuristics.Classify(target, g.Items);
+                bool whitelisted = IsKnown(g.Vid, g.Pid);
+
+                // unknown device and the first probe already failed: stop poking it every cycle.
+                int fails;
+                if (_failures.TryGetValue(g.DeviceKey, out fails) && fails >= 3 && !whitelisted) continue;
+                if (!whitelisted && !LooksLikeWirelessDongle(g, target)) continue;
+
+                Queries++;
+                var res = Probe((HidCollection)target, fails);
+                if (res.Ok)
+                {
+                    _failures.Remove(g.DeviceKey);
+                    var r = res.Value;
+                    r.Kind = kind ?? DeviceKind.Mouse;
+                    r.DeviceName = DisplayName(g, r.Kind);
+                    r.Model = Protocol.ParseModel(res.Reply);
+                    r.Transport = "2.4G";
+                    r.HardwareId = g.Vid.ToString("X4") + ":" + g.Pid.ToString("X4");
+                    r.Id = "hid|" + g.DeviceKey + "|" + r.Kind;
+                    r.Source = Name;
+                    output.Add(r);
+                }
+                else
+                {
+                    _failures[g.DeviceKey] = fails + 1;
+                    LastError = res.Reason;
+                    Log.Info("probe " + g.DeviceKey + " -> " + res.Reason + " (fail #" + (fails + 1) + ")");
+                }
+            }
+            return output;
+        }
+
+        struct ProbeResult
+        {
+            public bool Ok;
+            public Reading Value;
+            public string Reason;
+            public byte[] Reply;
+        }
+
+        ProbeResult Probe(HidCollection col, int failures)
+        {
+            var res = new ProbeResult();
+            res.Value = Reading.Invalid();
+
+            // first sighting: two attempts; a device that keeps failing gets one attempt so it can
+            // never take the poll thread hostage (a sleeping mouse is the normal case).
+            int attempts = failures == 0 ? 2 : 1;
+            var frame = Protocol.BuildRequest(0x06);
+
+            for (int a = 0; a < attempts; a++)
+            {
+                var h = Hid.Open(col.Path, true);
+                if (h.IsInvalid)
+                {
+                    res.Reason = "open " + Hid.DescribeError(Hid.LastError);
+                    System.Threading.Thread.Sleep(Retry.DelayFor(a));
+                    continue;
+                }
+                try
+                {
+                    if (!Hid.SetFeature(h, frame))
+                    {
+                        res.Reason = "set " + Hid.DescribeError(Hid.LastError);
+                    }
+                    else
+                    {
+                        System.Threading.Thread.Sleep(30);
+                        var reply = Hid.GetFeature(h, Protocol.FrameLength, Protocol.ResponseReportId);
+                        Reading r;
+                        string why;
+                        if (reply == null)
+                        {
+                            res.Reason = "get " + Hid.DescribeError(Hid.LastError);
+                        }
+                        else if (Protocol.TryParse(reply, out r, out why))
+                        {
+                            res.Ok = true;
+                            res.Value = r;
+                            res.Reply = reply;
+                            res.Reason = why;
+                            return res;
+                        }
+                        else
+                        {
+                            res.Reason = "parse " + why;
+                        }
+                    }
+                }
+                catch (Exception ex) { res.Reason = "exception " + ex.Message; }
+                finally { h.Close(); }
+
+                if (a + 1 < attempts) System.Threading.Thread.Sleep(Retry.DelayFor(a));
+            }
+            return res;
+        }
+
+        bool IsKnown(ushort vid, ushort pid)
+        {
+            string id = vid.ToString("X4") + ":" + pid.ToString("X4");
+            for (int i = 0; i < _knownIds.Count; i++)
+                if (string.Equals(_knownIds[i], id, StringComparison.OrdinalIgnoreCase)) return true;
+            return false;
+        }
+
+        /// <summary>
+        /// Unknown VID:PID: only probe when the strings look like a wireless receiver, otherwise a
+        /// random vendor interface would be poked on every poll.
+        /// </summary>
+        static bool LooksLikeWirelessDongle(DeviceGroup g, HidCollectionLike target)
+        {
+            string s = ((target.ProductName ?? "") + " " + (target.Manufacturer ?? "")).ToLowerInvariant();
+            if (s.Contains("receiver") || s.Contains("dongle") || s.Contains("2.4")) return true;
+            // a keyboard / mouse whose vendor collection carries no strings still deserves one try
+            string k = DeviceHeuristics.Classify(target, g.Items);
+            return k != null;
+        }
+
+        static string DisplayName(DeviceGroup g, string kind)
+        {
+            string n = g.ProductName;
+            if (string.IsNullOrEmpty(n) || n.Length <= 2) n = "";
+            // dongles report "2.4G Receiver" — not something to show as the device name
+            if (n.ToLowerInvariant().Contains("receiver") || n.ToLowerInvariant().Contains("dongle")) n = "";
+            if (n.Length > 0) return n;
+            if (kind == DeviceKind.Keyboard) return "无线键盘";
+            if (kind == DeviceKind.Headset) return "无线耳机";
+            return "无线鼠标";
+        }
+
+        // ------------------------------------------------------------------
+        // grouping
+        // ------------------------------------------------------------------
+
+        sealed class DeviceGroup
+        {
+            public string DeviceKey;
+            public ushort Vid;
+            public ushort Pid;
+            public string ProductName = "";
+            public List<HidCollectionLike> Items = new List<HidCollectionLike>();
+        }
+
+        /// <summary>
+        /// Collapse all top level collections that share one physical device into a group.
+        /// Dongles expose keyboard + consumer + vendor collections under the same instance key;
+        /// probing each of them separately is both slower and can return the same answer twice.
+        /// </summary>
+        static List<DeviceGroup> GroupByDevice(List<HidCollection> all)
+        {
+            var map = new Dictionary<string, DeviceGroup>(StringComparer.OrdinalIgnoreCase);
+            var order = new List<DeviceGroup>();
+
+            for (int i = 0; i < all.Count; i++)
+            {
+                var c = all[i];
+                string key = c.InstanceKey;
+                DeviceGroup g;
+                if (!map.TryGetValue(key, out g))
+                {
+                    g = new DeviceGroup();
+                    g.DeviceKey = key;
+                    g.Vid = c.Vid;
+                    g.Pid = c.Pid;
+                    g.ProductName = c.ProductName ?? "";
+                    map[key] = g;
+                    order.Add(g);
+                }
+                else if (string.IsNullOrEmpty(g.ProductName) && !string.IsNullOrEmpty(c.ProductName))
+                {
+                    g.ProductName = c.ProductName;
+                }
+                g.Items.Add(c);
+            }
+            return order;
+        }
+    }
+}

@@ -1,1 +1,57 @@
-QGVjaG8gb2ZmDQpyZW0gPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09DQpyZW0gIGNoZWNrLmNtZCAtIG9uZSBjb21tYW5kLCBldmVyeXRoaW5nIGdyZWVuIG9yIGEgY2xlYXIgcmVhc29uIHdoeQ0KcmVtDQpyZW0gICAgY2hlY2suY21kICAgICAgICAgICAgdmVyaWZ5IChjb21waWxlICsgdGVzdHMgKyBleGUpIHRoZW4gc3luYyBkb2NzDQpyZW0gICAgY2hlY2suY21kIC1xICAgICAgICAgcXVpY2s6IHNraXAgdGhlIGV4ZSBidWlsZA0KcmVtICAgIGNoZWNrLmNtZCAtbiAgICAgICAgdmVyaWZ5IG9ubHksIGRvIG5vdCB0b3VjaCB0aGUgZG9jcw0KcmVtICAgIGNoZWNrLmNtZCAtZml4ICAgICAgIHJlcGFpciBCT00gLyBlbmNvZGluZyBpc3N1ZXMsIHRoZW4gY29udGludWUNCnJlbQ0KcmVtICBUaGlzIGlzIHRoZSB3b3JrZmxvdydzIHNpbmdsZSBlbnRyeSBwb2ludC4gVGhlIHByZXZpb3VzIG9uZSBoYWQgdGhyZWUNCnJlbSAgc2VwYXJhdGUgc3RlcHMgYW5kIG5vdGhpbmcgZW5mb3JjZWQgdGhlbSwgc28gdmVyaWZpY2F0aW9uIHdhcyBza2lwcGVkDQpyZW0gIG9uIGV2ZXJ5IGNoYW5nZSB0aGF0ICJsb29rZWQgb2J2aW91c2x5IGZpbmUiIC0gd2hpY2ggaXMgZXhhY3RseSB3aGVuDQpyZW0gIGl0IHdhcyBub3QuDQpyZW0NCnJlbSAgRGV2IGxvb3Agc3RheXMgZGV2LmNtZCAoaXQgcmVzdGFydHMgdGhlIHJ1bm5pbmcgYXBwKS4NCnJlbSAgVGhpcyBvbmUgYW5zd2VyczogYW0gSSBzYWZlIHRvIGNvbW1pdCAvIGhhbmQgb3Zlcj8NCnJlbSA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0NCnNldGxvY2FsDQpjZCAvZCAiJX5kcDAiDQoNCnNldCBWRVJJRllfQVJHUz0tTm9Qcm9maWxlIC1FeGVjdXRpb25Qb2xpY3kgQnlwYXNzIC1GaWxlICIlfmRwMFZlcmlmeS5wczEiDQpzZXQgVkVSSUZZX0ZMQUdTPQ0Kc2V0IERPX1NZTkM9MQ0KDQo6cGFyc2UNCmlmICIlfjEiPT0iIiBnb3RvIHJ1bg0KaWYgL2kgIiV+MSI9PSItcSIgc2V0IFZFUklGWV9GTEFHUz0lVkVSSUZZX0ZMQUdTJSAtUXVpY2sNCmlmIC9pICIlfjEiPT0iLW4iIHNldCBET19TWU5DPTANCmlmIC9pICIlfjEiPT0iLWZpeCIgc2V0IFZFUklGWV9GTEFHUz0lVkVSSUZZX0ZMQUdTJSAtRml4DQppZiAvaSAiJX4xIj09Ii0tcXVpY2siIHNldCBWRVJJRllfRkxBR1M9JVZFUklGWV9GTEFHUyUgLVF1aWNrDQppZiAvaSAiJX4xIj09Ii0tbm8tZG9jcyIgc2V0IERPX1NZTkM9MA0KaWYgL2kgIiV+MSI9PSItLWZpeCIgc2V0IFZFUklGWV9GTEFHUz0lVkVSSUZZX0ZMQUdTJSAtRml4DQpzaGlmdA0KZ290byBwYXJzZQ0KDQo6cnVuDQpwb3dlcnNoZWxsICVWRVJJRllfQVJHUyUgJVZFUklGWV9GTEFHUyUNCmlmIGVycm9ybGV2ZWwgMSAoDQogICAgZWNoby4NCiAgICBlY2hvICAgdmVyaWZ5IGZhaWxlZCAtIGRvY3MgbGVmdCB1bnRvdWNoZWQNCiAgICBlbmRsb2NhbCAmIGV4aXQgL2IgMQ0KKQ0KDQppZiAiJURPX1NZTkMlIj09IjAiICgNCiAgICBlbmRsb2NhbCAmIGV4aXQgL2IgMA0KKQ0KDQpyZW0gRG9jcyBzeW5jIG9ubHkgYWZ0ZXIgYSBncmVlbiB2ZXJpZnk6IHRoZSBhc3NlcnRpb24gY291bnQgY29tZXMgZnJvbSB0aGUNCnJlbSB0ZXN0IHJ1biwgc28gc3luY2luZyBhIHJlZCB0cmVlIHdvdWxkIHB1Ymxpc2ggYSBzdGFsZSBudW1iZXIuDQpwb3dlcnNoZWxsIC1Ob1Byb2ZpbGUgLUV4ZWN1dGlvblBvbGljeSBCeXBhc3MgLUZpbGUgIiV+ZHAwU3luYy1Eb2NzLnBzMSINCmlmIGVycm9ybGV2ZWwgMSAoDQogICAgZWNoby4NCiAgICBlY2hvICAgZG9jcyBzeW5jIGZhaWxlZA0KICAgIGVuZGxvY2FsICYgZXhpdCAvYiAxDQopDQoNCmVuZGxvY2FsICYgZXhpdCAvYiAwDQo=
+@echo off
+rem ============================================================
+rem  check.cmd - one command, everything green or a clear reason why
+rem
+rem    check.cmd            verify (compile + tests + exe) then sync docs
+rem    check.cmd -q         quick: skip the exe build
+rem    check.cmd -n        verify only, do not touch the docs
+rem    check.cmd -fix       repair BOM / encoding issues, then continue
+rem
+rem  This is the workflow's single entry point. The previous one had three
+rem  separate steps and nothing enforced them, so verification was skipped
+rem  on every change that "looked obviously fine" - which is exactly when
+rem  it was not.
+rem
+rem  Dev loop stays dev.cmd (it restarts the running app).
+rem  This one answers: am I safe to commit / hand over?
+rem ============================================================
+setlocal
+cd /d "%~dp0"
+
+set VERIFY_ARGS=-NoProfile -ExecutionPolicy Bypass -File "%~dp0Verify.ps1"
+set VERIFY_FLAGS=
+set DO_SYNC=1
+
+:parse
+if "%~1"=="" goto run
+if /i "%~1"=="-q" set VERIFY_FLAGS=%VERIFY_FLAGS% -Quick
+if /i "%~1"=="-n" set DO_SYNC=0
+if /i "%~1"=="-fix" set VERIFY_FLAGS=%VERIFY_FLAGS% -Fix
+if /i "%~1"=="--quick" set VERIFY_FLAGS=%VERIFY_FLAGS% -Quick
+if /i "%~1"=="--no-docs" set DO_SYNC=0
+if /i "%~1"=="--fix" set VERIFY_FLAGS=%VERIFY_FLAGS% -Fix
+shift
+goto parse
+
+:run
+powershell %VERIFY_ARGS% %VERIFY_FLAGS%
+if errorlevel 1 (
+    echo.
+    echo   verify failed - docs left untouched
+    endlocal & exit /b 1
+)
+
+if "%DO_SYNC%"=="0" (
+    endlocal & exit /b 0
+)
+
+rem Docs sync only after a green verify: the assertion count comes from the
+rem test run, so syncing a red tree would publish a stale number.
+powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0Sync-Docs.ps1"
+if errorlevel 1 (
+    echo.
+    echo   docs sync failed
+    endlocal & exit /b 1
+)
+
+endlocal & exit /b 0

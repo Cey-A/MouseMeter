@@ -1,1 +1,32 @@
-QGVjaG8gb2ZmDQpyZW0gPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09DQpyZW0gIGRldi5jbWQgLSBidWlsZCBhbmQgcnVuIE1vdXNlTWV0ZXIgZnJvbSBzb3VyY2UsIGluIG9uZSBzdGVwDQpyZW0NCnJlbSAgICBkZXYuY21kICAgICAgICAgICAgICBidWlsZCBpZiB0aGUgc291cmNlIGNoYW5nZWQsIHRoZW4gcnVuDQpyZW0gICAgZGV2LmNtZCAtcyAgICAgICAgICAgc2FtZSwgYnV0IG9wZW4gdGhlIHNldHRpbmdzIHdpbmRvdw0KcmVtICAgIGRldi5jbWQgLWYgICAgICAgICAgIGZvcmNlIGEgcmVidWlsZCBldmVuIGlmIG5vdGhpbmcgY2hhbmdlZA0KcmVtICAgIGRldi5jbWQgLXYgICAgICAgICAgIHZlcmJvc2UgKHNob3dzIHRoZSBjb21waWxlIHN0ZXAncyB0aW1pbmcpDQpyZW0NCnJlbSAgT3JkZXIgbWF0dGVyczogdGhlIGJ1aWxkIGhhcHBlbnMgQkVGT1JFIHRoZSBvbGQgaW5zdGFuY2UgaXMNCnJlbSAgc3RvcHBlZCwgc28gYSBjb21waWxlIGVycm9yIGxlYXZlcyB0aGUgd29ya2luZyBjb3B5IHJ1bm5pbmcNCnJlbSAgYW5kIHlvdSBvbmx5IGxvc2UgdGhlICJyZXN0YXJ0Iiwgbm90IHRoZSBydW5uaW5nIGFwcC4NCnJlbSA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0NCnNldGxvY2FsDQpjZCAvZCAiJX5kcDAiDQoNCnNldCBQU19BUkdTPS1Ob1Byb2ZpbGUgLUV4ZWN1dGlvblBvbGljeSBCeXBhc3MgLUZpbGUgIiV+ZHAwRGV2UnVuLnBzMSINCnNldCBBUFBfQVJHUz0NCg0KOnBhcnNlDQppZiAiJX4xIj09IiIgZ290byBydW4NCmlmIC9pICIlfjEiPT0iLXMiIHNldCBBUFBfQVJHUz0lQVBQX0FSR1MlIC1TZXR0aW5ncw0KaWYgL2kgIiV+MSI9PSItZiIgc2V0IEFQUF9BUkdTPSVBUFBfQVJHUyUgLUZvcmNlDQppZiAvaSAiJX4xIj09Ii12IiBzZXQgQVBQX0FSR1M9JUFQUF9BUkdTJSAtVmVyYm9zZQ0KaWYgL2kgIiV+MSI9PSItLXNldHRpbmdzIiBzZXQgQVBQX0FSR1M9JUFQUF9BUkdTJSAtU2V0dGluZ3MNCnNoaWZ0DQpnb3RvIHBhcnNlDQoNCjpydW4NCnBvd2Vyc2hlbGwgJVBTX0FSR1MlICVBUFBfQVJHUyUNCnNldCBFWElUQ09ERT0lRVJST1JMRVZFTCUNCmVuZGxvY2FsICYgZXhpdCAvYiAlRVhJVENPREUlDQo=
+@echo off
+rem ============================================================
+rem  dev.cmd - build and run MouseMeter from source, in one step
+rem
+rem    dev.cmd              build if the source changed, then run
+rem    dev.cmd -s           same, but open the settings window
+rem    dev.cmd -f           force a rebuild even if nothing changed
+rem    dev.cmd -v           verbose (shows the compile step's timing)
+rem
+rem  Order matters: the build happens BEFORE the old instance is
+rem  stopped, so a compile error leaves the working copy running
+rem  and you only lose the "restart", not the running app.
+rem ============================================================
+setlocal
+cd /d "%~dp0"
+
+set PS_ARGS=-NoProfile -ExecutionPolicy Bypass -File "%~dp0DevRun.ps1"
+set APP_ARGS=
+
+:parse
+if "%~1"=="" goto run
+if /i "%~1"=="-s" set APP_ARGS=%APP_ARGS% -Settings
+if /i "%~1"=="-f" set APP_ARGS=%APP_ARGS% -Force
+if /i "%~1"=="-v" set APP_ARGS=%APP_ARGS% -Verbose
+if /i "%~1"=="--settings" set APP_ARGS=%APP_ARGS% -Settings
+shift
+goto parse
+
+:run
+powershell %PS_ARGS% %APP_ARGS%
+set EXITCODE=%ERRORLEVEL%
+endlocal & exit /b %EXITCODE%

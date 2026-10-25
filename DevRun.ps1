@@ -1,1 +1,131 @@
-77u/IyBEZXZSdW4ucHMxIC0gdGhlIGlubmVyIGhhbGYgb2YgZGV2LmNtZDogYnVpbGQgZnJvbSBzb3VyY2UsIHJlc3RhcnQsIHN0YXkgYXR0YWNoZWQuCiMKIyAgIDEuIG1lcmdlICsgY29tcGlsZSBzcmNcKi5jcyAoc2tpcHBlZCB3aGVuIHRoZSBjb250ZW50IGhhc2ggbWF0Y2hlcyB0aGUgY2FjaGUpCiMgICAyLiBhc2sgYW55IHJ1bm5pbmcgaW5zdGFuY2UgdG8gcXVpdCwgd2FpdCBmb3IgaXQgdG8gcmVsZWFzZSB0aGUgbXV0ZXgKIyAgIDMuIGxhdW5jaCB0aGUgZnJlc2hseSBjb21waWxlZCBETEwgKmluIHRoaXMgcHJvY2VzcyosIHNvIGV4Y2VwdGlvbnMgcHJpbnQgaGVyZQojCiMgU3RlcCAzIGlzIHdoeSB0aGlzIGV4aXN0cyBpbnN0ZWFkIG9mIGp1c3QgY2FsbGluZyBNb3VzZU1ldGVyLnBzMTogYSBzZXBhcmF0ZSBsYXVuY2hlcgojIHdvdWxkIGRldGFjaCBhbmQgeW91IHdvdWxkIG5ldmVyIHNlZSB0aGUgc3RhY2sgdHJhY2Ugd2hlbiBhIHBhaW50IGhhbmRsZXIgdGhyb3dzLgoKcGFyYW0oCiAgICBbc3dpdGNoXSRTZXR0aW5ncywKICAgIFtzd2l0Y2hdJEZvcmNlLAogICAgW3N3aXRjaF0kVmVyYm9zZQopCgokRXJyb3JBY3Rpb25QcmVmZXJlbmNlID0gJ1N0b3AnCiRyb290ID0gJFBTU2NyaXB0Um9vdAoKLiAoSm9pbi1QYXRoICRyb290ICdDb21waWxlci5wczEnKQoKZnVuY3Rpb24gSW5mbygkdGV4dCkgeyBXcml0ZS1Ib3N0ICR0ZXh0IC1Gb3JlZ3JvdW5kQ29sb3IgR3JheSB9CmZ1bmN0aW9uIE9rKCR0ZXh0KSB7IFdyaXRlLUhvc3QgJHRleHQgLUZvcmVncm91bmRDb2xvciBHcmVlbiB9CmZ1bmN0aW9uIFdhcm4oJHRleHQpIHsgV3JpdGUtSG9zdCAkdGV4dCAtRm9yZWdyb3VuZENvbG9yIFllbGxvdyB9CgojIC0tLS0tLS0tLS0gMS4gYnVpbGQgLS0tLS0tLS0tLQoKJHN3ID0gW1N5c3RlbS5EaWFnbm9zdGljcy5TdG9wd2F0Y2hdOjpTdGFydE5ldygpCnRyeSB7CiAgICAkYnVpbGQgPSBCdWlsZC1Nb3VzZU1ldGVyIC1Sb290ICRyb290IC1Gb3JjZTokRm9yY2UKfSBjYXRjaCB7CiAgICBXcml0ZS1Ib3N0ICcnCiAgICBXcml0ZS1Ib3N0ICcgIEJVSUxEIEZBSUxFRCAtIHRoZSBydW5uaW5nIGNvcHkgd2FzIGxlZnQgdW50b3VjaGVkLicgLUZvcmVncm91bmRDb2xvciBSZWQKICAgIFdyaXRlLUhvc3QgJycKICAgICMgVGhlIENvZGVET00gbWVzc2FnZSBpcyAiQlVJTEQgRkFJTEVEYG5saW5lIE46IHRleHQiOyBpbmRlbnQgdGhlIGRldGFpbCBsaW5lcyBzbyB0aGV5CiAgICAjIHN0YW5kIG91dCBmcm9tIHRoZSBzdXJyb3VuZGluZyBjaGF0dGVyLgogICAgZm9yZWFjaCAoJGxpbmUgaW4gKCRfLkV4Y2VwdGlvbi5NZXNzYWdlIC1zcGxpdCAiYHI/YG4iKSkgewogICAgICAgIGlmICgkbGluZS5UcmltKCkuTGVuZ3RoIC1lcSAwKSB7IGNvbnRpbnVlIH0KICAgICAgICBXcml0ZS1Ib3N0ICgnICAgICcgKyAkbGluZSkgLUZvcmVncm91bmRDb2xvciBSZWQKICAgIH0KICAgIFdyaXRlLUhvc3QgJycKICAgIGV4aXQgMQp9CiRzdy5TdG9wKCkKCmlmICgkYnVpbGQuQ29tcGlsZWQpIHsKICAgIE9rICgnICBjb21waWxlZCBpbiAnICsgJHN3LkVsYXBzZWRNaWxsaXNlY29uZHMgKyAnIG1zICAoJyArICRidWlsZC5DaGFycyArICcgY2hhcnMpJykKfSBlbHNlIHsKICAgIEluZm8gKCcgIHVwIHRvIGRhdGUgIChjYWNoZSBoaXQsICcgKyAkc3cuRWxhcHNlZE1pbGxpc2Vjb25kcyArICcgbXMpJykKfQoKIyAtLS0tLS0tLS0tIDIuIHN0b3AgdGhlIHByZXZpb3VzIGluc3RhbmNlIC0tLS0tLS0tLS0KCiRtdXRleE5hbWUgPSAnTW91c2VNZXRlci5TaW5nbGVJbnN0YW5jZS52MicKJHF1aXRFdmVudCA9ICdMb2NhbFxNb3VzZU1ldGVyLlF1aXRSZXF1ZXN0JwoKZnVuY3Rpb24gVGVzdC1NdXRleEZyZWUoKSB7CiAgICAjIC1Bcmd1bWVudExpc3QgaXMgcmVxdWlyZWQ6IHdpdGhvdXQgaXQgUG93ZXJTaGVsbCBwYXJzZXMgdGhlIHBhcmVucyBhcyBwYXJ0IG9mIHRoZQogICAgIyB0eXBlIG5hbWUgYW5kIE5ldy1PYmplY3QgdGhyb3dzICJDYW5ub3QgZmluZCB0eXBlIi4KICAgICRtID0gJG51bGwKICAgIHRyeSB7CiAgICAgICAgJG0gPSBOZXctT2JqZWN0IFN5c3RlbS5UaHJlYWRpbmcuTXV0ZXggLUFyZ3VtZW50TGlzdCAkZmFsc2UsICRtdXRleE5hbWUKICAgICAgICAkZ290ID0gJG0uV2FpdE9uZSgwKQogICAgICAgIGlmICgkZ290KSB7ICRtLlJlbGVhc2VNdXRleCgpIH0KICAgICAgICByZXR1cm4gJGdvdAogICAgfSBjYXRjaCBbU3lzdGVtLlRocmVhZGluZy5BYmFuZG9uZWRNdXRleEV4Y2VwdGlvbl0gewogICAgICAgIHJldHVybiAkdHJ1ZSAgICMgcHJldmlvdXMgb3duZXIgZGllZCB3aXRob3V0IHJlbGVhc2luZzogdHJlYXQgYXMgZnJlZQogICAgfSBjYXRjaCB7CiAgICAgICAgcmV0dXJuICR0cnVlICAgIyBjYW5ub3QgcHJvYmUgLT4gYXNzdW1lIGZyZWUsIGxldCB0aGUgLS1yZXN0YXJ0IHBhdGggc29ydCBpdCBvdXQKICAgIH0gZmluYWxseSB7CiAgICAgICAgaWYgKCRtIC1uZSAkbnVsbCkgeyAkbS5EaXNwb3NlKCkgfQogICAgfQp9CgppZiAoLW5vdCAoVGVzdC1NdXRleEZyZWUpKSB7CiAgICAkc2lnbmFsbGVkID0gJGZhbHNlCiAgICB0cnkgewogICAgICAgICRldiA9IFtTeXN0ZW0uVGhyZWFkaW5nLkV2ZW50V2FpdEhhbmRsZV06Ok9wZW5FeGlzdGluZygkcXVpdEV2ZW50KQogICAgICAgICRldi5TZXQoKQogICAgICAgICRldi5EaXNwb3NlKCkKICAgICAgICAkc2lnbmFsbGVkID0gJHRydWUKICAgIH0gY2F0Y2ggeyAkc2lnbmFsbGVkID0gJGZhbHNlIH0KCiAgICBpZiAoJHNpZ25hbGxlZCkgewogICAgICAgICMgcG9sbCBpbnN0ZWFkIG9mIHNsZWVwaW5nIGEgZml4ZWQgYW1vdW50OiBhIGhlYWx0aHkgZXhpdCB0YWtlcyB+NjAgbXMKICAgICAgICAkd2FpdGVkID0gMAogICAgICAgIHdoaWxlICgtbm90IChUZXN0LU11dGV4RnJlZSkgLWFuZCAkd2FpdGVkIC1sdCAzMDAwKSB7CiAgICAgICAgICAgIFN0YXJ0LVNsZWVwIC1NaWxsaXNlY29uZHMgNTAKICAgICAgICAgICAgJHdhaXRlZCArPSA1MAogICAgICAgIH0KICAgICAgICBpZiAoVGVzdC1NdXRleEZyZWUpIHsgSW5mbyAoJyAgc3RvcHBlZCBwcmV2aW91cyBpbnN0YW5jZSAoJyArICR3YWl0ZWQgKyAnIG1zKScpIH0KICAgICAgICBlbHNlIHsgV2FybiAnICBwcmV2aW91cyBpbnN0YW5jZSBkaWQgbm90IGV4aXQgaW4gMyBzLCBraWxsaW5nIGl0JyB9CiAgICB9CgogICAgaWYgKC1ub3QgKFRlc3QtTXV0ZXhGcmVlKSkgewogICAgICAgIEdldC1Qcm9jZXNzIC1OYW1lICdwb3dlcnNoZWxsJywgJ3dzY3JpcHQnLCAnTW91c2VNZXRlcicgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUgfAogICAgICAgICAgICBXaGVyZS1PYmplY3QgeyAkXy5JZCAtbmUgJFBJRCB9IHwKICAgICAgICAgICAgRm9yRWFjaC1PYmplY3QgewogICAgICAgICAgICAgICAgIyBvbmx5IGtpbGwgcHJvY2Vzc2VzIHdob3NlIGNvbW1hbmQgbGluZSBtZW50aW9ucyB0aGlzIGZvbGRlcgogICAgICAgICAgICAgICAgJGNtZCA9IChHZXQtQ2ltSW5zdGFuY2UgV2luMzJfUHJvY2VzcyAtRmlsdGVyICgnUHJvY2Vzc0lkPScgKyAkXy5JZCkgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUpLkNvbW1hbmRMaW5lCiAgICAgICAgICAgICAgICBpZiAoJGNtZCAtYW5kICRjbWQgLWxpa2UgKCcqJyArICRyb290ICsgJyonKSkgewogICAgICAgICAgICAgICAgICAgIHRyeSB7ICRfLktpbGwoKTsgJF8uV2FpdEZvckV4aXQoMTAwMCkgfSBjYXRjaCB7IH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIFN0YXJ0LVNsZWVwIC1NaWxsaXNlY29uZHMgMzAwCiAgICB9Cn0KCiMgLS0tLS0tLS0tLSAzLiBsYXVuY2ggaW4gdGhpcyBwcm9jZXNzIC0tLS0tLS0tLS0KCiRhcmd2ID0gQCgpCmlmICgkU2V0dGluZ3MpIHsgJGFyZ3YgKz0gJy0tc2V0dGluZ3MnIH0KIyBBbHdheXMgcGFzcyAtLXJlc3RhcnQgc28gYSBzdGFsZSBpbnN0YW5jZSB0aGF0IHN1cnZpdmVkIHRoZSBjaGVja3MgYWJvdmUgc3RpbGwgYm93cyBvdXQKIyBpbnN0ZWFkIG9mIG1ha2luZyB0aGlzIG5ldyBjb3B5IGV4aXQgb24gdGhlIG11dGV4LgokYXJndiArPSAnLS1yZXN0YXJ0JwoKIyBNYWtlIHN1cmUgdGhlIHdpbmRvdyBzaG93cyB1cCBhZ2FpbiBpZiB0aGUgdXNlciBoYWQgaGlkZGVuIHRoZSB3aWRnZXQgZWFybGllcjogdGhlCiMgc2V0dGluZ3Mgd2luZG93IGlzIHRoZSBhbmNob3IsIGFuZCBkb3VibGUtY2xpY2tpbmcgdGhlIHRyYXkgaXMgdGhlIHVzdWFsIG5leHQgc3RlcC4KaWYgKCRWZXJib3NlKSB7IEluZm8gKCcgIGxhdW5jaGluZyB3aXRoOiAnICsgKCRhcmd2IC1qb2luICcgJykpIH0KClt2b2lkXVtTeXN0ZW0uUmVmbGVjdGlvbi5Bc3NlbWJseV06OkxvYWRGcm9tKCRidWlsZC5QYXRoKQoKdHJ5IHsKICAgIFtNb3VzZU1ldGVyLlByb2dyYW1dOjpNYWluKFtzdHJpbmdbXV0kYXJndikKfSBjYXRjaCB7CiAgICBXcml0ZS1Ib3N0ICcnCiAgICBXcml0ZS1Ib3N0ICcgIFJVTlRJTUUgRVJST1InIC1Gb3JlZ3JvdW5kQ29sb3IgUmVkCiAgICBXcml0ZS1Ib3N0ICgkXy5FeGNlcHRpb24uVG9TdHJpbmcoKSkgLUZvcmVncm91bmRDb2xvciBSZWQKICAgIFdyaXRlLUhvc3QgJycKICAgIFdyaXRlLUhvc3QgKCcgIGZ1bGwgbG9nOiAnICsgKEpvaW4tUGF0aCAkZW52OkxPQ0FMQVBQREFUQSAnTW91c2VNZXRlclxlcnJvci5sb2cnKSkgLUZvcmVncm91bmRDb2xvciBHcmF5CiAgICBleGl0IDEKfQo=
+﻿# DevRun.ps1 - the inner half of dev.cmd: build from source, restart, stay attached.
+#
+#   1. merge + compile src\*.cs (skipped when the content hash matches the cache)
+#   2. ask any running instance to quit, wait for it to release the mutex
+#   3. launch the freshly compiled DLL *in this process*, so exceptions print here
+#
+# Step 3 is why this exists instead of just calling MouseMeter.ps1: a separate launcher
+# would detach and you would never see the stack trace when a paint handler throws.
+
+param(
+    [switch]$Settings,
+    [switch]$Force,
+    [switch]$Verbose
+)
+
+$ErrorActionPreference = 'Stop'
+$root = $PSScriptRoot
+
+. (Join-Path $root 'Compiler.ps1')
+
+function Info($text) { Write-Host $text -ForegroundColor Gray }
+function Ok($text) { Write-Host $text -ForegroundColor Green }
+function Warn($text) { Write-Host $text -ForegroundColor Yellow }
+
+# ---------- 1. build ----------
+
+$sw = [System.Diagnostics.Stopwatch]::StartNew()
+try {
+    $build = Build-MouseMeter -Root $root -Force:$Force
+} catch {
+    Write-Host ''
+    Write-Host '  BUILD FAILED - the running copy was left untouched.' -ForegroundColor Red
+    Write-Host ''
+    # The CodeDOM message is "BUILD FAILED`nline N: text"; indent the detail lines so they
+    # stand out from the surrounding chatter.
+    foreach ($line in ($_.Exception.Message -split "`r?`n")) {
+        if ($line.Trim().Length -eq 0) { continue }
+        Write-Host ('    ' + $line) -ForegroundColor Red
+    }
+    Write-Host ''
+    exit 1
+}
+$sw.Stop()
+
+if ($build.Compiled) {
+    Ok ('  compiled in ' + $sw.ElapsedMilliseconds + ' ms  (' + $build.Chars + ' chars)')
+} else {
+    Info ('  up to date  (cache hit, ' + $sw.ElapsedMilliseconds + ' ms)')
+}
+
+# ---------- 2. stop the previous instance ----------
+
+$mutexName = 'MouseMeter.SingleInstance.v2'
+$quitEvent = 'Local\MouseMeter.QuitRequest'
+
+function Test-MutexFree() {
+    # -ArgumentList is required: without it PowerShell parses the parens as part of the
+    # type name and New-Object throws "Cannot find type".
+    $m = $null
+    try {
+        $m = New-Object System.Threading.Mutex -ArgumentList $false, $mutexName
+        $got = $m.WaitOne(0)
+        if ($got) { $m.ReleaseMutex() }
+        return $got
+    } catch [System.Threading.AbandonedMutexException] {
+        return $true   # previous owner died without releasing: treat as free
+    } catch {
+        return $true   # cannot probe -> assume free, let the --restart path sort it out
+    } finally {
+        if ($m -ne $null) { $m.Dispose() }
+    }
+}
+
+if (-not (Test-MutexFree)) {
+    $signalled = $false
+    try {
+        $ev = [System.Threading.EventWaitHandle]::OpenExisting($quitEvent)
+        $ev.Set()
+        $ev.Dispose()
+        $signalled = $true
+    } catch { $signalled = $false }
+
+    if ($signalled) {
+        # poll instead of sleeping a fixed amount: a healthy exit takes ~60 ms
+        $waited = 0
+        while (-not (Test-MutexFree) -and $waited -lt 3000) {
+            Start-Sleep -Milliseconds 50
+            $waited += 50
+        }
+        if (Test-MutexFree) { Info ('  stopped previous instance (' + $waited + ' ms)') }
+        else { Warn '  previous instance did not exit in 3 s, killing it' }
+    }
+
+    if (-not (Test-MutexFree)) {
+        Get-Process -Name 'powershell', 'wscript', 'MouseMeter' -ErrorAction SilentlyContinue |
+            Where-Object { $_.Id -ne $PID } |
+            ForEach-Object {
+                # only kill processes whose command line mentions this folder
+                $cmd = (Get-CimInstance Win32_Process -Filter ('ProcessId=' + $_.Id) -ErrorAction SilentlyContinue).CommandLine
+                if ($cmd -and $cmd -like ('*' + $root + '*')) {
+                    try { $_.Kill(); $_.WaitForExit(1000) } catch { }
+                }
+            }
+        Start-Sleep -Milliseconds 300
+    }
+}
+
+# ---------- 3. launch in this process ----------
+
+$argv = @()
+if ($Settings) { $argv += '--settings' }
+# Always pass --restart so a stale instance that survived the checks above still bows out
+# instead of making this new copy exit on the mutex.
+$argv += '--restart'
+
+# Make sure the window shows up again if the user had hidden the widget earlier: the
+# settings window is the anchor, and double-clicking the tray is the usual next step.
+if ($Verbose) { Info ('  launching with: ' + ($argv -join ' ')) }
+
+[void][System.Reflection.Assembly]::LoadFrom($build.Path)
+
+try {
+    [MouseMeter.Program]::Main([string[]]$argv)
+} catch {
+    Write-Host ''
+    Write-Host '  RUNTIME ERROR' -ForegroundColor Red
+    Write-Host ($_.Exception.ToString()) -ForegroundColor Red
+    Write-Host ''
+    Write-Host ('  full log: ' + (Join-Path $env:LOCALAPPDATA 'MouseMeter\error.log')) -ForegroundColor Gray
+    exit 1
+}

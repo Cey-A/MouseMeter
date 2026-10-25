@@ -1,1 +1,109 @@
-77u/IyBCdWlsZC5wczEgLSBjb21waWxlcyBzcmNcKi5jcyBpbnRvIGEgc3RhbmRhbG9uZSBNb3VzZU1ldGVyLmV4ZQojCiMgICBwb3dlcnNoZWxsIC1FeGVjdXRpb25Qb2xpY3kgQnlwYXNzIC1GaWxlIC5cQnVpbGQucHMxCiMgICBwb3dlcnNoZWxsIC1FeGVjdXRpb25Qb2xpY3kgQnlwYXNzIC1GaWxlIC5cQnVpbGQucHMxIC1PdXRwdXQgZGlzdAojCiMgVGhlIGV4ZSB0YXJnZXRzIC5ORVQgRnJhbWV3b3JrIDQuOCwgd2hpY2ggc2hpcHMgd2l0aCBXaW5kb3dzIDEwIDE4MDMrIGFuZCBXaW5kb3dzIDExLAojIHNvIHRoZSByZXN1bHQgbmVlZHMgbm8gcnVudGltZSBpbnN0YWxsLiBPdXRwdXQgaXMgYSBzaW5nbGUgfjExMCBLQiBmaWxlLgojCiMgVXNlcyB0aGUgc2FtZSBzb3VyY2UgbWVyZ2UgYXMgQ29tcGlsZXIucHMxIChDb21waWxlQXNzZW1ibHlGcm9tU291cmNlIHRha2VzIG9uZSB1bml0KSwKIyBzbyB0aGUgZXhlIGFuZCB0aGUgc2NyaXB0LWhvc3RlZCBidWlsZCBjYW4gbmV2ZXIgZHJpZnQgYXBhcnQuCgpwYXJhbSgKICAgIFtzdHJpbmddJE91dHB1dCA9ICdkaXN0JwopCgokRXJyb3JBY3Rpb25QcmVmZXJlbmNlID0gJ1N0b3AnCiRyb290ID0gJFBTU2NyaXB0Um9vdAoKLiAoSm9pbi1QYXRoICRyb290ICdDb21waWxlci5wczEnKQoKZnVuY3Rpb24gV3JpdGUtU3RlcChbc3RyaW5nXSR0ZXh0KSB7CiAgICBXcml0ZS1Ib3N0ICcnCiAgICBXcml0ZS1Ib3N0ICgnWycgKyAoR2V0LURhdGUpLlRvU3RyaW5nKCdISDptbTpzcycpICsgJ10gJyArICR0ZXh0KSAtRm9yZWdyb3VuZENvbG9yIEN5YW4KfQoKV3JpdGUtU3RlcCAnbWVyZ2luZyBzb3VyY2VzJwokc3JjID0gR2V0LU1vdXNlTWV0ZXJTb3VyY2UgLVJvb3QgJHJvb3QKV3JpdGUtSG9zdCAoJyAgJyArICRzcmMuTGVuZ3RoICsgJyBjaGFycyBmcm9tIHNyY1wqLmNzJykKCiRvdXREaXIgPSBKb2luLVBhdGggJHJvb3QgJE91dHB1dApOZXctSXRlbSAtSXRlbVR5cGUgRGlyZWN0b3J5IC1Gb3JjZSAtUGF0aCAkb3V0RGlyIHwgT3V0LU51bGwKJGV4ZVBhdGggPSBKb2luLVBhdGggJG91dERpciAnTW91c2VNZXRlci5leGUnCiRpY29QYXRoID0gSm9pbi1QYXRoICRyb290ICdNb3VzZU1ldGVyLmljbycKCldyaXRlLVN0ZXAgJ3JlbmRlcmluZyBhcHBsaWNhdGlvbiBpY29uJwojIEFsd2F5cyByZWRyYXc6IHRoZSAuaWNvIGlzIGdlbmVyYXRlZCBmcm9tIEljb25GYWN0b3J5LCBzbyByZWJ1aWxkaW5nIGl0IGlzIGhvdyB0aGUgZXhlIGljb24KIyBzdGF5cyBpbiBzdGVwIHdpdGggdGhlIHRyYXkgZ2x5cGguIFNraXBwaW5nIHdoZW4gdGhlIGZpbGUgbWVyZWx5IGV4aXN0cyB3b3VsZCBsZXQgYSBzdGFsZQojIGljb24gZnJvbSBhbiBvbGRlciBkZXNpZ24gc3Vydml2ZSBpbmRlZmluaXRlbHkuCnRyeSB7CiAgICAjIFRoZSBpY29uIGdlbmVyYXRvciBsaXZlcyBpbnNpZGUgdGhlIHNhbWUgc291cmNlIHdlIGFyZSBhYm91dCB0byBjb21waWxlLCBzbwogICAgIyBib290c3RyYXAgaXQgdGhyb3VnaCB0aGUgc2NyaXB0IGNvbXBpbGVyIChjYWNoZWQgYnkgaGFzaCkgYmVmb3JlIGJ1aWxkaW5nLgogICAgJGJvb3QgPSBCdWlsZC1Nb3VzZU1ldGVyIC1Sb290ICRyb290IC1Gb3JjZQogICAgW3ZvaWRdW1N5c3RlbS5SZWZsZWN0aW9uLkFzc2VtYmx5XTo6TG9hZEZyb20oJGJvb3QuUGF0aCkKICAgIFtNb3VzZU1ldGVyLkljb25GYWN0b3J5XTo6V3JpdGVJY28oJGljb1BhdGgpCiAgICBXcml0ZS1Ib3N0ICgnICBNb3VzZU1ldGVyLmljbyByZWRyYXduICgnICsgKEdldC1JdGVtICRpY29QYXRoKS5MZW5ndGggKyAnIGJ5dGVzKScpCn0gY2F0Y2ggewogICAgV3JpdGUtSG9zdCAoJyAgaWNvbiBzdGVwIHNraXBwZWQ6ICcgKyAkXy5FeGNlcHRpb24uTWVzc2FnZSkgLUZvcmVncm91bmRDb2xvciBZZWxsb3cKICAgIGlmICgtbm90IChUZXN0LVBhdGggJGljb1BhdGgpKSB7CiAgICAgICAgV3JpdGUtSG9zdCAnICBubyBpY29uIGF2YWlsYWJsZSwgZXhlIHdpbGwgdXNlIHRoZSBkZWZhdWx0IC5ORVQgaWNvbicgLUZvcmVncm91bmRDb2xvciBZZWxsb3cKICAgIH0KfQoKV3JpdGUtU3RlcCAnY29tcGlsaW5nIE1vdXNlTWV0ZXIuZXhlJwoKIyBXaW5kb3dzIGxvY2tzIGEgcnVubmluZyBpbWFnZSwgc28gd3JpdGluZyBvdmVyIGEgbGl2ZSBleGUgZmFpbHMgd2l0aCBhIGJhcmUKIyBJT0V4Y2VwdGlvbi4gU2F5IHdoYXQgdG8gZG8gaW5zdGVhZCBvZiBsZXR0aW5nIGNzYyByZXBvcnQgIkFjY2VzcyBkZW5pZWQiIG9uIGEgcGF0aC4KaWYgKFRlc3QtUGF0aCAkZXhlUGF0aCkgewogICAgJGxvY2tUZXN0ID0gJG51bGwKICAgIHRyeSB7CiAgICAgICAgJGxvY2tUZXN0ID0gW1N5c3RlbS5JTy5GaWxlXTo6T3BlbigkZXhlUGF0aCwgJ09wZW4nLCAnUmVhZFdyaXRlJywgJ05vbmUnKQogICAgfSBjYXRjaCB7CiAgICAgICAgdGhyb3cgKCdNb3VzZU1ldGVyLmV4ZSBpcyBydW5uaW5nLiBRdWl0IGl0IGZyb20gdGhlIHRyYXkgZmlyc3QsIHRoZW4gcmVidWlsZC4nICsKICAgICAgICAgICAgICAgImBuKFJ1biAuXGRldi5jbWQgdG8gd29yayBmcm9tIHNvdXJjZSAtIGl0IHJlc3RhcnRzIHRoZSBhcHAgZm9yIHlvdS4pIikKICAgIH0gZmluYWxseSB7CiAgICAgICAgaWYgKCRsb2NrVGVzdCAtbmUgJG51bGwpIHsgJGxvY2tUZXN0LkRpc3Bvc2UoKSB9CiAgICB9Cn0KCiRwcm92aWRlciA9IE5ldy1PYmplY3QgTWljcm9zb2Z0LkNTaGFycC5DU2hhcnBDb2RlUHJvdmlkZXIKJGNwID0gTmV3LU9iamVjdCBTeXN0ZW0uQ29kZURvbS5Db21waWxlci5Db21waWxlclBhcmFtZXRlcnMKJGNwLkdlbmVyYXRlSW5NZW1vcnkgPSAkZmFsc2UKJGNwLkdlbmVyYXRlRXhlY3V0YWJsZSA9ICR0cnVlCiRjcC5PdXRwdXRBc3NlbWJseSA9ICRleGVQYXRoCiRjcC5NYWluQ2xhc3MgPSAnTW91c2VNZXRlci5Qcm9ncmFtJwokY3AuSW5jbHVkZURlYnVnSW5mb3JtYXRpb24gPSAkZmFsc2UKIyBDb2RlRE9NIGRvZXMgbm90IGRlcml2ZSB0aGUgYXNzZW1ibHkgaWRlbnRpdHkgZnJvbSB0aGUgb3V0cHV0IHBhdGgsIGFuZCBjc2MgaGFzIG5vCiMgL2Fzc2VtYmx5bmFtZSBzd2l0Y2g7IHRoZSBuYW1lIGNvbWVzIGZyb20gQXNzZW1ibHlOYW1lIGluIHNyY1xBc3NlbWJseUluZm8uY3MuIFNldCBpdAojIHRoZXJlLCBub3QgaGVyZSwgb3IgRXhwbG9yZXIgc3RpbGwgc2hvd3MgYW4gZW1wdHkgIlByb2R1Y3QgbmFtZSIuCiRjcC5Db21waWxlck9wdGlvbnMgPSAnL29wdGltaXplIC93YXJuOjAgL3RhcmdldDp3aW5leGUnCgojIHdpbjMyaWNvbiBtdXN0IHBvaW50IGF0IGEgcmVhbCBmaWxlIG9yIGNzYyBmYWlscyB0aGUgd2hvbGUgYnVpbGQKaWYgKFRlc3QtUGF0aCAkaWNvUGF0aCkgewogICAgJGNwLkNvbXBpbGVyT3B0aW9ucyArPSAnIC93aW4zMmljb246IicgKyAkaWNvUGF0aCArICciJwp9Cgpmb3JlYWNoICgkYSBpbiBAKCdTeXN0ZW0uZGxsJywgJ1N5c3RlbS5Db3JlLmRsbCcsICdTeXN0ZW0uRHJhd2luZy5kbGwnLCAnU3lzdGVtLldpbmRvd3MuRm9ybXMuZGxsJykpIHsKICAgIFt2b2lkXSRjcC5SZWZlcmVuY2VkQXNzZW1ibGllcy5BZGQoJGEpCn0KCiRyZXMgPSAkcHJvdmlkZXIuQ29tcGlsZUFzc2VtYmx5RnJvbVNvdXJjZSgkY3AsICRzcmMpCmlmICgkcmVzLkVycm9ycy5Db3VudCAtZ3QgMCkgewogICAgJG1zZ3MgPSBAKCkKICAgIGZvcmVhY2ggKCRlIGluICRyZXMuRXJyb3JzKSB7CiAgICAgICAgaWYgKCRlLklzV2FybmluZykgeyBjb250aW51ZSB9CiAgICAgICAgJG1zZ3MgKz0gKCdsaW5lICcgKyAkZS5MaW5lICsgJzogJyArICRlLkVycm9yVGV4dCkKICAgIH0KICAgIHRocm93ICgiQlVJTEQgRkFJTEVEYG4iICsgKCRtc2dzIC1qb2luICJgbiIpKQp9CgppZiAoLW5vdCAoVGVzdC1QYXRoICRleGVQYXRoKSkgeyB0aHJvdyAnQlVJTEQgRkFJTEVEOiBubyBvdXRwdXQgcHJvZHVjZWQnIH0KCldyaXRlLVN0ZXAgJ2RvbmUnCiRzaXplID0gKEdldC1JdGVtICRleGVQYXRoKS5MZW5ndGgKV3JpdGUtSG9zdCAoJyAgJyArICRleGVQYXRoKQpXcml0ZS1Ib3N0ICgnICAnICsgW21hdGhdOjpSb3VuZCgkc2l6ZSAvIDFLQiwgMSkgKyAnIEtCJykKV3JpdGUtSG9zdCAnJwpXcml0ZS1Ib3N0ICdEb3VibGUtY2xpY2sgaXQsIG9yIHJ1bjonIC1Gb3JlZ3JvdW5kQ29sb3IgR3JheQpXcml0ZS1Ib3N0ICgnICAiJyArICRleGVQYXRoICsgJyInKSAtRm9yZWdyb3VuZENvbG9yIEdyYXkKV3JpdGUtSG9zdCAoJyAgIicgKyAkZXhlUGF0aCArICciIC0tc2V0dGluZ3MnKSAtRm9yZWdyb3VuZENvbG9yIEdyYXkK
+﻿# Build.ps1 - compiles src\*.cs into a standalone MouseMeter.exe
+#
+#   powershell -ExecutionPolicy Bypass -File .\Build.ps1
+#   powershell -ExecutionPolicy Bypass -File .\Build.ps1 -Output dist
+#
+# The exe targets .NET Framework 4.8, which ships with Windows 10 1803+ and Windows 11,
+# so the result needs no runtime install. Output is a single ~110 KB file.
+#
+# Uses the same source merge as Compiler.ps1 (CompileAssemblyFromSource takes one unit),
+# so the exe and the script-hosted build can never drift apart.
+
+param(
+    [string]$Output = 'dist'
+)
+
+$ErrorActionPreference = 'Stop'
+$root = $PSScriptRoot
+
+. (Join-Path $root 'Compiler.ps1')
+
+function Write-Step([string]$text) {
+    Write-Host ''
+    Write-Host ('[' + (Get-Date).ToString('HH:mm:ss') + '] ' + $text) -ForegroundColor Cyan
+}
+
+Write-Step 'merging sources'
+$src = Get-MouseMeterSource -Root $root
+Write-Host ('  ' + $src.Length + ' chars from src\*.cs')
+
+$outDir = Join-Path $root $Output
+New-Item -ItemType Directory -Force -Path $outDir | Out-Null
+$exePath = Join-Path $outDir 'MouseMeter.exe'
+$icoPath = Join-Path $root 'MouseMeter.ico'
+
+Write-Step 'rendering application icon'
+# Always redraw: the .ico is generated from IconFactory, so rebuilding it is how the exe icon
+# stays in step with the tray glyph. Skipping when the file merely exists would let a stale
+# icon from an older design survive indefinitely.
+try {
+    # The icon generator lives inside the same source we are about to compile, so
+    # bootstrap it through the script compiler (cached by hash) before building.
+    $boot = Build-MouseMeter -Root $root -Force
+    [void][System.Reflection.Assembly]::LoadFrom($boot.Path)
+    [MouseMeter.IconFactory]::WriteIco($icoPath)
+    Write-Host ('  MouseMeter.ico redrawn (' + (Get-Item $icoPath).Length + ' bytes)')
+} catch {
+    Write-Host ('  icon step skipped: ' + $_.Exception.Message) -ForegroundColor Yellow
+    if (-not (Test-Path $icoPath)) {
+        Write-Host '  no icon available, exe will use the default .NET icon' -ForegroundColor Yellow
+    }
+}
+
+Write-Step 'compiling MouseMeter.exe'
+
+# Windows locks a running image, so writing over a live exe fails with a bare
+# IOException. Say what to do instead of letting csc report "Access denied" on a path.
+if (Test-Path $exePath) {
+    $lockTest = $null
+    try {
+        $lockTest = [System.IO.File]::Open($exePath, 'Open', 'ReadWrite', 'None')
+    } catch {
+        throw ('MouseMeter.exe is running. Quit it from the tray first, then rebuild.' +
+               "`n(Run .\dev.cmd to work from source - it restarts the app for you.)")
+    } finally {
+        if ($lockTest -ne $null) { $lockTest.Dispose() }
+    }
+}
+
+$provider = New-Object Microsoft.CSharp.CSharpCodeProvider
+$cp = New-Object System.CodeDom.Compiler.CompilerParameters
+$cp.GenerateInMemory = $false
+$cp.GenerateExecutable = $true
+$cp.OutputAssembly = $exePath
+$cp.MainClass = 'MouseMeter.Program'
+$cp.IncludeDebugInformation = $false
+# CodeDOM does not derive the assembly identity from the output path, and csc has no
+# /assemblyname switch; the name comes from AssemblyName in src\AssemblyInfo.cs. Set it
+# there, not here, or Explorer still shows an empty "Product name".
+$cp.CompilerOptions = '/optimize /warn:0 /target:winexe'
+
+# win32icon must point at a real file or csc fails the whole build
+if (Test-Path $icoPath) {
+    $cp.CompilerOptions += ' /win32icon:"' + $icoPath + '"'
+}
+
+foreach ($a in @('System.dll', 'System.Core.dll', 'System.Drawing.dll', 'System.Windows.Forms.dll')) {
+    [void]$cp.ReferencedAssemblies.Add($a)
+}
+
+$res = $provider.CompileAssemblyFromSource($cp, $src)
+if ($res.Errors.Count -gt 0) {
+    $msgs = @()
+    foreach ($e in $res.Errors) {
+        if ($e.IsWarning) { continue }
+        $msgs += ('line ' + $e.Line + ': ' + $e.ErrorText)
+    }
+    throw ("BUILD FAILED`n" + ($msgs -join "`n"))
+}
+
+if (-not (Test-Path $exePath)) { throw 'BUILD FAILED: no output produced' }
+
+Write-Step 'done'
+$size = (Get-Item $exePath).Length
+Write-Host ('  ' + $exePath)
+Write-Host ('  ' + [math]::Round($size / 1KB, 1) + ' KB')
+Write-Host ''
+Write-Host 'Double-click it, or run:' -ForegroundColor Gray
+Write-Host ('  "' + $exePath + '"') -ForegroundColor Gray
+Write-Host ('  "' + $exePath + '" --settings') -ForegroundColor Gray

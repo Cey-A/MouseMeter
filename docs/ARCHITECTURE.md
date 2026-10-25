@@ -1,1 +1,248 @@
-77u/IyBBUkNISVRFQ1RVUkUg4oCUIOaetuaehOS4juWunueOsOe7huiKggoKLS0tCgojIyAxLiDov5vnqIvmqKHlnosKCioq5Y2V6L+b56iL44CB5Y2V57q/56iLIFVJICsg57q/56iL5rGg6L2u6K+i77yM5peg5pyN5Yqh44CB5peg6amx5Yqo44CB5peg566h55CG5ZGY5p2D6ZmQ44CCKioKCmBgYAp3c2NyaXB0LmV4ZSAgKHJ1bi1oaWRkZW4udmJzKQogICAg4pSU4pSAIHBvd2Vyc2hlbGwuZXhlIC1XaW5kb3dTdHlsZSBIaWRkZW4gLUZpbGUgTW91c2VNZXRlci5wczEKICAgICAgICAgIOKUlOKUgCDliqDovb3nvJbor5Hlpb3nmoQgRExM77yM5ZCM6L+b56iL5YaFIFtNb3VzZU1ldGVyLlByb2dyYW1dOjpNYWluKCkKICAgICAgICAgICAgICAgIOKUlOKUgCBXaW5Gb3JtcyDmtojmga/lvqrnjq/vvIjljZUgVUkg57q/56iL77yJCiAgICAgICAgICAgICAgICAgICAgICDilJzilIAgTm90aWZ5SWNvbu+8iOaJmOebmO+8iQogICAgICAgICAgICAgICAgICAgICAg4pSc4pSAIEh1ZEZvcm3vvIjml6DovrnmoYbnva7pobbnqpflj6PvvIkKICAgICAgICAgICAgICAgICAgICAgIOKUnOKUgCBTZXR0aW5nc0Zvcm3vvIjmjInpnIDliJvlu7rvvIkKICAgICAgICAgICAgICAgICAgICAgIOKUlOKUgCBUaHJlYWRQb29sIOS4iueahOi9ruivoue6v+eoi++8iOavj+S4qiB0aWNrIOS4gOadoe+8iQpgYGAKCi0gKirkuI3pnIDopoHnrqHnkIblkZjmnYPpmZAqKu+8mkhJRCDnibnlvoHmiqXmlofor7vlhpnlr7nmma7pgJrnlKjmiLflvIDmlL4KLSAqKuS4jeWuieijheS7u+S9leS4nOilvyoq77ya5rOo5YaM6KGo5Y+q5YaZIGBIS0NVXC4uLlxSdW5gIOS4gOS4quWAvAotICoq5Y2V5a6e5L6LKirvvJrlkb3lkI0gTXV0ZXggYE1vdXNlTWV0ZXIuU2luZ2xlSW5zdGFuY2UudjJg77yM56ys5LqM5Liq5a6e5L6L55u05o6lIGByZXR1cm5gCgojIyMg57yW6K+R5LiO5Yqg6L29CgpgTW91c2VNZXRlci5wczFgIOWPquWBmuS4ieS7tuS6i++8mgoKYGBgcG93ZXJzaGVsbAouIENvbXBpbGVyLnBzMQokYnVpbGQgPSBCdWlsZC1Nb3VzZU1ldGVyIC1Sb290ICRyb290ICAgICAjIOWQiOW5tiDihpIg5ZOI5biMIOKGkiDlkb3kuK3nvJPlrZjmiJbph43mlrDnvJbor5EKW3ZvaWRdW1N5c3RlbS5SZWZsZWN0aW9uLkFzc2VtYmx5XTo6TG9hZEZyb20oJGJ1aWxkLlBhdGgpCltNb3VzZU1ldGVyLlByb2dyYW1dOjpNYWluKFtzdHJpbmdbXV0kYXJndikKYGBgCgpgQ29tcGlsZXIucHMxYCDnmoTlhbPplK7orr7orqHvvJoKCjEuICoq5ZCI5bm2KirvvJrmioogYHNyYy8qLmNzYO+8iOaMieaWh+S7tuWQjeaOkuW6j++8ieWQiOaIkOS4gOS4que8luivkeWNleWFg+OAgumAkOihjOaJq+aPj++8jOaKiuaJgOaciSBgdXNpbmcgWDtgICoq5o+Q5Yiw5paH5Lu25pyA6aG26YOoKirlubbljrvph43vvIzlhbbkvZnlhoXlrrnov73liqDjgIIKICAg4oCU4oCU5LiN5YGa6L+Z5LiA5q2l77yM56ys5LqM5Liq5paH5Lu255qEIGB1c2luZ2Ag5Lya5Ye6546w5Zyo5ZG95ZCN56m66Ze05LmL5ZCO77yM57yW6K+R55u05o6l5aSx6LSl77yI5LiK5LiA6L2u6Lip6L+H77yJ44CCCjIuICoq57yT5a2YKirvvJrlr7nlkIjlubbnu5PmnpznrpcgU0hBMjU277yM5Y+W5YmNIDE2IOS9jeWBmiBETEwg5paH5Lu25ZCNIOKGkiBgJUxPQ0FMQVBQREFUQSVcTW91c2VNZXRlclxjYWNoZVxNb3VzZU1ldGVyLTxoYXNoPi5kbGxg44CC5ZG95Lit5bCx55u05o6l6L+U5Zue77yMMTQgbXPjgIIKMy4gKirmuIXnkIYqKu+8muWPquS/neeVmeacgOaWsCAyIOS4qiBETEzvvIzpgb/lhY3ml6DpmZDloIbnp6/jgIIKNC4gKirlvJXnlKjpm4YqKu+8mmBTeXN0ZW0uZGxsYOOAgWBTeXN0ZW0uQ29yZS5kbGxg44CBYFN5c3RlbS5EcmF3aW5nLmRsbGDjgIFgU3lzdGVtLldpbmRvd3MuRm9ybXMuZGxsYCDigJTigJQg5bCx6L+Z5Zub5Liq44CCCgo+ICoqQyMg6K+t6KiA562J57qnID0gNSoq77yIQ29kZURPTSDpu5jorqTvvInjgILop4EgYFNUQVJULUhFUkUubWQgwqcyLjFg44CCCgotLS0KCiMjIDIuIOexu+iBjOi0o+ihqAoKIyMjIOaVsOaNruWxggoKfCDnsbvlnosgfCDkvY3nva4gfCDogYzotKMgfAp8LS0tfC0tLXwtLS18CnwgYEhpZENvbGxlY3Rpb25gIHwgSGlkLmNzOjEwIHwg5LiA5LiqIEhJRCDpobblsYLpm4blkIjnmoTlhYPmlbDmja7vvJpQYXRoIC8gVmlkIC8gUGlkIC8gVXNhZ2VQYWdlIC8gVXNhZ2UgLyBGZWF0dXJlTGVuZ3RoIC8gUHJvZHVjdE5hbWUgLyBNYW51ZmFjdHVyZXLvvIxgSWRgIOi/lOWbniBgIlhYWFg6WVlZWSJgIHwKfCBgSGlkYO+8iHN0YXRpY++8iSB8IEhpZC5jczoyNiB8IFAvSW52b2tlIOWwgeijhe+8mmBFbnVtZXJhdGUoKWAg5p6a5Li+5YWo6YOo6ZuG5ZCI44CBYE9wZW4ocGF0aCwgd3JpdGUpYCDmi7/lj6Xmn4TjgIFgU2V0RmVhdHVyZSgpYCAvIGBHZXRGZWF0dXJlKGgsIGxlbiwgcmVwb3J0SWQpYCB8CnwgYFJlYWRpbmdg77yIc3RydWN077yJIHwgUHJvdmlkZXJzLmNzOjcgfCDkuIDmrKHor7vmlbDvvJpMZXZlbCAvIENoYXJnaW5nIC8gRGV2aWNlTmFtZSAvIFRyYW5zcG9ydCAvIEhhcmR3YXJlSWQgLyBBdCB8CnwgYElCYXR0ZXJ5UHJvdmlkZXJgIHwgUHJvdmlkZXJzLmNzOjIzIHwg5omp5bGV54K544CCYE5hbWVgIC8gYElzUHJlc2VudCgpYCAvIGBUcnlSZWFkKG91dCBSZWFkaW5nKWAgfAp8IGBNY0hvc2VQcm92aWRlcmAgfCBQcm92aWRlcnMuY3M6MzggfCDov4jku47lrp7njrDjgIJgRmluZENvbGxlY3Rpb24oKWAg5a6a5L2N6ZuG5ZCI77yMYFRyeVJlYWQoKWAg5omn6KGMIDgg6L2u6YeN6K+VIHwKfCBgRGV2aWNlTWFuYWdlcmAgfCBQcm92aWRlcnMuY3M6MTQ5IHwg5oyB5pyJIHByb3ZpZGVyIOWIl+ihqO+8jGBSZWZyZXNoKClgIOaMiemhuuW6j+Wwneivle+8m+e7tOaKpOOAjOacgOWQjuS4gOasoeacieaViOivu+aVsOOAjeOAgWBJc1N0YWxlYOOAgee7n+iuoSBgUG9sbHNgL2BIaXRzYCB8CgojIyMg6YWN572u5bGCCgp8IOexu+WeiyB8IOS9jee9riB8IOiBjOi0oyB8CnwtLS18LS0tfC0tLXwKfCBgU2V0dGluZ3NgIHwgU2V0dGluZ3MuY3M6MTMgfCDlhajpg6jphY3nva7lrZfmrrUgKyBgTG9hZCgpYCAvIGBTYXZlKClg77yM6Lev5b6EIGAlQVBQREFUQSVcTW91c2VNZXRlclxzZXR0aW5ncy5qc29uYCB8CnwgYE1pbmlKc29uYCB8IFNldHRpbmdzLmNzOjExMCB8IOaJi+WGmSBKU09O44CC5Y+q5pSv5oyBKirmiYHlubPlr7nosaEqKiArIOWtl+espuS4suaVsOe7hO+8jOWkn+eUqOS4lOmbtuS+nei1luOAguino+aekOWksei0pemdmem7mOWbnumAgOm7mOiupOWAvCB8CgojIyMg6KeG6KeJ5bGCCgp8IOexu+WeiyB8IOS9jee9riB8IOiBjOi0oyB8CnwtLS18LS0tfC0tLXwKfCBgUGFsZXR0ZWAgfCBUaGVtZS5jczoxMiB8IOS4gOe7hOminOiJsiB0b2tlbiArIGBJc0RhcmtgIHwKfCBgVGhlbWVg77yIc3RhdGlj77yJIHwgVGhlbWUuY3M6MzAgfCBgTGlnaHQoKWAgLyBgRGFyaygpYCAvIGBGb3IobW9kZSlgIC8gYFN5c3RlbVVzZXNMaWdodCgpYO+8iOivu+azqOWGjOihqCBgU3lzdGVtVXNlc0xpZ2h0VGhlbWVg77yJ77yb5a2X5L2T5peP6YCJ5oup5LiO57yT5a2YIGBGKHB0LCBib2xkKWAgLyBgRkMocHQsIGJvbGQpYO+8m2BSb3VuZFJlY3QoKWAg5ZyG6KeS6Lev5b6E77ybRFdNIOeJueaViO+8iOWchuinkuOAgea3seiJsuagh+mimOagj++8iSB8CnwgYEljb25GYWN0b3J5YO+8iHN0YXRpY++8iSB8IEljb25GYWN0b3J5LmNzOjE0IHwgYFN0YXRlYCDmnprkuL7vvIhOb3JtYWwvTG93L0NyaXRpY2FsL0NoYXJnaW5nL09mZmxpbmXvvInjgIFgU3RhdGVPZigpYCDlhrPnrZbjgIFgUmVuZGVyKClgIOmAkOWDj+e0oOe7mOWItuOAgWBUb0ljb24oKWAg6L2sIEhJQ09O44CBYFdyaXRlSWNvKClgIOeUn+aIkOWkmuWIhui+qOeOhyAuaWNvIHwKfCBgQ29udHJvbHMuY3NgIHwgOX4gfCDlm5vkuKroh6rnu5jmjqfku7bvvJpgVG9nZ2xlU3dpdGNoYO+8iGlPUyDlvIDlhbPvvIzluKblvLnmgKfliqjnlLvvvInjgIFgTU1TbGlkZXJg44CBYFNlZ21lbnRlZGDjgIFgRmxhdEJ1dHRvbmDvvIzliqAgYENhcmRgIOmdmeaAgee7mOWItuWKqeaJi++8iOWNoeeJh+W6lSArIOWIhumalOe6v++8iSB8CnwgYEFwcGxlTWVudVJlbmRlcmVyYCB8IE1lbnVSZW5kZXJlci5jczo5IHwg57un5om/IGBUb29sU3RyaXBSZW5kZXJlcmDvvIzmiorljp/nlJ/lj7PplK7oj5zljZXmlLnmiJDlnIbop5IgKyDoi7nmnpzphY3oibIgfAp8IGBNZW51QnVpbGRlcmDvvIhzdGF0aWPvvIkgfCBNZW51UmVuZGVyZXIuY3M6MTEwIHwgYENyZWF0ZSgpYCAvIGBJdGVtKClgIC8gYENhcHRpb24oKWAgLyBgU2VwKClgIOW/q+aNt+aehOmAoCB8CgojIyMg56qX5Y+j5bGCCgp8IOexu+WeiyB8IOS9jee9riB8IOiBjOi0oyB8CnwtLS18LS0tfC0tLXwKfCBgSHVkRm9ybWAgfCBIdWRGb3JtLmNzOjEzIHwg5qGM6Z2i5oyC5Lu244CC6YC76L6R5bC65a+4ICoqMTc4w5cxMTIqKu+8jGBIZWlnaHQgKiAwLjE3NWAg5ZyG6KeS77yMYFRvcE1vc3Rg44CBYFNob3dJblRhc2tiYXI9ZmFsc2Vg44CBYEF1dG9TY2FsZU1vZGUuTm9uZWDvvIjoh6rlt7HmjIkgRFBJIOeul++8ieOAguaLluWKqOenu+WKqOOAgeWPjOWHu+i/m+iuvue9ruOAgeWPs+mUruiPnOWNleOAgeaCrOWBnOW+ruWKqOaViCB8CnwgYFNldHRpbmdzRm9ybWAgfCBTZXR0aW5nc0Zvcm0uY3M6MTAgfCDorr7nva7nqpflj6PjgILml6DovrnmoYYgKyDoh6rnu5jmoIfpopjmoI/vvIzljaHniYflvI/liIbnu4TvvIzlhajoh6rnu5jmjqfku7bjgIJgQ2hhbmdlZGAg5LqL5Lu26YCa55+l5aSW6YOo5bqU55So6YWN572u77yMYFN5bmNGcm9tQ29uZmlnKClgIC8gYFN5bmNSZWFkaW5nKClgIOWPjeWQkeWQjOatpSB8CnwgYFRyYXlDb250ZXh0YCB8IFByb2dyYW0uY3M6MTIzIHwg57un5om/IGBBcHBsaWNhdGlvbkNvbnRleHRg77yM5piv5pW05Liq5bqU55So55qEKirljY/osIPogIUqKu+8muaJmOebmOOAgei9ruivouOAgeaMguS7tueUn+WRveWRqOacn+OAgeiuvue9ruiBlOWKqOOAgeS9jueUtemHj+mAmuefpeOAgemAgOWHuua4heeQhiB8CnwgYEF1dG9TdGFydGDvvIhzdGF0aWPvvIkgfCBQcm9ncmFtLmNzOjExIHwg6K+75YaZIGBIS0NVXFNvZnR3YXJlXE1pY3Jvc29mdFxXaW5kb3dzXEN1cnJlbnRWZXJzaW9uXFJ1bmAg55qEIGBNb3VzZU1ldGVyYCDlgLwgfAp8IGBQcm9ncmFtYO+8iHN0YXRpY++8iSB8IFByb2dyYW0uY3M6NTQgfCDlhaXlj6PjgIJNdXRleOOAgURQSSDmhJ/nn6XjgIHlhajlsYDlvILluLjpkqnlrZDjgIHphY3nva7liqDovb3jgIFgLS1zZXR0aW5nc2Ag5Y+C5pWwIHwKCi0tLQoKIyMgMy4g57q/56iL5qih5Z6L77yI5pyA5a655piT5pS56ZSZ55qE5Zyw5pa577yJCgpgYGAKVUkg57q/56iL77yIU1RB77yJICAgICAgICAgICAgICAgICAgICAgICBUaHJlYWRQb29sCuKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgCAgICAgICAgICAgICAgICAgIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgApUcmF5Q29udGV4dCDmnoTpgKAKICDilJTilIAgX2RtLlJlZnJlc2goKSAg4oaQIOWQjOatpe+8gemmluasoeivu+S4gOasoe+8jOmBv+WFjeaMguS7tumXquOAjOacquajgOa1i+WIsOOAjQoKVGltZXIocGVyaW9kKSDilIDilIDilIDilIAg5q+PIDYwcyDilIDilIDilIDilIDilIDilrogIFBvbGwoKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICDilJzilIAgaWYgKF9wb2xsaW5nKSByZXR1cm47ICDihpAg6Ziy6YeN5YWlCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIOKUnOKUgCBfcG9sbGluZyA9IHRydWUKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg4pSc4pSAIF9kbS5SZWZyZXNoKCkgICDihpAg6Zi75aGe77yM5pyA5aSaIH4xLjZzCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIOKUnOKUgCBfcG9sbGluZyA9IGZhbHNlCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIOKUlOKUgCBQb3N0KE9uUG9sbGVkKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIOKUggogICAgICAgICAgICAgICAgICAgIF9tYXJzaGFsLkJlZ2luSW52b2tlIOKUgOKUgOKUgOKUmAogICAgICAgICAgICAgICAgICAgICAgICAgIOKUggogIE9uUG9sbGVkKCkgIOKGkOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUmAogICAg4pSc4pSAIFVwZGF0ZVRyYXkoKSAgICAgICAgICAgIOmHjee7mOWbvuaghyArIOabtOaWsCB0b29sdGlwCiAgICDilJzilIAgX2h1ZC5VcGRhdGVSZWFkaW5nKCkgICAg5oyC5Lu2IEludmFsaWRhdGUKICAgIOKUnOKUgCBfZm9ybS5TeW5jUmVhZGluZygpICAgICDorr7nva7nqpflj6PliLfmlrAKICAgIOKUlOKUgCDkvY7nlLXph4/liKTlrpog4oaSIFNob3dCYWxsb29uVGlwCmBgYAoKKirkuInmnaHpk4HlvovvvJoqKgoKMS4gKipISUQg5pON5L2c57ud5LiN5ZyoIFVJIOe6v+eoi+WBmioq77yI6Zmk5LqG5p6E6YCg5pe26YKj5LiA5qyh5ZCM5q2l6K+777yM5Zug5Li65a6D5Yaz5a6a5LqG6aaW5bin5YaF5a6577yJ44CCCjIuICoq6Leo57q/56iL5pu05pawIFVJIOW/hemhu+i1sCBgX21hcnNoYWwuQmVnaW5JbnZva2VgKirjgIJgX21hcnNoYWxgIOaYr+S4qumakOiXjyBgQ29udHJvbGDvvIzmnoTpgKDml7YgYEludFB0ciBoYW5kbGUgPSBfbWFyc2hhbC5IYW5kbGU7YCDlvLrliLbliJvlu7rlj6Xmn4TjgIIKICAgKirkuI3opoHmlLnmiJAgYFN5bmNocm9uaXphdGlvbkNvbnRleHQuQ3VycmVudGAqKiDigJTigJQgYEFwcGxpY2F0aW9uQ29udGV4dGAg5p6E6YCg5pe25a6D6L+Y5pivIGBudWxsYO+8jOS8muWvvOiHtOWbnuiwg+agueacrOWPkeS4jeWHuuWOu+OAggozLiAqKmBfcG9sbGluZ2Ag55SoIGB2b2xhdGlsZSBib29sYCoqIOWBmumHjeWFpeS/neaKpO+8jOmBv+WFjeaFoui9ruivouWPoOWKoOOAggoKLS0tCgojIyA0LiDnlJ/lkb3lkajmnJ8KCiMjIyDlkK/liqgKCjEuIGBNYWluYCDmi78gTXV0ZXgg4oaSIOW3suWtmOWcqOWImeebtOaOpei/lOWbngoyLiBgU2V0UHJvY2Vzc0RwaUF3YXJlbmVzc0NvbnRleHQoLTQpYCA9IFBlci1Nb25pdG9yIFYyCjMuIOaMguWFqOWxgOW8guW4uOmSqeWtkO+8iGBBcHBsaWNhdGlvbi5UaHJlYWRFeGNlcHRpb25gICsgYEFwcERvbWFpbi5VbmhhbmRsZWRFeGNlcHRpb25gIOKGkiDlhpkgYGVycm9yLmxvZ2DvvIkKNC4gYFNldHRpbmdzLkxvYWQoKWDvvIzlvILluLjliJnnlKjpu5jorqTlgLwKNS4gYGNmZy5TdGFydFdpdGhXaW5kb3dzICYmICFBdXRvU3RhcnQuSXNFbmFibGVkYCDihpIg6KGl5YaZ5rOo5YaM6KGo77yI5L+d6K+B6KOF5Yiw5paw6Lev5b6E5ZCO6Ieq5ZCv5LuN5pyJ5pWI77yJCjYuIGBuZXcgVHJheUNvbnRleHQoY2ZnKWDvvJoKICAgLSDlu7ogYF9tYXJzaGFsYCDlj6Xmn4QKICAgLSDlu7ogYE5vdGlmeUljb25gICsg5Y+z6ZSu6I+c5Y2VCiAgIC0gKirlkIzmraUgYFJlZnJlc2goKWAg5LiA5qyhKioKICAgLSBgVXBkYXRlVHJheSgpYO+8jOiLpSBgaHVkRW5hYmxlZGAg5YiZIGBTaG93SHVkKClgCiAgIC0gYFN0YXJ0VGltZXIoKWAKNy4g6Iul5bimIGAtLXNldHRpbmdzYCDlj4LmlbAg4oaSIGBPcGVuU2V0dGluZ3MoKWAKOC4gYEFwcGxpY2F0aW9uLlJ1bihjdHgpYAoKIyMjIOmAgOWHugoKYFF1aXQoKWAg6aG65bqP5Zu65a6a77yM6ZSZ5LiA5q2l5bCx5Y+v6IO95q6L55WZ5omY55uY5Zu+5qCH77yI5bm954G15Zu+5qCH77yJ77yaCgpgYGBjc2hhcnAKX2NmZy5TYXZlKCk7Cl90aW1lci5EaXNwb3NlKCk7Cl9odWQuQ2xvc2UoKTsgX2h1ZC5EaXNwb3NlKCk7Cl9mb3JtLkRpc3Bvc2UoKTsKX25pLlZpc2libGUgPSBmYWxzZTsgICAvLyDihpAg5b+F6aG75YWI6ZqQ6JeP5YaNIERpc3Bvc2XvvIzlkKbliJnlm77moIfkvJrljaHlnKjmiZjnm5jph4wKX25pLkRpc3Bvc2UoKTsKX2ljb24uRGlzcG9zZSgpOwpfbWFyc2hhbC5EaXNwb3NlKCk7CkV4aXRUaHJlYWQoKTsKYGBgCgotLS0KCiMjIDUuIOaJmOebmOWbvuagh+e7mOWItgoK5LiN5piv57yp5pS+5L2N5Zu+77yM6ICM5pivKirmjInns7vnu5/or7fmsYLnmoTnnJ/lrp7lsLrlr7jph43nu5gqKu+8mgoKYGBgY3NoYXJwCmludCBzaXplID0gU3lzdGVtSW5mb3JtYXRpb24uU21hbGxJY29uU2l6ZS5XaWR0aDsgICAvLyAxMjUlIERQSSDkuIvpgJrluLggMjDvvIwxNTAlIOS4iyAyNAp1c2luZyAodmFyIGJtcCA9IEljb25GYWN0b3J5LlJlbmRlcihzaXplLCBsZXZlbCwgc3RhdGUsIGRhcmtUYXNrYmFyKSkKICAgIF9uaS5JY29uID0gSWNvbkZhY3RvcnkuVG9JY29uKGJtcCk7CmBgYAoK5p6E5oiQ77yaKirmlbDlrZflsYXkuK0gKyDlupXpg6jkuIDmnaHnu4bov5vluqbmnaEqKu+8iOmrmOW6piBgbWF4KDEuNiwgc2l6ZS8xMSlg77yJ77yM5peg6IOM5pmv5ZyG5bqV77yI5Lik5L2N5pWw77yJLyDkuInkvY3mlbDmlLnmlrnlvaLmtYXlupXjgIIKCueKtuaAgeiJsu+8mgoKfCBTdGF0ZSB8IOinpuWPkSB8IOminOiJsiB8CnwtLS18LS0tfC0tLXwKfCBgTm9ybWFsYCB8IDEwMCA+IGxldmVsID4gbG93VGhyZXNob2xkIHwg6Lef6ZqP5Lu75Yqh5qCP5rex5rWF77yI5rex5bqV55SoICNGNUY1RjfvvIzmtYXlupXnlKggIzFDMUMxRe+8iSB8CnwgYExvd2AgfCBsZXZlbCDiiaQgbG93VGhyZXNob2xkIHwg5qmZIGAjRkY5RjBBYCB8CnwgYENyaXRpY2FsYCB8IGxldmVsIOKJpCAxMCB8IOe6oiBgI0ZGNDUzQWAgfAp8IGBDaGFyZ2luZ2AgfCBjaGFyZ2luZz10cnVlIHwg57u/IGAjMzBEMTU4YCB8CnwgYE9mZmxpbmVgIHwg5peg5pyJ5pWI6K+75pWwIHwg54Gw77yINDAlIOmAj+aYju+8iSsg5pi+56S6IGAtLWAgfAoKYGRhcmtUYXNrYmFyYCDmnaXoh6ogYCFUaGVtZS5TeXN0ZW1Vc2VzTGlnaHQoKWAg4oCU4oCUIOazqOaEj+i/memHjOivu+eahOaYryoq57O757uf5Li76aKYKirvvIjlhrPlrprku7vliqHmoI/popzoibLvvInvvIzkuI3mmK/lupTnlKjkuLvpopjjgIIKCi0tLQoKIyMgNi4g5oyC5Lu25a6e546w6KaB54K5CgotIOWwuuWvuO+8mmAxNzggw5cgMTEyYCDpgLvovpHljZXkvY0gw5cgYGh1ZFNjYWxlYCDDlyBgZHBpLzk2YAotIOWchuinku+8mmBIZWlnaHQgKiAwLjE3NWDvvIznlKggYFJlZ2lvbmAg6KOB5Ymq56qX5Y+j77yIKirkuI3mmK8qKueUu+S4gOS4quWBh+WchuinkuW6le+8iQotIOWGheWuueW4g+WxgO+8iOS7juS4iuWIsOS4i++8ie+8muiuvuWkh+WQje+8iOWwj+Wtl+eBsO+8ieKGkiDlpKflj7fnmb7liIbmr5QgKyBgJWAg5LiK5qCHIOKGkiDlj7PkuIvop5LkvKDovpPmlrnlvI8v5YWF55S154q25oCBIOKGkiDlupXpg6jnu4bov5vluqbmnaEKLSDmi5bliqjvvJpgTW91c2VEb3duYCDorrDlvZXlgY/np7vvvIxgTW91c2VNb3ZlYCDmlLkgYExvY2F0aW9uYO+8jGBNb3VzZVVwYCDlkI7lhpnlm54gYGNmZy5IdWRYL0h1ZFlgIOW5tiBgU2F2ZSgpYAotIOS9jee9ruiusOW/hu+8mmBjZmcuSHVkWCA8IDBgIOaXtummluasoeaRhuWIsOW3peS9nOWMuuWPs+S4i+inku+8iOi3neWPsyA0OOOAgei3neS4iyAxNTDvvIznu5nku7vliqHmoI/nlZnkvY3vvInvvIzlubYgYENsYW1wVG9TY3JlZW4oKWAg5L+d6K+B5LiN5Ye65bGPCi0gc3RhbGUg5aSE55CG77ya6LaFIDkwIOenkuayoeaWsOivu+aVsCDihpIg5pWw5a2X5LiO6L+b5bqm5p2h6ZmN6YCP5piO5bqm77yM5Y+z5LiL6KeS5YaZ44CM5bey5LyR55yg44CN77yMKirnu53kuI3muIXnqboqKgoKLS0tCgojIyA3LiDmianlsZXngrkKCiMjIyDmlrDlop7lk4HniYzvvIjmjqjojZDot6/lvoTvvIkKCmBgYGNzaGFycAovLyAxKSBzcmMvUHJvdmlkZXJzLmNzCnB1YmxpYyBjbGFzcyBMb2dpdGVjaEJvbHRQcm92aWRlciA6IElCYXR0ZXJ5UHJvdmlkZXIKewogICAgcHVibGljIHN0cmluZyBOYW1lIHsgZ2V0IHsgcmV0dXJuICJMb2dpdGVjaCBCb2x0IjsgfSB9CiAgICBwdWJsaWMgYm9vbCBJc1ByZXNlbnQoKSB7IC8qIOaJviBjb2xsZWN0aW9uICovIH0KICAgIHB1YmxpYyBib29sIFRyeVJlYWQob3V0IFJlYWRpbmcgcikgeyAvKiDlj5HmiqXmlofjgIHop6PmnpAgKi8gfQp9CgovLyAyKSBEZXZpY2VNYW5hZ2VyIOaehOmAoOWHveaVsOmHjOWKoOS4gOihjApfcHJvdmlkZXJzLkFkZChuZXcgTG9naXRlY2hCb2x0UHJvdmlkZXIoKSk7CmBgYAoKYERldmljZU1hbmFnZXIuUmVmcmVzaCgpYCDmjInms6jlhozpobrluo/pgJDkuKogYFRyeVJlYWRg77yMKirnrKzkuIDkuKrmiJDlip/nmoTnlJ/mlYgqKuOAggrmiYDku6XlhajmlrDlk4HniYzlj6/ku6Xml6Dpo47pmanlnLDov73liqDliLDmnKvlsL7vvIzkuI3lvbHlk43njrDmnInov4jku47ot6/lvoTjgIIKCiMjIyDmlrDlop7mjqXmlLblmaggSUTvvIjpm7bku6PnoIHvvIkKCmAlQVBQREFUQSVcTW91c2VNZXRlclxzZXR0aW5ncy5qc29uYO+8mgoKYGBganNvbgoicmVjZWl2ZXJJZHMiOiBbIjBCREE6NDc2MiIsICIyRTNDOkMzNjUiLCAiMDQ2RDpDNTQ4Il0KYGBgCgojIyMg5paw5aKeIFVJIOaOp+S7tgoK57un5om/IGBDb250cm9sYO+8jGBQYWxldHRlYCDnlKjlsZ7mgKfms6jlhaXvvIjkuI3opoHljZXkvovvvInvvIzlhajpg6jlnKggYE9uUGFpbnRgIOmHjOiHque7mO+8jApgU2V0U3R5bGUoQ29udHJvbFN0eWxlcy5PcHRpbWl6ZWREb3VibGVCdWZmZXIgfCBBbGxQYWludGluZ0luV21QYWludCB8IFVzZXJQYWludCwgdHJ1ZSlg44CCCgotLS0KCiMjIDguIOS7o+eggeinhOaooQoKYGBgCnNyYy9Qcm92aWRlcnMuY3MgICAgICAyMDUgICAg5Y2P6K6u5LiO6LCD5bqmCnNyYy9IaWQuY3MgICAgICAgICAgICAxODAgICAgUC9JbnZva2Ug5bGCCnNyYy9Qcm9ncmFtLmNzICAgICAgICA0MjggICAg5YWl5Y+jICsg5omY55uYICsg6L2u6K+iCnNyYy9IdWRGb3JtLmNzICAgICAgICAzNjkgICAg5qGM6Z2i5oyC5Lu2CnNyYy9TZXR0aW5nc0Zvcm0uY3MgICA1NjQgICAg6K6+572u56qX5Y+jCnNyYy9UaGVtZS5jcyAgICAgICAgICAyNzMgICAg6KeG6KeJIHRva2VuCnNyYy9JY29uRmFjdG9yeS5jcyAgICAyNTQgICAg5Zu+5qCH57uY5Yi2CnNyYy9Db250cm9scy5jcyAgICAgICA0MDIgICAg6Ieq57uY5o6n5Lu2CnNyYy9NZW51UmVuZGVyZXIuY3MgICAxNTIgICAg6I+c5Y2V5riy5p+TCnNyYy9TZXR0aW5ncy5jcyAgICAgICAyMjggICAg6YWN572uICsgTWluaUpzb24K4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACuWQiOiuoSAgICAgICAgICAgICAgICAgMzA1NSAgICDvvIjlj6YgQ29tcGlsZXIucHMxIDc4ICsgTW91c2VNZXRlci5wczEgNDXvvIkKYGBgCgrljZXmlofku7bmnIDlpKcgPCEtLSBBVVRPOmxhcmdlc3QgLS0+UHJvZ3JhbS5jcyA3MzQg6KGMPCEtLSAvQVVUTyAtLT7vvIzlpoLmnpzopoHnu6fnu63mianvvIzkvJjlhYjmiorlroPnmoTluIPlsYDku6PnoIHlkoznu5jliLbku6PnoIHmi4blvIDjgIIK
+﻿# ARCHITECTURE — 架构与实现细节
+
+---
+
+## 1. 进程模型
+
+**单进程、单线程 UI + 线程池轮询，无服务、无驱动、无管理员权限。**
+
+```
+wscript.exe  (run-hidden.vbs)
+    └─ powershell.exe -WindowStyle Hidden -File MouseMeter.ps1
+          └─ 加载编译好的 DLL，同进程内 [MouseMeter.Program]::Main()
+                └─ WinForms 消息循环（单 UI 线程）
+                      ├─ NotifyIcon（托盘）
+                      ├─ HudForm（无边框置顶窗口）
+                      ├─ SettingsForm（按需创建）
+                      └─ ThreadPool 上的轮询线程（每个 tick 一条）
+```
+
+- **不需要管理员权限**：HID 特征报文读写对普通用户开放
+- **不安装任何东西**：注册表只写 `HKCU\...\Run` 一个值
+- **单实例**：命名 Mutex `MouseMeter.SingleInstance.v2`，第二个实例直接 `return`
+
+### 编译与加载
+
+`MouseMeter.ps1` 只做三件事：
+
+```powershell
+. Compiler.ps1
+$build = Build-MouseMeter -Root $root     # 合并 → 哈希 → 命中缓存或重新编译
+[void][System.Reflection.Assembly]::LoadFrom($build.Path)
+[MouseMeter.Program]::Main([string[]]$argv)
+```
+
+`Compiler.ps1` 的关键设计：
+
+1. **合并**：把 `src/*.cs`（按文件名排序）合成一个编译单元。逐行扫描，把所有 `using X;` **提到文件最顶部**并去重，其余内容追加。
+   ——不做这一步，第二个文件的 `using` 会出现在命名空间之后，编译直接失败（上一轮踩过）。
+2. **缓存**：对合并结果算 SHA256，取前 16 位做 DLL 文件名 → `%LOCALAPPDATA%\MouseMeter\cache\MouseMeter-<hash>.dll`。命中就直接返回，14 ms。
+3. **清理**：只保留最新 2 个 DLL，避免无限堆积。
+4. **引用集**：`System.dll`、`System.Core.dll`、`System.Drawing.dll`、`System.Windows.Forms.dll` —— 就这四个。
+
+> **C# 语言等级 = 5**（CodeDOM 默认）。见 `START-HERE.md §2.1`。
+
+---
+
+## 2. 类职责表
+
+### 数据层
+
+| 类型 | 位置 | 职责 |
+|---|---|---|
+| `HidCollection` | Hid.cs:10 | 一个 HID 顶层集合的元数据：Path / Vid / Pid / UsagePage / Usage / FeatureLength / ProductName / Manufacturer，`Id` 返回 `"XXXX:YYYY"` |
+| `Hid`（static） | Hid.cs:26 | P/Invoke 封装：`Enumerate()` 枚举全部集合、`Open(path, write)` 拿句柄、`SetFeature()` / `GetFeature(h, len, reportId)` |
+| `Reading`（struct） | Providers.cs:7 | 一次读数：Level / Charging / DeviceName / Transport / HardwareId / At |
+| `IBatteryProvider` | Providers.cs:23 | 扩展点。`Name` / `IsPresent()` / `TryRead(out Reading)` |
+| `McHoseProvider` | Providers.cs:38 | 迈从实现。`FindCollection()` 定位集合，`TryRead()` 执行 8 轮重试 |
+| `DeviceManager` | Providers.cs:149 | 持有 provider 列表，`Refresh()` 按顺序尝试；维护「最后一次有效读数」、`IsStale`、统计 `Polls`/`Hits` |
+
+### 配置层
+
+| 类型 | 位置 | 职责 |
+|---|---|---|
+| `Settings` | Settings.cs:13 | 全部配置字段 + `Load()` / `Save()`，路径 `%APPDATA%\MouseMeter\settings.json` |
+| `MiniJson` | Settings.cs:110 | 手写 JSON。只支持**扁平对象** + 字符串数组，够用且零依赖。解析失败静默回退默认值 |
+
+### 视觉层
+
+| 类型 | 位置 | 职责 |
+|---|---|---|
+| `Palette` | Theme.cs:12 | 一组颜色 token + `IsDark` |
+| `Theme`（static） | Theme.cs:30 | `Light()` / `Dark()` / `For(mode)` / `SystemUsesLight()`（读注册表 `SystemUsesLightTheme`）；字体族选择与缓存 `F(pt, bold)` / `FC(pt, bold)`；`RoundRect()` 圆角路径；DWM 特效（圆角、深色标题栏） |
+| `IconFactory`（static） | IconFactory.cs:14 | `State` 枚举（Normal/Low/Critical/Charging/Offline）、`StateOf()` 决策、`Render()` 逐像素绘制、`ToIcon()` 转 HICON、`WriteIco()` 生成多分辨率 .ico |
+| `Controls.cs` | 9~ | 四个自绘控件：`ToggleSwitch`（iOS 开关，带弹性动画）、`MMSlider`、`Segmented`、`FlatButton`，加 `Card` 静态绘制助手（卡片底 + 分隔线） |
+| `AppleMenuRenderer` | MenuRenderer.cs:9 | 继承 `ToolStripRenderer`，把原生右键菜单改成圆角 + 苹果配色 |
+| `MenuBuilder`（static） | MenuRenderer.cs:110 | `Create()` / `Item()` / `Caption()` / `Sep()` 快捷构造 |
+
+### 窗口层
+
+| 类型 | 位置 | 职责 |
+|---|---|---|
+| `HudForm` | HudForm.cs:13 | 桌面挂件。逻辑尺寸 **178×112**，`Height * 0.175` 圆角，`TopMost`、`ShowInTaskbar=false`、`AutoScaleMode.None`（自己按 DPI 算）。拖动移动、双击进设置、右键菜单、悬停微动效 |
+| `SettingsForm` | SettingsForm.cs:10 | 设置窗口。无边框 + 自绘标题栏，卡片式分组，全自绘控件。`Changed` 事件通知外部应用配置，`SyncFromConfig()` / `SyncReading()` 反向同步 |
+| `TrayContext` | Program.cs:123 | 继承 `ApplicationContext`，是整个应用的**协调者**：托盘、轮询、挂件生命周期、设置联动、低电量通知、退出清理 |
+| `AutoStart`（static） | Program.cs:11 | 读写 `HKCU\Software\Microsoft\Windows\CurrentVersion\Run` 的 `MouseMeter` 值 |
+| `Program`（static） | Program.cs:54 | 入口。Mutex、DPI 感知、全局异常钩子、配置加载、`--settings` 参数 |
+
+---
+
+## 3. 线程模型（最容易改错的地方）
+
+```
+UI 线程（STA）                       ThreadPool
+─────────────────                  ─────────────────────
+TrayContext 构造
+  └─ _dm.Refresh()  ← 同步！首次读一次，避免挂件闪「未检测到」
+
+Timer(period) ──── 每 60s ─────►  Poll()
+                                    ├─ if (_polling) return;  ← 防重入
+                                    ├─ _polling = true
+                                    ├─ _dm.Refresh()   ← 阻塞，最多 ~1.6s
+                                    ├─ _polling = false
+                                    └─ Post(OnPolled)
+                                            │
+                    _marshal.BeginInvoke ───┘
+                          │
+  OnPolled()  ←───────────┘
+    ├─ UpdateTray()            重绘图标 + 更新 tooltip
+    ├─ _hud.UpdateReading()    挂件 Invalidate
+    ├─ _form.SyncReading()     设置窗口刷新
+    └─ 低电量判定 → ShowBalloonTip
+```
+
+**三条铁律：**
+
+1. **HID 操作绝不在 UI 线程做**（除了构造时那一次同步读，因为它决定了首帧内容）。
+2. **跨线程更新 UI 必须走 `_marshal.BeginInvoke`**。`_marshal` 是个隐藏 `Control`，构造时 `IntPtr handle = _marshal.Handle;` 强制创建句柄。
+   **不要改成 `SynchronizationContext.Current`** —— `ApplicationContext` 构造时它还是 `null`，会导致回调根本发不出去。
+3. **`_polling` 用 `volatile bool`** 做重入保护，避免慢轮询叠加。
+
+---
+
+## 4. 生命周期
+
+### 启动
+
+1. `Main` 拿 Mutex → 已存在则直接返回
+2. `SetProcessDpiAwarenessContext(-4)` = Per-Monitor V2
+3. 挂全局异常钩子（`Application.ThreadException` + `AppDomain.UnhandledException` → 写 `error.log`）
+4. `Settings.Load()`，异常则用默认值
+5. `cfg.StartWithWindows && !AutoStart.IsEnabled` → 补写注册表（保证装到新路径后自启仍有效）
+6. `new TrayContext(cfg)`：
+   - 建 `_marshal` 句柄
+   - 建 `NotifyIcon` + 右键菜单
+   - **同步 `Refresh()` 一次**
+   - `UpdateTray()`，若 `hudEnabled` 则 `ShowHud()`
+   - `StartTimer()`
+7. 若带 `--settings` 参数 → `OpenSettings()`
+8. `Application.Run(ctx)`
+
+### 退出
+
+`Quit()` 顺序固定，错一步就可能残留托盘图标（幽灵图标）：
+
+```csharp
+_cfg.Save();
+_timer.Dispose();
+_hud.Close(); _hud.Dispose();
+_form.Dispose();
+_ni.Visible = false;   // ← 必须先隐藏再 Dispose，否则图标会卡在托盘里
+_ni.Dispose();
+_icon.Dispose();
+_marshal.Dispose();
+ExitThread();
+```
+
+---
+
+## 5. 托盘图标绘制
+
+不是缩放位图，而是**按系统请求的真实尺寸重绘**：
+
+```csharp
+int size = SystemInformation.SmallIconSize.Width;   // 125% DPI 下通常 20，150% 下 24
+using (var bmp = IconFactory.Render(size, level, state, darkTaskbar))
+    _ni.Icon = IconFactory.ToIcon(bmp);
+```
+
+构成：**数字居中 + 底部一条细进度条**（高度 `max(1.6, size/11)`），无背景圆底（两位数）/ 三位数改方形浅底。
+
+状态色：
+
+| State | 触发 | 颜色 |
+|---|---|---|
+| `Normal` | 100 > level > lowThreshold | 跟随任务栏深浅（深底用 #F5F5F7，浅底用 #1C1C1E） |
+| `Low` | level ≤ lowThreshold | 橙 `#FF9F0A` |
+| `Critical` | level ≤ 10 | 红 `#FF453A` |
+| `Charging` | charging=true | 绿 `#30D158` |
+| `Offline` | 无有效读数 | 灰（40% 透明）+ 显示 `--` |
+
+`darkTaskbar` 来自 `!Theme.SystemUsesLight()` —— 注意这里读的是**系统主题**（决定任务栏颜色），不是应用主题。
+
+---
+
+## 6. 挂件实现要点
+
+- 尺寸：`178 × 112` 逻辑单位 × `hudScale` × `dpi/96`
+- 圆角：`Height * 0.175`，用 `Region` 裁剪窗口（**不是**画一个假圆角底）
+- 内容布局（从上到下）：设备名（小字灰）→ 大号百分比 + `%` 上标 → 右下角传输方式/充电状态 → 底部细进度条
+- 拖动：`MouseDown` 记录偏移，`MouseMove` 改 `Location`，`MouseUp` 后写回 `cfg.HudX/HudY` 并 `Save()`
+- 位置记忆：`cfg.HudX < 0` 时首次摆到工作区右下角（距右 48、距下 150，给任务栏留位），并 `ClampToScreen()` 保证不出屏
+- stale 处理：超 90 秒没新读数 → 数字与进度条降透明度，右下角写「已休眠」，**绝不清空**
+
+---
+
+## 7. 扩展点
+
+### 新增品牌（推荐路径）
+
+```csharp
+// 1) src/Providers.cs
+public class LogitechBoltProvider : IBatteryProvider
+{
+    public string Name { get { return "Logitech Bolt"; } }
+    public bool IsPresent() { /* 找 collection */ }
+    public bool TryRead(out Reading r) { /* 发报文、解析 */ }
+}
+
+// 2) DeviceManager 构造函数里加一行
+_providers.Add(new LogitechBoltProvider());
+```
+
+`DeviceManager.Refresh()` 按注册顺序逐个 `TryRead`，**第一个成功的生效**。
+所以全新品牌可以无风险地追加到末尾，不影响现有迈从路径。
+
+### 新增接收器 ID（零代码）
+
+`%APPDATA%\MouseMeter\settings.json`：
+
+```json
+"receiverIds": ["0BDA:4762", "2E3C:C365", "046D:C548"]
+```
+
+### 新增 UI 控件
+
+继承 `Control`，`Palette` 用属性注入（不要单例），全部在 `OnPaint` 里自绘，
+`SetStyle(ControlStyles.OptimizedDoubleBuffer | AllPaintingInWmPaint | UserPaint, true)`。
+
+---
+
+## 8. 代码规模
+
+```
+src/Providers.cs      205    协议与调度
+src/Hid.cs            180    P/Invoke 层
+src/Program.cs        428    入口 + 托盘 + 轮询
+src/HudForm.cs        369    桌面挂件
+src/SettingsForm.cs   564    设置窗口
+src/Theme.cs          273    视觉 token
+src/IconFactory.cs    254    图标绘制
+src/Controls.cs       402    自绘控件
+src/MenuRenderer.cs   152    菜单渲染
+src/Settings.cs       228    配置 + MiniJson
+──────────────────────────
+合计                 3055    （另 Compiler.ps1 78 + MouseMeter.ps1 45）
+```
+
+单文件最大 <!-- AUTO:largest -->Program.cs 734 行<!-- /AUTO -->，如果要继续扩，优先把它的布局代码和绘制代码拆开。

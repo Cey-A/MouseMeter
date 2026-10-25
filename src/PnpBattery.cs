@@ -1,1 +1,386 @@
-dXNpbmcgU3lzdGVtOwp1c2luZyBTeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYzsKdXNpbmcgU3lzdGVtLlJ1bnRpbWUuSW50ZXJvcFNlcnZpY2VzOwp1c2luZyBTeXN0ZW0uVGV4dDsKCm5hbWVzcGFjZSBNb3VzZU1ldGVyCnsKICAgIC8vLyA8c3VtbWFyeT5PbmUgYmF0dGVyeSBjYXJyeWluZyBkZXZpY2UgYXMgdGhlIE9TIHNlZXMgaXQuPC9zdW1tYXJ5PgogICAgcHVibGljIGNsYXNzIFBucERldmljZQogICAgewogICAgICAgIHB1YmxpYyBzdHJpbmcgSW5zdGFuY2VJZCA9ICIiOwogICAgICAgIHB1YmxpYyBzdHJpbmcgRnJpZW5kbHlOYW1lID0gIiI7CiAgICAgICAgcHVibGljIHN0cmluZyBDbGFzc05hbWUgPSAiIjsKICAgICAgICBwdWJsaWMgaW50IExldmVsID0gLTE7ICAgICAgICAgICAgICAvLyAtMSA9IHRoZSBPUyBkb2VzIG5vdCBrbm93IGEgcGVyY2VudGFnZQogICAgICAgIHB1YmxpYyBzdHJpbmcgQmF0dGVyeVNvdXJjZSA9ICIiOyAgIC8vICJCTEUiIC8gIkhJRCIgLyAiSEZQIiAvICJVU0IiCiAgICAgICAgcHVibGljIGJvb2wgUHJlc2VudCA9IHRydWU7CiAgICAgICAgcHVibGljIGJvb2wgQ29ubmVjdGVkID0gdHJ1ZTsKCiAgICAgICAgcHVibGljIHN0cmluZyBJZCB7IGdldCB7IHJldHVybiBJbnN0YW5jZUlkOyB9IH0KCiAgICAgICAgcHVibGljIHN0cmluZyBUcmFuc3BvcnQKICAgICAgICB7CiAgICAgICAgICAgIGdldAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBzdHJpbmcgcyA9IEluc3RhbmNlSWQuVG9Mb3dlckludmFyaWFudCgpOwogICAgICAgICAgICAgICAgaWYgKHMuQ29udGFpbnMoImJsZSMiKSkgcmV0dXJuICJCTEUiOwogICAgICAgICAgICAgICAgaWYgKHMuQ29udGFpbnMoImJ0aCIpKSByZXR1cm4gIuiTneeJmSI7CiAgICAgICAgICAgICAgICBpZiAocy5Db250YWlucygiaGlkIyIpKSByZXR1cm4gIjIuNEciOwogICAgICAgICAgICAgICAgaWYgKHMuQ29udGFpbnMoInVzYiMiKSkgcmV0dXJuICJVU0IiOwogICAgICAgICAgICAgICAgcmV0dXJuIEJhdHRlcnlTb3VyY2U7CiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIHB1YmxpYyBib29sIElzQXVkaW8geyBnZXQgeyByZXR1cm4gQmF0dGVyeVNvdXJjZSA9PSAiSEZQIiB8fCBCYXR0ZXJ5U291cmNlID09ICJBMkRQIjsgfSB9CiAgICB9CgogICAgLy8vIDxzdW1tYXJ5PgogICAgLy8vIEVudW1lcmF0ZXMgYmF0dGVyeSBwb3dlcmVkIHBlcmlwaGVyYWxzIHN0cmFpZ2h0IGZyb20gV2luZG93czogQkxFIEdBVFQgYmF0dGVyeSBzZXJ2aWNlLAogICAgLy8vIEJsdWV0b290aCBISUQsIGFuZCBCbHVldG9vdGggYXVkaW8gKEhGUCkgaGVhZHNldHMuIFplcm8gdmVuZG9yIHByb3RvY29scyBpbnZvbHZlZC4KICAgIC8vLwogICAgLy8vIFRoaXMgaXMgd2hhdCBtYWtlcyBrZXlib2FyZHMsIGhlYWRzZXRzIGFuZCAiYW55IG90aGVyIGRldmljZSIgd29yayB3aXRob3V0IHJldmVyc2UKICAgIC8vLyBlbmdpbmVlcmluZyBlYWNoIGJyYW5kOiB0aGUgT1MgKGFuZCBpdHMgb3duIGRyaXZlciBwYWlyaW5nKSBhbHJlYWR5IGV4cG9zZXMgdGhlIG51bWJlci4KICAgIC8vLyA8L3N1bW1hcnk+CiAgICBwdWJsaWMgc3RhdGljIGNsYXNzIFBucEJhdHRlcnkKICAgIHsKICAgICAgICBjb25zdCBpbnQgRElHQ0ZfUFJFU0VOVCA9IDB4MDI7CiAgICAgICAgY29uc3QgaW50IERJR0NGX0RFVklDRUlOVEVSRkFDRSA9IDB4MTA7CgogICAgICAgIC8vIERFVlBST1BLRVlfRGV2aWNlX0JhdHRlcnlMZXZlbAogICAgICAgIHN0YXRpYyByZWFkb25seSBHdWlkIEd1aWREZXZQcm9wcyA9IG5ldyBHdWlkKCJhNDVjMjU0ZS1kZjFjLTRlZmQtODAyMC02N2QxNDZhODUwZTAiKTsKICAgICAgICBzdGF0aWMgUHJvcGVydHlLZXkgUGtCYXR0ZXJ5ID0gbmV3IFByb3BlcnR5S2V5KG5ldyBHdWlkKCIxMDRlYTMxOS02ZWUyLTQ3MDEtYmQ0Ny04ZGRiZmE0MjVjMWQiKSwgMik7CiAgICAgICAgc3RhdGljIFByb3BlcnR5S2V5IFBrRnJpZW5kbHlOYW1lID0gbmV3IFByb3BlcnR5S2V5KG5ldyBHdWlkKCJiM2Y4ZmE1My0wMDA0LTQzOGUtOTAwMy01MWE0NmUxMzliZmMiKSwgNik7CiAgICAgICAgc3RhdGljIFByb3BlcnR5S2V5IFBrRGV2aWNlRGVzYyA9IG5ldyBQcm9wZXJ0eUtleShuZXcgR3VpZCgiYTQ1YzI1NGUtZGYxYy00ZWZkLTgwMjAtNjdkMTQ2YTg1MGUwIiksIDIpOwogICAgICAgIHN0YXRpYyBQcm9wZXJ0eUtleSBQa0luc3RhbmNlSWQgPSBuZXcgUHJvcGVydHlLZXkobmV3IEd1aWQoIjc4YzM0ZmM4LTEwNGEtNGFjYS05ZWE0LTUyNGQ1Mjk5NmU1NyIpLCAyNTYpOwoKICAgICAgICBzdGF0aWMgcmVhZG9ubHkgR3VpZCBHdWlkQmF0dGVyeSA9IG5ldyBHdWlkKCI3MjYzMWU1NC03OGE0LTExZDAtYmNmNy0wMGFhMDBiN2IzMmEiKTsgICAgICAgLy8gR1VJRF9ERVZDTEFTU19CQVRURVJZCiAgICAgICAgc3RhdGljIHJlYWRvbmx5IEd1aWQgR3VpZEJsdWV0b290aCA9IG5ldyBHdWlkKCJlMGNiZjA2Yy1jZDhiLTQ2NDctYmI4YS0yNjNiNDNmMGY5NzQiKTsgICAgIC8vIEdVSURfQlRIUE9SVF9ERVZJQ0VfSU5URVJGQUNFCiAgICAgICAgc3RhdGljIHJlYWRvbmx5IEd1aWQgR3VpZEJ0aExlID0gbmV3IEd1aWQoIjc4MWFlZTE4LTc3MzMtNGNlNC1hZGQwLTkxZjQxYzY3YjU5MiIpOyAgICAgICAgLy8gR1VJRF9CTFVFVE9PVEhMRV9ERVZJQ0VfSU5URVJGQUNFCiAgICAgICAgc3RhdGljIHJlYWRvbmx5IEd1aWQgR3VpZEF1ZGlvID0gbmV3IEd1aWQoIjY5OTRhZDA0LTkzZWYtMTFkMC1hM2NjLTAwYTBjOTIyMzE5NiIpOyAgICAgICAgLy8gS1NDQVRFR09SWV9BVURJTwoKICAgICAgICBbU3RydWN0TGF5b3V0KExheW91dEtpbmQuU2VxdWVudGlhbCldCiAgICAgICAgc3RydWN0IFNQX0RFVklDRV9JTlRFUkZBQ0VfREFUQQogICAgICAgIHsKICAgICAgICAgICAgcHVibGljIGludCBjYlNpemU7CiAgICAgICAgICAgIHB1YmxpYyBHdWlkIEludGVyZmFjZUNsYXNzR3VpZDsKICAgICAgICAgICAgcHVibGljIGludCBGbGFnczsKICAgICAgICAgICAgcHVibGljIEludFB0ciBSZXNlcnZlZDsKICAgICAgICB9CgogICAgICAgIFtTdHJ1Y3RMYXlvdXQoTGF5b3V0S2luZC5TZXF1ZW50aWFsLCBQYWNrID0gNCldCiAgICAgICAgc3RydWN0IFByb3BlcnR5S2V5CiAgICAgICAgewogICAgICAgICAgICBwdWJsaWMgR3VpZCBmbXRpZDsKICAgICAgICAgICAgcHVibGljIGludCBwaWQ7CiAgICAgICAgICAgIHB1YmxpYyBQcm9wZXJ0eUtleShHdWlkIGcsIGludCBwKSB7IGZtdGlkID0gZzsgcGlkID0gcDsgfQogICAgICAgIH0KCiAgICAgICAgW0RsbEltcG9ydCgic2V0dXBhcGkuZGxsIiwgQ2hhclNldCA9IENoYXJTZXQuVW5pY29kZSwgU2V0TGFzdEVycm9yID0gdHJ1ZSldCiAgICAgICAgc3RhdGljIGV4dGVybiBJbnRQdHIgU2V0dXBEaUdldENsYXNzRGV2cyhyZWYgR3VpZCBnLCBJbnRQdHIgZSwgSW50UHRyIGh3bmQsIGludCBmbGFncyk7CiAgICAgICAgW0RsbEltcG9ydCgic2V0dXBhcGkuZGxsIiwgQ2hhclNldCA9IENoYXJTZXQuVW5pY29kZSwgU2V0TGFzdEVycm9yID0gdHJ1ZSldCiAgICAgICAgc3RhdGljIGV4dGVybiBib29sIFNldHVwRGlFbnVtRGV2aWNlSW50ZXJmYWNlcyhJbnRQdHIgc2V0LCBJbnRQdHIgZGV2LCByZWYgR3VpZCBnLCBpbnQgaWR4LCByZWYgU1BfREVWSUNFX0lOVEVSRkFDRV9EQVRBIGQpOwogICAgICAgIFtEbGxJbXBvcnQoInNldHVwYXBpLmRsbCIsIENoYXJTZXQgPSBDaGFyU2V0LlVuaWNvZGUsIFNldExhc3RFcnJvciA9IHRydWUpXQogICAgICAgIHN0YXRpYyBleHRlcm4gYm9vbCBTZXR1cERpR2V0RGV2aWNlSW50ZXJmYWNlRGV0YWlsKEludFB0ciBzZXQsIHJlZiBTUF9ERVZJQ0VfSU5URVJGQUNFX0RBVEEgZCwgSW50UHRyIGRldGFpbCwgaW50IHNpemUsIHJlZiBpbnQgbmVlZGVkLCBJbnRQdHIgaW5mbyk7CiAgICAgICAgW0RsbEltcG9ydCgic2V0dXBhcGkuZGxsIiwgU2V0TGFzdEVycm9yID0gdHJ1ZSldCiAgICAgICAgc3RhdGljIGV4dGVybiBib29sIFNldHVwRGlEZXN0cm95RGV2aWNlSW5mb0xpc3QoSW50UHRyIHNldCk7CiAgICAgICAgW0RsbEltcG9ydCgic2V0dXBhcGkuZGxsIiwgQ2hhclNldCA9IENoYXJTZXQuVW5pY29kZSwgU2V0TGFzdEVycm9yID0gdHJ1ZSldCiAgICAgICAgc3RhdGljIGV4dGVybiBib29sIFNldHVwRGlHZXREZXZpY2VQcm9wZXJ0eShJbnRQdHIgc2V0LCBJbnRQdHIgZGV2SW5mbywgcmVmIFByb3BlcnR5S2V5IGtleSwgb3V0IGludCB0eXBlLAogICAgICAgICAgICBJbnRQdHIgYnVmLCBpbnQgc2l6ZSwgb3V0IGludCBuZWVkZWQsIGludCBmbGFncyk7CgogICAgICAgIFtEbGxJbXBvcnQoInNldHVwYXBpLmRsbCIsIENoYXJTZXQgPSBDaGFyU2V0LlVuaWNvZGUsIFNldExhc3RFcnJvciA9IHRydWUpXQogICAgICAgIHN0YXRpYyBleHRlcm4gSW50UHRyIFNldHVwRGlDcmVhdGVEZXZpY2VJbmZvTGlzdChJbnRQdHIgY2xhc3NHdWlkLCBJbnRQdHIgaHduZFBhcmVudCk7CiAgICAgICAgW0RsbEltcG9ydCgic2V0dXBhcGkuZGxsIiwgQ2hhclNldCA9IENoYXJTZXQuVW5pY29kZSwgU2V0TGFzdEVycm9yID0gdHJ1ZSldCiAgICAgICAgc3RhdGljIGV4dGVybiBib29sIFNldHVwRGlPcGVuRGV2aWNlSW50ZXJmYWNlVyhJbnRQdHIgc2V0LCBzdHJpbmcgcGF0aCwgaW50IGZsYWdzLCByZWYgU1BfREVWSUNFX0lOVEVSRkFDRV9EQVRBIGRpZCk7CiAgICAgICAgW0RsbEltcG9ydCgic2V0dXBhcGkuZGxsIiwgQ2hhclNldCA9IENoYXJTZXQuVW5pY29kZSwgU2V0TGFzdEVycm9yID0gdHJ1ZSldCiAgICAgICAgc3RhdGljIGV4dGVybiBib29sIFNldHVwRGlHZXREZXZpY2VJbnRlcmZhY2VQcm9wZXJ0eVcoSW50UHRyIHNldCwgcmVmIFNQX0RFVklDRV9JTlRFUkZBQ0VfREFUQSBkaWQsIHJlZiBQcm9wZXJ0eUtleSBrZXksCiAgICAgICAgICAgIG91dCBpbnQgdHlwZSwgSW50UHRyIGJ1ZiwgaW50IHNpemUsIG91dCBpbnQgbmVlZGVkLCBpbnQgZmxhZ3MpOwoKICAgICAgICBbRGxsSW1wb3J0KCJjZmdtZ3IzMi5kbGwiLCBDaGFyU2V0ID0gQ2hhclNldC5Vbmljb2RlKV0KICAgICAgICBzdGF0aWMgZXh0ZXJuIGludCBDTV9HZXRfRGV2aWNlX0lEVyh1aW50IGRldkluc3QsIFN0cmluZ0J1aWxkZXIgYnVmZmVyLCBpbnQgbGVuLCBpbnQgZmxhZ3MpOwogICAgICAgIFtEbGxJbXBvcnQoImNmZ21ncjMyLmRsbCIsIENoYXJTZXQgPSBDaGFyU2V0LlVuaWNvZGUpXQogICAgICAgIHN0YXRpYyBleHRlcm4gaW50IENNX0xvY2F0ZV9EZXZOb2RlVyhvdXQgdWludCBkZXZJbnN0LCBzdHJpbmcgZGV2aWNlSWQsIGludCBmbGFncyk7CiAgICAgICAgW0RsbEltcG9ydCgiY2ZnbWdyMzIuZGxsIildCiAgICAgICAgc3RhdGljIGV4dGVybiBpbnQgQ01fR2V0X0Rldk5vZGVfU3RhdHVzKG91dCBpbnQgc3RhdHVzLCBvdXQgaW50IHByb2JsZW0sIHVpbnQgZGV2SW5zdCwgaW50IGZsYWdzKTsKCiAgICAgICAgY29uc3QgaW50IENNX0xPQ0FURV9ERVZOT0RFX05PUk1BTCA9IDA7CiAgICAgICAgY29uc3QgaW50IEROX0RFVklDRV9QSEFOVE9NID0gMHgwMDAwMDAyMDsKICAgICAgICBjb25zdCBpbnQgRE5fUFJFU0VOVCA9IDB4MDAwMDAwMDE7CgogICAgICAgIC8vIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQogICAgICAgIC8vIHB1YmxpYyBBUEkKICAgICAgICAvLyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KCiAgICAgICAgLy8vIDxzdW1tYXJ5PkV2ZXJ5IHBlcmlwaGVyYWwgV2luZG93cyBjdXJyZW50bHkga25vd3MgYSBiYXR0ZXJ5IGxldmVsIGZvci4gTmV2ZXIgdGhyb3dzLjwvc3VtbWFyeT4KICAgICAgICBwdWJsaWMgc3RhdGljIExpc3Q8UG5wRGV2aWNlPiBFbnVtZXJhdGUoKQogICAgICAgIHsKICAgICAgICAgICAgdmFyIGxpc3QgPSBuZXcgTGlzdDxQbnBEZXZpY2U+KCk7CiAgICAgICAgICAgIHRyeQogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICB2YXIgYmF0dGVyaWVzID0gRW51bWVyYXRlQmF0dGVyeUNsYXNzKCk7ICAgICAgICAgIC8vIEJMRSBHQVRUIC8gQlRITEUgLyBCVEhFTlVNLUhJRAogICAgICAgICAgICAgICAgdmFyIGF1ZGlvID0gRW51bWVyYXRlQXVkaW9FbmRwb2ludHMoKTsKCiAgICAgICAgICAgICAgICAvLyAxKSBhdWRpbyBlbmRwb2ludHMgdGhhdCBoYXZlIGEgYmF0dGVyeSByZWFkaW5nOiB0aGUgaGVhZHNldCBpdHNlbGYsIG5vdCB0aGUgZW5kcG9pbnQKICAgICAgICAgICAgICAgIHZhciBhdWRpb0J5SWQgPSBuZXcgRGljdGlvbmFyeTxzdHJpbmcsIFBucERldmljZT4oU3RyaW5nQ29tcGFyZXIuT3JkaW5hbElnbm9yZUNhc2UpOwogICAgICAgICAgICAgICAgZm9yIChpbnQgaSA9IDA7IGkgPCBhdWRpby5Db3VudDsgaSsrKSBhdWRpb0J5SWRbYXVkaW9baV0uSW5zdGFuY2VJZF0gPSBhdWRpb1tpXTsKCiAgICAgICAgICAgICAgICB2YXIgY29uc3VtZWQgPSBuZXcgRGljdGlvbmFyeTxzdHJpbmcsIGJvb2w+KFN0cmluZ0NvbXBhcmVyLk9yZGluYWxJZ25vcmVDYXNlKTsKICAgICAgICAgICAgICAgIGZvciAoaW50IGkgPSAwOyBpIDwgYmF0dGVyaWVzLkNvdW50OyBpKyspCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgdmFyIGIgPSBiYXR0ZXJpZXNbaV07CiAgICAgICAgICAgICAgICAgICAgc3RyaW5nIGlpZCA9IGIuSW5zdGFuY2VJZC5Ub0xvd2VySW52YXJpYW50KCk7CiAgICAgICAgICAgICAgICAgICAgc3RyaW5nIGhpdCA9IG51bGw7CiAgICAgICAgICAgICAgICAgICAgZm9yZWFjaCAodmFyIGt2IGluIGF1ZGlvQnlJZCkgaWYgKGlpZC5Db250YWlucyhrdi5LZXkpKSB7IGhpdCA9IGt2LktleTsgYnJlYWs7IH0KCiAgICAgICAgICAgICAgICAgICAgaWYgKGhpdCAhPSBudWxsKQogICAgICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICAgICAgdmFyIGVwID0gYXVkaW9CeUlkW2hpdF07CiAgICAgICAgICAgICAgICAgICAgICAgIGVwLkxldmVsID0gYi5MZXZlbDsKICAgICAgICAgICAgICAgICAgICAgICAgZXAuQ29ubmVjdGVkID0gYi5Db25uZWN0ZWQ7CiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnN1bWVkW2hpdF0gPSB0cnVlOwogICAgICAgICAgICAgICAgICAgICAgICBiLkJhdHRlcnlTb3VyY2UgPSAiSEZQIjsKICAgICAgICAgICAgICAgICAgICAgICAgYi5GcmllbmRseU5hbWUgPSBzdHJpbmcuSXNOdWxsT3JFbXB0eShlcC5GcmllbmRseU5hbWUpID8gYi5GcmllbmRseU5hbWUgOiBlcC5GcmllbmRseU5hbWU7CiAgICAgICAgICAgICAgICAgICAgICAgIGIuSW5zdGFuY2VJZCA9IGVwLkluc3RhbmNlSWQ7CiAgICAgICAgICAgICAgICAgICAgICAgIGxpc3QuQWRkKGIpOwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBlbHNlIGxpc3QuQWRkKGIpOwogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIC8vIDIpIGEgaGVhZHNldCB0aGF0IGlzIHBhaXJlZCBidXQgaGFzIG5vIHBlcmNlbnRhZ2UgeWV0OiBrZWVwIGl0LCBsZXZlbCAtMSwgc28gdGhlIFVJCiAgICAgICAgICAgICAgICAvLyAgICBjYW4gc2F5ICLlt7Lov57mjqUgwrcg55S16YeP5pyq55+lIiBpbnN0ZWFkIG9mIHNpbGVudGx5IGRyb3BwaW5nIHRoZSBkZXZpY2UuCiAgICAgICAgICAgICAgICBmb3IgKGludCBpID0gMDsgaSA8IGF1ZGlvLkNvdW50OyBpKyspCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgaWYgKGNvbnN1bWVkLkNvbnRhaW5zS2V5KGF1ZGlvW2ldLkluc3RhbmNlSWQpKSBjb250aW51ZTsKICAgICAgICAgICAgICAgICAgICBpZiAoIWF1ZGlvW2ldLkNvbm5lY3RlZCkgY29udGludWU7CiAgICAgICAgICAgICAgICAgICAgYXVkaW9baV0uTGV2ZWwgPSAtMTsKICAgICAgICAgICAgICAgICAgICBsaXN0LkFkZChhdWRpb1tpXSk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgY2F0Y2ggKEV4Y2VwdGlvbiBleCkgeyBMb2cuV2FybigicG5wIGVudW1lcmF0ZTogIiArIGV4Lk1lc3NhZ2UpOyB9CiAgICAgICAgICAgIHJldHVybiBsaXN0OwogICAgICAgIH0KCiAgICAgICAgc3RhdGljIExpc3Q8UG5wRGV2aWNlPiBFbnVtZXJhdGVCYXR0ZXJ5Q2xhc3MoKQogICAgICAgIHsKICAgICAgICAgICAgdmFyIGxpc3QgPSBuZXcgTGlzdDxQbnBEZXZpY2U+KCk7CiAgICAgICAgICAgIEd1aWQgZyA9IEd1aWRCYXR0ZXJ5OwogICAgICAgICAgICBJbnRQdHIgc2V0ID0gU2V0dXBEaUdldENsYXNzRGV2cyhyZWYgZywgSW50UHRyLlplcm8sIEludFB0ci5aZXJvLCBESUdDRl9QUkVTRU5UIHwgRElHQ0ZfREVWSUNFSU5URVJGQUNFKTsKICAgICAgICAgICAgaWYgKHNldCA9PSBJbnRQdHIuWmVybyB8fCBzZXQuVG9JbnQ2NCgpID09IC0xKSByZXR1cm4gbGlzdDsKCiAgICAgICAgICAgIHZhciBkaWQgPSBuZXcgU1BfREVWSUNFX0lOVEVSRkFDRV9EQVRBKCk7CiAgICAgICAgICAgIGRpZC5jYlNpemUgPSBNYXJzaGFsLlNpemVPZihkaWQpOwogICAgICAgICAgICB0cnkKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgZm9yIChpbnQgaSA9IDA7IDsgaSsrKQogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAgIGlmICghU2V0dXBEaUVudW1EZXZpY2VJbnRlcmZhY2VzKHNldCwgSW50UHRyLlplcm8sIHJlZiBnLCBpLCByZWYgZGlkKSkgYnJlYWs7CgogICAgICAgICAgICAgICAgICAgIHN0cmluZyBpaWQgPSBEZXZpY2VJbnN0YW5jZUlkKHNldCwgcmVmIGRpZCk7CiAgICAgICAgICAgICAgICAgICAgaWYgKGlpZC5MZW5ndGggPT0gMCkgY29udGludWU7CgogICAgICAgICAgICAgICAgICAgIHN0cmluZyBsb3cgPSBpaWQuVG9Mb3dlckludmFyaWFudCgpOwogICAgICAgICAgICAgICAgICAgIC8vIEFDUEkgLyB3aXJlZCAvIHN5c3RlbSBiYXR0ZXJ5OiBub3QgYSBwZXJpcGhlcmFsLCBza2lwCiAgICAgICAgICAgICAgICAgICAgaWYgKGxvdy5TdGFydHNXaXRoKCJhY3BpXFwiKSkgY29udGludWU7CiAgICAgICAgICAgICAgICAgICAgLy8gVVNCIEhJRCBkZXZpY2UgZG9uZ2xlcyByZXBvcnQgdGhlaXIgb3duIGludGVybmFsIGNlbGwsIG5vdCB0aGUgbW91c2UncwogICAgICAgICAgICAgICAgICAgIGlmIChsb3cuU3RhcnRzV2l0aCgidXNiXFwiKSkgY29udGludWU7CgogICAgICAgICAgICAgICAgICAgIHN0cmluZyBzcmMgPSBsb3cuQ29udGFpbnMoImJsZSMiKSB8fCBsb3cuQ29udGFpbnMoImJ0aGxlIikgPyAiQkxFIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgOiAobG93LkNvbnRhaW5zKCJidGgiKSA/ICJISUQiIDogIlVTQiIpOwogICAgICAgICAgICAgICAgICAgIGJvb2wgY29ubmVjdGVkID0gSXNQcmVzZW50QW5kQ29ubmVjdGVkKGlpZCk7CgogICAgICAgICAgICAgICAgICAgIGludCBsdmwgPSBSZWFkQmF0dGVyeUxldmVsKHNldCwgcmVmIGRpZCk7CiAgICAgICAgICAgICAgICAgICAgc3RyaW5nIG5hbWUgPSBEZXZpY2VTdHJpbmcoc2V0LCByZWYgZGlkLCBQa0ZyaWVuZGx5TmFtZSk7CiAgICAgICAgICAgICAgICAgICAgaWYgKHN0cmluZy5Jc051bGxPckVtcHR5KG5hbWUpKSBuYW1lID0gRGV2aWNlU3RyaW5nKHNldCwgcmVmIGRpZCwgUGtEZXZpY2VEZXNjKTsKCiAgICAgICAgICAgICAgICAgICAgdmFyIGQgPSBuZXcgUG5wRGV2aWNlKCk7CiAgICAgICAgICAgICAgICAgICAgZC5JbnN0YW5jZUlkID0gaWlkOwogICAgICAgICAgICAgICAgICAgIGQuRnJpZW5kbHlOYW1lID0gbmFtZSA/PyAiIjsKICAgICAgICAgICAgICAgICAgICBkLkxldmVsID0gbHZsOwogICAgICAgICAgICAgICAgICAgIGQuQmF0dGVyeVNvdXJjZSA9IHNyYzsKICAgICAgICAgICAgICAgICAgICBkLlByZXNlbnQgPSB0cnVlOwogICAgICAgICAgICAgICAgICAgIGQuQ29ubmVjdGVkID0gY29ubmVjdGVkOwogICAgICAgICAgICAgICAgICAgIGlmIChsdmwgPCAwICYmICFjb25uZWN0ZWQpIGNvbnRpbnVlOyAgIC8vIG5vdGhpbmcgdG8gc2hvdwogICAgICAgICAgICAgICAgICAgIGlmIChuYW1lID09IG51bGwgJiYgbHZsIDwgMCkgY29udGludWU7CiAgICAgICAgICAgICAgICAgICAgbGlzdC5BZGQoZCk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgY2F0Y2ggKEV4Y2VwdGlvbiBleCkgeyBMb2cuV2FybigicG5wIGJhdHRlcnkgY2xhc3M6ICIgKyBleC5NZXNzYWdlKTsgfQogICAgICAgICAgICBmaW5hbGx5IHsgU2V0dXBEaURlc3Ryb3lEZXZpY2VJbmZvTGlzdChzZXQpOyB9CiAgICAgICAgICAgIHJldHVybiBsaXN0OwogICAgICAgIH0KCiAgICAgICAgc3RhdGljIExpc3Q8UG5wRGV2aWNlPiBFbnVtZXJhdGVBdWRpb0VuZHBvaW50cygpCiAgICAgICAgewogICAgICAgICAgICB2YXIgbGlzdCA9IG5ldyBMaXN0PFBucERldmljZT4oKTsKICAgICAgICAgICAgR3VpZCBnID0gR3VpZEF1ZGlvOwogICAgICAgICAgICBJbnRQdHIgc2V0ID0gU2V0dXBEaUdldENsYXNzRGV2cyhyZWYgZywgSW50UHRyLlplcm8sIEludFB0ci5aZXJvLCBESUdDRl9QUkVTRU5UIHwgRElHQ0ZfREVWSUNFSU5URVJGQUNFKTsKICAgICAgICAgICAgaWYgKHNldCA9PSBJbnRQdHIuWmVybyB8fCBzZXQuVG9JbnQ2NCgpID09IC0xKSByZXR1cm4gbGlzdDsKCiAgICAgICAgICAgIHZhciBkaWQgPSBuZXcgU1BfREVWSUNFX0lOVEVSRkFDRV9EQVRBKCk7CiAgICAgICAgICAgIGRpZC5jYlNpemUgPSBNYXJzaGFsLlNpemVPZihkaWQpOwogICAgICAgICAgICB2YXIgc2VlbiA9IG5ldyBEaWN0aW9uYXJ5PHN0cmluZywgYm9vbD4oU3RyaW5nQ29tcGFyZXIuT3JkaW5hbElnbm9yZUNhc2UpOwogICAgICAgICAgICB0cnkKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgZm9yIChpbnQgaSA9IDA7IDsgaSsrKQogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAgIGlmICghU2V0dXBEaUVudW1EZXZpY2VJbnRlcmZhY2VzKHNldCwgSW50UHRyLlplcm8sIHJlZiBnLCBpLCByZWYgZGlkKSkgYnJlYWs7CgogICAgICAgICAgICAgICAgICAgIHN0cmluZyBmdWxsID0gSW50ZXJmYWNlUGF0aChzZXQsIHJlZiBkaWQpOwogICAgICAgICAgICAgICAgICAgIHN0cmluZyBlcCA9IERldmljZUhldXJpc3RpY3MuQXVkaW9FbmRwb2ludEZyb21QYXRoKGZ1bGwpOwogICAgICAgICAgICAgICAgICAgIGlmIChlcCA9PSBudWxsIHx8IHNlZW4uQ29udGFpbnNLZXkoZXApKSBjb250aW51ZTsKICAgICAgICAgICAgICAgICAgICBzZWVuW2VwXSA9IHRydWU7CgogICAgICAgICAgICAgICAgICAgIHN0cmluZyBpaWQgPSBEZXZpY2VJbnN0YW5jZUlkKHNldCwgcmVmIGRpZCk7CiAgICAgICAgICAgICAgICAgICAgc3RyaW5nIG5hbWUgPSBEZXZpY2VTdHJpbmcoc2V0LCByZWYgZGlkLCBQa0ZyaWVuZGx5TmFtZSk7CiAgICAgICAgICAgICAgICAgICAgc3RyaW5nIGNscyA9IERldmljZUhldXJpc3RpY3MuRnJvbU5hbWUobmFtZSk7CiAgICAgICAgICAgICAgICAgICAgYm9vbCBidCA9IChpaWQgPz8gIiIpLlRvTG93ZXJJbnZhcmlhbnQoKS5Db250YWlucygiYnRoIik7CiAgICAgICAgICAgICAgICAgICAgaWYgKGNscyAhPSBudWxsICYmIGNscyAhPSBEZXZpY2VLaW5kLkhlYWRzZXQpIGNvbnRpbnVlOyAgIC8vIHNwZWFrZXJzIC8gbWljcwogICAgICAgICAgICAgICAgICAgIGlmICghYnQgJiYgY2xzID09IG51bGwpIGNvbnRpbnVlOwoKICAgICAgICAgICAgICAgICAgICB2YXIgZCA9IG5ldyBQbnBEZXZpY2UoKTsKICAgICAgICAgICAgICAgICAgICBkLkluc3RhbmNlSWQgPSBlcDsKICAgICAgICAgICAgICAgICAgICBkLkZyaWVuZGx5TmFtZSA9IG5hbWUgPz8gIiI7CiAgICAgICAgICAgICAgICAgICAgZC5CYXR0ZXJ5U291cmNlID0gIkhGUCI7CiAgICAgICAgICAgICAgICAgICAgZC5MZXZlbCA9IC0xOwogICAgICAgICAgICAgICAgICAgIGQuQ29ubmVjdGVkID0gSXNQcmVzZW50QW5kQ29ubmVjdGVkKGlpZCk7CiAgICAgICAgICAgICAgICAgICAgbGlzdC5BZGQoZCk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgY2F0Y2ggKEV4Y2VwdGlvbiBleCkgeyBMb2cuV2FybigicG5wIGF1ZGlvOiAiICsgZXguTWVzc2FnZSk7IH0KICAgICAgICAgICAgZmluYWxseSB7IFNldHVwRGlEZXN0cm95RGV2aWNlSW5mb0xpc3Qoc2V0KTsgfQogICAgICAgICAgICByZXR1cm4gbGlzdDsKICAgICAgICB9CgogICAgICAgIC8vIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQogICAgICAgIC8vIGhlbHBlcnMKICAgICAgICAvLyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KCiAgICAgICAgc3RhdGljIHN0cmluZyBJbnRlcmZhY2VQYXRoKEludFB0ciBzZXQsIHJlZiBTUF9ERVZJQ0VfSU5URVJGQUNFX0RBVEEgZGlkKQogICAgICAgIHsKICAgICAgICAgICAgaW50IG5lZWRlZCA9IDA7CiAgICAgICAgICAgIFNldHVwRGlHZXREZXZpY2VJbnRlcmZhY2VEZXRhaWwoc2V0LCByZWYgZGlkLCBJbnRQdHIuWmVybywgMCwgcmVmIG5lZWRlZCwgSW50UHRyLlplcm8pOwogICAgICAgICAgICBpZiAobmVlZGVkIDw9IDApIHJldHVybiAiIjsKICAgICAgICAgICAgSW50UHRyIGJ1ZiA9IE1hcnNoYWwuQWxsb2NIR2xvYmFsKG5lZWRlZCk7CiAgICAgICAgICAgIHRyeQogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBNYXJzaGFsLldyaXRlSW50MzIoYnVmLCAoSW50UHRyLlNpemUgPT0gOCkgPyA4IDogNik7CiAgICAgICAgICAgICAgICBpZiAoIVNldHVwRGlHZXREZXZpY2VJbnRlcmZhY2VEZXRhaWwoc2V0LCByZWYgZGlkLCBidWYsIG5lZWRlZCwgcmVmIG5lZWRlZCwgSW50UHRyLlplcm8pKSByZXR1cm4gIiI7CiAgICAgICAgICAgICAgICByZXR1cm4gTWFyc2hhbC5QdHJUb1N0cmluZ0F1dG8obmV3IEludFB0cihidWYuVG9JbnQ2NCgpICsgNCkpID8/ICIiOwogICAgICAgICAgICB9CiAgICAgICAgICAgIGZpbmFsbHkgeyBNYXJzaGFsLkZyZWVIR2xvYmFsKGJ1Zik7IH0KICAgICAgICB9CgogICAgICAgIHN0YXRpYyBzdHJpbmcgRGV2aWNlSW5zdGFuY2VJZChJbnRQdHIgc2V0LCByZWYgU1BfREVWSUNFX0lOVEVSRkFDRV9EQVRBIGRpZCkKICAgICAgICB7CiAgICAgICAgICAgIHN0cmluZyBwYXRoID0gSW50ZXJmYWNlUGF0aChzZXQsIHJlZiBkaWQpOwogICAgICAgICAgICBpZiAocGF0aC5MZW5ndGggPT0gMCkgcmV0dXJuICIiOwoKICAgICAgICAgICAgSW50UHRyIGRldkluZm8gPSBJbnRQdHIuWmVybzsKICAgICAgICAgICAgdHJ5CiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgIGRldkluZm8gPSBTZXR1cERpQ3JlYXRlRGV2aWNlSW5mb0xpc3QoSW50UHRyLlplcm8sIEludFB0ci5aZXJvKTsKICAgICAgICAgICAgICAgIHZhciBpZkRhdGEgPSBuZXcgU1BfREVWSUNFX0lOVEVSRkFDRV9EQVRBKCk7CiAgICAgICAgICAgICAgICBpZkRhdGEuY2JTaXplID0gTWFyc2hhbC5TaXplT2YoaWZEYXRhKTsKICAgICAgICAgICAgICAgIGlmIChkZXZJbmZvID09IEludFB0ci5aZXJvIHx8IGRldkluZm8uVG9JbnQ2NCgpID09IC0xKSByZXR1cm4gIiI7CiAgICAgICAgICAgICAgICBpZiAoIVNldHVwRGlPcGVuRGV2aWNlSW50ZXJmYWNlVyhkZXZJbmZvLCBwYXRoLCAwLCByZWYgaWZEYXRhKSkgcmV0dXJuICIiOwoKICAgICAgICAgICAgICAgIGludCByZXF1aXJlZCA9IDAsIHR5cGUgPSAwOwogICAgICAgICAgICAgICAgU2V0dXBEaUdldERldmljZUludGVyZmFjZVByb3BlcnR5VyhkZXZJbmZvLCByZWYgaWZEYXRhLCByZWYgUGtJbnN0YW5jZUlkLCBvdXQgdHlwZSwKICAgICAgICAgICAgICAgICAgICBJbnRQdHIuWmVybywgMCwgb3V0IHJlcXVpcmVkLCAwKTsKICAgICAgICAgICAgICAgIGlmIChyZXF1aXJlZCA8PSAwKSByZXR1cm4gIiI7CiAgICAgICAgICAgICAgICBJbnRQdHIgYnVmID0gTWFyc2hhbC5BbGxvY0hHbG9iYWwocmVxdWlyZWQpOwogICAgICAgICAgICAgICAgdHJ5CiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgaWYgKCFTZXR1cERpR2V0RGV2aWNlSW50ZXJmYWNlUHJvcGVydHlXKGRldkluZm8sIHJlZiBpZkRhdGEsIHJlZiBQa0luc3RhbmNlSWQsIG91dCB0eXBlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgYnVmLCByZXF1aXJlZCwgb3V0IHJlcXVpcmVkLCAwKSkgcmV0dXJuICIiOwogICAgICAgICAgICAgICAgICAgIHJldHVybiBNYXJzaGFsLlB0clRvU3RyaW5nVW5pKGJ1ZikgPz8gIiI7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBmaW5hbGx5IHsgTWFyc2hhbC5GcmVlSEdsb2JhbChidWYpOyB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgY2F0Y2ggeyByZXR1cm4gIiI7IH0KICAgICAgICAgICAgZmluYWxseSB7IGlmIChkZXZJbmZvICE9IEludFB0ci5aZXJvICYmIGRldkluZm8uVG9JbnQ2NCgpICE9IC0xKSBTZXR1cERpRGVzdHJveURldmljZUluZm9MaXN0KGRldkluZm8pOyB9CiAgICAgICAgfQoKICAgICAgICBzdGF0aWMgc3RyaW5nIERldmljZVN0cmluZyhJbnRQdHIgc2V0LCByZWYgU1BfREVWSUNFX0lOVEVSRkFDRV9EQVRBIGRpZCwgUHJvcGVydHlLZXkga2V5KQogICAgICAgIHsKICAgICAgICAgICAgSW50UHRyIGRldkluZm8gPSBJbnRQdHIuWmVybzsKICAgICAgICAgICAgdHJ5CiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgIHN0cmluZyBwYXRoID0gSW50ZXJmYWNlUGF0aChzZXQsIHJlZiBkaWQpOwogICAgICAgICAgICAgICAgaWYgKHBhdGguTGVuZ3RoID09IDApIHJldHVybiAiIjsKICAgICAgICAgICAgICAgIGRldkluZm8gPSBTZXR1cERpQ3JlYXRlRGV2aWNlSW5mb0xpc3QoSW50UHRyLlplcm8sIEludFB0ci5aZXJvKTsKICAgICAgICAgICAgICAgIGlmIChkZXZJbmZvID09IEludFB0ci5aZXJvIHx8IGRldkluZm8uVG9JbnQ2NCgpID09IC0xKSByZXR1cm4gIiI7CiAgICAgICAgICAgICAgICB2YXIgaWZEYXRhID0gbmV3IFNQX0RFVklDRV9JTlRFUkZBQ0VfREFUQSgpOwogICAgICAgICAgICAgICAgaWZEYXRhLmNiU2l6ZSA9IE1hcnNoYWwuU2l6ZU9mKGlmRGF0YSk7CiAgICAgICAgICAgICAgICBpZiAoIVNldHVwRGlPcGVuRGV2aWNlSW50ZXJmYWNlVyhkZXZJbmZvLCBwYXRoLCAwLCByZWYgaWZEYXRhKSkgcmV0dXJuICIiOwoKICAgICAgICAgICAgICAgIGludCByZXF1aXJlZCA9IDAsIHR5cGUgPSAwOwogICAgICAgICAgICAgICAgU2V0dXBEaUdldERldmljZUludGVyZmFjZVByb3BlcnR5VyhkZXZJbmZvLCByZWYgaWZEYXRhLCByZWYga2V5LCBvdXQgdHlwZSwKICAgICAgICAgICAgICAgICAgICBJbnRQdHIuWmVybywgMCwgb3V0IHJlcXVpcmVkLCAwKTsKICAgICAgICAgICAgICAgIGlmIChyZXF1aXJlZCA8PSAwKSByZXR1cm4gIiI7CiAgICAgICAgICAgICAgICBJbnRQdHIgYnVmID0gTWFyc2hhbC5BbGxvY0hHbG9iYWwocmVxdWlyZWQpOwogICAgICAgICAgICAgICAgdHJ5CiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgaWYgKCFTZXR1cERpR2V0RGV2aWNlSW50ZXJmYWNlUHJvcGVydHlXKGRldkluZm8sIHJlZiBpZkRhdGEsIHJlZiBrZXksIG91dCB0eXBlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgYnVmLCByZXF1aXJlZCwgb3V0IHJlcXVpcmVkLCAwKSkgcmV0dXJuICIiOwogICAgICAgICAgICAgICAgICAgIGlmICh0eXBlID09IDB4MDAwMDAwMTIpIHJldHVybiBNYXJzaGFsLlB0clRvU3RyaW5nVW5pKGJ1ZikgPz8gIiI7ICAgLy8gREVWUFJPUF9UWVBFX1NUUklORwogICAgICAgICAgICAgICAgICAgIHJldHVybiAiIjsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGZpbmFsbHkgeyBNYXJzaGFsLkZyZWVIR2xvYmFsKGJ1Zik7IH0KICAgICAgICAgICAgfQogICAgICAgICAgICBjYXRjaCB7IHJldHVybiAiIjsgfQogICAgICAgICAgICBmaW5hbGx5IHsgaWYgKGRldkluZm8gIT0gSW50UHRyLlplcm8gJiYgZGV2SW5mby5Ub0ludDY0KCkgIT0gLTEpIFNldHVwRGlEZXN0cm95RGV2aWNlSW5mb0xpc3QoZGV2SW5mbyk7IH0KICAgICAgICB9CgogICAgICAgIHN0YXRpYyBpbnQgUmVhZEJhdHRlcnlMZXZlbChJbnRQdHIgc2V0LCByZWYgU1BfREVWSUNFX0lOVEVSRkFDRV9EQVRBIGRpZCkKICAgICAgICB7CiAgICAgICAgICAgIEludFB0ciBkZXZJbmZvID0gSW50UHRyLlplcm87CiAgICAgICAgICAgIHRyeQogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBzdHJpbmcgcGF0aCA9IEludGVyZmFjZVBhdGgoc2V0LCByZWYgZGlkKTsKICAgICAgICAgICAgICAgIGlmIChwYXRoLkxlbmd0aCA9PSAwKSByZXR1cm4gLTE7CiAgICAgICAgICAgICAgICBkZXZJbmZvID0gU2V0dXBEaUNyZWF0ZURldmljZUluZm9MaXN0KEludFB0ci5aZXJvLCBJbnRQdHIuWmVybyk7CiAgICAgICAgICAgICAgICBpZiAoZGV2SW5mbyA9PSBJbnRQdHIuWmVybyB8fCBkZXZJbmZvLlRvSW50NjQoKSA9PSAtMSkgcmV0dXJuIC0xOwogICAgICAgICAgICAgICAgdmFyIGlmRGF0YSA9IG5ldyBTUF9ERVZJQ0VfSU5URVJGQUNFX0RBVEEoKTsKICAgICAgICAgICAgICAgIGlmRGF0YS5jYlNpemUgPSBNYXJzaGFsLlNpemVPZihpZkRhdGEpOwogICAgICAgICAgICAgICAgaWYgKCFTZXR1cERpT3BlbkRldmljZUludGVyZmFjZVcoZGV2SW5mbywgcGF0aCwgMCwgcmVmIGlmRGF0YSkpIHJldHVybiAtMTsKCiAgICAgICAgICAgICAgICBpbnQgcmVxdWlyZWQgPSAwLCB0eXBlID0gMDsKICAgICAgICAgICAgICAgIFNldHVwRGlHZXREZXZpY2VJbnRlcmZhY2VQcm9wZXJ0eVcoZGV2SW5mbywgcmVmIGlmRGF0YSwgcmVmIFBrQmF0dGVyeSwgb3V0IHR5cGUsCiAgICAgICAgICAgICAgICAgICAgSW50UHRyLlplcm8sIDAsIG91dCByZXF1aXJlZCwgMCk7CiAgICAgICAgICAgICAgICBpZiAocmVxdWlyZWQgPD0gMCkgcmV0dXJuIC0xOwoKICAgICAgICAgICAgICAgIEludFB0ciBidWYgPSBNYXJzaGFsLkFsbG9jSEdsb2JhbChyZXF1aXJlZCA8IDggPyA4IDogcmVxdWlyZWQpOwogICAgICAgICAgICAgICAgdHJ5CiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgaWYgKCFTZXR1cERpR2V0RGV2aWNlSW50ZXJmYWNlUHJvcGVydHlXKGRldkluZm8sIHJlZiBpZkRhdGEsIHJlZiBQa0JhdHRlcnksIG91dCB0eXBlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgYnVmLCByZXF1aXJlZCwgb3V0IHJlcXVpcmVkLCAwKSkgcmV0dXJuIC0xOwogICAgICAgICAgICAgICAgICAgIGludCB2OwogICAgICAgICAgICAgICAgICAgIGlmICh0eXBlID09IDB4MDAwMDAwMTEpIHYgPSBNYXJzaGFsLlJlYWRCeXRlKGJ1Zik7ICAgICAgICAgICAgIC8vIFVJTlQ4CiAgICAgICAgICAgICAgICAgICAgZWxzZSBpZiAodHlwZSA9PSAweDAwMDAwMDAyKSB2ID0gTWFyc2hhbC5SZWFkSW50MTYoYnVmKTsgICAgICAgIC8vIFVJTlQxNgogICAgICAgICAgICAgICAgICAgIGVsc2UgaWYgKHR5cGUgPT0gMHgwMDAwMDAwMykgdiA9IE1hcnNoYWwuUmVhZEludDMyKGJ1Zik7ICAgICAgICAvLyBVSU5UMzIKICAgICAgICAgICAgICAgICAgICBlbHNlIGlmICh0eXBlID09IDB4MDAwMDAwMDEpIHYgPSBidWYuVG9JbnQ2NCgpID09IDAgPyAwIDogMTsgICAgLy8gQk9PTEVBTgogICAgICAgICAgICAgICAgICAgIGVsc2UgcmV0dXJuIC0xOwogICAgICAgICAgICAgICAgICAgIHJldHVybiAodiA+PSAwICYmIHYgPD0gMTAwKSA/IHYgOiAtMTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGZpbmFsbHkgeyBNYXJzaGFsLkZyZWVIR2xvYmFsKGJ1Zik7IH0KICAgICAgICAgICAgfQogICAgICAgICAgICBjYXRjaCB7IHJldHVybiAtMTsgfQogICAgICAgICAgICBmaW5hbGx5IHsgaWYgKGRldkluZm8gIT0gSW50UHRyLlplcm8gJiYgZGV2SW5mby5Ub0ludDY0KCkgIT0gLTEpIFNldHVwRGlEZXN0cm95RGV2aWNlSW5mb0xpc3QoZGV2SW5mbyk7IH0KICAgICAgICB9CgogICAgICAgIC8vLyA8c3VtbWFyeT5GYWxzZSB3aGVuIHRoZSBkZXZpY2Ugbm9kZSBpcyBhIHN0YWxlIChwaGFudG9tKSBpbnN0YW5jZSBsZWZ0IGJlaGluZCBieSBhbiB1bnBhaXIuPC9zdW1tYXJ5PgogICAgICAgIHN0YXRpYyBib29sIElzUHJlc2VudEFuZENvbm5lY3RlZChzdHJpbmcgaW5zdGFuY2VJZCkKICAgICAgICB7CiAgICAgICAgICAgIHRyeQogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICB1aW50IGluc3Q7CiAgICAgICAgICAgICAgICBpZiAoQ01fTG9jYXRlX0Rldk5vZGVXKG91dCBpbnN0LCBpbnN0YW5jZUlkLCBDTV9MT0NBVEVfREVWTk9ERV9OT1JNQUwpICE9IDApIHJldHVybiBmYWxzZTsKICAgICAgICAgICAgICAgIGludCBzdGF0dXMsIHByb2JsZW07CiAgICAgICAgICAgICAgICBpZiAoQ01fR2V0X0Rldk5vZGVfU3RhdHVzKG91dCBzdGF0dXMsIG91dCBwcm9ibGVtLCBpbnN0LCAwKSAhPSAwKSByZXR1cm4gZmFsc2U7CiAgICAgICAgICAgICAgICBpZiAoKHN0YXR1cyAmIEROX0RFVklDRV9QSEFOVE9NKSAhPSAwKSByZXR1cm4gZmFsc2U7CiAgICAgICAgICAgICAgICByZXR1cm4gKHN0YXR1cyAmIEROX1BSRVNFTlQpICE9IDA7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgY2F0Y2ggeyByZXR1cm4gdHJ1ZTsgfSAgIC8vIG5ldmVyIGhpZGUgYSByZWFkaW5nIGp1c3QgYmVjYXVzZSBhIHN0YXR1cyBjYWxsIGZhaWxlZAogICAgICAgIH0KICAgIH0KfQo=
+using System;
+using System.Collections.Generic;
+using System.Runtime.InteropServices;
+using System.Text;
+
+namespace MouseMeter
+{
+    /// <summary>One battery carrying device as the OS sees it.</summary>
+    public class PnpDevice
+    {
+        public string InstanceId = "";
+        public string FriendlyName = "";
+        public string ClassName = "";
+        public int Level = -1;              // -1 = the OS does not know a percentage
+        public string BatterySource = "";   // "BLE" / "HID" / "HFP" / "USB"
+        public bool Present = true;
+        public bool Connected = true;
+
+        public string Id { get { return InstanceId; } }
+
+        public string Transport
+        {
+            get
+            {
+                string s = InstanceId.ToLowerInvariant();
+                if (s.Contains("ble#")) return "BLE";
+                if (s.Contains("bth")) return "蓝牙";
+                if (s.Contains("hid#")) return "2.4G";
+                if (s.Contains("usb#")) return "USB";
+                return BatterySource;
+            }
+        }
+
+        public bool IsAudio { get { return BatterySource == "HFP" || BatterySource == "A2DP"; } }
+    }
+
+    /// <summary>
+    /// Enumerates battery powered peripherals straight from Windows: BLE GATT battery service,
+    /// Bluetooth HID, and Bluetooth audio (HFP) headsets. Zero vendor protocols involved.
+    ///
+    /// This is what makes keyboards, headsets and "any other device" work without reverse
+    /// engineering each brand: the OS (and its own driver pairing) already exposes the number.
+    /// </summary>
+    public static class PnpBattery
+    {
+        const int DIGCF_PRESENT = 0x02;
+        const int DIGCF_DEVICEINTERFACE = 0x10;
+
+        // DEVPROPKEY_Device_BatteryLevel
+        static readonly Guid GuidDevProps = new Guid("a45c254e-df1c-4efd-8020-67d146a850e0");
+        static PropertyKey PkBattery = new PropertyKey(new Guid("104ea319-6ee2-4701-bd47-8ddbfa425c1d"), 2);
+        static PropertyKey PkFriendlyName = new PropertyKey(new Guid("b3f8fa53-0004-438e-9003-51a46e139bfc"), 6);
+        static PropertyKey PkDeviceDesc = new PropertyKey(new Guid("a45c254e-df1c-4efd-8020-67d146a850e0"), 2);
+        static PropertyKey PkInstanceId = new PropertyKey(new Guid("78c34fc8-104a-4aca-9ea4-524d52996e57"), 256);
+
+        static readonly Guid GuidBattery = new Guid("72631e54-78a4-11d0-bcf7-00aa00b7b32a");       // GUID_DEVCLASS_BATTERY
+        static readonly Guid GuidBluetooth = new Guid("e0cbf06c-cd8b-4647-bb8a-263b43f0f974");     // GUID_BTHPORT_DEVICE_INTERFACE
+        static readonly Guid GuidBthLe = new Guid("781aee18-7733-4ce4-add0-91f41c67b592");        // GUID_BLUETOOTHLE_DEVICE_INTERFACE
+        static readonly Guid GuidAudio = new Guid("6994ad04-93ef-11d0-a3cc-00a0c9223196");        // KSCATEGORY_AUDIO
+
+        [StructLayout(LayoutKind.Sequential)]
+        struct SP_DEVICE_INTERFACE_DATA
+        {
+            public int cbSize;
+            public Guid InterfaceClassGuid;
+            public int Flags;
+            public IntPtr Reserved;
+        }
+
+        [StructLayout(LayoutKind.Sequential, Pack = 4)]
+        struct PropertyKey
+        {
+            public Guid fmtid;
+            public int pid;
+            public PropertyKey(Guid g, int p) { fmtid = g; pid = p; }
+        }
+
+        [DllImport("setupapi.dll", CharSet = CharSet.Unicode, SetLastError = true)]
+        static extern IntPtr SetupDiGetClassDevs(ref Guid g, IntPtr e, IntPtr hwnd, int flags);
+        [DllImport("setupapi.dll", CharSet = CharSet.Unicode, SetLastError = true)]
+        static extern bool SetupDiEnumDeviceInterfaces(IntPtr set, IntPtr dev, ref Guid g, int idx, ref SP_DEVICE_INTERFACE_DATA d);
+        [DllImport("setupapi.dll", CharSet = CharSet.Unicode, SetLastError = true)]
+        static extern bool SetupDiGetDeviceInterfaceDetail(IntPtr set, ref SP_DEVICE_INTERFACE_DATA d, IntPtr detail, int size, ref int needed, IntPtr info);
+        [DllImport("setupapi.dll", SetLastError = true)]
+        static extern bool SetupDiDestroyDeviceInfoList(IntPtr set);
+        [DllImport("setupapi.dll", CharSet = CharSet.Unicode, SetLastError = true)]
+        static extern bool SetupDiGetDeviceProperty(IntPtr set, IntPtr devInfo, ref PropertyKey key, out int type,
+            IntPtr buf, int size, out int needed, int flags);
+
+        [DllImport("setupapi.dll", CharSet = CharSet.Unicode, SetLastError = true)]
+        static extern IntPtr SetupDiCreateDeviceInfoList(IntPtr classGuid, IntPtr hwndParent);
+        [DllImport("setupapi.dll", CharSet = CharSet.Unicode, SetLastError = true)]
+        static extern bool SetupDiOpenDeviceInterfaceW(IntPtr set, string path, int flags, ref SP_DEVICE_INTERFACE_DATA did);
+        [DllImport("setupapi.dll", CharSet = CharSet.Unicode, SetLastError = true)]
+        static extern bool SetupDiGetDeviceInterfacePropertyW(IntPtr set, ref SP_DEVICE_INTERFACE_DATA did, ref PropertyKey key,
+            out int type, IntPtr buf, int size, out int needed, int flags);
+
+        [DllImport("cfgmgr32.dll", CharSet = CharSet.Unicode)]
+        static extern int CM_Get_Device_IDW(uint devInst, StringBuilder buffer, int len, int flags);
+        [DllImport("cfgmgr32.dll", CharSet = CharSet.Unicode)]
+        static extern int CM_Locate_DevNodeW(out uint devInst, string deviceId, int flags);
+        [DllImport("cfgmgr32.dll")]
+        static extern int CM_Get_DevNode_Status(out int status, out int problem, uint devInst, int flags);
+
+        const int CM_LOCATE_DEVNODE_NORMAL = 0;
+        const int DN_DEVICE_PHANTOM = 0x00000020;
+        const int DN_PRESENT = 0x00000001;
+
+        // ------------------------------------------------------------------
+        // public API
+        // ------------------------------------------------------------------
+
+        /// <summary>Every peripheral Windows currently knows a battery level for. Never throws.</summary>
+        public static List<PnpDevice> Enumerate()
+        {
+            var list = new List<PnpDevice>();
+            try
+            {
+                var batteries = EnumerateBatteryClass();          // BLE GATT / BTHLE / BTHENUM-HID
+                var audio = EnumerateAudioEndpoints();
+
+                // 1) audio endpoints that have a battery reading: the headset itself, not the endpoint
+                var audioById = new Dictionary<string, PnpDevice>(StringComparer.OrdinalIgnoreCase);
+                for (int i = 0; i < audio.Count; i++) audioById[audio[i].InstanceId] = audio[i];
+
+                var consumed = new Dictionary<string, bool>(StringComparer.OrdinalIgnoreCase);
+                for (int i = 0; i < batteries.Count; i++)
+                {
+                    var b = batteries[i];
+                    string iid = b.InstanceId.ToLowerInvariant();
+                    string hit = null;
+                    foreach (var kv in audioById) if (iid.Contains(kv.Key)) { hit = kv.Key; break; }
+
+                    if (hit != null)
+                    {
+                        var ep = audioById[hit];
+                        ep.Level = b.Level;
+                        ep.Connected = b.Connected;
+                        consumed[hit] = true;
+                        b.BatterySource = "HFP";
+                        b.FriendlyName = string.IsNullOrEmpty(ep.FriendlyName) ? b.FriendlyName : ep.FriendlyName;
+                        b.InstanceId = ep.InstanceId;
+                        list.Add(b);
+                    }
+                    else list.Add(b);
+                }
+
+                // 2) a headset that is paired but has no percentage yet: keep it, level -1, so the UI
+                //    can say "已连接 · 电量未知" instead of silently dropping the device.
+                for (int i = 0; i < audio.Count; i++)
+                {
+                    if (consumed.ContainsKey(audio[i].InstanceId)) continue;
+                    if (!audio[i].Connected) continue;
+                    audio[i].Level = -1;
+                    list.Add(audio[i]);
+                }
+            }
+            catch (Exception ex) { Log.Warn("pnp enumerate: " + ex.Message); }
+            return list;
+        }
+
+        static List<PnpDevice> EnumerateBatteryClass()
+        {
+            var list = new List<PnpDevice>();
+            Guid g = GuidBattery;
+            IntPtr set = SetupDiGetClassDevs(ref g, IntPtr.Zero, IntPtr.Zero, DIGCF_PRESENT | DIGCF_DEVICEINTERFACE);
+            if (set == IntPtr.Zero || set.ToInt64() == -1) return list;
+
+            var did = new SP_DEVICE_INTERFACE_DATA();
+            did.cbSize = Marshal.SizeOf(did);
+            try
+            {
+                for (int i = 0; ; i++)
+                {
+                    if (!SetupDiEnumDeviceInterfaces(set, IntPtr.Zero, ref g, i, ref did)) break;
+
+                    string iid = DeviceInstanceId(set, ref did);
+                    if (iid.Length == 0) continue;
+
+                    string low = iid.ToLowerInvariant();
+                    // ACPI / wired / system battery: not a peripheral, skip
+                    if (low.StartsWith("acpi\\")) continue;
+                    // USB HID device dongles report their own internal cell, not the mouse's
+                    if (low.StartsWith("usb\\")) continue;
+
+                    string src = low.Contains("ble#") || low.Contains("bthle") ? "BLE"
+                               : (low.Contains("bth") ? "HID" : "USB");
+                    bool connected = IsPresentAndConnected(iid);
+
+                    int lvl = ReadBatteryLevel(set, ref did);
+                    string name = DeviceString(set, ref did, PkFriendlyName);
+                    if (string.IsNullOrEmpty(name)) name = DeviceString(set, ref did, PkDeviceDesc);
+
+                    var d = new PnpDevice();
+                    d.InstanceId = iid;
+                    d.FriendlyName = name ?? "";
+                    d.Level = lvl;
+                    d.BatterySource = src;
+                    d.Present = true;
+                    d.Connected = connected;
+                    if (lvl < 0 && !connected) continue;   // nothing to show
+                    if (name == null && lvl < 0) continue;
+                    list.Add(d);
+                }
+            }
+            catch (Exception ex) { Log.Warn("pnp battery class: " + ex.Message); }
+            finally { SetupDiDestroyDeviceInfoList(set); }
+            return list;
+        }
+
+        static List<PnpDevice> EnumerateAudioEndpoints()
+        {
+            var list = new List<PnpDevice>();
+            Guid g = GuidAudio;
+            IntPtr set = SetupDiGetClassDevs(ref g, IntPtr.Zero, IntPtr.Zero, DIGCF_PRESENT | DIGCF_DEVICEINTERFACE);
+            if (set == IntPtr.Zero || set.ToInt64() == -1) return list;
+
+            var did = new SP_DEVICE_INTERFACE_DATA();
+            did.cbSize = Marshal.SizeOf(did);
+            var seen = new Dictionary<string, bool>(StringComparer.OrdinalIgnoreCase);
+            try
+            {
+                for (int i = 0; ; i++)
+                {
+                    if (!SetupDiEnumDeviceInterfaces(set, IntPtr.Zero, ref g, i, ref did)) break;
+
+                    string full = InterfacePath(set, ref did);
+                    string ep = DeviceHeuristics.AudioEndpointFromPath(full);
+                    if (ep == null || seen.ContainsKey(ep)) continue;
+                    seen[ep] = true;
+
+                    string iid = DeviceInstanceId(set, ref did);
+                    string name = DeviceString(set, ref did, PkFriendlyName);
+                    string cls = DeviceHeuristics.FromName(name);
+                    bool bt = (iid ?? "").ToLowerInvariant().Contains("bth");
+                    if (cls != null && cls != DeviceKind.Headset) continue;   // speakers / mics
+                    if (!bt && cls == null) continue;
+
+                    var d = new PnpDevice();
+                    d.InstanceId = ep;
+                    d.FriendlyName = name ?? "";
+                    d.BatterySource = "HFP";
+                    d.Level = -1;
+                    d.Connected = IsPresentAndConnected(iid);
+                    list.Add(d);
+                }
+            }
+            catch (Exception ex) { Log.Warn("pnp audio: " + ex.Message); }
+            finally { SetupDiDestroyDeviceInfoList(set); }
+            return list;
+        }
+
+        // ------------------------------------------------------------------
+        // helpers
+        // ------------------------------------------------------------------
+
+        static string InterfacePath(IntPtr set, ref SP_DEVICE_INTERFACE_DATA did)
+        {
+            int needed = 0;
+            SetupDiGetDeviceInterfaceDetail(set, ref did, IntPtr.Zero, 0, ref needed, IntPtr.Zero);
+            if (needed <= 0) return "";
+            IntPtr buf = Marshal.AllocHGlobal(needed);
+            try
+            {
+                Marshal.WriteInt32(buf, (IntPtr.Size == 8) ? 8 : 6);
+                if (!SetupDiGetDeviceInterfaceDetail(set, ref did, buf, needed, ref needed, IntPtr.Zero)) return "";
+                return Marshal.PtrToStringAuto(new IntPtr(buf.ToInt64() + 4)) ?? "";
+            }
+            finally { Marshal.FreeHGlobal(buf); }
+        }
+
+        static string DeviceInstanceId(IntPtr set, ref SP_DEVICE_INTERFACE_DATA did)
+        {
+            string path = InterfacePath(set, ref did);
+            if (path.Length == 0) return "";
+
+            IntPtr devInfo = IntPtr.Zero;
+            try
+            {
+                devInfo = SetupDiCreateDeviceInfoList(IntPtr.Zero, IntPtr.Zero);
+                var ifData = new SP_DEVICE_INTERFACE_DATA();
+                ifData.cbSize = Marshal.SizeOf(ifData);
+                if (devInfo == IntPtr.Zero || devInfo.ToInt64() == -1) return "";
+                if (!SetupDiOpenDeviceInterfaceW(devInfo, path, 0, ref ifData)) return "";
+
+                int required = 0, type = 0;
+                SetupDiGetDeviceInterfacePropertyW(devInfo, ref ifData, ref PkInstanceId, out type,
+                    IntPtr.Zero, 0, out required, 0);
+                if (required <= 0) return "";
+                IntPtr buf = Marshal.AllocHGlobal(required);
+                try
+                {
+                    if (!SetupDiGetDeviceInterfacePropertyW(devInfo, ref ifData, ref PkInstanceId, out type,
+                            buf, required, out required, 0)) return "";
+                    return Marshal.PtrToStringUni(buf) ?? "";
+                }
+                finally { Marshal.FreeHGlobal(buf); }
+            }
+            catch { return ""; }
+            finally { if (devInfo != IntPtr.Zero && devInfo.ToInt64() != -1) SetupDiDestroyDeviceInfoList(devInfo); }
+        }
+
+        static string DeviceString(IntPtr set, ref SP_DEVICE_INTERFACE_DATA did, PropertyKey key)
+        {
+            IntPtr devInfo = IntPtr.Zero;
+            try
+            {
+                string path = InterfacePath(set, ref did);
+                if (path.Length == 0) return "";
+                devInfo = SetupDiCreateDeviceInfoList(IntPtr.Zero, IntPtr.Zero);
+                if (devInfo == IntPtr.Zero || devInfo.ToInt64() == -1) return "";
+                var ifData = new SP_DEVICE_INTERFACE_DATA();
+                ifData.cbSize = Marshal.SizeOf(ifData);
+                if (!SetupDiOpenDeviceInterfaceW(devInfo, path, 0, ref ifData)) return "";
+
+                int required = 0, type = 0;
+                SetupDiGetDeviceInterfacePropertyW(devInfo, ref ifData, ref key, out type,
+                    IntPtr.Zero, 0, out required, 0);
+                if (required <= 0) return "";
+                IntPtr buf = Marshal.AllocHGlobal(required);
+                try
+                {
+                    if (!SetupDiGetDeviceInterfacePropertyW(devInfo, ref ifData, ref key, out type,
+                            buf, required, out required, 0)) return "";
+                    if (type == 0x00000012) return Marshal.PtrToStringUni(buf) ?? "";   // DEVPROP_TYPE_STRING
+                    return "";
+                }
+                finally { Marshal.FreeHGlobal(buf); }
+            }
+            catch { return ""; }
+            finally { if (devInfo != IntPtr.Zero && devInfo.ToInt64() != -1) SetupDiDestroyDeviceInfoList(devInfo); }
+        }
+
+        static int ReadBatteryLevel(IntPtr set, ref SP_DEVICE_INTERFACE_DATA did)
+        {
+            IntPtr devInfo = IntPtr.Zero;
+            try
+            {
+                string path = InterfacePath(set, ref did);
+                if (path.Length == 0) return -1;
+                devInfo = SetupDiCreateDeviceInfoList(IntPtr.Zero, IntPtr.Zero);
+                if (devInfo == IntPtr.Zero || devInfo.ToInt64() == -1) return -1;
+                var ifData = new SP_DEVICE_INTERFACE_DATA();
+                ifData.cbSize = Marshal.SizeOf(ifData);
+                if (!SetupDiOpenDeviceInterfaceW(devInfo, path, 0, ref ifData)) return -1;
+
+                int required = 0, type = 0;
+                SetupDiGetDeviceInterfacePropertyW(devInfo, ref ifData, ref PkBattery, out type,
+                    IntPtr.Zero, 0, out required, 0);
+                if (required <= 0) return -1;
+
+                IntPtr buf = Marshal.AllocHGlobal(required < 8 ? 8 : required);
+                try
+                {
+                    if (!SetupDiGetDeviceInterfacePropertyW(devInfo, ref ifData, ref PkBattery, out type,
+                            buf, required, out required, 0)) return -1;
+                    int v;
+                    if (type == 0x00000011) v = Marshal.ReadByte(buf);             // UINT8
+                    else if (type == 0x00000002) v = Marshal.ReadInt16(buf);        // UINT16
+                    else if (type == 0x00000003) v = Marshal.ReadInt32(buf);        // UINT32
+                    else if (type == 0x00000001) v = buf.ToInt64() == 0 ? 0 : 1;    // BOOLEAN
+                    else return -1;
+                    return (v >= 0 && v <= 100) ? v : -1;
+                }
+                finally { Marshal.FreeHGlobal(buf); }
+            }
+            catch { return -1; }
+            finally { if (devInfo != IntPtr.Zero && devInfo.ToInt64() != -1) SetupDiDestroyDeviceInfoList(devInfo); }
+        }
+
+        /// <summary>False when the device node is a stale (phantom) instance left behind by an unpair.</summary>
+        static bool IsPresentAndConnected(string instanceId)
+        {
+            try
+            {
+                uint inst;
+                if (CM_Locate_DevNodeW(out inst, instanceId, CM_LOCATE_DEVNODE_NORMAL) != 0) return false;
+                int status, problem;
+                if (CM_Get_DevNode_Status(out status, out problem, inst, 0) != 0) return false;
+                if ((status & DN_DEVICE_PHANTOM) != 0) return false;
+                return (status & DN_PRESENT) != 0;
+            }
+            catch { return true; }   // never hide a reading just because a status call failed
+        }
+    }
+}

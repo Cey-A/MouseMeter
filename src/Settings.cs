@@ -1,1 +1,279 @@
-dXNpbmcgU3lzdGVtOwp1c2luZyBTeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYzsKdXNpbmcgU3lzdGVtLkdsb2JhbGl6YXRpb247CnVzaW5nIFN5c3RlbS5JTzsKdXNpbmcgU3lzdGVtLlRleHQ7CgpuYW1lc3BhY2UgTW91c2VNZXRlcgp7CiAgICAvLy8gPHN1bW1hcnk+RGV2aWNlIGNsYXNzZXMgd2UgY2FuIHJlYWQgYmF0dGVyaWVzIGZyb20uPC9zdW1tYXJ5PgogICAgcHVibGljIHN0YXRpYyBjbGFzcyBEZXZpY2VLaW5kCiAgICB7CiAgICAgICAgcHVibGljIGNvbnN0IHN0cmluZyBNb3VzZSA9ICJtb3VzZSI7CiAgICAgICAgcHVibGljIGNvbnN0IHN0cmluZyBLZXlib2FyZCA9ICJrZXlib2FyZCI7CiAgICAgICAgcHVibGljIGNvbnN0IHN0cmluZyBIZWFkc2V0ID0gImhlYWRzZXQiOwoKICAgICAgICBwdWJsaWMgc3RhdGljIHJlYWRvbmx5IHN0cmluZ1tdIEFsbCA9IG5ldyBzdHJpbmdbXSB7IE1vdXNlLCBLZXlib2FyZCwgSGVhZHNldCB9OwoKICAgICAgICBwdWJsaWMgc3RhdGljIHN0cmluZyBMYWJlbChzdHJpbmcga2luZCkKICAgICAgICB7CiAgICAgICAgICAgIGlmIChraW5kID09IEtleWJvYXJkKSByZXR1cm4gIumUruebmCI7CiAgICAgICAgICAgIGlmIChraW5kID09IEhlYWRzZXQpIHJldHVybiAi6ICz5py6IjsKICAgICAgICAgICAgcmV0dXJuICLpvKDmoIciOwogICAgICAgIH0KCiAgICAgICAgcHVibGljIHN0YXRpYyBib29sIElzS25vd24oc3RyaW5nIGtpbmQpIHsgcmV0dXJuIEFycmF5LkluZGV4T2YoQWxsLCBraW5kKSA+PSAwOyB9CgogICAgICAgIC8vLyA8c3VtbWFyeT5BIGRldmljZSB0aGF0IG5ldmVyIHJlcG9ydGVkIGEgbGV2ZWwgc3RpbGwgZ2V0cyBhIGNsYXNzLCBzbyB0aGUgYmFkZ2UgbXVzdCBub3QgZGVmYXVsdCB0byAi6byg5qCHIi48L3N1bW1hcnk+CiAgICAgICAgcHVibGljIHN0YXRpYyBzdHJpbmcgTGFiZWxPckVtcHR5KHN0cmluZyBraW5kKQogICAgICAgIHsKICAgICAgICAgICAgcmV0dXJuIElzS25vd24oa2luZCkgPyBMYWJlbChraW5kKSA6ICIiOwogICAgICAgIH0KICAgIH0KCiAgICAvLy8gPHN1bW1hcnk+CiAgICAvLy8gUGVyc2lzdGVudCBwcmVmZXJlbmNlcy4gU2VyaWFsaXNlZCBieSBhIHRpbnkgaGFuZCB3cml0dGVuIEpTT04gcmVhZGVyL3dyaXRlciBzbyB0aGUKICAgIC8vLyBhcHAgc3RheXMgZGVwZW5kZW5jeSBmcmVlIChubyBTeXN0ZW0uV2ViLkV4dGVuc2lvbnMsIG5vIE5ld3RvbnNvZnQpLgogICAgLy8vIDwvc3VtbWFyeT4KICAgIHB1YmxpYyBjbGFzcyBTZXR0aW5ncwogICAgewogICAgICAgIC8vIC0tLS0gcG9sbGluZyAtLS0tCiAgICAgICAgcHVibGljIGludCBJbnRlcnZhbFNlYyA9IDYwOwogICAgICAgIHB1YmxpYyBpbnQgTG93VGhyZXNob2xkID0gMjA7CiAgICAgICAgcHVibGljIGJvb2wgTm90aWZ5TG93ID0gdHJ1ZTsKICAgICAgICBwdWJsaWMgYm9vbCBBZGFwdGl2ZVBvbGxpbmcgPSB0cnVlOwogICAgICAgIHB1YmxpYyBib29sIFN0YXJ0TWluaW1pemVkID0gdHJ1ZTsKCiAgICAgICAgLy8gLS0tLSBzb3VyY2VzIC0tLS0KICAgICAgICBwdWJsaWMgYm9vbCBVc2VIaWQgPSB0cnVlOyAgICAgICAgICAgICAvLyBwcm9wcmlldGFyeSBkb25nbGUgcHJvdG9jb2wgKG1vdXNlKQogICAgICAgIHB1YmxpYyBib29sIFVzZUJsZSA9IHRydWU7ICAgICAgICAgICAgIC8vIHN0YW5kYXJkIEJMRSBiYXR0ZXJ5IG92ZXIgdGhlIEhJRCBzdGFjawogICAgICAgIHB1YmxpYyBib29sIFVzZVBucCA9IHRydWU7ICAgICAgICAgICAgIC8vIGdlbmVyaWMgV2luZG93cyBiYXR0ZXJ5IChIRlAgaGVhZHNldCwgQlRIRU5VTS9ISUQpCiAgICAgICAgcHVibGljIGJvb2wgU2hvd1BlcmlwaGVyYWxCYXR0ZXJpZXMgPSB0cnVlOyAgLy8gZmFsbCBiYWNrIHRvIFdpbmRvd3MnIG93biB2aWV3IGZvciBhbnl0aGluZyB3ZSBjYW5ub3QgZGVjb2RlCiAgICAgICAgcHVibGljIExpc3Q8c3RyaW5nPiBSZWNlaXZlcklkcyA9IG5ldyBMaXN0PHN0cmluZz4obmV3IHN0cmluZ1tdIHsKICAgICAgICAgICAgIjBCREE6NDc2MiIsICAgLy8gUmVhbHRlayA0SyBkb25nbGUgKEE1IFVsdHJhLCB2ZXJpZmllZCkKICAgICAgICAgICAgIjJFM0M6QzM2NSIsICAgLy8gQTUgVWx0cmEgYWx0ZXJuYXRlIGRvbmdsZSBpZAogICAgICAgIH0pOwoKICAgICAgICAvLyAtLS0tIGRlc2t0b3Agd2lkZ2V0IC0tLS0KICAgICAgICBwdWJsaWMgYm9vbCBIdWRFbmFibGVkID0gdHJ1ZTsKICAgICAgICBwdWJsaWMgaW50IEh1ZFggPSAtMTsKICAgICAgICBwdWJsaWMgaW50IEh1ZFkgPSAtMTsKICAgICAgICBwdWJsaWMgaW50IEh1ZE9wYWNpdHkgPSA5NjsgICAgICAvLyA1NS4uMTAwCiAgICAgICAgcHVibGljIGludCBIdWRTY2FsZSA9IDEwMDsgICAgICAgLy8gODAuLjE1MAogICAgICAgIHB1YmxpYyBzdHJpbmcgVGhlbWUgPSAic3lzdGVtIjsgIC8vIHNldHRpbmdzIHdpbmRvdzogc3lzdGVtIHwgbGlnaHQgfCBkYXJrCiAgICAgICAgcHVibGljIHN0cmluZyBIdWRUaGVtZSA9ICJkYXJrIjsgLy8gZGVza3RvcCB3aWRnZXQ6IHN5c3RlbSB8IGxpZ2h0IHwgZGFyawoKICAgICAgICAvLyAtLS0tIHNoZWxsIC0tLS0KICAgICAgICBwdWJsaWMgYm9vbCBTdGFydFdpdGhXaW5kb3dzID0gdHJ1ZTsKICAgICAgICBwdWJsaWMgYm9vbCBDaGVja1VwZGF0ZXMgPSBmYWxzZTsKCiAgICAgICAgcHVibGljIHN0YXRpYyBzdHJpbmcgRGlyCiAgICAgICAgewogICAgICAgICAgICBnZXQKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgc3RyaW5nIGQgPSBQYXRoLkNvbWJpbmUoCiAgICAgICAgICAgICAgICAgICAgRW52aXJvbm1lbnQuR2V0Rm9sZGVyUGF0aChFbnZpcm9ubWVudC5TcGVjaWFsRm9sZGVyLkFwcGxpY2F0aW9uRGF0YSksICJNb3VzZU1ldGVyIik7CiAgICAgICAgICAgICAgICBEaXJlY3RvcnkuQ3JlYXRlRGlyZWN0b3J5KGQpOwogICAgICAgICAgICAgICAgcmV0dXJuIGQ7CiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIHB1YmxpYyBzdGF0aWMgc3RyaW5nIEZpbGVQYXRoIHsgZ2V0IHsgcmV0dXJuIFBhdGguQ29tYmluZShEaXIsICJzZXR0aW5ncy5qc29uIik7IH0gfQoKICAgICAgICBwdWJsaWMgc3RhdGljIFNldHRpbmdzIExvYWQoKQogICAgICAgIHsKICAgICAgICAgICAgdmFyIHMgPSBuZXcgU2V0dGluZ3MoKTsKICAgICAgICAgICAgdHJ5CiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgIGlmICghRmlsZS5FeGlzdHMoRmlsZVBhdGgpKSByZXR1cm4gczsKICAgICAgICAgICAgICAgIHZhciBtYXAgPSBNaW5pSnNvbi5QYXJzZU9iamVjdChGaWxlLlJlYWRBbGxUZXh0KEZpbGVQYXRoLCBFbmNvZGluZy5VVEY4KSk7CgogICAgICAgICAgICAgICAgc3RyaW5nIHY7CiAgICAgICAgICAgICAgICBpZiAobWFwLlRyeUdldFZhbHVlKCJpbnRlcnZhbFNlYyIsIG91dCB2KSkgeyBpbnQgbjsgaWYgKGludC5UcnlQYXJzZSh2LCBvdXQgbikpIHMuSW50ZXJ2YWxTZWMgPSBDbGFtcChuLCAxMCwgMzYwMCk7IH0KICAgICAgICAgICAgICAgIGlmIChtYXAuVHJ5R2V0VmFsdWUoImxvd1RocmVzaG9sZCIsIG91dCB2KSkgeyBpbnQgbjsgaWYgKGludC5UcnlQYXJzZSh2LCBvdXQgbikpIHMuTG93VGhyZXNob2xkID0gQ2xhbXAobiwgNSwgNjApOyB9CiAgICAgICAgICAgICAgICBpZiAobWFwLlRyeUdldFZhbHVlKCJub3RpZnlMb3ciLCBvdXQgdikpIHMuTm90aWZ5TG93ID0gdiA9PSAidHJ1ZSI7CiAgICAgICAgICAgICAgICBpZiAobWFwLlRyeUdldFZhbHVlKCJhZGFwdGl2ZVBvbGxpbmciLCBvdXQgdikpIHMuQWRhcHRpdmVQb2xsaW5nID0gdiA9PSAidHJ1ZSI7CiAgICAgICAgICAgICAgICBpZiAobWFwLlRyeUdldFZhbHVlKCJzdGFydE1pbmltaXplZCIsIG91dCB2KSkgcy5TdGFydE1pbmltaXplZCA9IHYgPT0gInRydWUiOwogICAgICAgICAgICAgICAgaWYgKG1hcC5UcnlHZXRWYWx1ZSgidXNlSGlkIiwgb3V0IHYpKSBzLlVzZUhpZCA9IHYgPT0gInRydWUiOwogICAgICAgICAgICAgICAgaWYgKG1hcC5UcnlHZXRWYWx1ZSgidXNlQmxlIiwgb3V0IHYpKSBzLlVzZUJsZSA9IHYgPT0gInRydWUiOwogICAgICAgICAgICAgICAgaWYgKG1hcC5UcnlHZXRWYWx1ZSgidXNlUG5wIiwgb3V0IHYpKSBzLlVzZVBucCA9IHYgPT0gInRydWUiOwogICAgICAgICAgICAgICAgaWYgKG1hcC5UcnlHZXRWYWx1ZSgic2hvd1BlcmlwaGVyYWxCYXR0ZXJpZXMiLCBvdXQgdikpIHMuU2hvd1BlcmlwaGVyYWxCYXR0ZXJpZXMgPSB2ID09ICJ0cnVlIjsKICAgICAgICAgICAgICAgIGlmIChtYXAuVHJ5R2V0VmFsdWUoImh1ZEVuYWJsZWQiLCBvdXQgdikpIHMuSHVkRW5hYmxlZCA9IHYgPT0gInRydWUiOwogICAgICAgICAgICAgICAgaWYgKG1hcC5UcnlHZXRWYWx1ZSgiaHVkWCIsIG91dCB2KSkgeyBpbnQgbjsgaWYgKGludC5UcnlQYXJzZSh2LCBvdXQgbikpIHMuSHVkWCA9IG47IH0KICAgICAgICAgICAgICAgIGlmIChtYXAuVHJ5R2V0VmFsdWUoImh1ZFkiLCBvdXQgdikpIHsgaW50IG47IGlmIChpbnQuVHJ5UGFyc2Uodiwgb3V0IG4pKSBzLkh1ZFkgPSBuOyB9CiAgICAgICAgICAgICAgICBpZiAobWFwLlRyeUdldFZhbHVlKCJodWRPcGFjaXR5Iiwgb3V0IHYpKSB7IGludCBuOyBpZiAoaW50LlRyeVBhcnNlKHYsIG91dCBuKSkgcy5IdWRPcGFjaXR5ID0gQ2xhbXAobiwgNTUsIDEwMCk7IH0KICAgICAgICAgICAgICAgIGlmIChtYXAuVHJ5R2V0VmFsdWUoImh1ZFNjYWxlIiwgb3V0IHYpKSB7IGludCBuOyBpZiAoaW50LlRyeVBhcnNlKHYsIG91dCBuKSkgcy5IdWRTY2FsZSA9IENsYW1wKG4sIDgwLCAxNTApOyB9CiAgICAgICAgICAgICAgICBpZiAobWFwLlRyeUdldFZhbHVlKCJodWRUaGVtZSIsIG91dCB2KSAmJiAodiA9PSAiZGFyayIgfHwgdiA9PSAibGlnaHQiIHx8IHYgPT0gInN5c3RlbSIpKSBzLkh1ZFRoZW1lID0gdjsKICAgICAgICAgICAgICAgIGlmIChtYXAuVHJ5R2V0VmFsdWUoInRoZW1lIiwgb3V0IHYpICYmICh2ID09ICJkYXJrIiB8fCB2ID09ICJsaWdodCIgfHwgdiA9PSAic3lzdGVtIikpIHMuVGhlbWUgPSB2OwogICAgICAgICAgICAgICAgaWYgKG1hcC5UcnlHZXRWYWx1ZSgic3RhcnRXaXRoV2luZG93cyIsIG91dCB2KSkgcy5TdGFydFdpdGhXaW5kb3dzID0gdiA9PSAidHJ1ZSI7CiAgICAgICAgICAgICAgICBpZiAobWFwLlRyeUdldFZhbHVlKCJyZWNlaXZlcklkcyIsIG91dCB2KSkKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICB2YXIgaWRzID0gTWluaUpzb24uUGFyc2VBcnJheSh2KTsKICAgICAgICAgICAgICAgICAgICBpZiAoaWRzLkNvdW50ID4gMCkgcy5SZWNlaXZlcklkcyA9IGlkczsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICBjYXRjaCAoRXhjZXB0aW9uIGV4KSB7IExvZy5XYXJuKCJzZXR0aW5ncyBsb2FkIGZhaWxlZCwgdXNpbmcgZGVmYXVsdHM6ICIgKyBleC5NZXNzYWdlKTsgfQogICAgICAgICAgICByZXR1cm4gczsKICAgICAgICB9CgogICAgICAgIHB1YmxpYyBTZXR0aW5ncyBDbG9uZSgpCiAgICAgICAgewogICAgICAgICAgICB2YXIgYyA9IChTZXR0aW5ncylNZW1iZXJ3aXNlQ2xvbmUoKTsKICAgICAgICAgICAgYy5SZWNlaXZlcklkcyA9IG5ldyBMaXN0PHN0cmluZz4oUmVjZWl2ZXJJZHMpOwogICAgICAgICAgICByZXR1cm4gYzsKICAgICAgICB9CgogICAgICAgIHB1YmxpYyB2b2lkIFNhdmUoKQogICAgICAgIHsKICAgICAgICAgICAgdmFyIHNiID0gbmV3IFN0cmluZ0J1aWxkZXIoKTsKICAgICAgICAgICAgc2IuQXBwZW5kTGluZSgieyIpOwogICAgICAgICAgICBzYi5BcHBlbmRMaW5lKCIgIFwiaW50ZXJ2YWxTZWNcIjogIiArIEludGVydmFsU2VjICsgIiwiKTsKICAgICAgICAgICAgc2IuQXBwZW5kTGluZSgiICBcImxvd1RocmVzaG9sZFwiOiAiICsgTG93VGhyZXNob2xkICsgIiwiKTsKICAgICAgICAgICAgc2IuQXBwZW5kTGluZSgiICBcIm5vdGlmeUxvd1wiOiAiICsgQihOb3RpZnlMb3cpICsgIiwiKTsKICAgICAgICAgICAgc2IuQXBwZW5kTGluZSgiICBcImFkYXB0aXZlUG9sbGluZ1wiOiAiICsgQihBZGFwdGl2ZVBvbGxpbmcpICsgIiwiKTsKICAgICAgICAgICAgc2IuQXBwZW5kTGluZSgiICBcInN0YXJ0TWluaW1pemVkXCI6ICIgKyBCKFN0YXJ0TWluaW1pemVkKSArICIsIik7CiAgICAgICAgICAgIHNiLkFwcGVuZExpbmUoIiAgXCJ1c2VIaWRcIjogIiArIEIoVXNlSGlkKSArICIsIik7CiAgICAgICAgICAgIHNiLkFwcGVuZExpbmUoIiAgXCJ1c2VCbGVcIjogIiArIEIoVXNlQmxlKSArICIsIik7CiAgICAgICAgICAgIHNiLkFwcGVuZExpbmUoIiAgXCJ1c2VQbnBcIjogIiArIEIoVXNlUG5wKSArICIsIik7CiAgICAgICAgICAgIHNiLkFwcGVuZExpbmUoIiAgXCJzaG93UGVyaXBoZXJhbEJhdHRlcmllc1wiOiAiICsgQihTaG93UGVyaXBoZXJhbEJhdHRlcmllcykgKyAiLCIpOwogICAgICAgICAgICBzYi5BcHBlbmRMaW5lKCIgIFwiaHVkRW5hYmxlZFwiOiAiICsgQihIdWRFbmFibGVkKSArICIsIik7CiAgICAgICAgICAgIHNiLkFwcGVuZExpbmUoIiAgXCJodWRYXCI6ICIgKyBIdWRYICsgIiwiKTsKICAgICAgICAgICAgc2IuQXBwZW5kTGluZSgiICBcImh1ZFlcIjogIiArIEh1ZFkgKyAiLCIpOwogICAgICAgICAgICBzYi5BcHBlbmRMaW5lKCIgIFwiaHVkT3BhY2l0eVwiOiAiICsgSHVkT3BhY2l0eSArICIsIik7CiAgICAgICAgICAgIHNiLkFwcGVuZExpbmUoIiAgXCJodWRTY2FsZVwiOiAiICsgSHVkU2NhbGUgKyAiLCIpOwogICAgICAgICAgICBzYi5BcHBlbmRMaW5lKCIgIFwidGhlbWVcIjogIiArIE1pbmlKc29uLlN0cihUaGVtZSkgKyAiLCIpOwogICAgICAgICAgICBzYi5BcHBlbmRMaW5lKCIgIFwiaHVkVGhlbWVcIjogIiArIE1pbmlKc29uLlN0cihIdWRUaGVtZSkgKyAiLCIpOwogICAgICAgICAgICBzYi5BcHBlbmRMaW5lKCIgIFwic3RhcnRXaXRoV2luZG93c1wiOiAiICsgQihTdGFydFdpdGhXaW5kb3dzKSArICIsIik7CiAgICAgICAgICAgIHNiLkFwcGVuZExpbmUoIiAgXCJyZWNlaXZlcklkc1wiOiAiICsgTWluaUpzb24uQXJyYXkoUmVjZWl2ZXJJZHMpKTsKICAgICAgICAgICAgc2IuQXBwZW5kTGluZSgifSIpOwogICAgICAgICAgICB0cnkgeyBGaWxlLldyaXRlQWxsVGV4dChGaWxlUGF0aCwgc2IuVG9TdHJpbmcoKSwgbmV3IFVURjhFbmNvZGluZyhmYWxzZSkpOyB9CiAgICAgICAgICAgIGNhdGNoIChFeGNlcHRpb24gZXgpIHsgTG9nLldhcm4oInNldHRpbmdzIHNhdmUgZmFpbGVkOiAiICsgZXguTWVzc2FnZSk7IH0KICAgICAgICB9CgogICAgICAgIHN0YXRpYyBzdHJpbmcgQihib29sIHYpIHsgcmV0dXJuIHYgPyAidHJ1ZSIgOiAiZmFsc2UiOyB9CiAgICAgICAgc3RhdGljIGludCBDbGFtcChpbnQgdiwgaW50IGxvLCBpbnQgaGkpIHsgcmV0dXJuIHYgPCBsbyA/IGxvIDogKHYgPiBoaSA/IGhpIDogdik7IH0KICAgIH0KCiAgICAvLy8gPHN1bW1hcnk+SnVzdCBlbm91Z2ggSlNPTiBmb3IgYSBmbGF0IHNldHRpbmdzIG9iamVjdC48L3N1bW1hcnk+CiAgICBzdGF0aWMgY2xhc3MgTWluaUpzb24KICAgIHsKICAgICAgICBwdWJsaWMgc3RhdGljIERpY3Rpb25hcnk8c3RyaW5nLCBzdHJpbmc+IFBhcnNlT2JqZWN0KHN0cmluZyB0ZXh0KQogICAgICAgIHsKICAgICAgICAgICAgdmFyIG1hcCA9IG5ldyBEaWN0aW9uYXJ5PHN0cmluZywgc3RyaW5nPihTdHJpbmdDb21wYXJlci5PcmRpbmFsSWdub3JlQ2FzZSk7CiAgICAgICAgICAgIGlmIChzdHJpbmcuSXNOdWxsT3JFbXB0eSh0ZXh0KSkgcmV0dXJuIG1hcDsKICAgICAgICAgICAgaW50IGkgPSB0ZXh0LkluZGV4T2YoJ3snKTsKICAgICAgICAgICAgaWYgKGkgPCAwKSByZXR1cm4gbWFwOwogICAgICAgICAgICBpKys7CiAgICAgICAgICAgIGludCBndWFyZCA9IDA7CiAgICAgICAgICAgIHdoaWxlIChpIDwgdGV4dC5MZW5ndGggJiYgZ3VhcmQrKyA8IDEwMDAwMCkKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgU2tpcFdzKHRleHQsIHJlZiBpKTsKICAgICAgICAgICAgICAgIGlmIChpID49IHRleHQuTGVuZ3RoIHx8IHRleHRbaV0gPT0gJ30nKSBicmVhazsKICAgICAgICAgICAgICAgIGlmICh0ZXh0W2ldID09ICcsJykgeyBpKys7IGNvbnRpbnVlOyB9ICAgLy8gdG9sZXJhdGUgdHJhaWxpbmcgLyBkb3VibGVkIGNvbW1hcwogICAgICAgICAgICAgICAgc3RyaW5nIGtleSA9IFJlYWRTdHJpbmcodGV4dCwgcmVmIGkpOwogICAgICAgICAgICAgICAgU2tpcFdzKHRleHQsIHJlZiBpKTsKICAgICAgICAgICAgICAgIGlmIChpIDwgdGV4dC5MZW5ndGggJiYgdGV4dFtpXSA9PSAnOicpIGkrKzsKICAgICAgICAgICAgICAgIFNraXBXcyh0ZXh0LCByZWYgaSk7CiAgICAgICAgICAgICAgICBzdHJpbmcgdmFsdWU7CiAgICAgICAgICAgICAgICBpZiAoaSA8IHRleHQuTGVuZ3RoICYmIHRleHRbaV0gPT0gJ1snKSB2YWx1ZSA9IFJlYWRBcnJheVJhdyh0ZXh0LCByZWYgaSk7CiAgICAgICAgICAgICAgICBlbHNlIGlmIChpIDwgdGV4dC5MZW5ndGggJiYgdGV4dFtpXSA9PSAnIicpIHZhbHVlID0gUmVhZFN0cmluZyh0ZXh0LCByZWYgaSk7CiAgICAgICAgICAgICAgICBlbHNlIHZhbHVlID0gUmVhZEJhcmUodGV4dCwgcmVmIGkpOwogICAgICAgICAgICAgICAgaWYgKGtleSAhPSBudWxsICYmIGtleS5MZW5ndGggPiAwKSBtYXBba2V5XSA9IHZhbHVlOwogICAgICAgICAgICAgICAgU2tpcFdzKHRleHQsIHJlZiBpKTsKICAgICAgICAgICAgICAgIGlmIChpIDwgdGV4dC5MZW5ndGggJiYgdGV4dFtpXSA9PSAnLCcpIGkrKzsKICAgICAgICAgICAgfQogICAgICAgICAgICByZXR1cm4gbWFwOwogICAgICAgIH0KCiAgICAgICAgcHVibGljIHN0YXRpYyBMaXN0PHN0cmluZz4gUGFyc2VBcnJheShzdHJpbmcgcmF3KQogICAgICAgIHsKICAgICAgICAgICAgdmFyIGxpc3QgPSBuZXcgTGlzdDxzdHJpbmc+KCk7CiAgICAgICAgICAgIGlmIChzdHJpbmcuSXNOdWxsT3JFbXB0eShyYXcpKSByZXR1cm4gbGlzdDsKICAgICAgICAgICAgaW50IGkgPSAwOwogICAgICAgICAgICBTa2lwV3MocmF3LCByZWYgaSk7CiAgICAgICAgICAgIGlmIChpIDwgcmF3Lkxlbmd0aCAmJiByYXdbaV0gPT0gJ1snKSBpKys7CiAgICAgICAgICAgIHdoaWxlIChpIDwgcmF3Lkxlbmd0aCkKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgU2tpcFdzKHJhdywgcmVmIGkpOwogICAgICAgICAgICAgICAgaWYgKGkgPj0gcmF3Lkxlbmd0aCB8fCByYXdbaV0gPT0gJ10nKSBicmVhazsKICAgICAgICAgICAgICAgIHN0cmluZyB2ID0gKHJhd1tpXSA9PSAnIicpID8gUmVhZFN0cmluZyhyYXcsIHJlZiBpKSA6IFJlYWRCYXJlKHJhdywgcmVmIGkpOwogICAgICAgICAgICAgICAgaWYgKCFzdHJpbmcuSXNOdWxsT3JFbXB0eSh2KSkgbGlzdC5BZGQodik7CiAgICAgICAgICAgICAgICBTa2lwV3MocmF3LCByZWYgaSk7CiAgICAgICAgICAgICAgICBpZiAoaSA8IHJhdy5MZW5ndGggJiYgcmF3W2ldID09ICcsJykgaSsrOwogICAgICAgICAgICB9CiAgICAgICAgICAgIHJldHVybiBsaXN0OwogICAgICAgIH0KCiAgICAgICAgcHVibGljIHN0YXRpYyBzdHJpbmcgU3RyKHN0cmluZyBzKQogICAgICAgIHsKICAgICAgICAgICAgdmFyIHNiID0gbmV3IFN0cmluZ0J1aWxkZXIoIlwiIik7CiAgICAgICAgICAgIGZvcmVhY2ggKGNoYXIgYyBpbiBzID8/ICIiKQogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBpZiAoYyA9PSAnIicgfHwgYyA9PSAnXFwnKSBzYi5BcHBlbmQoJ1xcJykuQXBwZW5kKGMpOwogICAgICAgICAgICAgICAgZWxzZSBpZiAoYyA9PSAnXG4nKSBzYi5BcHBlbmQoIlxcbiIpOwogICAgICAgICAgICAgICAgZWxzZSBpZiAoYyA8ICcgJykgc2IuQXBwZW5kKCcgJyk7CiAgICAgICAgICAgICAgICBlbHNlIHNiLkFwcGVuZChjKTsKICAgICAgICAgICAgfQogICAgICAgICAgICByZXR1cm4gc2IuQXBwZW5kKCciJykuVG9TdHJpbmcoKTsKICAgICAgICB9CgogICAgICAgIHB1YmxpYyBzdGF0aWMgc3RyaW5nIEFycmF5KExpc3Q8c3RyaW5nPiBpdGVtcykKICAgICAgICB7CiAgICAgICAgICAgIHZhciBzYiA9IG5ldyBTdHJpbmdCdWlsZGVyKCJbIik7CiAgICAgICAgICAgIGZvciAoaW50IGkgPSAwOyBpIDwgaXRlbXMuQ291bnQ7IGkrKykKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgaWYgKGkgPiAwKSBzYi5BcHBlbmQoIiwgIik7CiAgICAgICAgICAgICAgICBzYi5BcHBlbmQoU3RyKGl0ZW1zW2ldKSk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgcmV0dXJuIHNiLkFwcGVuZCgnXScpLlRvU3RyaW5nKCk7CiAgICAgICAgfQoKICAgICAgICBzdGF0aWMgdm9pZCBTa2lwV3Moc3RyaW5nIHMsIHJlZiBpbnQgaSkKICAgICAgICB7CiAgICAgICAgICAgIHdoaWxlIChpIDwgcy5MZW5ndGggJiYgY2hhci5Jc1doaXRlU3BhY2Uoc1tpXSkpIGkrKzsKICAgICAgICB9CgogICAgICAgIHN0YXRpYyBzdHJpbmcgUmVhZFN0cmluZyhzdHJpbmcgcywgcmVmIGludCBpKQogICAgICAgIHsKICAgICAgICAgICAgaWYgKGkgPj0gcy5MZW5ndGggfHwgc1tpXSAhPSAnIicpIHJldHVybiAiIjsKICAgICAgICAgICAgaSsrOwogICAgICAgICAgICB2YXIgc2IgPSBuZXcgU3RyaW5nQnVpbGRlcigpOwogICAgICAgICAgICB3aGlsZSAoaSA8IHMuTGVuZ3RoICYmIHNbaV0gIT0gJyInKQogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBpZiAoc1tpXSA9PSAnXFwnICYmIGkgKyAxIDwgcy5MZW5ndGgpCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgaSsrOwogICAgICAgICAgICAgICAgICAgIGNoYXIgZSA9IHNbaV07CiAgICAgICAgICAgICAgICAgICAgaWYgKGUgPT0gJ24nKSBzYi5BcHBlbmQoJ1xuJyk7CiAgICAgICAgICAgICAgICAgICAgZWxzZSBpZiAoZSA9PSAndCcpIHNiLkFwcGVuZCgnXHQnKTsKICAgICAgICAgICAgICAgICAgICBlbHNlIGlmIChlID09ICdyJykgc2IuQXBwZW5kKCdccicpOwogICAgICAgICAgICAgICAgICAgIGVsc2Ugc2IuQXBwZW5kKGUpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgZWxzZSBzYi5BcHBlbmQoc1tpXSk7CiAgICAgICAgICAgICAgICBpKys7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgaSsrOwogICAgICAgICAgICByZXR1cm4gc2IuVG9TdHJpbmcoKTsKICAgICAgICB9CgogICAgICAgIHN0YXRpYyBzdHJpbmcgUmVhZEJhcmUoc3RyaW5nIHMsIHJlZiBpbnQgaSkKICAgICAgICB7CiAgICAgICAgICAgIGludCBzdGFydCA9IGk7CiAgICAgICAgICAgIHdoaWxlIChpIDwgcy5MZW5ndGggJiYgc1tpXSAhPSAnLCcgJiYgc1tpXSAhPSAnfScgJiYgc1tpXSAhPSAnXScgJiYgIWNoYXIuSXNXaGl0ZVNwYWNlKHNbaV0pKSBpKys7CiAgICAgICAgICAgIHJldHVybiBzLlN1YnN0cmluZyhzdGFydCwgaSAtIHN0YXJ0KS5UcmltKCk7CiAgICAgICAgfQoKICAgICAgICBzdGF0aWMgc3RyaW5nIFJlYWRBcnJheVJhdyhzdHJpbmcgcywgcmVmIGludCBpKQogICAgICAgIHsKICAgICAgICAgICAgaW50IHN0YXJ0ID0gaTsKICAgICAgICAgICAgaW50IGRlcHRoID0gMDsKICAgICAgICAgICAgd2hpbGUgKGkgPCBzLkxlbmd0aCkKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgaWYgKHNbaV0gPT0gJ1snKSBkZXB0aCsrOwogICAgICAgICAgICAgICAgZWxzZSBpZiAoc1tpXSA9PSAnXScpIHsgZGVwdGgtLTsgaWYgKGRlcHRoID09IDApIHsgaSsrOyBicmVhazsgfSB9CiAgICAgICAgICAgICAgICBpKys7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgcmV0dXJuIHMuU3Vic3RyaW5nKHN0YXJ0LCBNYXRoLk1pbihpLCBzLkxlbmd0aCkgLSBzdGFydCk7CiAgICAgICAgfQogICAgfQp9Cg==
+using System;
+using System.Collections.Generic;
+using System.Globalization;
+using System.IO;
+using System.Text;
+
+namespace MouseMeter
+{
+    /// <summary>Device classes we can read batteries from.</summary>
+    public static class DeviceKind
+    {
+        public const string Mouse = "mouse";
+        public const string Keyboard = "keyboard";
+        public const string Headset = "headset";
+
+        public static readonly string[] All = new string[] { Mouse, Keyboard, Headset };
+
+        public static string Label(string kind)
+        {
+            if (kind == Keyboard) return "键盘";
+            if (kind == Headset) return "耳机";
+            return "鼠标";
+        }
+
+        public static bool IsKnown(string kind) { return Array.IndexOf(All, kind) >= 0; }
+
+        /// <summary>A device that never reported a level still gets a class, so the badge must not default to "鼠标".</summary>
+        public static string LabelOrEmpty(string kind)
+        {
+            return IsKnown(kind) ? Label(kind) : "";
+        }
+    }
+
+    /// <summary>
+    /// Persistent preferences. Serialised by a tiny hand written JSON reader/writer so the
+    /// app stays dependency free (no System.Web.Extensions, no Newtonsoft).
+    /// </summary>
+    public class Settings
+    {
+        // ---- polling ----
+        public int IntervalSec = 60;
+        public int LowThreshold = 20;
+        public bool NotifyLow = true;
+        public bool AdaptivePolling = true;
+        public bool StartMinimized = true;
+
+        // ---- sources ----
+        public bool UseHid = true;             // proprietary dongle protocol (mouse)
+        public bool UseBle = true;             // standard BLE battery over the HID stack
+        public bool UsePnp = true;             // generic Windows battery (HFP headset, BTHENUM/HID)
+        public bool ShowPeripheralBatteries = true;  // fall back to Windows' own view for anything we cannot decode
+        public List<string> ReceiverIds = new List<string>(new string[] {
+            "0BDA:4762",   // Realtek 4K dongle (A5 Ultra, verified)
+            "2E3C:C365",   // A5 Ultra alternate dongle id
+        });
+
+        // ---- desktop widget ----
+        public bool HudEnabled = true;
+        public int HudX = -1;
+        public int HudY = -1;
+        public int HudOpacity = 96;      // 55..100
+        public int HudScale = 100;       // 80..150
+        public string Theme = "system";  // settings window: system | light | dark
+        public string HudTheme = "dark"; // desktop widget: system | light | dark
+
+        // ---- shell ----
+        public bool StartWithWindows = true;
+        public bool CheckUpdates = false;
+
+        public static string Dir
+        {
+            get
+            {
+                string d = Path.Combine(
+                    Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "MouseMeter");
+                Directory.CreateDirectory(d);
+                return d;
+            }
+        }
+
+        public static string FilePath { get { return Path.Combine(Dir, "settings.json"); } }
+
+        public static Settings Load()
+        {
+            var s = new Settings();
+            try
+            {
+                if (!File.Exists(FilePath)) return s;
+                var map = MiniJson.ParseObject(File.ReadAllText(FilePath, Encoding.UTF8));
+
+                string v;
+                if (map.TryGetValue("intervalSec", out v)) { int n; if (int.TryParse(v, out n)) s.IntervalSec = Clamp(n, 10, 3600); }
+                if (map.TryGetValue("lowThreshold", out v)) { int n; if (int.TryParse(v, out n)) s.LowThreshold = Clamp(n, 5, 60); }
+                if (map.TryGetValue("notifyLow", out v)) s.NotifyLow = v == "true";
+                if (map.TryGetValue("adaptivePolling", out v)) s.AdaptivePolling = v == "true";
+                if (map.TryGetValue("startMinimized", out v)) s.StartMinimized = v == "true";
+                if (map.TryGetValue("useHid", out v)) s.UseHid = v == "true";
+                if (map.TryGetValue("useBle", out v)) s.UseBle = v == "true";
+                if (map.TryGetValue("usePnp", out v)) s.UsePnp = v == "true";
+                if (map.TryGetValue("showPeripheralBatteries", out v)) s.ShowPeripheralBatteries = v == "true";
+                if (map.TryGetValue("hudEnabled", out v)) s.HudEnabled = v == "true";
+                if (map.TryGetValue("hudX", out v)) { int n; if (int.TryParse(v, out n)) s.HudX = n; }
+                if (map.TryGetValue("hudY", out v)) { int n; if (int.TryParse(v, out n)) s.HudY = n; }
+                if (map.TryGetValue("hudOpacity", out v)) { int n; if (int.TryParse(v, out n)) s.HudOpacity = Clamp(n, 55, 100); }
+                if (map.TryGetValue("hudScale", out v)) { int n; if (int.TryParse(v, out n)) s.HudScale = Clamp(n, 80, 150); }
+                if (map.TryGetValue("hudTheme", out v) && (v == "dark" || v == "light" || v == "system")) s.HudTheme = v;
+                if (map.TryGetValue("theme", out v) && (v == "dark" || v == "light" || v == "system")) s.Theme = v;
+                if (map.TryGetValue("startWithWindows", out v)) s.StartWithWindows = v == "true";
+                if (map.TryGetValue("receiverIds", out v))
+                {
+                    var ids = MiniJson.ParseArray(v);
+                    if (ids.Count > 0) s.ReceiverIds = ids;
+                }
+            }
+            catch (Exception ex) { Log.Warn("settings load failed, using defaults: " + ex.Message); }
+            return s;
+        }
+
+        public Settings Clone()
+        {
+            var c = (Settings)MemberwiseClone();
+            c.ReceiverIds = new List<string>(ReceiverIds);
+            return c;
+        }
+
+        public void Save()
+        {
+            var sb = new StringBuilder();
+            sb.AppendLine("{");
+            sb.AppendLine("  \"intervalSec\": " + IntervalSec + ",");
+            sb.AppendLine("  \"lowThreshold\": " + LowThreshold + ",");
+            sb.AppendLine("  \"notifyLow\": " + B(NotifyLow) + ",");
+            sb.AppendLine("  \"adaptivePolling\": " + B(AdaptivePolling) + ",");
+            sb.AppendLine("  \"startMinimized\": " + B(StartMinimized) + ",");
+            sb.AppendLine("  \"useHid\": " + B(UseHid) + ",");
+            sb.AppendLine("  \"useBle\": " + B(UseBle) + ",");
+            sb.AppendLine("  \"usePnp\": " + B(UsePnp) + ",");
+            sb.AppendLine("  \"showPeripheralBatteries\": " + B(ShowPeripheralBatteries) + ",");
+            sb.AppendLine("  \"hudEnabled\": " + B(HudEnabled) + ",");
+            sb.AppendLine("  \"hudX\": " + HudX + ",");
+            sb.AppendLine("  \"hudY\": " + HudY + ",");
+            sb.AppendLine("  \"hudOpacity\": " + HudOpacity + ",");
+            sb.AppendLine("  \"hudScale\": " + HudScale + ",");
+            sb.AppendLine("  \"theme\": " + MiniJson.Str(Theme) + ",");
+            sb.AppendLine("  \"hudTheme\": " + MiniJson.Str(HudTheme) + ",");
+            sb.AppendLine("  \"startWithWindows\": " + B(StartWithWindows) + ",");
+            sb.AppendLine("  \"receiverIds\": " + MiniJson.Array(ReceiverIds));
+            sb.AppendLine("}");
+            try { File.WriteAllText(FilePath, sb.ToString(), new UTF8Encoding(false)); }
+            catch (Exception ex) { Log.Warn("settings save failed: " + ex.Message); }
+        }
+
+        static string B(bool v) { return v ? "true" : "false"; }
+        static int Clamp(int v, int lo, int hi) { return v < lo ? lo : (v > hi ? hi : v); }
+    }
+
+    /// <summary>Just enough JSON for a flat settings object.</summary>
+    static class MiniJson
+    {
+        public static Dictionary<string, string> ParseObject(string text)
+        {
+            var map = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase);
+            if (string.IsNullOrEmpty(text)) return map;
+            int i = text.IndexOf('{');
+            if (i < 0) return map;
+            i++;
+            int guard = 0;
+            while (i < text.Length && guard++ < 100000)
+            {
+                SkipWs(text, ref i);
+                if (i >= text.Length || text[i] == '}') break;
+                if (text[i] == ',') { i++; continue; }   // tolerate trailing / doubled commas
+                string key = ReadString(text, ref i);
+                SkipWs(text, ref i);
+                if (i < text.Length && text[i] == ':') i++;
+                SkipWs(text, ref i);
+                string value;
+                if (i < text.Length && text[i] == '[') value = ReadArrayRaw(text, ref i);
+                else if (i < text.Length && text[i] == '"') value = ReadString(text, ref i);
+                else value = ReadBare(text, ref i);
+                if (key != null && key.Length > 0) map[key] = value;
+                SkipWs(text, ref i);
+                if (i < text.Length && text[i] == ',') i++;
+            }
+            return map;
+        }
+
+        public static List<string> ParseArray(string raw)
+        {
+            var list = new List<string>();
+            if (string.IsNullOrEmpty(raw)) return list;
+            int i = 0;
+            SkipWs(raw, ref i);
+            if (i < raw.Length && raw[i] == '[') i++;
+            while (i < raw.Length)
+            {
+                SkipWs(raw, ref i);
+                if (i >= raw.Length || raw[i] == ']') break;
+                string v = (raw[i] == '"') ? ReadString(raw, ref i) : ReadBare(raw, ref i);
+                if (!string.IsNullOrEmpty(v)) list.Add(v);
+                SkipWs(raw, ref i);
+                if (i < raw.Length && raw[i] == ',') i++;
+            }
+            return list;
+        }
+
+        public static string Str(string s)
+        {
+            var sb = new StringBuilder("\"");
+            foreach (char c in s ?? "")
+            {
+                if (c == '"' || c == '\\') sb.Append('\\').Append(c);
+                else if (c == '\n') sb.Append("\\n");
+                else if (c < ' ') sb.Append(' ');
+                else sb.Append(c);
+            }
+            return sb.Append('"').ToString();
+        }
+
+        public static string Array(List<string> items)
+        {
+            var sb = new StringBuilder("[");
+            for (int i = 0; i < items.Count; i++)
+            {
+                if (i > 0) sb.Append(", ");
+                sb.Append(Str(items[i]));
+            }
+            return sb.Append(']').ToString();
+        }
+
+        static void SkipWs(string s, ref int i)
+        {
+            while (i < s.Length && char.IsWhiteSpace(s[i])) i++;
+        }
+
+        static string ReadString(string s, ref int i)
+        {
+            if (i >= s.Length || s[i] != '"') return "";
+            i++;
+            var sb = new StringBuilder();
+            while (i < s.Length && s[i] != '"')
+            {
+                if (s[i] == '\\' && i + 1 < s.Length)
+                {
+                    i++;
+                    char e = s[i];
+                    if (e == 'n') sb.Append('\n');
+                    else if (e == 't') sb.Append('\t');
+                    else if (e == 'r') sb.Append('\r');
+                    else sb.Append(e);
+                }
+                else sb.Append(s[i]);
+                i++;
+            }
+            i++;
+            return sb.ToString();
+        }
+
+        static string ReadBare(string s, ref int i)
+        {
+            int start = i;
+            while (i < s.Length && s[i] != ',' && s[i] != '}' && s[i] != ']' && !char.IsWhiteSpace(s[i])) i++;
+            return s.Substring(start, i - start).Trim();
+        }
+
+        static string ReadArrayRaw(string s, ref int i)
+        {
+            int start = i;
+            int depth = 0;
+            while (i < s.Length)
+            {
+                if (s[i] == '[') depth++;
+                else if (s[i] == ']') { depth--; if (depth == 0) { i++; break; } }
+                i++;
+            }
+            return s.Substring(start, Math.Min(i, s.Length) - start);
+        }
+    }
+}

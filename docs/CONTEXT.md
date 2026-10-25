@@ -1,1 +1,209 @@
-IyBDT05URVhUIOKAlCDog4zmma/jgIHlhrPnrZbkuI7ouKnlnZHorrDlvZUKCui/meS7veaWh+aho+ino+mHiuOAjCoq5Li65LuA5LmI5piv6L+Z5qC3KirjgI3jgILku6PnoIHmnKzouqvog73lkYror4nkvaDlgZrkuobku4DkuYjvvIzov5nph4zlkYror4nkvaDkuLrku4DkuYjjgIHku6Xlj4rlk6rkupvnnIvotbfmnaXlpYfmgKrnmoTlnLDmlrnlhbblrp7mmK/mnInmhI/kuLrkuYvjgIIKCi0tLQoKIyMgMS4g6ZyA5rGC55qE55Sx5p2lCgrnlKjmiLfnmoTljp/or53vvJoKCj4g5oiR5Y+R546w6KaB5p+l55yL6byg5qCH55S16YeP5LiA5a6a6KaB6L+b5YWl572R6aG16amx5Yqo77yM5oiR5biM5pyb5Zyo5qGM6Z2i5pu05L6/5o2355qE5pi+56S655S16YeP44CCCgrlhbPplK7kv6Hmga/vvJoqKuOAjOW/hemhu+i/m+e9kemhtempseWKqOaJjeiDveeci+eUtemHj+OAjSoq44CC6L+Z5Y+l6K+d5pys6Lqr5bCx5pqX56S65LqG5Y6f5Zug4oCU4oCU572R6aG16amx5Yqo77yIV2ViSElE77yJ5byA552A5pe25LyaKirni6zljaDmjqXmlLblmajnmoQgSElEIOmAmumBkyoq77yM5omA5Lul5L2g5Y+q5pyJ5omT5byA5a6D5omN55yL5b6X5Yiw77yM5YWz5o6J5bCx5rKh5b6X55yL44CC56ys5LiJ5pa55bel5YW35oOz6K+777yM5Y+N6ICM6KaB5rGC5YWI5oqK572R6aG16amx5Yqo5YWz5o6J44CCCgrnlKjmiLfnrKzkuozkuKropoHmsYLvvIjlkI7nu63ov73liqDvvInvvJoqKuOAjOaIkeS4quS6uuWAvuWQkeiLueaenOeahOeugOa0geWuoee+juOAjSoqIOKAlOKAlCDov5nmnaHotK/nqb/kuobmiYDmnInop4bop4nlhrPnrZbvvIzmmK/noazpnIDmsYLogIzkuI3mmK/plKbkuIrmt7voirHjgIIKCi0tLQoKIyMgMi4g56Gs5Lu25LqL5a6e77yI5a6e5rWL77yM6Z2e5o6o5rWL77yJCgp8IOmhuSB8IOWAvCB8CnwtLS18LS0tfAp8IOm8oOaghyB8IOi/iOS7jiBNQ0hPU0UgKipBNSBVbHRyYSoq77yIUEFXMzM5Ne+8jOS4ieaooe+8jOWHuuWOgumFjSBOQU5PIDRLIOaOpeaUtuWZqO+8iSB8CnwgMi40RyDmjqXmlLblmaggfCBgVklEXzBCREEmUElEXzQ3NjJg77yIUmVhbHRlayDlrpjmlrkgVklE77yM5aSN5ZCIIEhJRO+8jOaOpeWPoyBtaV8wMCB+IG1pXzAy77yJIHwKfCDlpIfnlKjmjqXmlLblmaggSUQgfCBgVklEXzJFM0MmUElEX0MzNjVg77yI5ZCM5pa55qGI55qE5Y+m5LiA5LiqIElE77yM5Zyo55m95ZCN5Y2V6YeM77yJIHwKfCDok53niZkgfCBNQUMgYEY1Q0UzNDBDRTFDQmDvvIzorr7lpIflkI3kuIrmiqXkuLogYEE1IHVsdHJhYO+8jOaatOmcsuagh+WHhiBCTEUg55S15rGg5pyN5YqhIGAweDE4MEZgIHwKfCDmnInnlKjpm4blkIggfCBVc2FnZSBQYWdlIGAweEZGMDFgIC8gVXNhZ2UgYDB4MDAwMWDvvIwqKkZlYXR1cmVSZXBvcnRCeXRlTGVuZ3RoID0gNjUqKiB8Cnwg57O757ufIHwgV2luZG93cyAxMSAyM0gy77yMRFBJIDEyNSXvvIzns7vnu5/kuLvpopgqKua1heiJsioqIHwKCueUqOaIt+WunumZheS9v+eUqCAqKjIuNEcg5o6l5pS25ZmoKirvvIjok53niZnpk77ot6/lvZPml7bmmK/mlq3nmoTvvInjgIIKCi0tLQoKIyMgMy4g5Li65LuA5LmI5rKh55So546w5oiQ5byA5rqQ5bel5YW3CgrlhYjosIPnoJTkuoYgR2l0SHVi77yM5YCZ6YCJ5Zub5Liq77yaCgp8IOmhueebriB8IOe7k+iuuiB8CnwtLS18LS0tfAp8ICoqSGFsb0JhdHRlcnkqKu+8iDY2OOKYhe+8jE1JVO+8jFB5dGhvbu+8iSB8IOacgOaOpei/ke+8jDMwKyDlk4HniYzvvIzkvYYqKuiupOS4jeWHuui/meWPsOiuvuWkhyoqIHwKfCBTd2FybGV4QmF0dGVyee+8iEMj77yM5Y2VIGV4ZSAzMDBLQu+8iSB8IOWPqui+k+WHuiBgc3RhdHVzLmpzb25g77yM5pegIFVJIHwKfCB2aWdpbC13YXR077yINjDimIXvvIxXaW5VSTPvvIzkuK3mlofvvIkgfCDmnInmoYzpnaLlsI/nu4Tku7bvvIzov4jku47lj6rpqozor4Hov4cgRzg3IHwKfCBMR1NUcmF5QmF0dGVyeSB8IOe9l+aKgOS4k+eUqCB8Cgrlrp7pmYXoo4XkuoYgSGFsb0JhdHRlcnkgdjEuMTUuMO+8jOe7k+aenOaJmOebmOaYvuekuiAqKk5vIGRldmljZXMgZm91bmQqKuOAguafpeaXpeW/l+WumuS9jeWIsCoq5Lik5Liq54us56uL5Y6f5ZugKirvvJoKCioq5Y6f5Zug5LiA77ya6JOd54mZ6K+75pWw6KKr5Yik5a6a5Li644CM5pyq6L+e5o6l44CN6ICM6ZqQ6JePKioKCmBgYApbQmx1ZXRvb3RoXSBBNSB1bHRyYSAoRjVDRTM0MENFMUNCKTogNjglIGNvbm5lY3RlZDogV2luUlQ9RmFsc2UgUG5QPUZhbHNlIC0+IGhpZGRlbiBbV2luUlRdLCBraW5kOiBtb3VzZQpgYGAKCueUtemHjyA2OCUg6K+75Yiw5LqG77yM5L2GIFdpblJUIOWSjCBQblAg6YO95oql5pyq6L+e5o6l77yIUmVhbHRlayDok53niZnmoIjlr7kgQkxFIOm8oOagh+eahOW4uOingeivr+aKpe+8ieOAgua6kOeggemAu+i+ke+8mgoKYGBgcHl0aG9uCmlmIGdbImFlcF9jb25uIl0gaXMgbm90IE5vbmU6CiAgICBzaG93biwgc3JjID0gZ1siYWVwX2Nvbm4iXSwgIldpblJUIiAgICMgRmFsc2Ug5bCx5peg5p2h5Lu26ZqQ6JePCmBgYAoK5rKh5pyJ5Lu75L2V6YWN572u6aG56IO957uV6L+H77yI6K+V6L+HIGBrZWVwX2Rpc2Nvbm5lY3RlZGDvvIzlroPlj6rnrqHjgIzmjonnur/nmoTmrovnlZnorr7lpIfjgI3vvInjgIIK6ICM55SoIFdpblJUIOaOoumSiOWunua1iyBgQmx1ZXRvb3RoTEVEZXZpY2UuQ29ubmVjdGlvblN0YXR1cyA9PSBEaXNjb25uZWN0ZWRg77yM6K+05piOKirpgqPkuKogNjglIOaYryBXaW5kb3dzIOe8k+WtmOWAvO+8jOmTvui3r+aXqeWwseaWreS6hioq4oCU4oCU55So5oi35b2T5pe255So55qE5bCx5pivIDIuNEfjgIIKCioq5Y6f5Zug5LqM77yI5qC55Zug77yJ77yaVklEIOS4jeWMuemFjSoqCgpIYWxvQmF0dGVyeSDnmoTov4jku47ljY/orq7lj6rljLnphY0gYDB4MjAyMyAvIDB4NTI1MyAvIDB4MzgzN2Ag6L+Z5LiJ5LiqIFZJRO+8jOiAjOi/meWPsOaOpeaUtuWZqOaYryBgMHgwQkRBYO+8iFJlYWx0ZWsg5a6Y5pa5IFZJRO+8ieOAggoqKuWQjOS4gOS4qiBSZWFsdGVrIOaWueahiO+8jFZJRCDkuI3lkIwg4oaSIOebtOaOpei3s+i/hyDihpIg5rC46L+cIE5vIGRldmljZXMgZm91bmTjgIIqKgoKKirnu5PorroqKu+8muS4iua4uOaVkeS4jeS6hu+8jOWPquiDveiHquW3seWGmeOAguS9huWNj+iuruaYr+mAmueUqOeahO+8jOmAhuWQkeS4gOasoeWNs+WPr+KAlOKAlOivpuingSBgUFJPVE9DT0wubWRg44CCCgotLS0KCiMjIDQuIOaKgOacr+mAieWei+eahOWPluiIjemTvgoK5oyJ6aG65bqP6K+V6L+H44CB5ZCm5o6J55qE5pa55qGI77yaCgoxLiAqKlB5dGhvbiArIFB5U2lkZTYvUXQqKiDigJTigJQg5oOz5YGa5Y6f55Sf56qX5Y+j5ZKM55yf5q+b546755KD44CCKirlkKblhrMqKu+8mmBwaXAgaW5zdGFsbGAg5LiN6YCa77yM5LiU6K+lIFB5dGhvbiDlj5HooYzniYjmsqHmnIkgdGtpbnRlcuOAguW9u+W6lei1sOS4jemAmuOAggoyLiAqKkMjICsgYGNzYy5leGVgIOebtOaOpee8liBleGUqKiDigJTigJQg5pyA5bmy5YeA44CCKirlkKblhrMqKu+8mue8luivkeWZqOWSjCBgQWRkLVR5cGUgLU91dHB1dEFzc2VtYmx5YCDpg73ooqvlronlhajnrZbnlaXmi6bmiKrjgIIKMy4gKipQb3dlclNoZWxsIOiEmuacrCArIFdpbkZvcm1z77yIdjHvvIkqKiDigJTigJQg6IO955So77yM5L2G5q+P5qyh5ZCv5YqoIGBBZGQtVHlwZWAg6KaB562JIDEwfjE1IOenku+8jOS4lOinhuinieS4iumZkOaegeS9juOAgioq5bey5bqf5byD77yM55WZ5ZyoIGBsZWdhY3kvYCDkvpvlj4LogIPjgIIqKgo0LiAqKlBvd2VyU2hlbGwg5a6/5Li7ICsgQyMg5rqQ56CBICsgQ29kZURPTSDnvJbor5HnvJPlrZjvvIh2Mu+8jOW9k+WJje+8iSoqIOKAlOKAlCDinIUg6YeH57qz44CCCgp2MiDnmoTlhbPplK7mtJ7lr5/vvJoqKlBvd2VyU2hlbGwg5Y+q5piv44CM57yW6K+R5ZmoICsg5Yqg6L295Zmo44CN77yM55yf5q2j55qE5bqU55So5piv57qvIEMjKirjgIIKYENvbXBpbGVyLnBzMWAg5oqKIDEwIOS4qiBgLmNzYCDlkIjlubbmiJDkuIDkuKrnvJbor5HljZXlhYPvvIzmjInlhoXlrrkgU0hBMjU2IOWJjSAxNiDkvY3nvJPlrZggRExM44CCCuS6juaYr++8muaUueS7o+eggSDihpIg6Ieq5Yqo6YeN57yW77yb5LiN5pS5IOKGkiDnm7TmjqXliqDovb3nvJPlrZjvvIwqKjE0IG1zKirjgIIKCui/meaYr+W9k+aXtueOr+Wig+S4i+WUr+S4gOWQjOaXtua7oei2s+OAjOeOsOS7oyBDIyDlt6XnqIvjgI3lkozjgIwwIOS+nei1luWIhuWPkeOAjeeahOi3r+W+hOOAggoKLS0tCgojIyA1LiDphY3nva7lrZfmrrUKCmAlQVBQREFUQSVcTW91c2VNZXRlclxzZXR0aW5ncy5qc29uYO+8mgoKfCDlrZfmrrUgfCDpu5jorqQgfCDojIPlm7QgfCDor7TmmI4gfAp8LS0tfC0tLXwtLS18LS0tfAp8IGBkZXZpY2VOYW1lYCB8IGAiQTUgVWx0cmEiYCB8IOKAlCB8IOWFnOW6leaYvuekuuWQje+8iOWunumZheS8mOWFiOeUqCBISUQg5LiK5oql55qEIFByb2R1Y3RTdHJpbmfvvIkgfAp8IGBpbnRlcnZhbFNlY2AgfCA2MCB8IDEwfjM2MDAgfCDova7or6Lpl7TpmpTvvIjnp5LvvIkgfAp8IGBsb3dUaHJlc2hvbGRgIHwgMjAgfCA1fjYwIHwg5L2O55S16YeP6ZiI5YC877yM5Yiw54K55Zu+5qCH5Y+Y6ImyICsg5by56YCa55+lIHwKfCBgbm90aWZ5TG93YCB8IHRydWUgfCDigJQgfCDmmK/lkKblvLnkvY7nlLXph4/pgJrnn6UgfAp8IGBodWRFbmFibGVkYCB8IHRydWUgfCDigJQgfCDmmK/lkKbmmL7npLrmoYzpnaLmjILku7YgfAp8IGBodWRYYCAvIGBodWRZYCB8IC0xIHwg4oCUIHwg5oyC5Lu25L2N572u77ybYC0xYCDooajnpLrjgIzpppbmrKHoh6rliqjmkYbliLDlj7PkuIvop5LjgI0gfAp8IGBodWRPcGFjaXR5YCB8IDk2IHwgNTV+MTAwIHwg5oyC5Lu25LiN6YCP5piO5bqmIHwKfCBgaHVkU2NhbGVgIHwgMTAwIHwgODB+MTUwIHwg5oyC5Lu257yp5pS+77yI55u45a+5IDE3OMOXMTEyIOmAu+i+keWwuuWvuO+8iSB8CnwgYHRoZW1lYCB8IGAic3lzdGVtImAgfCBzeXN0ZW0vbGlnaHQvZGFyayB8ICoq6K6+572u56qX5Y+jKirkuLvpopggfAp8IGBodWRUaGVtZWAgfCBgImRhcmsiYCB8IHN5c3RlbS9saWdodC9kYXJrIHwgKirmjILku7YqKuS4u+mimO+8jOm7mOiupOW8uuWItua3seiJsu+8iOacieWOn+WboO+8jOingeS4i++8iSB8CnwgYHN0YXJ0V2l0aFdpbmRvd3NgIHwgdHJ1ZSB8IOKAlCB8IOW8gOacuuiHquWQr++8iOWGmSBgSEtDVVwuLi5cUnVuYO+8iSB8CnwgYHJlY2VpdmVySWRzYCB8IGBbIjBCREE6NDc2MiIsIjJFM0M6QzM2NSJdYCB8IOKAlCB8IOaOpeaUtuWZqCBWSUQ6UElEIOeZveWQjeWNlSB8CgoqKuS4uuS7gOS5iOaMguS7tum7mOiupOa3seiJsuiAjOiuvue9rueql+WPo+i3n+maj+ezu+e7n++8nyoqCuivlei/h+iuqeaMguS7tuS5n+i3n+maj+ezu+e7n++8iOacrOacuuaYr+a1heiJsu+8ieOAgue7k+aenOeZveiJsuWNoeeJh+WOi+WcqOeZveW6lee9kemhteS4iuWHoOS5juiejei/m+WOu++8jOi+ueeVjOa2iOWkse+8jOaVsOWtl+eci+S4jea4heOAggrmt7HoibLljaHniYflnKgqKuS7u+S9lSoq6IOM5pmv5LiK6YO95riF5pmw4oCU4oCU6L+Z5omN5pivIGlPUyDlsI/nu4Tku7blnKjmoYzpnaLkuIrnmoTnnJ/lrp7op4LmhJ/jgILmiYDku6XkuKTogIXnrZbnlaXmlYXmhI/kuI3kuIDoh7TjgIIKCi0tLQoKIyMgNi4g55So5oi35YGP5aW977yI6YeN6KaB77yJCgoxLiAqKuiLueaenOaegeeugOWuoee+jioq77yM5piO56Gu54K55ZCN44CC6K6o5Y6M6KOF6aWw5oCn5YWD57Sg44CB5riQ5Y+Y5aCG56CM44CB6YeN6Zi05b2x44CCCjIuIOimgSoq5qGM6Z2i5LiK55u05o6l55yLKirvvIzkuI3mmK/jgIzngrnlvIDmiY3nnIvjgI3jgILov5nmmK/pnIDmsYLotbfngrnvvIzliKvmiormjILku7blgZrmiJDpnIDopoHmgqzlgZzmiY3mmL7npLrnmoTjgIIKMy4g5Lit5paH55WM6Z2i44CCCjQuIOezu+e7n+aYryoq5rWF6Imy5Li76aKYKirjgIExMjUlIERQSeOAggo1LiDlr7njgIzog73nlKjjgI3lkozjgIzlpb3nnIvjgI3opoHmsYLpg73pq5jigJTigJTnrKzkuIDniYjlip/og73ot5HpgJrlkI7vvIznlKjmiLfnmoTljp/or53mmK/jgIzlt7LmnInnmoTlip/og73lt7Lnu4/lrozlloTvvIzkvYbmmK/lnKjlrqHnvo7mlrnpnaLkuI3otrPjgI3jgIIKCi0tLQoKIyMgNy4g6Lip5Z2R5a6e5b2VCgrmjInlj5HnlJ/pobrluo/vvIzmr4/mnaHpg73lr7nlupTku6PnoIHph4zkuIDlpITnnIvotbfmnaXlj6/og73jgIzlpJrkvZnjgI3nmoTlnLDmlrnjgIIKCiMjIyA3LjEg5Y2P6K6u5o6i5rWL6Zi25q61Cgp8IOeOsOixoSB8IOecn+WboCB8IOeOsOWcqOeahOWkhOeQhiB8CnwtLS18LS0tfC0tLXwKfCDmnprkuL7kuI3liLAgYDB4RkZGRmAgY29sbGVjdGlvbiB8IOi/meWPsOaOpeaUtuWZqOeahCB2ZW5kb3Ig6ZuG5ZCI5pivIGAweEZGMDFgIHwgYEZpbmRDb2xsZWN0aW9uYCDlkIzml7borqQgYEZGMDEvRkZGRi9GRkEwYCB8CnwgYFNldEZlYXR1cmVgIOaIkOWKn+S9huivu+WbnuWksei0pSB8IOivu+S5i+WJjeayoeaKiiByZXBvcnQgSUQg5aGe6L+bIGBidWZbMF1gIHwgYEhpZC5HZXRGZWF0dXJlKGgsIGxlbiwgcmVwb3J0SWQpYCDlvLrliLbpooTnva4gfAp8IOavj+asoeivu+mDvSBgZXJyPTg3YCB8IOWGmeWSjOivu+eUqOS6hioq5Lik5Liq5LiN5ZCM5Y+l5p+EKiogfCDljZXkuKogYHVzaW5nYCDlhoXlrozmiJAgd3JpdGXihpJyZWFkIHwKfCAxMCDmrKHph4wgOCDmrKEgYGVycj0zMWAgfCDpvKDmoIfkvJHnnKDvvIzmjqXmlLblmajkuI3loavnvJPlhrLljLogfCA4IOasoemHjeivlSArIHN0YWxlIOacuuWItiB8Cnwg5Lit5paH5rOo6YeK55qEIC5wczEg5LiA6LeR5bCx6K+t5rOV6ZSZIHwgUG93ZXJTaGVsbCA1LjEg5oyJIEdCSyDor7vml6AgQk9NIOaWh+S7tiB8IOWFqOmDqCBVVEYtOCB3aXRoIEJPTSB8CgojIyMgNy4yIFVJIOmYtuautQoKfCDnjrDosaEgfCDnnJ/lm6AgfCDnjrDlnKjnmoTlpITnkIYgfAp8LS0tfC0tLXwtLS18Cnwg5oyC5Lu25YaF5a655rqi5Ye656qX5Y+jIHwgRFBJIOe8qeaUvuS6huS4pOasoe+8iOeql+WPo+WwuuWvuCDDlyDlrZfkvZPlkIToh6rkuZjkuoYgYFNmYO+8iSB8IOmAu+i+keWwuuWvuCDDlyBgU2ZgIOWPqueul+eql+WPo++8m+Wtl+S9k+eUqCBwb2ludCDnlLEgV2luRm9ybXMg6Ieq5Yqo57yp5pS+IHwKfCDmiZjnm5jmlbDlrZfooqvoo4HmjonkuIDljYogfCBgRHJhd1N0cmluZ2Ag55qE5o6S54mI55+p5b2i6auY5bqm5LiN5aSfIHwg5pS55oiQIGBGaXRGb250YCDpgJDnuqfpmY3lrZflj7cgKyBgTm9DbGlwYCB8Cnwg44CMMTAw44CN5oyk5oiQ5LiA5ZuiIC8g55m95a2X5Y6L5Lqu57u/55yL5LiN5riFIHwg5LiJ5L2N5pWw5a2X5a2X5Y+36L+H5aSn44CB5a+55q+U5bqm5LiN6LazIHwgYEZpdEZvbnRgIOe8qeWIsCA0Ljkg5Y+377yM6YWN5rex6Imy5a2XICsg5pa55b2i5bqVIHwKfCDorr7nva7nqpflj6PluIPlsYDlnKjlrp7ml7bnjq/looPph4zlgY/np7sgfCDnqpflj6MgRFBJIOivu+WIsCA5Nu+8jOWSjOWunumZhSAxMjUlIOS4jeS4gOiHtCB8IGBBcHBseVNjYWxlYCDnlKggYEdldERwaUZvcldpbmRvd2Ag6YeN5paw5Y+W77yM5bm25LqM5qyh5qCh5q2j5L2N572u6YG/5byA5Lu75Yqh5qCPIHwKfCDmjILku7bmsLjov5zmmL7npLrjgIzmnKrmo4DmtYvliLDorr7lpIfjgI0gfCDpppbmrKEgYFBvbGwoKWAg5piv5byC5q2l55qE77yM5q2k5pe2IGBTeW5jaHJvbml6YXRpb25Db250ZXh0LkN1cnJlbnRgIOi/mOaYryBudWxsIHwg5p6E6YCg5pe2KirlhYjlkIzmraXor7vkuIDmrKEqKu+8m+i3qOe6v+eoi+aUueeUqOmakOiXjyBgQ29udHJvbGAg55qEIGBCZWdpbkludm9rZWAgfAp8IOi/m+eoi+WQr+WKqOWQjumdmem7mOmAgOWHuiB8IOS4iuS4gOWunuS+i+WImuiiqyBraWxs77yMTXV0ZXgg6L+Y5rKh6YeK5pS+IHwg5ZCv5Yqo5YmN56Gu5L+d5pen6L+b56iL55yf55qE6YCA5Ye677yIYHJ1bi1oaWRkZW4udmJzYCDotbDni6znq4vov5vnqIvvvIzpo47pmankvY7vvIkgfAp8IOaIquWbvuaIquWIsOiBiuWkqeeql+WPo+iAjOS4jeaYr+ahjOmdoiB8IOebruagh+eql+WPo+iiq+WIq+eahOe9rumhtueql+WOi+S9jyB8IOaIquWbvuWJjSBgU2V0V2luZG93UG9zKEhXTkRfVE9QTU9TVClgIHwKCiMjIyA3LjMgdjMg5aSa6K6+5aSH5pS554mICgp8IOeOsOixoSB8IOecn+WboCB8IOeOsOWcqOeahOWkhOeQhiB8CnwtLS18LS0tfC0tLXwKfCDmjILku7bmoIfpopjlkoznrKzkuIDooYzpg73mmK/orr7lpIflkI0gfCDljZXorr7lpIfml7bmoIfpopjlj5YgYHJvd3NbMF0uRGV2aWNlTmFtZWDvvIzooYzlhoXlj4jnlLvkuobkuIDmrKEgfCDljZXorr7lpIfmoIfpopjmlLnjgIznlLXph4/jgI3vvIzlpJrorr7lpIfjgIxOIOS4quiuvuWkh+OAjSB8Cnwg44CMMjkl44CN55qEIGAlYCDnprvmlbDlrZflpKrov5wgfCDlpKfmlbDlrZfnlKggYEdlbmVyaWNUeXBvZ3JhcGhpY2Ag5rWL5a6977yM5a6954mI5a2X5b2i5Y+z55WZ55m96KKr566X6L+b5Y675LqGIHwgYCVgIOeahCB4IOS9jee9ruaJo+aOiSAxIOS4qumAu+i+kSBweCB8Cnwg44CMMTAwJeOAjemhtuWIsOi/m+W6puadoeWwveWktCB8IDI2IHB0IOWbuuWumuWtl+WPtyArIOS4ieS9jeaVsOWPqueUqCBgTnVtU2l6ZWAg5LiA5qyh6ZmN57qn5LiN5aSfIHwgYE51bUZpdFNpemUoKWAg5Lul6KGM5a695Li66aKE566X6L+t5Luj5pS25pWb77yM5LiL6ZmQIDEzIHB0IHwKfCDnm7jpgrvooYznmoQgYDclYCDlkowgYDEwMCVgIOW6lemDqOS4jem9kCB8IEdESSsg5Zyo5a2X5Y+35LiN5ZCM5L2G6aG26YOo5Z2Q5qCH55u45ZCM5pe277yM5Z+657q/5YGP56e75LiN5LiA6Ie0IHwg5pWw5a2X5pS55Li6KirmjInlupXlr7npvZAqKu+8muWFiOmHj+WbuuWumuWfuuWHhuWtl+WPt+eahOWtl+espuS4sumrmO+8jOWGjeWPjeaOqCB0b3AgfAp8IOmhteiEmuOAjDHigJMzIC8gNOOAjeiiq+WchuinkuWIh+aOiSB8IOaOkueJiOefqeW9oui0tOedgOWNoeeJh+W6lei+ue+8jOmrmCAxMCBweCDkuJTml6DkvZnph48gfCDlnKjpobXohJrluKblhoXlnoLnm7TlsYXkuK3vvIznlZkgNCBweCDlronlhajot50gfAp8IOOAjEE1IHVsdHJhIOm8oOagh+OAjeihjOWwvuWPiOWGmeOAjOm8oOagh+OAjSB8IOW+veagh+WPqueci+iuvuWkh+exu+WIq++8jOS4jeeci+WQjeWtl+aYr+WQpuW3suWQq+ivpeivjSB8IGBCYWRnZVJlZHVuZGFudCgpYCDmo4DmtYvlkI3lrZfku6XnsbvliKvor43nu5PlsL7ml7bpmpDol4/lvr3moIcgfAoKPiDov5nkupvkv67lpI3lhajlnKggYFByZXZpZXdSZW5kZXJlcmAg55qE56a757q/5riy5p+T6YeM5YWI55yL5riF5qWa5YaN5pS555qE44CC6aKE6KeI6LCD55So55qE5pivKirnlJ/kuqfnu5jliLbku6PnoIEqKgo+IO+8iGBSb3dQYWludGVyYCAvIGBUaGVtZWAgLyBgSWNvbkZhY3Rvcnlg77yJ77yM5omA5Lul6aKE6KeI5ZKM55yf5py657uT5p6c5LiA6Ie04oCU4oCU5pS5IFVJIOWJjeWFiOWHuuWbvu+8jAo+IOavlOadpeWbnuiuqeWvueaWueaIquWbvuW/q+W+l+WkmuOAggoKIyMjIDcuNCDkuIDkuKrlj43nm7Top4nnmoTngrkKCuOAjOivu+S4jeWIsOaVsOaNruOAjeWcqCoq5Zub56eNKirlrozlhajkuI3lkIznmoTljp/lm6DkuIvpg73kvJrlj5HnlJ/vvIznl4fnirbkuIDmqKHkuIDmoLfvvJoKCjEuIFZJRCDkuI3lnKjnmb3lkI3ljZUg4oaSIOaJvuS4jeWIsCBjb2xsZWN0aW9uCjIuIHJlcG9ydCBJRCDmsqHpooTnva4g4oaSIGBlcnI9ODdgCjMuIOm8oOagh+S8keecoCDihpIgYGVycj0zMWAKNC4g572R6aG16amx5Yqo5byA552AIOKGkiDpgJrpgZPooqvni6zljaAKCuaOkuafpemhuuW6j+W6lOivpeaYr++8mioq5YWI55yLIGBlcnJvci5sb2dg77yM5YaN55yL6K6+5aSH566h55CG5Zmo56Gu6K6k5o6l5pS25Zmo5Zyo5LiN5Zyo77yM5pyA5ZCO5omN5oCA55aR5Y2P6K6u44CCKioKCiMjIyA3LjUg5byA5Y+R5b6q546v77yIZGV2LmNtZO+8ieS4uuS7gOS5iOaYr+i/meS4quW9oueKtgoK6aG555uu5LiA55u05Zyo5pS577yM6ICM44CM5pS55LiA6KGMIOKGkiDlh7rljIUg4oaSIOmAgOWHuueoi+W6jyDihpIg5Y+M5Ye7IGV4ZeOAjei/meS4quW+queOr+avj+asoeimgSAxMCDnp5Lku6XkuIrvvIwK5YW25LitIDgg56eS5piv5Lq655qE5Yqo5L2c5LiN5piv5py65Zmo55qE5pe26Ze044CCYGRldi5jbWRgIOaKiuS6uueahOmDqOWIhuWOi+aIkOS4gOasoeWPjOWHu+OAggoK5Zub5Liq6K6+6K6h5Yaz5a6a77yM5q+P5LiA5Liq6YO95piv6KKr5Z2R5Ye65p2l55qE77yaCgp8IOWGs+WumiB8IOS4jei/meS5iOWBmuS8muaAjuagtyB8CnwtLS18LS0tfAp8ICoq5YWI57yW6K+R44CB5ZCO5YGc5pen6L+b56iLKiogfCDnvJbor5HlpLHotKXml7bml6fniYjmnKzlt7Lnu4/ooqvmnYDkuobvvIzkvaDlj6rog73lr7nnnYDkuIDooYzplJnor6/lj5HlkYbvvIzmsqHms5Xnu6fnu63nlKjnlYzpnaLosIPlj4LmlbAgfAp8ICoq5LyY6ZuF6YCA5Ye677yI5ZG95ZCN5LqL5Lu277yJ6ICM5LiN5pivIHRhc2traWxsKiogfCBgUXVpdCgpYCDph4znmoQgYF9jZmcuU2F2ZSgpYCDkuI3miafooYzvvIzliJrmi5blpb3nmoTmjILku7bkvY3nva7lkozosIPlpb3nmoTkuI3pgI/mmI7luqblhajkuKIgfAp8ICoq6L2u6K+i562J6ZSB6YeK5pS+77yM5LiN5piv5Zu65a6aIHNsZWVwKiogfCDlgaXlurflrp7kvosgNjAgbXMg5bCx6YCA5Ye677yM5Zu65a6a562JIDEuNSBzIOiuqeavj+asoemHjee8lumDveaFouS4gOWAje+8jOaJi+aEn+eri+WIu+WPmOmSnSB8CnwgKirlnKjmnKzov5vnqIvlhoUgTG9hZEZyb20g6ICM5LiN5piv6LW35a2Q6L+b56iLKiogfCDltKnkuoblj6rlianmiZjnm5jlm77moIfmtojlpLHvvIxgT25QYWludGAg6YeM55qE5byC5bi45rC46L+c55yL5LiN5YiwIHwKCumFjeWll+eahOS4pOS4quWBpeWjruaAp+aUueWKqO+8mgoKLSBgUXVpdCgpYCDliqDkuoYgYF9xdWl0dGluZ2Ag5bmC562J5qCH5b+X44CC55uR5ZCs57q/56iL44CB5omY55uY6I+c5Y2V44CBYERpc3Bvc2UoKWAg5Y+v6IO95Zyo5ZCM5LiA5q+r56eS6L+b5p2l77yMCiAg6ICMIGBOb3RpZnlJY29uLkRpc3Bvc2UoKWAg5LqM5qyh6LCD55So5Lya5oqb5byC5bi4IOKAlOKAlCDooajnjrDlh7rmnaXlsLHmmK/jgIzph43lkK/lkI7miqXkuobkuKogZmF0YWzvvIzkvYbmsqHltKnjgI3jgIIKLSBgQXV0b1N0YXJ0LklzRW5hYmxlZGAg5pS55Li6Kirmr5Tlr7nlrp7pmYXlkb3ku6QqKuiAjOS4jeWPquaYr+WIpOaWreWAvOWtmOWcqOOAguaXp+eJiOWGmeWFpeeahOaYrwogIGB3c2NyaXB0ICsgdmJzYO+8jOaUueaIkCBleGUg5ZCO5aaC5p6c5Y+q5Yik5pat5a2Y5Zyo5oCn77yM5byA5py66Ieq5ZCv5Lya5LiA55u05ZCv5Yqo5pen56iL5bqP44CCCgo+IOS4gOS4quWPquWcqCBMaW51eCDkuIrmiY3kvJrpgYfliLDnmoTlspTot6/vvJrlkb3lkI0gTXV0ZXgg5ZyoIC5ORVQgb24gTGludXgg5LiK55u05o6l5oqbCj4gYFBsYXRmb3JtTm90U3VwcG9ydGVkRXhjZXB0aW9uYOOAgmBJc011dGV4RnJlZSgpYCDlr7nov5nkuKrlvILluLjov5Tlm54gKip0cnVlKirvvIjop4bkuLrlt7Lph4rmlL7vvInvvIwKPiDlm6DkuLrjgIzmjqLmtYvkuI3kuobjgI3ml7borqnlvIDlj5HmtYHnqIvnu6fnu63vvIzmr5TljaHkvY8gMyDnp5LnrYnkuIDkuKrmsLjov5zkuI3kvJrph4rmlL7nmoTplIHopoHlpb3jgIIKPiDlr7nlupTnmoTot6jov5vnqIvmtYvor5XlnKjpnZ4gV2luZG93cyDkuIrkvJrmiZPljbAgc2tpcCDogIzkuI3mmK8gZmFpbOOAggoKLS0tCgojIyA4LiDlt7Lnu4/pqozor4Hov4fnmoTog73lipsKCi0g6L+e57utIDE1IOenkumrmOmikemHh+agt++8muaIkOWKnyAxMiDmrKHvvIznqLPlrprov5Tlm54gYGxldmVsPTM2IGNoYXJnaW5nPTBg77yI5aSx6LSl5Z2H5Li65LyR55yg77yJCi0g6ZW/5pe26Ze06L+Q6KGM77yaNjAgcyDova7or6LvvIzml6Xlv5fov57nu63orrDlvZXml6DmvILnp7vvvIhgbGV2ZWw9MjlgIOS/neaMgeeos+Wumu+8iQotIOWbvuagh+aMieezu+e7n+ivt+axgueahOecn+WunuWDj+e0oOWwuuWvuOa4suafk++8iGBTeXN0ZW1JbmZvcm1hdGlvbi5TbWFsbEljb25TaXplYO+8ie+8jOS4jeaYr+e8qeaUviAxNnB4Ci0g5oyC5Lu25ZCv5Yqo5Y2z5pi+56S655yf5a6e6K+75pWw77yM5LiN5Lya6Zeq44CM5pyq5qOA5rWL5Yiw6K6+5aSH44CNCg==
+# CONTEXT — 背景、决策与踩坑记录
+
+这份文档解释「**为什么是这样**」。代码本身能告诉你做了什么，这里告诉你为什么、以及哪些看起来奇怪的地方其实是有意为之。
+
+---
+
+## 1. 需求的由来
+
+用户的原话：
+
+> 我发现要查看鼠标电量一定要进入网页驱动，我希望在桌面更便捷的显示电量。
+
+关键信息：**「必须进网页驱动才能看电量」**。这句话本身就暗示了原因——网页驱动（WebHID）开着时会**独占接收器的 HID 通道**，所以你只有打开它才看得到，关掉就没得看。第三方工具想读，反而要求先把网页驱动关掉。
+
+用户第二个要求（后续追加）：**「我个人倾向苹果的简洁审美」** —— 这条贯穿了所有视觉决策，是硬需求而不是锦上添花。
+
+---
+
+## 2. 硬件事实（实测，非推测）
+
+| 项 | 值 |
+|---|---|
+| 鼠标 | 迈从 MCHOSE **A5 Ultra**（PAW3395，三模，出厂配 NANO 4K 接收器） |
+| 2.4G 接收器 | `VID_0BDA&PID_4762`（Realtek 官方 VID，复合 HID，接口 mi_00 ~ mi_02） |
+| 备用接收器 ID | `VID_2E3C&PID_C365`（同方案的另一个 ID，在白名单里） |
+| 蓝牙 | MAC `F5CE340CE1CB`，设备名上报为 `A5 ultra`，暴露标准 BLE 电池服务 `0x180F` |
+| 有用集合 | Usage Page `0xFF01` / Usage `0x0001`，**FeatureReportByteLength = 65** |
+| 系统 | Windows 11 23H2，DPI 125%，系统主题**浅色** |
+
+用户实际使用 **2.4G 接收器**（蓝牙链路当时是断的）。
+
+---
+
+## 3. 为什么没用现成开源工具
+
+先调研了 GitHub，候选四个：
+
+| 项目 | 结论 |
+|---|---|
+| **HaloBattery**（668★，MIT，Python） | 最接近，30+ 品牌，但**认不出这台设备** |
+| SwarlexBattery（C#，单 exe 300KB） | 只输出 `status.json`，无 UI |
+| vigil-watt（60★，WinUI3，中文） | 有桌面小组件，迈从只验证过 G87 |
+| LGSTrayBattery | 罗技专用 |
+
+实际装了 HaloBattery v1.15.0，结果托盘显示 **No devices found**。查日志定位到**两个独立原因**：
+
+**原因一：蓝牙读数被判定为「未连接」而隐藏**
+
+```
+[Bluetooth] A5 ultra (F5CE340CE1CB): 68% connected: WinRT=False PnP=False -> hidden [WinRT], kind: mouse
+```
+
+电量 68% 读到了，但 WinRT 和 PnP 都报未连接（Realtek 蓝牙栈对 BLE 鼠标的常见误报）。源码逻辑：
+
+```python
+if g["aep_conn"] is not None:
+    shown, src = g["aep_conn"], "WinRT"   # False 就无条件隐藏
+```
+
+没有任何配置项能绕过（试过 `keep_disconnected`，它只管「掉线的残留设备」）。
+而用 WinRT 探针实测 `BluetoothLEDevice.ConnectionStatus == Disconnected`，说明**那个 68% 是 Windows 缓存值，链路早就断了**——用户当时用的就是 2.4G。
+
+**原因二（根因）：VID 不匹配**
+
+HaloBattery 的迈从协议只匹配 `0x2023 / 0x5253 / 0x3837` 这三个 VID，而这台接收器是 `0x0BDA`（Realtek 官方 VID）。
+**同一个 Realtek 方案，VID 不同 → 直接跳过 → 永远 No devices found。**
+
+**结论**：上游救不了，只能自己写。但协议是通用的，逆向一次即可——详见 `PROTOCOL.md`。
+
+---
+
+## 4. 技术选型的取舍链
+
+按顺序试过、否掉的方案：
+
+1. **Python + PySide6/Qt** —— 想做原生窗口和真毛玻璃。**否决**：`pip install` 不通，且该 Python 发行版没有 tkinter。彻底走不通。
+2. **C# + `csc.exe` 直接编 exe** —— 最干净。**否决**：编译器和 `Add-Type -OutputAssembly` 都被安全策略拦截。
+3. **PowerShell 脚本 + WinForms（v1）** —— 能用，但每次启动 `Add-Type` 要等 10~15 秒，且视觉上限极低。**已废弃，留在 `legacy/` 供参考。**
+4. **PowerShell 宿主 + C# 源码 + CodeDOM 编译缓存（v2，当前）** —— ✅ 采纳。
+
+v2 的关键洞察：**PowerShell 只是「编译器 + 加载器」，真正的应用是纯 C#**。
+`Compiler.ps1` 把 10 个 `.cs` 合并成一个编译单元，按内容 SHA256 前 16 位缓存 DLL。
+于是：改代码 → 自动重编；不改 → 直接加载缓存，**14 ms**。
+
+这是当时环境下唯一同时满足「现代 C# 工程」和「0 依赖分发」的路径。
+
+---
+
+## 5. 配置字段
+
+`%APPDATA%\MouseMeter\settings.json`：
+
+| 字段 | 默认 | 范围 | 说明 |
+|---|---|---|---|
+| `deviceName` | `"A5 Ultra"` | — | 兜底显示名（实际优先用 HID 上报的 ProductString） |
+| `intervalSec` | 60 | 10~3600 | 轮询间隔（秒） |
+| `lowThreshold` | 20 | 5~60 | 低电量阈值，到点图标变色 + 弹通知 |
+| `notifyLow` | true | — | 是否弹低电量通知 |
+| `hudEnabled` | true | — | 是否显示桌面挂件 |
+| `hudX` / `hudY` | -1 | — | 挂件位置；`-1` 表示「首次自动摆到右下角」 |
+| `hudOpacity` | 96 | 55~100 | 挂件不透明度 |
+| `hudScale` | 100 | 80~150 | 挂件缩放（相对 178×112 逻辑尺寸） |
+| `theme` | `"system"` | system/light/dark | **设置窗口**主题 |
+| `hudTheme` | `"dark"` | system/light/dark | **挂件**主题，默认强制深色（有原因，见下） |
+| `startWithWindows` | true | — | 开机自启（写 `HKCU\...\Run`） |
+| `receiverIds` | `["0BDA:4762","2E3C:C365"]` | — | 接收器 VID:PID 白名单 |
+
+**为什么挂件默认深色而设置窗口跟随系统？**
+试过让挂件也跟随系统（本机是浅色）。结果白色卡片压在白底网页上几乎融进去，边界消失，数字看不清。
+深色卡片在**任何**背景上都清晰——这才是 iOS 小组件在桌面上的真实观感。所以两者策略故意不一致。
+
+---
+
+## 6. 用户偏好（重要）
+
+1. **苹果极简审美**，明确点名。讨厌装饰性元素、渐变堆砌、重阴影。
+2. 要**桌面上直接看**，不是「点开才看」。这是需求起点，别把挂件做成需要悬停才显示的。
+3. 中文界面。
+4. 系统是**浅色主题**、125% DPI。
+5. 对「能用」和「好看」要求都高——第一版功能跑通后，用户的原话是「已有的功能已经完善，但是在审美方面不足」。
+
+---
+
+## 7. 踩坑实录
+
+按发生顺序，每条都对应代码里一处看起来可能「多余」的地方。
+
+### 7.1 协议探测阶段
+
+| 现象 | 真因 | 现在的处理 |
+|---|---|---|
+| 枚举不到 `0xFFFF` collection | 这台接收器的 vendor 集合是 `0xFF01` | `FindCollection` 同时认 `FF01/FFFF/FFA0` |
+| `SetFeature` 成功但读回失败 | 读之前没把 report ID 塞进 `buf[0]` | `Hid.GetFeature(h, len, reportId)` 强制预置 |
+| 每次读都 `err=87` | 写和读用了**两个不同句柄** | 单个 `using` 内完成 write→read |
+| 10 次里 8 次 `err=31` | 鼠标休眠，接收器不填缓冲区 | 8 次重试 + stale 机制 |
+| 中文注释的 .ps1 一跑就语法错 | PowerShell 5.1 按 GBK 读无 BOM 文件 | 全部 UTF-8 with BOM |
+
+### 7.2 UI 阶段
+
+| 现象 | 真因 | 现在的处理 |
+|---|---|---|
+| 挂件内容溢出窗口 | DPI 缩放了两次（窗口尺寸 × 字体各自乘了 `Sf`） | 逻辑尺寸 × `Sf` 只算窗口；字体用 point 由 WinForms 自动缩放 |
+| 托盘数字被裁掉一半 | `DrawString` 的排版矩形高度不够 | 改成 `FitFont` 逐级降字号 + `NoClip` |
+| 「100」挤成一团 / 白字压亮绿看不清 | 三位数字字号过大、对比度不足 | `FitFont` 缩到 4.9 号，配深色字 + 方形底 |
+| 设置窗口布局在实时环境里偏移 | 窗口 DPI 读到 96，和实际 125% 不一致 | `ApplyScale` 用 `GetDpiForWindow` 重新取，并二次校正位置避开任务栏 |
+| 挂件永远显示「未检测到设备」 | 首次 `Poll()` 是异步的，此时 `SynchronizationContext.Current` 还是 null | 构造时**先同步读一次**；跨线程改用隐藏 `Control` 的 `BeginInvoke` |
+| 进程启动后静默退出 | 上一实例刚被 kill，Mutex 还没释放 | 启动前确保旧进程真的退出（`run-hidden.vbs` 走独立进程，风险低） |
+| 截图截到聊天窗口而不是桌面 | 目标窗口被别的置顶窗压住 | 截图前 `SetWindowPos(HWND_TOPMOST)` |
+
+### 7.3 v3 多设备改版
+
+| 现象 | 真因 | 现在的处理 |
+|---|---|---|
+| 挂件标题和第一行都是设备名 | 单设备时标题取 `rows[0].DeviceName`，行内又画了一次 | 单设备标题改「电量」，多设备「N 个设备」 |
+| 「29%」的 `%` 离数字太远 | 大数字用 `GenericTypographic` 测宽，宽版字形右留白被算进去了 | `%` 的 x 位置扣掉 1 个逻辑 px |
+| 「100%」顶到进度条尽头 | 26 pt 固定字号 + 三位数只用 `NumSize` 一次降级不够 | `NumFitSize()` 以行宽为预算迭代收敛，下限 13 pt |
+| 相邻行的 `7%` 和 `100%` 底部不齐 | GDI+ 在字号不同但顶部坐标相同时，基线偏移不一致 | 数字改为**按底对齐**：先量固定基准字号的字符串高，再反推 top |
+| 页脚「1–3 / 4」被圆角切掉 | 排版矩形贴着卡片底边，高 10 px 且无余量 | 在页脚带内垂直居中，留 4 px 安全距 |
+| 「A5 ultra 鼠标」行尾又写「鼠标」 | 徽标只看设备类别，不看名字是否已含该词 | `BadgeRedundant()` 检测名字以类别词结尾时隐藏徽标 |
+
+> 这些修复全在 `PreviewRenderer` 的离线渲染里先看清楚再改的。预览调用的是**生产绘制代码**
+> （`RowPainter` / `Theme` / `IconFactory`），所以预览和真机结果一致——改 UI 前先出图，
+> 比来回让对方截图快得多。
+
+### 7.4 一个反直觉的点
+
+「读不到数据」在**四种**完全不同的原因下都会发生，症状一模一样：
+
+1. VID 不在白名单 → 找不到 collection
+2. report ID 没预置 → `err=87`
+3. 鼠标休眠 → `err=31`
+4. 网页驱动开着 → 通道被独占
+
+排查顺序应该是：**先看 `error.log`，再看设备管理器确认接收器在不在，最后才怀疑协议。**
+
+### 7.5 开发循环（dev.cmd）为什么是这个形状
+
+项目一直在改，而「改一行 → 出包 → 退出程序 → 双击 exe」这个循环每次要 10 秒以上，
+其中 8 秒是人的动作不是机器的时间。`dev.cmd` 把人的部分压成一次双击。
+
+四个设计决定，每一个都是被坑出来的：
+
+| 决定 | 不这么做会怎样 |
+|---|---|
+| **先编译、后停旧进程** | 编译失败时旧版本已经被杀了，你只能对着一行错误发呆，没法继续用界面调参数 |
+| **优雅退出（命名事件）而不是 taskkill** | `Quit()` 里的 `_cfg.Save()` 不执行，刚拖好的挂件位置和调好的不透明度全丢 |
+| **轮询等锁释放，不是固定 sleep** | 健康实例 60 ms 就退出，固定等 1.5 s 让每次重编都慢一倍，手感立刻变钝 |
+| **在本进程内 LoadFrom 而不是起子进程** | 崩了只剩托盘图标消失，`OnPaint` 里的异常永远看不到 |
+
+配套的两个健壮性改动：
+
+- `Quit()` 加了 `_quitting` 幂等标志。监听线程、托盘菜单、`Dispose()` 可能在同一毫秒进来，
+  而 `NotifyIcon.Dispose()` 二次调用会抛异常 —— 表现出来就是「重启后报了个 fatal，但没崩」。
+- `AutoStart.IsEnabled` 改为**比对实际命令**而不只是判断值存在。旧版写入的是
+  `wscript + vbs`，改成 exe 后如果只判断存在性，开机自启会一直启动旧程序。
+
+> 一个只在 Linux 上才会遇到的岔路：命名 Mutex 在 .NET on Linux 上直接抛
+> `PlatformNotSupportedException`。`IsMutexFree()` 对这个异常返回 **true**（视为已释放），
+> 因为「探测不了」时让开发流程继续，比卡住 3 秒等一个永远不会释放的锁要好。
+> 对应的跨进程测试在非 Windows 上会打印 skip 而不是 fail。
+
+---
+
+## 8. 已经验证过的能力
+
+- 连续 15 秒高频采样：成功 12 次，稳定返回 `level=36 charging=0`（失败均为休眠）
+- 长时间运行：60 s 轮询，日志连续记录无漂移（`level=29` 保持稳定）
+- 图标按系统请求的真实像素尺寸渲染（`SystemInformation.SmallIconSize`），不是缩放 16px
+- 挂件启动即显示真实读数，不会闪「未检测到设备」

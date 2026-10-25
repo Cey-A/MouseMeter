@@ -1,1 +1,205 @@
-IyBQUk9UT0NPTCDigJQgSElEIOaKpeaWh+mAhuWQkeiusOW9lQoKPiDov5nku73mlofmoaPmmK8qKuWunua1i+W+l+WHuueahCoq77yM5LiN5piv5LuO5Y6C5ZWG5paH5qGj5oqE55qE44CC5omA5pyJ5pWw5a2X6YO95p2l6Ieq55yf5py65o6i5rWL44CCCj4g5pS55Yqo5Lu75L2V5YGP56e76YeP5LmL5YmN77yM6K+35YWI6K+75a6M5YWo5paH4oCU4oCU6L+Z5aWX5oql5paH5LiA5pem5pCe6ZSZ77yM5bCx5b275bqV6K+75LiN5Yiw5pWw77yM5LiU55eH54q25ZKM44CM6K6+5aSH5LyR55yg44CN5a6M5YWo5LiA5qC377yM5p6B6Zq+5Yy65YiG44CCCgotLS0KCiMjIDEuIOebruagh+iuvuWkhwoKfCDpobkgfCDlgLwgfAp8LS0tfC0tLXwKfCDpvKDmoIcgfCDov4jku44gTUNIT1NFIEE1IFVsdHJhIHwKfCDmjqXmlLblmaggfCBgVklEXzBCREEgJiBQSURfNDc2MmDvvIhSZWFsdGVrIDRLIE5hbm8gZG9uZ2xl77yJIHwKfCDorr7lpIfot6/lvoQgfCBgXFw/XGhpZCN2aWRfMGJkYSZwaWRfNDc2MiZtaV8wMiZjb2wwMSMuLi5gIHwKfCBUb3AtTGV2ZWwgQ29sbGVjdGlvbiB8IFVzYWdlIFBhZ2UgYDB4RkYwMWDvvIxVc2FnZSBgMHgwMDAxYO+8iHZlbmRvci1kZWZpbmVk77yJIHwKfCBGZWF0dXJlIFJlcG9ydCDplb/luqYgfCAqKjY1IOWtl+iKgioq77yI5ZCrIDEg5a2X6IqCIHJlcG9ydCBJRO+8iSB8CnwgSW5wdXQgLyBPdXRwdXQgUmVwb3J0IOmVv+W6piB8IOS4jeWQq+WcqOWGhe+8jOS4jueUtemHj+aXoOWFs++8jOW/veeVpSB8CgrlkIzkuIDmjqXmlLblmajov5jmjILkuoblpJrkuKogSElEIOmbhuWQiO+8iGBtaV8wMGAgLyBgbWlfMDFgIC8gYG1pXzAyYCDnmoTplK7nm5jjgIHpvKDmoIfjgIFjb25zdW1lciBjb250cm9s77yJ44CCKirlj6rmnIkgYG1pXzAyYCDnmoQgYDB4RkYwMS8weDAwMDFgIOmbhuWQiOiDveWbnuetlOeUtemHj+afpeivoioq77yM5YW25L2Z5Lya55u05o6l6L+U5Zue5aSx6LSl44CCCgotLS0KCiMjIDIuIOaKpeaWh+agvOW8jwoKIyMjIDIuMSDor7fmsYLluKfvvIh3cml0Ze+8jDY1IOWtl+iKgu+8iQoKYGBgCm9mZnNldCAgdmFsdWUgICDor7TmmI4KLS0tLS0tICAtLS0tLSAgIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQpbMF0gICAgIDB4MTIgICAgRmVhdHVyZSBSZXBvcnQgSUTvvIjlhpnlhaXml7bnlKjnmoQgSUTvvIkKWzFdICAgICAweEY5ICAgIOaTjeS9nOeggSAweDA2IOaMieS9jeWPluWPje+8iDB4MDYgXiAweEZG77yJClsyLi42NF0gMHhGRiAgICDloavlhYXvvIzlhaggMQpgYGAKCuWvueW6lOS7o+egge+8iGBQcm92aWRlcnMuY3Ng77yJ77yaCgpgYGBjc2hhcnAKdmFyIGZyYW1lID0gbmV3IGJ5dGVbNjVdOwpmb3IgKGludCBpID0gMDsgaSA8IGZyYW1lLkxlbmd0aDsgaSsrKSBmcmFtZVtpXSA9IDB4RkY7CmZyYW1lWzBdID0gMHgxMjsgICAgICAgICAgICAgICAgICAgICAgLy8gUmVxdWVzdFJlcG9ydElkCmZyYW1lWzFdID0gKGJ5dGUpKDB4MDYgXiAweEZGKTsgICAgICAgLy8gMHhGOQpIaWQuU2V0RmVhdHVyZShoLCBmcmFtZSk7CmBgYAoKPiDkuLrku4DkuYjmmK8gYDB4MDZgIOWPluWPje+8mui/meWll+WNj+iurioq5pWw5YC85Z+f5pW05L2T5Y+W5Y+N5Lyg6L6TKirvvIjop4EgMi4z77yJ77yM5pON5L2c56CB5Lmf6YG15b6q5ZCM5LiA6KeE5YiZ44CCCgojIyMgMi4yIOWbnuWMhe+8iHJlYWTvvIw2NSDlrZfoioLvvIkKCioq5YWz6ZSu77ya6K+75Y+W55So55qEIFJlcG9ydCBJRCDmmK8gYDB4MTFg77yM5LiN5pivIGAweDEyYOOAguWGmeWFpeWSjOivu+WPluaYr+S4pOS4quS4jeWQjOeahCBJROOAgioqCuWunua1i+aKiiBgMHgxMmAg5aGr6L+bIGBidWZbMF1gIOWGjeivu++8jOS8mui/lOWbniBgRVJST1JfSU5WQUxJRF9QQVJBTUVURVIgKDg3KWDjgIIKCmBgYApvZmZzZXQgIHZhbHVlICAgICAgICDor7TmmI4KLS0tLS0tICAtLS0tLS0tLS0tLSAgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tClswXSAgICAgMHgxMSAgICAgICAgIEZlYXR1cmUgUmVwb3J0IElE77yI6K+75Y+W5pe26aKE572u77yM6K6+5aSH5LiN6KaG55uW77yJClsxXSAgICAgMHhGOSAgICAgICAgIOWbnuWMheWktCA9PSDor7fmsYLprZTmlbDvvIzkuI3nrYnliJnml6DmlYgKWzIuLjY0XSAuLi4gICAgICAgICAgcGF5bG9hZO+8jOmAkOWtl+iKguWPluWPjeeahOW6lOetlOS9kwpgYGAKCuWIpOWumuacieaViO+8mgoKYGBgY3NoYXJwCnZhciByZXBseSA9IEhpZC5HZXRGZWF0dXJlKGgsIDY1LCAweDExKTsKaWYgKHJlcGx5ID09IG51bGwgfHwgcmVwbHlbMV0gIT0gMHhGOSkgeyAvKiDml6DmlYjvvIzph43or5UgKi8gfQpgYGAKCiMjIyAyLjMgcGF5bG9hZCDluIPlsYDvvIjlj5blj43lkI7vvIkKCuaKiiBgcmVwbHlbMi4uNjRdYCAqKumAkOWtl+iKgiBgXiAweEZGYCoq77yM5b6X5Yiw55yf5a6e5bqU562U5L2T77yaCgpgYGAKcGF5bG9hZCAgcmF357Si5byVICDlgLzvvIjlrp7mtYvvvIkgICAgICDlkKvkuYkKLS0tLS0tLSAgLS0tLS0tLSAgLS0tLS0tLS0tLS0tLSAgIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQpbMF0gICAgICBbMl0gICAgICAweDAxICAgICAgICAgICAg5bqU562U57G75Z6LClsxXSAgICAgIFszXSAgICAgIDB4MDAgICAgICAgICAgICByZXNlcnZlZApbMi4uM10gICBbNC4uNV0gICAweDQ3IDB4NjIgICAgICAg4oaQIOaOpeaUtuWZqCBQSUQgMHg0NzYy77yI5bCP56uv77yJ77yM55So5LqO5qCh6aqM6YCa5L+h55So5a+55LqG6K6+5aSHCls0Li43XSAgIFs2Li45XSAgIDB4MDAgMHgwMCAweDAwIDB4MDIgICByZXNlcnZlZCAvIOWbuuS7tuS/oeaBrwpbOF0gICAgICBbMTBdICAgICAweDA5ICAgICAgICAgICAg5Lyg6L6T5qCH6K6w77yaMHgwOSA9IOi1sCAyLjRHIOaOpeaUtuWZqApbOV0gICAgICBbMTFdICAgICAweDI0ICAgICAgICAgICAg55S16YeP55m+5YiG5q+U77yMMHgyNCA9IDM2JQpbMTBdICAgICBbMTJdICAgICAweDAwICAgICAgICAgICAg5YWF55S154q25oCB77ya6Z2eIDAgPSDlhYXnlLXkuK0KWzExLi5dICAgWzEzLi5dICAgMHgwMCAuLi4gICAgICAgIOS/neeVmQpgYGAKCuaJgOS7peebtOaOpeWvueWOn+WniyBidWZmZXIg57Si5byV5bCx5piv77yaCgpgYGAKcmVwbHlbMTBdID09IDB4MDkgICDihpIg6LWw5o6l5pS25ZmoCnJlcGx5WzExXSBeIDB4RkYgICAg4oaSIOeUtemHjwpyZXBseVsxMl0gXiAweEZGICAgIOKGkiDlhYXnlLXkuK0KYGBgCgrku6PnoIHph4znmoTluLjph4/kuI7kuYvlr7nlupTvvJoKCmBgYGNzaGFycApwdWJsaWMgY29uc3QgaW50IExldmVsSW5kZXggID0gMTE7CnB1YmxpYyBjb25zdCBpbnQgQ2hhcmdlSW5kZXggPSAxMjsKaW50IGxldmVsICA9IHJlcGx5W0xldmVsSW5kZXhdICBeIDB4RkY7CmludCBjaGFyZ2UgPSByZXBseVtDaGFyZ2VJbmRleF0gXiAweEZGOwpgYGAKCj4g5a6e5rWL5Y6f5aeL5Zue5YyF5qC35pys77yI5YmNIDEzIOWtl+iKgu+8ie+8mgo+IGAxMiBGOSBGRSBGRiA5RCBCOCBGRiBGRiBGRiBGRCBGNiBEQiBGRiAuLi5gCj4g5Y+W5Y+NIHBheWxvYWTvvJpgMDEgMDAgNjIgNDcgMDAgMDAgMDAgMDIgMDkgMjQgMDBgCj4g4oCU4oCUIOWFtuS4rSBgNjIgNDdgIOaYryBQSUQgYDB4NDc2MmAg55qE5bCP56uv5YaZ5rOV77yMYDA5YCDmmK/mjqXmlLblmajmoIforrDvvIxgMjRgID0gMzbvvIzmraPmmK/lvZPml7blrp7mtYvnlLXph4/jgIIKCi0tLQoKIyMgMy4g6YCa5L+h5pe25bqPCgrlv4XpobsqKuWcqOWQjOS4gOS4quWPpeafhOWGhSoq5a6M5oiQIHdyaXRlIOKGkiBzbGVlcCDihpIgcmVhZOOAguWunua1i+eUqOS4pOS4queLrOeri+WPpeafhOS8mueos+WumuWksei0peOAggoKYGBgCkNyZWF0ZUZpbGUo6Lev5b6ELCBHRU5FUklDX1JFQUR8R0VORVJJQ19XUklURSwgRklMRV9TSEFSRV9SRUFEfFdSSVRFKQogICDilIIKICAg4pSc4pSAIEhpZERfU2V0RmVhdHVyZSg2NUIsIFswXT0weDEyKSAgICAgIOKGkCDlj5Hotbfmn6Xor6IKICAg4pSCCiAgIOKUnOKUgCBTbGVlcCg2MG1zKSAgICAgICAgICAgICAgICAgICAgICAgICAg4oaQIOe7meaOpeaUtuWZqOaXtumXtOWhq+e8k+WGsuWMugogICDilIIKICAg4pSc4pSAIEhpZERfR2V0RmVhdHVyZSg2NUIsIGJ1ZlswXT0weDExKSAgIOKGkCDlj5blm54KICAg4pSCICAgICAg4pSU4pSAIOWksei0pShlcnI9MzEvODcpIOaIliBidWZbMV0hPTB4Rjkg4oaSIOWksei0pQogICDilIIKICAg4pSU4pSAIOino+aekCDihpIgQ2xvc2VIYW5kbGUKYGBgCgoqKumHjeivleetlueVpSoq77yIYE1jSG9zZVByb3ZpZGVyLlRyeVJlYWRg77yJ77ya5pyA5aSaIDgg6L2u77yM5q+P6L2uID0g5YaZICsgNjAgbXMgKyDor7sgKyAxNDAgbXMg6YCA6YG/44CCCuWOn+WboOaYr+m8oOagh+mXsue9ruaXtuaOpeaUtuWZqCoq5LiN5aGr57yT5Yay5Yy6KirvvIzov5Tlm54gYEVSUk9SX0dFTl9GQUlMVVJFICgzMSlg44CC6L+Z5LiN5piv6ZSZ6K+v77yM5piv5LyR55yg44CCCueUqOaIt+WPquimgeWKqOS4gOS4i+m8oOagh++8jOS4i+S4gOasoemHjeivleWwseaIkOWKn+S6huOAggoKLS0tCgojIyA0LiDplJnor6/noIHlr7nnhafooagKCnwgYEdldExhc3RFcnJvcmAgfCDluLjph48gfCDnnJ/lrp7lkKvkuYkgfCDor6XmgI7kuYjlpITnkIYgfAp8LS0tOnwtLS18LS0tfC0tLXwKfCBgMzFgIHwgYEVSUk9SX0dFTl9GQUlMVVJFYCB8IOaOpeaUtuWZqOaaguaXtuaXoOW6lOetlO+8iCoq6byg5qCH5LyR55yg5LitKirvvIkgfCDph43or5XvvIzkuI3opoHmiqXplJnvvJvkv53nlZnkuIrmrKHor7vmlbAgfAp8IGA4N2AgfCBgRVJST1JfSU5WQUxJRF9QQVJBTUVURVJgIHwgcmVwb3J0IElEIOaIlumVv+W6puS4jeWvuSB8IOajgOafpSBgYnVmWzBdYCDmmK/lkKbpooTnva7kuLogYDB4MTFg44CB6ZW/5bqm5piv5ZCmIDY1IHwKfCBgMTE2N2AgfCBgRVJST1JfREVWSUNFX05PVF9DT05ORUNURURgIHwg5o6l5pS25Zmo6KKr5ouU5o6JIC8g6YCa6YGT6KKr54us5Y2gIHwg6YeN5paw5p6a5Li+6K6+5aSHIHwKfCBgNWAgfCBgRVJST1JfQUNDRVNTX0RFTklFRGAgfCDlj6bkuIDov5vnqIvni6zljaDvvIgqKue9kemhtempseWKqOW8gOedgCoq77yJIHwg5o+Q56S655So5oi35YWz5o6J572R6aG16amx5YqoIHwKCuesrCA0IOadoeeJueWIq+mHjeimge+8mioq5Y6C5ZWG572R6aG16amx5Yqo77yIV2ViSElE77yJ5Lya54us5Y2g6L+Z5Liq6YCa6YGTKirjgILov5nlsLHmmK/nlKjmiLfjgIzlv4Xpobvov5vnvZHpobXpqbHliqjmiY3og73nnIvnlLXph4/jgI3nmoTmoLnlm6DjgIIK5pys5bel5YW35ZKM572R6aG16amx5YqoKirkuI3og73lkIzml7blt6XkvZwqKuOAggoKLS0tCgojIyA1LiDorr7lpIflj5HnjrDpgLvovpEKCmBNY0hvc2VQcm92aWRlci5GaW5kQ29sbGVjdGlvbigpYCDliIbkuKTnuqfvvIzpobrluo/kuI3og73lj5jvvJoKCmBgYGNzaGFycAovLyDnrKzkuIDnuqfvvJrnmb3lkI3ljZXnsr7noa7ljLnphY3vvIhzZXR0aW5ncy5qc29uIOeahCByZWNlaXZlcklkc++8iQpmb3JlYWNoICh2YXIgYyBpbiBhbGwpCiAgICBpZiAoTWF0Y2hlcyhjKSAmJiBjLlVzYWdlUGFnZSA9PSAweEZGMDEgJiYgYy5Vc2FnZSA9PSAweDAwMDEpIHJldHVybiBjOwpmb3JlYWNoICh2YXIgYyBpbiBhbGwpCiAgICBpZiAoTWF0Y2hlcyhjKSAmJiBjLkZlYXR1cmVMZW5ndGggPj0gNjUpIHJldHVybiBjOwoKLy8g56ys5LqM57qn77ya5Y+R546w5qih5byPIOKAlOKAlCDnmb3lkI3ljZXlhajpg6jokL3nqbrml7YKZm9yZWFjaCAodmFyIGMgaW4gYWxsKQp7CiAgICBib29sIHZlbmRvclBhZ2UgPSBjLlVzYWdlUGFnZSA9PSAweEZGMDEgfHwgYy5Vc2FnZVBhZ2UgPT0gMHhGRkZGIHx8IGMuVXNhZ2VQYWdlID09IDB4RkZBMDsKICAgIGlmICh2ZW5kb3JQYWdlICYmIGMuRmVhdHVyZUxlbmd0aCA+PSA2NSkgcmV0dXJuIGM7Cn0KYGBgCgoqKuWPkeeOsOaooeW8j+eahOaEj+S5iSoq77ya55m95ZCN5Y2V5piv44CM5bey55+l6IO955So55qE44CN77yM5L2G5ZCM5LiA5aWXIFJlYWx0ZWsg5Zu65Lu25Lya5o2iIFZJRCDlh7rotKfvvIjov5nlj7DlsLHmmK8gYDB4MEJEQWDvvIwK6ICMIEhhbG9CYXR0ZXJ5IOWPquiupOi/iOS7juiHquW3seeahCBgMHgyMDIzLzB4NTI1My8weDM4Mzdg77yJ44CC5omA5Lul55WZ5LqG6L+Z5p2h5YWc5bqV77ya5Lu75L2VIHZlbmRvciDpm4blkIjjgIHlj6ropoEgZmVhdHVyZSByZXBvcnQg4omlIDY1IOWtl+iKgu+8jOWwseeUqOWQjOS4gOWll+aKpeaWh+ivleS4gOasoeOAggror5XplJnmiJDmnKzlvojkvY7vvIjlpLHotKXlj6rmmK8gYGVycj04N2Ag5oiW6LaF5pe277yJ77yM5oiQ5Yqf546H5Y205LiN5L2O44CCCgrmlrDlop7lt7Lnn6Xorr7lpIcg4oaSIOW+gCBgcmVjZWl2ZXJJZHNgIOWKoOS4gOadoSBgIlhYWFg6WVlZWSJgIOWNs+WPr++8jOS4jeeUqOaUueS7o+eggeOAggoKLS0tCgojIyA2LiDok53niZnot6/lvoTvvIjlsJrmnKrlrp7njrDvvIkKCuWQjOS4gOWPqum8oOagh+eahOiTneeJmeerr+aatOmcsuS6huagh+WHhiBCTEUgR0FUVCDnlLXmsaDmnI3liqHvvJoKCmBgYApTZXJ2aWNlICAgMHgxODBGICBCYXR0ZXJ5IFNlcnZpY2UKICDilJTilIAgQ2hhciAweDJBMTkgIEJhdHRlcnkgTGV2ZWwgIChOb3RpZnkgKyBSZWFkLCB1aW50OCAwLTEwMCUpCmBgYAoK55CG6K665LiK5q+U56eB5pyJ5Y2P6K6u566A5Y2V5b6X5aSa44CCKirkvYbkuLrku4DkuYjmsqHlgZoqKu+8mgoKMS4g55So5oi355qE5o6l5pS25Zmo5pivIDIuNEfvvIzok53niZnpk77ot6/lrp7mtYsgYENvbm5lY3Rpb25TdGF0dXMgPT0gRGlzY29ubmVjdGVkYO+8jOW9k+aXtuagueacrOa1i+S4jeS6hu+8mwoyLiDpgJrov4cgV2luZG93cyDor7sgQkxFIEdBVFQg6ZyA6KaBIFdpblJUIEFQSe+8iGBXaW5kb3dzLkRldmljZXMuQmx1ZXRvb3RoYO+8ie+8jOiAjCoq5b2T5YmN57yW6K+R546v5aKD5Y+q5pyJIC5ORVQgRnJhbWV3b3JrIOeahOWbm+S4queoi+W6j+mbhioq77yM5ou/5LiN5YiwIFdpblJUIOaKleW9se+8mwozLiDotbAgUC9JbnZva2UgYEJsdWV0b290aEdBVFRHZXRDaGFyYWN0ZXJpc3RpY3NWYWx1ZWAg5Lmf5Y+v6KGM77yM5L2G6KaB6aKd5aSW5byV5YWlIGBidGhwcm9wcy5jcGxgIC8gYEJsdWV0b290aEFQSXNg77yM5bel5L2c6YeP5ZKM5LiN56Gu5a6a5oCn6YO96L+c6LaFIDIuNEcg6Lev5b6E44CCCgrlpoLmnpzopoHlgZrvvIzop4EgYFJPQURNQVAubWRgIOeahCBQMC0y77yM6YKj6YeM57uZ5LqG5Lik5p2h5oqA5pyv6Lev57q/5ZKM5Y+W6IiN44CCCuWlvea2iOaBr++8mmBJQmF0dGVyeVByb3ZpZGVyYCDmjqXlj6PlsLHmmK/kuLrov5nnp43mg4XlhrXnlZnnmoTvvIzmlrDlop7kuIDkuKogcHJvdmlkZXIg5LiN5pS55Lu75L2V546w5pyJ5Luj56CB44CCCgotLS0KCiMjIDcuIOWmguaenOS9oOaDs+WkjeeOsOmAhuWQkei/h+eoiwoK5o6i5rWL6ISa5pys55qE5oCd6Lev77yI55SoIFBvd2VyU2hlbGwg6LCDIGhpZC5kbGwg5Y2z5Y+v77yM5peg6ZyA56ys5LiJ5pa55bqT77yJ77yaCgoxLiAqKuaemuS4vioq77yaYFNldHVwRGlHZXRDbGFzc0RldnMoSGlkRF9HZXRIaWRHdWlkKCkpYCDihpIg6YGN5Y6G5o6l5Y+jIOKGkiBgSGlkRF9HZXRBdHRyaWJ1dGVzYCDmi78gVklEL1BJRCDihpIgYEhpZFBfR2V0Q2Fwc2Ag5ou/IFVzYWdlUGFnZSAvIEZlYXR1cmVSZXBvcnRCeXRlTGVuZ3RoCjIuICoq562b6YCJKirvvJrlj6rnnIsgYEZlYXR1cmVSZXBvcnRCeXRlTGVuZ3RoID49IDY1YCDnmoQgdmVuZG9yIGNvbGxlY3Rpb24KMy4gKiror5XlhpkqKu+8mmBIaWREX1NldEZlYXR1cmVgIOWPkSA2NSDlrZfoioLor7fmsYLluKfvvIznnIvov5Tlm57lgLwKNC4gKiror5Xor7sqKu+8mmBIaWREX0dldEZlYXR1cmVg77yMKirorrDlvpflhYggYGJ1ZlswXSA9IDB4MTFgKioKNS4gKirmr5Tlr7kqKu+8mui/nue7reivu++8jOeciyBgYnVmWzFdYCDmmK/lkKbmgZLnrYnkuo4gYDB4Rjlg44CB5Y+W5Y+N5ZCO5pWw5a2X5piv5ZCm5ZyoIDB+MTAwIOS4lOmaj+S9v+eUqOaXtumXtOe8k+aFouS4i+mZjQoK56ysIDUg5q2l5piv5YWz6ZSu5qCh6aqM77ya5aaC5p6c5Y+W5Y+N5ZCOIGBwYXlsb2FkWzIuLjNdYCDmraPlpb3nrYnkuo7mjqXmlLblmaggUElE77yM5Z+65pys5Y+v5Lul56Gu5a6a5Y2P6K6u5a+55LiK5LqG44CCCgoqKuS4gOS4quW/hemhu+azqOaEj+eahOmZt+mYsSoq77ya5o6i5rWL5pe25aaC5p6c5byA552A5Y6C5ZWG572R6aG16amx5Yqo77yMYFNldEZlYXR1cmVgIOS8mui/lOWbniBgRVJST1JfQUNDRVNTX0RFTklFRGDjgIIK5YWI5YWz5o6J5a6D77yM5oiW6ICF5bmy6ISG5oqK5o6l5pS25Zmo5o2i5LiA5LiqIFVTQiDlj6PvvIjmnInml7bog73nu5XlvIDni6zljaDvvInjgIIK
+# PROTOCOL — HID 报文逆向记录
+
+> 这份文档是**实测得出的**，不是从厂商文档抄的。所有数字都来自真机探测。
+> 改动任何偏移量之前，请先读完全文——这套报文一旦搞错，就彻底读不到数，且症状和「设备休眠」完全一样，极难区分。
+
+---
+
+## 1. 目标设备
+
+| 项 | 值 |
+|---|---|
+| 鼠标 | 迈从 MCHOSE A5 Ultra |
+| 接收器 | `VID_0BDA & PID_4762`（Realtek 4K Nano dongle） |
+| 设备路径 | `\\?\hid#vid_0bda&pid_4762&mi_02&col01#...` |
+| Top-Level Collection | Usage Page `0xFF01`，Usage `0x0001`（vendor-defined） |
+| Feature Report 长度 | **65 字节**（含 1 字节 report ID） |
+| Input / Output Report 长度 | 不含在内，与电量无关，忽略 |
+
+同一接收器还挂了多个 HID 集合（`mi_00` / `mi_01` / `mi_02` 的键盘、鼠标、consumer control）。**只有 `mi_02` 的 `0xFF01/0x0001` 集合能回答电量查询**，其余会直接返回失败。
+
+---
+
+## 2. 报文格式
+
+### 2.1 请求帧（write，65 字节）
+
+```
+offset  value   说明
+------  -----   ------------------------------------------
+[0]     0x12    Feature Report ID（写入时用的 ID）
+[1]     0xF9    操作码 0x06 按位取反（0x06 ^ 0xFF）
+[2..64] 0xFF    填充，全 1
+```
+
+对应代码（`Providers.cs`）：
+
+```csharp
+var frame = new byte[65];
+for (int i = 0; i < frame.Length; i++) frame[i] = 0xFF;
+frame[0] = 0x12;                      // RequestReportId
+frame[1] = (byte)(0x06 ^ 0xFF);       // 0xF9
+Hid.SetFeature(h, frame);
+```
+
+> 为什么是 `0x06` 取反：这套协议**数值域整体取反传输**（见 2.3），操作码也遵循同一规则。
+
+### 2.2 回包（read，65 字节）
+
+**关键：读取用的 Report ID 是 `0x11`，不是 `0x12`。写入和读取是两个不同的 ID。**
+实测把 `0x12` 填进 `buf[0]` 再读，会返回 `ERROR_INVALID_PARAMETER (87)`。
+
+```
+offset  value        说明
+------  -----------  ------------------------------------------
+[0]     0x11         Feature Report ID（读取时预置，设备不覆盖）
+[1]     0xF9         回包头 == 请求魔数，不等则无效
+[2..64] ...          payload，逐字节取反的应答体
+```
+
+判定有效：
+
+```csharp
+var reply = Hid.GetFeature(h, 65, 0x11);
+if (reply == null || reply[1] != 0xF9) { /* 无效，重试 */ }
+```
+
+### 2.3 payload 布局（取反后）
+
+把 `reply[2..64]` **逐字节 `^ 0xFF`**，得到真实应答体：
+
+```
+payload  raw索引  值（实测）      含义
+-------  -------  -------------   ---------------------------
+[0]      [2]      0x01            应答类型
+[1]      [3]      0x00            reserved
+[2..3]   [4..5]   0x47 0x62       ← 接收器 PID 0x4762（小端），用于校验通信用对了设备
+[4..7]   [6..9]   0x00 0x00 0x00 0x02   reserved / 固件信息
+[8]      [10]     0x09            传输标记：0x09 = 走 2.4G 接收器
+[9]      [11]     0x24            电量百分比，0x24 = 36%
+[10]     [12]     0x00            充电状态：非 0 = 充电中
+[11..]   [13..]   0x00 ...        保留
+```
+
+所以直接对原始 buffer 索引就是：
+
+```
+reply[10] == 0x09   → 走接收器
+reply[11] ^ 0xFF    → 电量
+reply[12] ^ 0xFF    → 充电中
+```
+
+代码里的常量与之对应：
+
+```csharp
+public const int LevelIndex  = 11;
+public const int ChargeIndex = 12;
+int level  = reply[LevelIndex]  ^ 0xFF;
+int charge = reply[ChargeIndex] ^ 0xFF;
+```
+
+> 实测原始回包样本（前 13 字节）：
+> `12 F9 FE FF 9D B8 FF FF FF FD F6 DB FF ...`
+> 取反 payload：`01 00 62 47 00 00 00 02 09 24 00`
+> —— 其中 `62 47` 是 PID `0x4762` 的小端写法，`09` 是接收器标记，`24` = 36，正是当时实测电量。
+
+---
+
+## 3. 通信时序
+
+必须**在同一个句柄内**完成 write → sleep → read。实测用两个独立句柄会稳定失败。
+
+```
+CreateFile(路径, GENERIC_READ|GENERIC_WRITE, FILE_SHARE_READ|WRITE)
+   │
+   ├─ HidD_SetFeature(65B, [0]=0x12)      ← 发起查询
+   │
+   ├─ Sleep(60ms)                          ← 给接收器时间填缓冲区
+   │
+   ├─ HidD_GetFeature(65B, buf[0]=0x11)   ← 取回
+   │      └─ 失败(err=31/87) 或 buf[1]!=0xF9 → 失败
+   │
+   └─ 解析 → CloseHandle
+```
+
+**重试策略**（`McHoseProvider.TryRead`）：最多 8 轮，每轮 = 写 + 60 ms + 读 + 140 ms 退避。
+原因是鼠标闲置时接收器**不填缓冲区**，返回 `ERROR_GEN_FAILURE (31)`。这不是错误，是休眠。
+用户只要动一下鼠标，下一次重试就成功了。
+
+---
+
+## 4. 错误码对照表
+
+| `GetLastError` | 常量 | 真实含义 | 该怎么处理 |
+|---:|---|---|---|
+| `31` | `ERROR_GEN_FAILURE` | 接收器暂时无应答（**鼠标休眠中**） | 重试，不要报错；保留上次读数 |
+| `87` | `ERROR_INVALID_PARAMETER` | report ID 或长度不对 | 检查 `buf[0]` 是否预置为 `0x11`、长度是否 65 |
+| `1167` | `ERROR_DEVICE_NOT_CONNECTED` | 接收器被拔掉 / 通道被独占 | 重新枚举设备 |
+| `5` | `ERROR_ACCESS_DENIED` | 另一进程独占（**网页驱动开着**） | 提示用户关掉网页驱动 |
+
+第 4 条特别重要：**厂商网页驱动（WebHID）会独占这个通道**。这就是用户「必须进网页驱动才能看电量」的根因。
+本工具和网页驱动**不能同时工作**。
+
+---
+
+## 5. 设备发现逻辑
+
+`McHoseProvider.FindCollection()` 分两级，顺序不能变：
+
+```csharp
+// 第一级：白名单精确匹配（settings.json 的 receiverIds）
+foreach (var c in all)
+    if (Matches(c) && c.UsagePage == 0xFF01 && c.Usage == 0x0001) return c;
+foreach (var c in all)
+    if (Matches(c) && c.FeatureLength >= 65) return c;
+
+// 第二级：发现模式 —— 白名单全部落空时
+foreach (var c in all)
+{
+    bool vendorPage = c.UsagePage == 0xFF01 || c.UsagePage == 0xFFFF || c.UsagePage == 0xFFA0;
+    if (vendorPage && c.FeatureLength >= 65) return c;
+}
+```
+
+**发现模式的意义**：白名单是「已知能用的」，但同一套 Realtek 固件会换 VID 出货（这台就是 `0x0BDA`，
+而 HaloBattery 只认迈从自己的 `0x2023/0x5253/0x3837`）。所以留了这条兜底：任何 vendor 集合、只要 feature report ≥ 65 字节，就用同一套报文试一次。
+试错成本很低（失败只是 `err=87` 或超时），成功率却不低。
+
+新增已知设备 → 往 `receiverIds` 加一条 `"XXXX:YYYY"` 即可，不用改代码。
+
+---
+
+## 6. 蓝牙路径（尚未实现）
+
+同一只鼠标的蓝牙端暴露了标准 BLE GATT 电池服务：
+
+```
+Service   0x180F  Battery Service
+  └─ Char 0x2A19  Battery Level  (Notify + Read, uint8 0-100%)
+```
+
+理论上比私有协议简单得多。**但为什么没做**：
+
+1. 用户的接收器是 2.4G，蓝牙链路实测 `ConnectionStatus == Disconnected`，当时根本测不了；
+2. 通过 Windows 读 BLE GATT 需要 WinRT API（`Windows.Devices.Bluetooth`），而**当前编译环境只有 .NET Framework 的四个程序集**，拿不到 WinRT 投影；
+3. 走 P/Invoke `BluetoothGATTGetCharacteristicsValue` 也可行，但要额外引入 `bthprops.cpl` / `BluetoothAPIs`，工作量和不确定性都远超 2.4G 路径。
+
+如果要做，见 `ROADMAP.md` 的 P0-2，那里给了两条技术路线和取舍。
+好消息：`IBatteryProvider` 接口就是为这种情况留的，新增一个 provider 不改任何现有代码。
+
+---
+
+## 7. 如果你想复现逆向过程
+
+探测脚本的思路（用 PowerShell 调 hid.dll 即可，无需第三方库）：
+
+1. **枚举**：`SetupDiGetClassDevs(HidD_GetHidGuid())` → 遍历接口 → `HidD_GetAttributes` 拿 VID/PID → `HidP_GetCaps` 拿 UsagePage / FeatureReportByteLength
+2. **筛选**：只看 `FeatureReportByteLength >= 65` 的 vendor collection
+3. **试写**：`HidD_SetFeature` 发 65 字节请求帧，看返回值
+4. **试读**：`HidD_GetFeature`，**记得先 `buf[0] = 0x11`**
+5. **比对**：连续读，看 `buf[1]` 是否恒等于 `0xF9`、取反后数字是否在 0~100 且随使用时间缓慢下降
+
+第 5 步是关键校验：如果取反后 `payload[2..3]` 正好等于接收器 PID，基本可以确定协议对上了。
+
+**一个必须注意的陷阱**：探测时如果开着厂商网页驱动，`SetFeature` 会返回 `ERROR_ACCESS_DENIED`。
+先关掉它，或者干脆把接收器换一个 USB 口（有时能绕开独占）。

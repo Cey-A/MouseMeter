@@ -1,1 +1,95 @@
-dXNpbmcgU3lzdGVtOwp1c2luZyBTeXN0ZW0uSU87CnVzaW5nIFN5c3RlbS5UZXh0OwoKbmFtZXNwYWNlIE1vdXNlTWV0ZXIKewogICAgLy8vIDxzdW1tYXJ5PgogICAgLy8vIFJvdGF0aW5nIGRpYWdub3N0aWMgbG9nLiBTaWxlbnQgdW5sZXNzIC0tdmVyYm9zZSB3YXMgcGFzc2VkIG9yIHNvbWV0aGluZyBmYWlscy4KICAgIC8vLyBEZWxpYmVyYXRlbHkgZG9lcyBOT1QgcmV1c2UgdGhlIHYxIGZpbGUgbmFtZSAobG9nLnR4dCkgc28gc3RhbGUgb3V0cHV0IGNhbiBuZXZlcgogICAgLy8vIGJlIG1pc3Rha2VuIGZvciB0aGUgY3VycmVudCBwcm9jZXNzIHdyaXRpbmcuCiAgICAvLy8gPC9zdW1tYXJ5PgogICAgcHVibGljIHN0YXRpYyBjbGFzcyBMb2cKICAgIHsKICAgICAgICBjb25zdCBsb25nIE1heEJ5dGVzID0gNTEyICogMTAyNDsKICAgICAgICBjb25zdCBpbnQgS2VlcEZpbGVzID0gMzsKICAgICAgICBzdGF0aWMgcmVhZG9ubHkgb2JqZWN0IF9nYXRlID0gbmV3IG9iamVjdCgpOwogICAgICAgIHN0YXRpYyB2b2xhdGlsZSBib29sIF92ZXJib3NlOwoKICAgICAgICBwdWJsaWMgc3RhdGljIGJvb2wgVmVyYm9zZSB7IGdldCB7IHJldHVybiBfdmVyYm9zZTsgfSBzZXQgeyBfdmVyYm9zZSA9IHZhbHVlOyB9IH0KCiAgICAgICAgcHVibGljIHN0YXRpYyBzdHJpbmcgRGlyCiAgICAgICAgewogICAgICAgICAgICBnZXQKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgc3RyaW5nIGQgPSBQYXRoLkNvbWJpbmUoCiAgICAgICAgICAgICAgICAgICAgRW52aXJvbm1lbnQuR2V0Rm9sZGVyUGF0aChFbnZpcm9ubWVudC5TcGVjaWFsRm9sZGVyLkxvY2FsQXBwbGljYXRpb25EYXRhKSwgIk1vdXNlTWV0ZXIiKTsKICAgICAgICAgICAgICAgIERpcmVjdG9yeS5DcmVhdGVEaXJlY3RvcnkoZCk7CiAgICAgICAgICAgICAgICByZXR1cm4gZDsKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgcHVibGljIHN0YXRpYyBzdHJpbmcgRmlsZVBhdGggeyBnZXQgeyByZXR1cm4gUGF0aC5Db21iaW5lKERpciwgImVycm9yLmxvZyIpOyB9IH0KCiAgICAgICAgcHVibGljIHN0YXRpYyB2b2lkIEluZm8oc3RyaW5nIG1zZykgeyBpZiAoX3ZlcmJvc2UpIFdyaXRlKCJJTkZPICIsIG1zZyk7IH0KICAgICAgICBwdWJsaWMgc3RhdGljIHZvaWQgV2FybihzdHJpbmcgbXNnKSB7IFdyaXRlKCJXQVJOICIsIG1zZyk7IH0KICAgICAgICBwdWJsaWMgc3RhdGljIHZvaWQgRXJyb3Ioc3RyaW5nIG1zZykgeyBXcml0ZSgiRVJST1IiLCBtc2cpOyB9CgogICAgICAgIHB1YmxpYyBzdGF0aWMgdm9pZCBFeGNlcHRpb24oc3RyaW5nIHdoZXJlLCBFeGNlcHRpb24gZXgpCiAgICAgICAgewogICAgICAgICAgICBXcml0ZSgiRVJST1IiLCB3aGVyZSArICI6ICIgKyAoZXggPT0gbnVsbCA/ICIobnVsbCkiIDogZXguVG9TdHJpbmcoKSkpOwogICAgICAgIH0KCiAgICAgICAgc3RhdGljIHZvaWQgV3JpdGUoc3RyaW5nIGxldmVsLCBzdHJpbmcgbXNnKQogICAgICAgIHsKICAgICAgICAgICAgdHJ5CiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgIGxvY2sgKF9nYXRlKQogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAgIHN0cmluZyBwYXRoID0gRmlsZVBhdGg7CiAgICAgICAgICAgICAgICAgICAgdHJ5CiAgICAgICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAgICAgICB2YXIgZmkgPSBuZXcgRmlsZUluZm8ocGF0aCk7CiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChmaS5FeGlzdHMgJiYgZmkuTGVuZ3RoID4gTWF4Qnl0ZXMpIFJvdGF0ZShwYXRoKTsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgY2F0Y2ggeyB9CgogICAgICAgICAgICAgICAgICAgIEZpbGUuQXBwZW5kQWxsVGV4dChwYXRoLAogICAgICAgICAgICAgICAgICAgICAgICBEYXRlVGltZS5Ob3cuVG9TdHJpbmcoInl5eXktTU0tZGQgSEg6bW06c3MuZmZmIikgKyAiICIgKyBsZXZlbCArICIgIiArIG1zZyArIEVudmlyb25tZW50Lk5ld0xpbmUsCiAgICAgICAgICAgICAgICAgICAgICAgIG5ldyBVVEY4RW5jb2RpbmcoZmFsc2UpKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICBjYXRjaCB7IH0KICAgICAgICB9CgogICAgICAgIHN0YXRpYyB2b2lkIFJvdGF0ZShzdHJpbmcgcGF0aCkKICAgICAgICB7CiAgICAgICAgICAgIHRyeQogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBmb3IgKGludCBpID0gS2VlcEZpbGVzIC0gMTsgaSA+PSAxOyBpLS0pCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgc3RyaW5nIGZyb20gPSBpID09IDEgPyBwYXRoIDogcGF0aCArICIuIiArIChpIC0gMSk7CiAgICAgICAgICAgICAgICAgICAgc3RyaW5nIHRvID0gcGF0aCArICIuIiArIGk7CiAgICAgICAgICAgICAgICAgICAgaWYgKCFGaWxlLkV4aXN0cyhmcm9tKSkgY29udGludWU7CiAgICAgICAgICAgICAgICAgICAgaWYgKEZpbGUuRXhpc3RzKHRvKSkgRmlsZS5EZWxldGUodG8pOwogICAgICAgICAgICAgICAgICAgIEZpbGUuTW92ZShmcm9tLCB0byk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgY2F0Y2ggeyB9CiAgICAgICAgfQoKICAgICAgICBwdWJsaWMgc3RhdGljIHN0cmluZyBUYWlsKGludCBsaW5lcykKICAgICAgICB7CiAgICAgICAgICAgIHRyeQogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBpZiAoIUZpbGUuRXhpc3RzKEZpbGVQYXRoKSkgcmV0dXJuICIiOwogICAgICAgICAgICAgICAgdmFyIGFsbCA9IEZpbGUuUmVhZEFsbExpbmVzKEZpbGVQYXRoKTsKICAgICAgICAgICAgICAgIGludCBzdGFydCA9IE1hdGguTWF4KDAsIGFsbC5MZW5ndGggLSBNYXRoLk1heCgxLCBsaW5lcykpOwogICAgICAgICAgICAgICAgdmFyIHNiID0gbmV3IFN0cmluZ0J1aWxkZXIoKTsKICAgICAgICAgICAgICAgIGZvciAoaW50IGkgPSBzdGFydDsgaSA8IGFsbC5MZW5ndGg7IGkrKykgc2IuQXBwZW5kTGluZShhbGxbaV0pOwogICAgICAgICAgICAgICAgcmV0dXJuIHNiLlRvU3RyaW5nKCkuVHJpbUVuZCgpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIGNhdGNoIHsgcmV0dXJuICIiOyB9CiAgICAgICAgfQogICAgfQp9Cg==
+using System;
+using System.IO;
+using System.Text;
+
+namespace MouseMeter
+{
+    /// <summary>
+    /// Rotating diagnostic log. Silent unless --verbose was passed or something fails.
+    /// Deliberately does NOT reuse the v1 file name (log.txt) so stale output can never
+    /// be mistaken for the current process writing.
+    /// </summary>
+    public static class Log
+    {
+        const long MaxBytes = 512 * 1024;
+        const int KeepFiles = 3;
+        static readonly object _gate = new object();
+        static volatile bool _verbose;
+
+        public static bool Verbose { get { return _verbose; } set { _verbose = value; } }
+
+        public static string Dir
+        {
+            get
+            {
+                string d = Path.Combine(
+                    Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "MouseMeter");
+                Directory.CreateDirectory(d);
+                return d;
+            }
+        }
+
+        public static string FilePath { get { return Path.Combine(Dir, "error.log"); } }
+
+        public static void Info(string msg) { if (_verbose) Write("INFO ", msg); }
+        public static void Warn(string msg) { Write("WARN ", msg); }
+        public static void Error(string msg) { Write("ERROR", msg); }
+
+        public static void Exception(string where, Exception ex)
+        {
+            Write("ERROR", where + ": " + (ex == null ? "(null)" : ex.ToString()));
+        }
+
+        static void Write(string level, string msg)
+        {
+            try
+            {
+                lock (_gate)
+                {
+                    string path = FilePath;
+                    try
+                    {
+                        var fi = new FileInfo(path);
+                        if (fi.Exists && fi.Length > MaxBytes) Rotate(path);
+                    }
+                    catch { }
+
+                    File.AppendAllText(path,
+                        DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss.fff") + " " + level + " " + msg + Environment.NewLine,
+                        new UTF8Encoding(false));
+                }
+            }
+            catch { }
+        }
+
+        static void Rotate(string path)
+        {
+            try
+            {
+                for (int i = KeepFiles - 1; i >= 1; i--)
+                {
+                    string from = i == 1 ? path : path + "." + (i - 1);
+                    string to = path + "." + i;
+                    if (!File.Exists(from)) continue;
+                    if (File.Exists(to)) File.Delete(to);
+                    File.Move(from, to);
+                }
+            }
+            catch { }
+        }
+
+        public static string Tail(int lines)
+        {
+            try
+            {
+                if (!File.Exists(FilePath)) return "";
+                var all = File.ReadAllLines(FilePath);
+                int start = Math.Max(0, all.Length - Math.Max(1, lines));
+                var sb = new StringBuilder();
+                for (int i = start; i < all.Length; i++) sb.AppendLine(all[i]);
+                return sb.ToString().TrimEnd();
+            }
+            catch { return ""; }
+        }
+    }
+}

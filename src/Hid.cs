@@ -1,1 +1,238 @@
-dXNpbmcgU3lzdGVtOwp1c2luZyBTeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYzsKdXNpbmcgU3lzdGVtLlJ1bnRpbWUuSW50ZXJvcFNlcnZpY2VzOwp1c2luZyBTeXN0ZW0uVGV4dDsKdXNpbmcgTWljcm9zb2Z0LldpbjMyLlNhZmVIYW5kbGVzOwoKbmFtZXNwYWNlIE1vdXNlTWV0ZXIKewogICAgLy8vIDxzdW1tYXJ5PkEgc2luZ2xlIEhJRCB0b3AtbGV2ZWwgY29sbGVjdGlvbiBleHBvc2VkIGJ5IFdpbmRvd3MuPC9zdW1tYXJ5PgogICAgcHVibGljIGNsYXNzIEhpZENvbGxlY3Rpb24gOiBIaWRDb2xsZWN0aW9uTGlrZQogICAgewogICAgICAgIHB1YmxpYyBzdHJpbmcgUGF0aDsKICAgICAgICBwdWJsaWMgdXNob3J0IFZpZDsKICAgICAgICBwdWJsaWMgdXNob3J0IFBpZDsKICAgICAgICBwdWJsaWMgdXNob3J0IFVzYWdlUGFnZTsKICAgICAgICBwdWJsaWMgdXNob3J0IFVzYWdlOwogICAgICAgIHB1YmxpYyBpbnQgRmVhdHVyZUxlbmd0aDsKICAgICAgICBwdWJsaWMgaW50IElucHV0TGVuZ3RoOwogICAgICAgIHB1YmxpYyBzdHJpbmcgUHJvZHVjdE5hbWUgPSAiIjsKICAgICAgICBwdWJsaWMgc3RyaW5nIE1hbnVmYWN0dXJlciA9ICIiOwoKICAgICAgICBwdWJsaWMgc3RyaW5nIElkIHsgZ2V0IHsgcmV0dXJuIFZpZC5Ub1N0cmluZygiWDQiKSArICI6IiArIFBpZC5Ub1N0cmluZygiWDQiKTsgfSB9CgogICAgICAgIC8vIGV4cGxpY2l0IEhpZENvbGxlY3Rpb25MaWtlIGltcGxlbWVudGF0aW9uOiBzYW1lIGZpZWxkcywgYnV0IGtlZXBzIHRoZSBzdHJ1Y3QtZnJlZQogICAgICAgIC8vIGhldXJpc3RpY3MgbGF5ZXIgdGVzdGFibGUgd2l0aG91dCBXaW4zMiB0eXBlcy4KICAgICAgICBpbnQgSGlkQ29sbGVjdGlvbkxpa2UuVXNhZ2VQYWdlIHsgZ2V0IHsgcmV0dXJuIFVzYWdlUGFnZTsgfSB9CiAgICAgICAgaW50IEhpZENvbGxlY3Rpb25MaWtlLlVzYWdlIHsgZ2V0IHsgcmV0dXJuIFVzYWdlOyB9IH0KICAgICAgICBpbnQgSGlkQ29sbGVjdGlvbkxpa2UuRmVhdHVyZUxlbmd0aCB7IGdldCB7IHJldHVybiBGZWF0dXJlTGVuZ3RoOyB9IH0KICAgICAgICBzdHJpbmcgSGlkQ29sbGVjdGlvbkxpa2UuUHJvZHVjdE5hbWUgeyBnZXQgeyByZXR1cm4gUHJvZHVjdE5hbWU7IH0gfQogICAgICAgIHN0cmluZyBIaWRDb2xsZWN0aW9uTGlrZS5NYW51ZmFjdHVyZXIgeyBnZXQgeyByZXR1cm4gTWFudWZhY3R1cmVyOyB9IH0KCiAgICAgICAgcHVibGljIGJvb2wgSXNWZW5kb3JQYWdlIHsgZ2V0IHsgcmV0dXJuIERldmljZUhldXJpc3RpY3MuSXNWZW5kb3JQYWdlKFVzYWdlUGFnZSk7IH0gfQoKICAgICAgICAvLy8gPHN1bW1hcnk+VGhlIGRldmljZSBpbnN0YW5jZSBwYXRoIChiZWZvcmUgdGhlICIje2d1aWR9IiBzdWZmaXgpLCB1c2VkIHRvIGdyb3VwIHNpYmxpbmcgY29sbGVjdGlvbnMuPC9zdW1tYXJ5PgogICAgICAgIHB1YmxpYyBzdHJpbmcgSW5zdGFuY2VLZXkKICAgICAgICB7CiAgICAgICAgICAgIGdldAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBzdHJpbmcgcCA9IFBhdGggPz8gIiI7CiAgICAgICAgICAgICAgICBpbnQgaSA9IHAuVG9Mb3dlckludmFyaWFudCgpLkluZGV4T2YoIiN7Iik7CiAgICAgICAgICAgICAgICByZXR1cm4gaSA+IDAgPyBwLlN1YnN0cmluZygwLCBpKSA6IHA7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgLy8vIDxzdW1tYXJ5PlRoaW4gd3JhcHBlciBvdmVyIHRoZSBXaW4zMiBISUQgc3RhY2suIE5vIHRoaXJkLXBhcnR5IGRlcGVuZGVuY3kuPC9zdW1tYXJ5PgogICAgcHVibGljIHN0YXRpYyBjbGFzcyBIaWQKICAgIHsKICAgICAgICBjb25zdCBpbnQgRElHQ0ZfUFJFU0VOVCA9IDB4MDI7CiAgICAgICAgY29uc3QgaW50IERJR0NGX0RFVklDRUlOVEVSRkFDRSA9IDB4MTA7CiAgICAgICAgY29uc3QgdWludCBHRU5FUklDX1JFQUQgPSAweDgwMDAwMDAwOwogICAgICAgIGNvbnN0IHVpbnQgR0VORVJJQ19XUklURSA9IDB4NDAwMDAwMDA7CiAgICAgICAgY29uc3QgdWludCBGSUxFX1NIQVJFX1JXID0gMHgwMzsKICAgICAgICBjb25zdCB1aW50IE9QRU5fRVhJU1RJTkcgPSAzOwoKICAgICAgICBbU3RydWN0TGF5b3V0KExheW91dEtpbmQuU2VxdWVudGlhbCldCiAgICAgICAgc3RydWN0IFNQX0RFVklDRV9JTlRFUkZBQ0VfREFUQQogICAgICAgIHsKICAgICAgICAgICAgcHVibGljIGludCBjYlNpemU7CiAgICAgICAgICAgIHB1YmxpYyBHdWlkIEludGVyZmFjZUNsYXNzR3VpZDsKICAgICAgICAgICAgcHVibGljIGludCBGbGFnczsKICAgICAgICAgICAgcHVibGljIEludFB0ciBSZXNlcnZlZDsKICAgICAgICB9CgogICAgICAgIFtTdHJ1Y3RMYXlvdXQoTGF5b3V0S2luZC5TZXF1ZW50aWFsKV0KICAgICAgICBzdHJ1Y3QgSElERF9BVFRSSUJVVEVTCiAgICAgICAgewogICAgICAgICAgICBwdWJsaWMgaW50IFNpemU7CiAgICAgICAgICAgIHB1YmxpYyB1c2hvcnQgVmVuZG9ySUQ7CiAgICAgICAgICAgIHB1YmxpYyB1c2hvcnQgUHJvZHVjdElEOwogICAgICAgICAgICBwdWJsaWMgdXNob3J0IFZlcnNpb25OdW1iZXI7CiAgICAgICAgfQoKICAgICAgICBbU3RydWN0TGF5b3V0KExheW91dEtpbmQuU2VxdWVudGlhbCldCiAgICAgICAgc3RydWN0IEhJRFBfQ0FQUwogICAgICAgIHsKICAgICAgICAgICAgcHVibGljIHVzaG9ydCBVc2FnZTsKICAgICAgICAgICAgcHVibGljIHVzaG9ydCBVc2FnZVBhZ2U7CiAgICAgICAgICAgIHB1YmxpYyB1c2hvcnQgSW5wdXRSZXBvcnRCeXRlTGVuZ3RoOwogICAgICAgICAgICBwdWJsaWMgdXNob3J0IE91dHB1dFJlcG9ydEJ5dGVMZW5ndGg7CiAgICAgICAgICAgIHB1YmxpYyB1c2hvcnQgRmVhdHVyZVJlcG9ydEJ5dGVMZW5ndGg7CiAgICAgICAgICAgIFtNYXJzaGFsQXMoVW5tYW5hZ2VkVHlwZS5CeVZhbEFycmF5LCBTaXplQ29uc3QgPSAxNyldIHB1YmxpYyB1c2hvcnRbXSBSZXNlcnZlZDsKICAgICAgICAgICAgcHVibGljIHVzaG9ydCBOdW1iZXJMaW5rQ29sbGVjdGlvbk5vZGVzOwogICAgICAgICAgICBwdWJsaWMgdXNob3J0IE51bWJlcklucHV0QnV0dG9uQ2FwczsKICAgICAgICAgICAgcHVibGljIHVzaG9ydCBOdW1iZXJJbnB1dFZhbHVlQ2FwczsKICAgICAgICAgICAgcHVibGljIHVzaG9ydCBOdW1iZXJJbnB1dERhdGFJbmRpY2VzOwogICAgICAgICAgICBwdWJsaWMgdXNob3J0IE51bWJlck91dHB1dEJ1dHRvbkNhcHM7CiAgICAgICAgICAgIHB1YmxpYyB1c2hvcnQgTnVtYmVyT3V0cHV0VmFsdWVDYXBzOwogICAgICAgICAgICBwdWJsaWMgdXNob3J0IE51bWJlck91dHB1dERhdGFJbmRpY2VzOwogICAgICAgICAgICBwdWJsaWMgdXNob3J0IE51bWJlckZlYXR1cmVCdXR0b25DYXBzOwogICAgICAgICAgICBwdWJsaWMgdXNob3J0IE51bWJlckZlYXR1cmVWYWx1ZUNhcHM7CiAgICAgICAgICAgIHB1YmxpYyB1c2hvcnQgTnVtYmVyRmVhdHVyZURhdGFJbmRpY2VzOwogICAgICAgIH0KCiAgICAgICAgW0RsbEltcG9ydCgiaGlkLmRsbCIpXSBzdGF0aWMgZXh0ZXJuIHZvaWQgSGlkRF9HZXRIaWRHdWlkKG91dCBHdWlkIGcpOwogICAgICAgIFtEbGxJbXBvcnQoImhpZC5kbGwiKV0gc3RhdGljIGV4dGVybiBib29sIEhpZERfR2V0QXR0cmlidXRlcyhTYWZlRmlsZUhhbmRsZSBoLCByZWYgSElERF9BVFRSSUJVVEVTIGEpOwogICAgICAgIFtEbGxJbXBvcnQoImhpZC5kbGwiKV0gc3RhdGljIGV4dGVybiBib29sIEhpZERfR2V0UHJlcGFyc2VkRGF0YShTYWZlRmlsZUhhbmRsZSBoLCBvdXQgSW50UHRyIHApOwogICAgICAgIFtEbGxJbXBvcnQoImhpZC5kbGwiKV0gc3RhdGljIGV4dGVybiBib29sIEhpZERfRnJlZVByZXBhcnNlZERhdGEoSW50UHRyIHApOwogICAgICAgIFtEbGxJbXBvcnQoImhpZC5kbGwiKV0gc3RhdGljIGV4dGVybiBpbnQgSGlkUF9HZXRDYXBzKEludFB0ciBwLCByZWYgSElEUF9DQVBTIGMpOwogICAgICAgIFtEbGxJbXBvcnQoImhpZC5kbGwiLCBTZXRMYXN0RXJyb3IgPSB0cnVlKV0gc3RhdGljIGV4dGVybiBib29sIEhpZERfR2V0RmVhdHVyZShTYWZlRmlsZUhhbmRsZSBoLCBieXRlW10gYnVmLCBpbnQgbGVuKTsKICAgICAgICBbRGxsSW1wb3J0KCJoaWQuZGxsIiwgU2V0TGFzdEVycm9yID0gdHJ1ZSldIHN0YXRpYyBleHRlcm4gYm9vbCBIaWREX1NldEZlYXR1cmUoU2FmZUZpbGVIYW5kbGUgaCwgYnl0ZVtdIGJ1ZiwgaW50IGxlbik7CiAgICAgICAgW0RsbEltcG9ydCgiaGlkLmRsbCIsIENoYXJTZXQgPSBDaGFyU2V0LlVuaWNvZGUpXSBzdGF0aWMgZXh0ZXJuIGJvb2wgSGlkRF9HZXRQcm9kdWN0U3RyaW5nKFNhZmVGaWxlSGFuZGxlIGgsIFN0cmluZ0J1aWxkZXIgYnVmLCBpbnQgbGVuKTsKICAgICAgICBbRGxsSW1wb3J0KCJoaWQuZGxsIiwgQ2hhclNldCA9IENoYXJTZXQuVW5pY29kZSldIHN0YXRpYyBleHRlcm4gYm9vbCBIaWREX0dldE1hbnVmYWN0dXJlclN0cmluZyhTYWZlRmlsZUhhbmRsZSBoLCBTdHJpbmdCdWlsZGVyIGJ1ZiwgaW50IGxlbik7CgogICAgICAgIFtEbGxJbXBvcnQoInNldHVwYXBpLmRsbCIsIENoYXJTZXQgPSBDaGFyU2V0LkF1dG8pXQogICAgICAgIHN0YXRpYyBleHRlcm4gSW50UHRyIFNldHVwRGlHZXRDbGFzc0RldnMocmVmIEd1aWQgZywgSW50UHRyIGUsIEludFB0ciBod25kLCBpbnQgZmxhZ3MpOwogICAgICAgIFtEbGxJbXBvcnQoInNldHVwYXBpLmRsbCIsIENoYXJTZXQgPSBDaGFyU2V0LkF1dG8pXQogICAgICAgIHN0YXRpYyBleHRlcm4gYm9vbCBTZXR1cERpRW51bURldmljZUludGVyZmFjZXMoSW50UHRyIHNldCwgSW50UHRyIGRldiwgcmVmIEd1aWQgZywgaW50IGlkeCwgcmVmIFNQX0RFVklDRV9JTlRFUkZBQ0VfREFUQSBkKTsKICAgICAgICBbRGxsSW1wb3J0KCJzZXR1cGFwaS5kbGwiLCBDaGFyU2V0ID0gQ2hhclNldC5BdXRvKV0KICAgICAgICBzdGF0aWMgZXh0ZXJuIGJvb2wgU2V0dXBEaUdldERldmljZUludGVyZmFjZURldGFpbChJbnRQdHIgc2V0LCByZWYgU1BfREVWSUNFX0lOVEVSRkFDRV9EQVRBIGQsIEludFB0ciBkZXRhaWwsIGludCBzaXplLCByZWYgaW50IG5lZWRlZCwgSW50UHRyIGluZm8pOwogICAgICAgIFtEbGxJbXBvcnQoInNldHVwYXBpLmRsbCIpXSBzdGF0aWMgZXh0ZXJuIGJvb2wgU2V0dXBEaURlc3Ryb3lEZXZpY2VJbmZvTGlzdChJbnRQdHIgc2V0KTsKICAgICAgICBbRGxsSW1wb3J0KCJrZXJuZWwzMi5kbGwiLCBDaGFyU2V0ID0gQ2hhclNldC5BdXRvLCBTZXRMYXN0RXJyb3IgPSB0cnVlKV0KICAgICAgICBzdGF0aWMgZXh0ZXJuIFNhZmVGaWxlSGFuZGxlIENyZWF0ZUZpbGUoc3RyaW5nIG5hbWUsIHVpbnQgYWNjZXNzLCB1aW50IHNoYXJlLCBJbnRQdHIgc2VjLCB1aW50IGRpc3AsIHVpbnQgZmxhZ3MsIEludFB0ciB0bXBsKTsKCiAgICAgICAgLy8vIDxzdW1tYXJ5Pkxhc3QgV2luMzIgZXJyb3IgZnJvbSB0aGUgbW9zdCByZWNlbnQgSElEIGNhbGwgKHVzZWQgZm9yIGRpYWdub3N0aWNzKS48L3N1bW1hcnk+CiAgICAgICAgcHVibGljIHN0YXRpYyBpbnQgTGFzdEVycm9yIHsgZ2V0IHsgcmV0dXJuIE1hcnNoYWwuR2V0TGFzdFdpbjMyRXJyb3IoKTsgfSB9CgogICAgICAgIHB1YmxpYyBzdGF0aWMgc3RyaW5nIERlc2NyaWJlRXJyb3IoaW50IGNvZGUpCiAgICAgICAgewogICAgICAgICAgICBzd2l0Y2ggKGNvZGUpCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgIGNhc2UgMDogcmV0dXJuICJvayI7CiAgICAgICAgICAgICAgICBjYXNlIDMxOiByZXR1cm4gImVycjMxKOS8keecoCkiOwogICAgICAgICAgICAgICAgY2FzZSA4NzogcmV0dXJuICJlcnI4NyhyZXBvcnQgaWQv6ZW/5bqmKSI7CiAgICAgICAgICAgICAgICBjYXNlIDU6IHJldHVybiAiZXJyNSjpgJrpgZPooqvljaDnlKgpIjsKICAgICAgICAgICAgICAgIGNhc2UgMTE2NzogcmV0dXJuICJlcnIxMTY3KOiuvuWkh+W3suenu+mZpCkiOwogICAgICAgICAgICAgICAgY2FzZSAyOiByZXR1cm4gImVycjIo5pyq5om+5Yiw6K6+5aSHKSI7CiAgICAgICAgICAgICAgICBkZWZhdWx0OiByZXR1cm4gImVyciIgKyBjb2RlOwogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICAvLy8gPHN1bW1hcnk+RW51bWVyYXRlIGV2ZXJ5IEhJRCBjb2xsZWN0aW9uIGN1cnJlbnRseSBwcmVzZW50LiBDaGVhcCBlbm91Z2ggdG8gY2FsbCBwZXIgcmVmcmVzaC48L3N1bW1hcnk+CiAgICAgICAgcHVibGljIHN0YXRpYyBMaXN0PEhpZENvbGxlY3Rpb24+IEVudW1lcmF0ZSgpCiAgICAgICAgewogICAgICAgICAgICB2YXIgbGlzdCA9IG5ldyBMaXN0PEhpZENvbGxlY3Rpb24+KCk7CiAgICAgICAgICAgIEd1aWQgZ3VpZDsKICAgICAgICAgICAgdHJ5IHsgSGlkRF9HZXRIaWRHdWlkKG91dCBndWlkKTsgfQogICAgICAgICAgICBjYXRjaCB7IHJldHVybiBsaXN0OyB9CgogICAgICAgICAgICBJbnRQdHIgc2V0ID0gU2V0dXBEaUdldENsYXNzRGV2cyhyZWYgZ3VpZCwgSW50UHRyLlplcm8sIEludFB0ci5aZXJvLCBESUdDRl9QUkVTRU5UIHwgRElHQ0ZfREVWSUNFSU5URVJGQUNFKTsKICAgICAgICAgICAgaWYgKHNldCA9PSBJbnRQdHIuWmVybyB8fCBzZXQuVG9JbnQ2NCgpID09IC0xKSByZXR1cm4gbGlzdDsKCiAgICAgICAgICAgIHZhciBkaWQgPSBuZXcgU1BfREVWSUNFX0lOVEVSRkFDRV9EQVRBKCk7CiAgICAgICAgICAgIGRpZC5jYlNpemUgPSBNYXJzaGFsLlNpemVPZihkaWQpOwogICAgICAgICAgICB0cnkKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgZm9yIChpbnQgaSA9IDA7IDsgaSsrKQogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAgIGlmICghU2V0dXBEaUVudW1EZXZpY2VJbnRlcmZhY2VzKHNldCwgSW50UHRyLlplcm8sIHJlZiBndWlkLCBpLCByZWYgZGlkKSkgYnJlYWs7CiAgICAgICAgICAgICAgICAgICAgaW50IG5lZWRlZCA9IDA7CiAgICAgICAgICAgICAgICAgICAgU2V0dXBEaUdldERldmljZUludGVyZmFjZURldGFpbChzZXQsIHJlZiBkaWQsIEludFB0ci5aZXJvLCAwLCByZWYgbmVlZGVkLCBJbnRQdHIuWmVybyk7CiAgICAgICAgICAgICAgICAgICAgaWYgKG5lZWRlZCA8PSAwKSBjb250aW51ZTsKCiAgICAgICAgICAgICAgICAgICAgSW50UHRyIGJ1ZiA9IE1hcnNoYWwuQWxsb2NIR2xvYmFsKG5lZWRlZCk7CiAgICAgICAgICAgICAgICAgICAgdHJ5CiAgICAgICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAgICAgICAvLyBjYlNpemUgb2YgU1BfREVWSUNFX0lOVEVSRkFDRV9ERVRBSUxfREFUQV9XOiA4IG9uIHg2NCAoNCArIDIgKyAyIHBhZCksIDYgb24geDg2CiAgICAgICAgICAgICAgICAgICAgICAgIE1hcnNoYWwuV3JpdGVJbnQzMihidWYsIChJbnRQdHIuU2l6ZSA9PSA4KSA/IDggOiA2KTsKICAgICAgICAgICAgICAgICAgICAgICAgaWYgKCFTZXR1cERpR2V0RGV2aWNlSW50ZXJmYWNlRGV0YWlsKHNldCwgcmVmIGRpZCwgYnVmLCBuZWVkZWQsIHJlZiBuZWVkZWQsIEludFB0ci5aZXJvKSkgY29udGludWU7CiAgICAgICAgICAgICAgICAgICAgICAgIHN0cmluZyBwYXRoID0gTWFyc2hhbC5QdHJUb1N0cmluZ0F1dG8obmV3IEludFB0cihidWYuVG9JbnQ2NCgpICsgNCkpOwogICAgICAgICAgICAgICAgICAgICAgICBpZiAoc3RyaW5nLklzTnVsbE9yRW1wdHkocGF0aCkpIGNvbnRpbnVlOwoKICAgICAgICAgICAgICAgICAgICAgICAgdmFyIGggPSBDcmVhdGVGaWxlKHBhdGgsIDAsIEZJTEVfU0hBUkVfUlcsIEludFB0ci5aZXJvLCBPUEVOX0VYSVNUSU5HLCAwLCBJbnRQdHIuWmVybyk7CiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChoLklzSW52YWxpZCkgY29udGludWU7CiAgICAgICAgICAgICAgICAgICAgICAgIHRyeQogICAgICAgICAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YXIgbWMgPSBSZWFkQ29sbGVjdGlvbihoLCBwYXRoKTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIChtYyAhPSBudWxsKSBsaXN0LkFkZChtYyk7CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgZmluYWxseSB7IGguQ2xvc2UoKTsgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBmaW5hbGx5IHsgTWFyc2hhbC5GcmVlSEdsb2JhbChidWYpOyB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgY2F0Y2ggKEV4Y2VwdGlvbiBleCkgeyBMb2cuV2FybigiaGlkIGVudW1lcmF0ZTogIiArIGV4Lk1lc3NhZ2UpOyB9CiAgICAgICAgICAgIGZpbmFsbHkgeyBTZXR1cERpRGVzdHJveURldmljZUluZm9MaXN0KHNldCk7IH0KICAgICAgICAgICAgcmV0dXJuIGxpc3Q7CiAgICAgICAgfQoKICAgICAgICBwdWJsaWMgc3RhdGljIEhpZENvbGxlY3Rpb24gUmVhZENvbGxlY3Rpb24oU2FmZUZpbGVIYW5kbGUgaCwgc3RyaW5nIHBhdGgpCiAgICAgICAgewogICAgICAgICAgICB2YXIgYXR0ciA9IG5ldyBISUREX0FUVFJJQlVURVMoKTsKICAgICAgICAgICAgYXR0ci5TaXplID0gTWFyc2hhbC5TaXplT2YoYXR0cik7CiAgICAgICAgICAgIGlmICghSGlkRF9HZXRBdHRyaWJ1dGVzKGgsIHJlZiBhdHRyKSkgcmV0dXJuIG51bGw7CgogICAgICAgICAgICBJbnRQdHIgcHA7CiAgICAgICAgICAgIGlmICghSGlkRF9HZXRQcmVwYXJzZWREYXRhKGgsIG91dCBwcCkpIHJldHVybiBudWxsOwogICAgICAgICAgICB2YXIgY2FwcyA9IG5ldyBISURQX0NBUFMoKTsKICAgICAgICAgICAgSGlkUF9HZXRDYXBzKHBwLCByZWYgY2Fwcyk7CiAgICAgICAgICAgIEhpZERfRnJlZVByZXBhcnNlZERhdGEocHApOwoKICAgICAgICAgICAgdmFyIHNiID0gbmV3IFN0cmluZ0J1aWxkZXIoMjU2KTsKICAgICAgICAgICAgSGlkRF9HZXRQcm9kdWN0U3RyaW5nKGgsIHNiLCA1MTIpOwoKICAgICAgICAgICAgdmFyIG1jID0gbmV3IEhpZENvbGxlY3Rpb24oKTsKICAgICAgICAgICAgbWMuUGF0aCA9IHBhdGg7CiAgICAgICAgICAgIG1jLlZpZCA9IGF0dHIuVmVuZG9ySUQ7CiAgICAgICAgICAgIG1jLlBpZCA9IGF0dHIuUHJvZHVjdElEOwogICAgICAgICAgICBtYy5Vc2FnZVBhZ2UgPSBjYXBzLlVzYWdlUGFnZTsKICAgICAgICAgICAgbWMuVXNhZ2UgPSBjYXBzLlVzYWdlOwogICAgICAgICAgICBtYy5GZWF0dXJlTGVuZ3RoID0gY2Fwcy5GZWF0dXJlUmVwb3J0Qnl0ZUxlbmd0aDsKICAgICAgICAgICAgbWMuSW5wdXRMZW5ndGggPSBjYXBzLklucHV0UmVwb3J0Qnl0ZUxlbmd0aDsKICAgICAgICAgICAgbWMuUHJvZHVjdE5hbWUgPSBzYi5Ub1N0cmluZygpLlRyaW0oKTsKCiAgICAgICAgICAgIHZhciBtZiA9IG5ldyBTdHJpbmdCdWlsZGVyKDI1Nik7CiAgICAgICAgICAgIEhpZERfR2V0TWFudWZhY3R1cmVyU3RyaW5nKGgsIG1mLCA1MTIpOwogICAgICAgICAgICBtYy5NYW51ZmFjdHVyZXIgPSBtZi5Ub1N0cmluZygpLlRyaW0oKTsKICAgICAgICAgICAgcmV0dXJuIG1jOwogICAgICAgIH0KCiAgICAgICAgcHVibGljIHN0YXRpYyBTYWZlRmlsZUhhbmRsZSBPcGVuKHN0cmluZyBwYXRoLCBib29sIHdyaXRlKQogICAgICAgIHsKICAgICAgICAgICAgdWludCBhY2Nlc3MgPSB3cml0ZSA/IChHRU5FUklDX1JFQUQgfCBHRU5FUklDX1dSSVRFKSA6IDA7CiAgICAgICAgICAgIHJldHVybiBDcmVhdGVGaWxlKHBhdGgsIGFjY2VzcywgRklMRV9TSEFSRV9SVywgSW50UHRyLlplcm8sIE9QRU5fRVhJU1RJTkcsIDAsIEludFB0ci5aZXJvKTsKICAgICAgICB9CgogICAgICAgIC8vLyA8c3VtbWFyeT5TZW5kIGEgZmVhdHVyZSByZXBvcnQ7IHJldHVybnMgZmFsc2Ugd2hlbiB0aGUgZGV2aWNlIHJlamVjdHMgaXQuPC9zdW1tYXJ5PgogICAgICAgIHB1YmxpYyBzdGF0aWMgYm9vbCBTZXRGZWF0dXJlKFNhZmVGaWxlSGFuZGxlIGgsIGJ5dGVbXSBmcmFtZSkKICAgICAgICB7CiAgICAgICAgICAgIHJldHVybiBIaWREX1NldEZlYXR1cmUoaCwgZnJhbWUsIGZyYW1lLkxlbmd0aCk7CiAgICAgICAgfQoKICAgICAgICAvLy8gPHN1bW1hcnk+UmVhZCBhIGZlYXR1cmUgcmVwb3J0OyB0aGUgcmVwb3J0IGlkIG11c3QgYmUgcHJlLXNlZWRlZC4gUmV0dXJucyBudWxsIG9uIGZhaWx1cmUuPC9zdW1tYXJ5PgogICAgICAgIHB1YmxpYyBzdGF0aWMgYnl0ZVtdIEdldEZlYXR1cmUoU2FmZUZpbGVIYW5kbGUgaCwgaW50IGxlbiwgYnl0ZSByZXBvcnRJZCkKICAgICAgICB7CiAgICAgICAgICAgIHZhciBidWYgPSBuZXcgYnl0ZVtsZW5dOwogICAgICAgICAgICBidWZbMF0gPSByZXBvcnRJZDsKICAgICAgICAgICAgcmV0dXJuIEhpZERfR2V0RmVhdHVyZShoLCBidWYsIGxlbikgPyBidWYgOiBudWxsOwogICAgICAgIH0KCiAgICAgICAgLy8vIDxzdW1tYXJ5PlJlYWQgYSBmZWF0dXJlIHJlcG9ydCB0aGF0IGlzIGFkZHJlc3NlZCBieSBpZCAwIChubyByZXBvcnQgaWQgaW4gdGhlIGJ1ZmZlcikuPC9zdW1tYXJ5PgogICAgICAgIHB1YmxpYyBzdGF0aWMgYnl0ZVtdIEdldEZlYXR1cmVJZGxlc3MoU2FmZUZpbGVIYW5kbGUgaCwgaW50IGxlbikKICAgICAgICB7CiAgICAgICAgICAgIHZhciBidWYgPSBuZXcgYnl0ZVtsZW5dOwogICAgICAgICAgICByZXR1cm4gSGlkRF9HZXRGZWF0dXJlKGgsIGJ1ZiwgbGVuKSA/IGJ1ZiA6IG51bGw7CiAgICAgICAgfQogICAgfQp9Cg==
+using System;
+using System.Collections.Generic;
+using System.Runtime.InteropServices;
+using System.Text;
+using Microsoft.Win32.SafeHandles;
+
+namespace MouseMeter
+{
+    /// <summary>A single HID top-level collection exposed by Windows.</summary>
+    public class HidCollection : HidCollectionLike
+    {
+        public string Path;
+        public ushort Vid;
+        public ushort Pid;
+        public ushort UsagePage;
+        public ushort Usage;
+        public int FeatureLength;
+        public int InputLength;
+        public string ProductName = "";
+        public string Manufacturer = "";
+
+        public string Id { get { return Vid.ToString("X4") + ":" + Pid.ToString("X4"); } }
+
+        // explicit HidCollectionLike implementation: same fields, but keeps the struct-free
+        // heuristics layer testable without Win32 types.
+        int HidCollectionLike.UsagePage { get { return UsagePage; } }
+        int HidCollectionLike.Usage { get { return Usage; } }
+        int HidCollectionLike.FeatureLength { get { return FeatureLength; } }
+        string HidCollectionLike.ProductName { get { return ProductName; } }
+        string HidCollectionLike.Manufacturer { get { return Manufacturer; } }
+
+        public bool IsVendorPage { get { return DeviceHeuristics.IsVendorPage(UsagePage); } }
+
+        /// <summary>The device instance path (before the "#{guid}" suffix), used to group sibling collections.</summary>
+        public string InstanceKey
+        {
+            get
+            {
+                string p = Path ?? "";
+                int i = p.ToLowerInvariant().IndexOf("#{");
+                return i > 0 ? p.Substring(0, i) : p;
+            }
+        }
+    }
+
+    /// <summary>Thin wrapper over the Win32 HID stack. No third-party dependency.</summary>
+    public static class Hid
+    {
+        const int DIGCF_PRESENT = 0x02;
+        const int DIGCF_DEVICEINTERFACE = 0x10;
+        const uint GENERIC_READ = 0x80000000;
+        const uint GENERIC_WRITE = 0x40000000;
+        const uint FILE_SHARE_RW = 0x03;
+        const uint OPEN_EXISTING = 3;
+
+        [StructLayout(LayoutKind.Sequential)]
+        struct SP_DEVICE_INTERFACE_DATA
+        {
+            public int cbSize;
+            public Guid InterfaceClassGuid;
+            public int Flags;
+            public IntPtr Reserved;
+        }
+
+        [StructLayout(LayoutKind.Sequential)]
+        struct HIDD_ATTRIBUTES
+        {
+            public int Size;
+            public ushort VendorID;
+            public ushort ProductID;
+            public ushort VersionNumber;
+        }
+
+        [StructLayout(LayoutKind.Sequential)]
+        struct HIDP_CAPS
+        {
+            public ushort Usage;
+            public ushort UsagePage;
+            public ushort InputReportByteLength;
+            public ushort OutputReportByteLength;
+            public ushort FeatureReportByteLength;
+            [MarshalAs(UnmanagedType.ByValArray, SizeConst = 17)] public ushort[] Reserved;
+            public ushort NumberLinkCollectionNodes;
+            public ushort NumberInputButtonCaps;
+            public ushort NumberInputValueCaps;
+            public ushort NumberInputDataIndices;
+            public ushort NumberOutputButtonCaps;
+            public ushort NumberOutputValueCaps;
+            public ushort NumberOutputDataIndices;
+            public ushort NumberFeatureButtonCaps;
+            public ushort NumberFeatureValueCaps;
+            public ushort NumberFeatureDataIndices;
+        }
+
+        [DllImport("hid.dll")] static extern void HidD_GetHidGuid(out Guid g);
+        [DllImport("hid.dll")] static extern bool HidD_GetAttributes(SafeFileHandle h, ref HIDD_ATTRIBUTES a);
+        [DllImport("hid.dll")] static extern bool HidD_GetPreparsedData(SafeFileHandle h, out IntPtr p);
+        [DllImport("hid.dll")] static extern bool HidD_FreePreparsedData(IntPtr p);
+        [DllImport("hid.dll")] static extern int HidP_GetCaps(IntPtr p, ref HIDP_CAPS c);
+        [DllImport("hid.dll", SetLastError = true)] static extern bool HidD_GetFeature(SafeFileHandle h, byte[] buf, int len);
+        [DllImport("hid.dll", SetLastError = true)] static extern bool HidD_SetFeature(SafeFileHandle h, byte[] buf, int len);
+        [DllImport("hid.dll", CharSet = CharSet.Unicode)] static extern bool HidD_GetProductString(SafeFileHandle h, StringBuilder buf, int len);
+        [DllImport("hid.dll", CharSet = CharSet.Unicode)] static extern bool HidD_GetManufacturerString(SafeFileHandle h, StringBuilder buf, int len);
+
+        [DllImport("setupapi.dll", CharSet = CharSet.Auto)]
+        static extern IntPtr SetupDiGetClassDevs(ref Guid g, IntPtr e, IntPtr hwnd, int flags);
+        [DllImport("setupapi.dll", CharSet = CharSet.Auto)]
+        static extern bool SetupDiEnumDeviceInterfaces(IntPtr set, IntPtr dev, ref Guid g, int idx, ref SP_DEVICE_INTERFACE_DATA d);
+        [DllImport("setupapi.dll", CharSet = CharSet.Auto)]
+        static extern bool SetupDiGetDeviceInterfaceDetail(IntPtr set, ref SP_DEVICE_INTERFACE_DATA d, IntPtr detail, int size, ref int needed, IntPtr info);
+        [DllImport("setupapi.dll")] static extern bool SetupDiDestroyDeviceInfoList(IntPtr set);
+        [DllImport("kernel32.dll", CharSet = CharSet.Auto, SetLastError = true)]
+        static extern SafeFileHandle CreateFile(string name, uint access, uint share, IntPtr sec, uint disp, uint flags, IntPtr tmpl);
+
+        /// <summary>Last Win32 error from the most recent HID call (used for diagnostics).</summary>
+        public static int LastError { get { return Marshal.GetLastWin32Error(); } }
+
+        public static string DescribeError(int code)
+        {
+            switch (code)
+            {
+                case 0: return "ok";
+                case 31: return "err31(休眠)";
+                case 87: return "err87(report id/长度)";
+                case 5: return "err5(通道被占用)";
+                case 1167: return "err1167(设备已移除)";
+                case 2: return "err2(未找到设备)";
+                default: return "err" + code;
+            }
+        }
+
+        /// <summary>Enumerate every HID collection currently present. Cheap enough to call per refresh.</summary>
+        public static List<HidCollection> Enumerate()
+        {
+            var list = new List<HidCollection>();
+            Guid guid;
+            try { HidD_GetHidGuid(out guid); }
+            catch { return list; }
+
+            IntPtr set = SetupDiGetClassDevs(ref guid, IntPtr.Zero, IntPtr.Zero, DIGCF_PRESENT | DIGCF_DEVICEINTERFACE);
+            if (set == IntPtr.Zero || set.ToInt64() == -1) return list;
+
+            var did = new SP_DEVICE_INTERFACE_DATA();
+            did.cbSize = Marshal.SizeOf(did);
+            try
+            {
+                for (int i = 0; ; i++)
+                {
+                    if (!SetupDiEnumDeviceInterfaces(set, IntPtr.Zero, ref guid, i, ref did)) break;
+                    int needed = 0;
+                    SetupDiGetDeviceInterfaceDetail(set, ref did, IntPtr.Zero, 0, ref needed, IntPtr.Zero);
+                    if (needed <= 0) continue;
+
+                    IntPtr buf = Marshal.AllocHGlobal(needed);
+                    try
+                    {
+                        // cbSize of SP_DEVICE_INTERFACE_DETAIL_DATA_W: 8 on x64 (4 + 2 + 2 pad), 6 on x86
+                        Marshal.WriteInt32(buf, (IntPtr.Size == 8) ? 8 : 6);
+                        if (!SetupDiGetDeviceInterfaceDetail(set, ref did, buf, needed, ref needed, IntPtr.Zero)) continue;
+                        string path = Marshal.PtrToStringAuto(new IntPtr(buf.ToInt64() + 4));
+                        if (string.IsNullOrEmpty(path)) continue;
+
+                        var h = CreateFile(path, 0, FILE_SHARE_RW, IntPtr.Zero, OPEN_EXISTING, 0, IntPtr.Zero);
+                        if (h.IsInvalid) continue;
+                        try
+                        {
+                            var mc = ReadCollection(h, path);
+                            if (mc != null) list.Add(mc);
+                        }
+                        finally { h.Close(); }
+                    }
+                    finally { Marshal.FreeHGlobal(buf); }
+                }
+            }
+            catch (Exception ex) { Log.Warn("hid enumerate: " + ex.Message); }
+            finally { SetupDiDestroyDeviceInfoList(set); }
+            return list;
+        }
+
+        public static HidCollection ReadCollection(SafeFileHandle h, string path)
+        {
+            var attr = new HIDD_ATTRIBUTES();
+            attr.Size = Marshal.SizeOf(attr);
+            if (!HidD_GetAttributes(h, ref attr)) return null;
+
+            IntPtr pp;
+            if (!HidD_GetPreparsedData(h, out pp)) return null;
+            var caps = new HIDP_CAPS();
+            HidP_GetCaps(pp, ref caps);
+            HidD_FreePreparsedData(pp);
+
+            var sb = new StringBuilder(256);
+            HidD_GetProductString(h, sb, 512);
+
+            var mc = new HidCollection();
+            mc.Path = path;
+            mc.Vid = attr.VendorID;
+            mc.Pid = attr.ProductID;
+            mc.UsagePage = caps.UsagePage;
+            mc.Usage = caps.Usage;
+            mc.FeatureLength = caps.FeatureReportByteLength;
+            mc.InputLength = caps.InputReportByteLength;
+            mc.ProductName = sb.ToString().Trim();
+
+            var mf = new StringBuilder(256);
+            HidD_GetManufacturerString(h, mf, 512);
+            mc.Manufacturer = mf.ToString().Trim();
+            return mc;
+        }
+
+        public static SafeFileHandle Open(string path, bool write)
+        {
+            uint access = write ? (GENERIC_READ | GENERIC_WRITE) : 0;
+            return CreateFile(path, access, FILE_SHARE_RW, IntPtr.Zero, OPEN_EXISTING, 0, IntPtr.Zero);
+        }
+
+        /// <summary>Send a feature report; returns false when the device rejects it.</summary>
+        public static bool SetFeature(SafeFileHandle h, byte[] frame)
+        {
+            return HidD_SetFeature(h, frame, frame.Length);
+        }
+
+        /// <summary>Read a feature report; the report id must be pre-seeded. Returns null on failure.</summary>
+        public static byte[] GetFeature(SafeFileHandle h, int len, byte reportId)
+        {
+            var buf = new byte[len];
+            buf[0] = reportId;
+            return HidD_GetFeature(h, buf, len) ? buf : null;
+        }
+
+        /// <summary>Read a feature report that is addressed by id 0 (no report id in the buffer).</summary>
+        public static byte[] GetFeatureIdless(SafeFileHandle h, int len)
+        {
+            var buf = new byte[len];
+            return HidD_GetFeature(h, buf, len) ? buf : null;
+        }
+    }
+}

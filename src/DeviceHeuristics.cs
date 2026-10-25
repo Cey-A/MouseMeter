@@ -1,1 +1,184 @@
-dXNpbmcgU3lzdGVtOwp1c2luZyBTeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYzsKdXNpbmcgU3lzdGVtLkdsb2JhbGl6YXRpb247CnVzaW5nIFN5c3RlbS5UZXh0LlJlZ3VsYXJFeHByZXNzaW9uczsKCm5hbWVzcGFjZSBNb3VzZU1ldGVyCnsKICAgIC8vLyA8c3VtbWFyeT4KICAgIC8vLyBQdXJlIGhldXJpc3RpY3MgdGhhdCBhbnN3ZXIgIndoYXQga2luZCBvZiBkZXZpY2UgaXMgdGhpcz8iIGZyb20gbmFtZXMsIFBuUCBpZHMgYW5kIEhJRAogICAgLy8vIHVzYWdlIHBhZ2VzLiBLZXB0IGZyZWUgb2YgV2luMzIgc28gdGVzdHMvIGNhbiBleGVyY2lzZSBpdCBvbiBhbnkgbWFjaGluZS4KICAgIC8vLwogICAgLy8vIE9yZGVyIG1hdHRlcnM6IGhlYWRzZXRzIG11c3QgYmUgdGVzdGVkIGJlZm9yZSBrZXlib2FyZHMgKCJHYW1pbmcgSGVhZHNldCBLZXlib2FyZCIgc3R5bGUKICAgIC8vLyBwcm9kdWN0IG5hbWVzIGV4aXN0KSwgYW5kIGtleWJvYXJkcyBiZWZvcmUgbWljZS4KICAgIC8vLyA8L3N1bW1hcnk+CiAgICBwdWJsaWMgc3RhdGljIGNsYXNzIERldmljZUhldXJpc3RpY3MKICAgIHsKICAgICAgICBwdWJsaWMgY29uc3QgaW50IFVzYWdlTW91c2UgPSAweDAyOwogICAgICAgIHB1YmxpYyBjb25zdCBpbnQgVXNhZ2VKb3lzdGljayA9IDB4MDQ7CiAgICAgICAgcHVibGljIGNvbnN0IGludCBVc2FnZUdhbWVQYWQgPSAweDA1OwogICAgICAgIHB1YmxpYyBjb25zdCBpbnQgVXNhZ2VLZXlib2FyZCA9IDB4MDY7CiAgICAgICAgcHVibGljIGNvbnN0IGludCBVc2FnZUtleXBhZCA9IDB4MDc7CiAgICAgICAgcHVibGljIGNvbnN0IGludCBQYWdlR2VuZXJpY0Rlc2t0b3AgPSAweDAxOwogICAgICAgIHB1YmxpYyBjb25zdCBpbnQgUGFnZURpZ2l0aXplciA9IDB4MEQ7CiAgICAgICAgcHVibGljIGNvbnN0IGludCBQYWdlQ29uc3VtZXIgPSAweDBDOwoKICAgICAgICAvLyBBdWRpb0VuZHBvaW50IHNlcnZpY2UgaW5zdGFuY2VzOiB0aGUgbGFzdCBwYXRoIHNlZ21lbnQgYmVmb3JlIHRoZSAne2d1aWR9JyBsb29rcyBsaWtlCiAgICAgICAgLy8gIHswLjAuMC4wMDAwMDAwMH0uezxpZmFjZT59fHs8ZGV2aWNlPn1cPGlmYWNlPlw8ZGV2aWNlPi57YjNiMi4uLn0KICAgICAgICAvLyBhbnl0aGluZyBhZnRlciB0aGUgbGFzdCAnLicgdGhhdCBsb29rcyBsaWtlIHRoZSBlbmRwb2ludCBHVUlEOyB0aGUgcGF0aCBtYXkgb3IgbWF5IG5vdAogICAgICAgIC8vIGNhcnJ5IGEgdHJhaWxpbmcgI3tpbnRlcmZhY2UtY2xhc3MtZ3VpZH0gc3VmZml4LCBzbyBhbmNob3Igb24gImVuZCBvZiBzdHJpbmcgb3IgJ3snIi4KICAgICAgICBzdGF0aWMgcmVhZG9ubHkgUmVnZXggQXVkaW9FbmRwb2ludFJ4ID0gbmV3IFJlZ2V4KEAiXC5cez8oWzAtOUEtRmEtZl17OH0tWzAtOUEtRmEtZl17NH0tWzAtOUEtRmEtZl17NH0tWzAtOUEtRmEtZl17NH0tWzAtOUEtRmEtZl17MTJ9KVx9Pyg/OiNcey4qXH0pPyQiLAogICAgICAgICAgICBSZWdleE9wdGlvbnMuQ29tcGlsZWQgfCBSZWdleE9wdGlvbnMuQ3VsdHVyZUludmFyaWFudCk7CgogICAgICAgIHN0YXRpYyByZWFkb25seSBzdHJpbmdbXSBIZWFkc2V0V29yZHMgPSBuZXcgc3RyaW5nW10gewogICAgICAgICAgICAiaGVhZHNldCIsICJoZWFkcGhvbmUiLCAiZWFyYnVkIiwgImVhcnBob25lIiwgInNwZWFrZXIiLCAiaGVzdCIsICLogLPmnLoiLCAi6ICz6bqmIiwgIumfs+eusSIKICAgICAgICB9OwogICAgICAgIHN0YXRpYyByZWFkb25seSBzdHJpbmdbXSBLZXlib2FyZFdvcmRzID0gbmV3IHN0cmluZ1tdIHsKICAgICAgICAgICAgImtleWJvYXJkIiwgImtleXBhZCIsICLplK7nm5giLCAia2V5Y2hyb24iLCAia2JkIgogICAgICAgIH07CiAgICAgICAgc3RhdGljIHJlYWRvbmx5IHN0cmluZ1tdIE1vdXNlV29yZHMgPSBuZXcgc3RyaW5nW10gewogICAgICAgICAgICAibW91c2UiLCAi6byg5qCHIiwgImdhbWluZyBtb3VzZSIKICAgICAgICB9OwoKICAgICAgICAvLy8gPHN1bW1hcnk+VGhlIGF1ZGlvIGVuZHBvaW50IGlkIGVtYmVkZGVkIGluIGEgUG5QIGRldmljZSBpbnN0YW5jZSBwYXRoLCBvciBudWxsLjwvc3VtbWFyeT4KICAgICAgICBwdWJsaWMgc3RhdGljIHN0cmluZyBBdWRpb0VuZHBvaW50RnJvbVBhdGgoc3RyaW5nIHBhdGgpCiAgICAgICAgewogICAgICAgICAgICBpZiAoc3RyaW5nLklzTnVsbE9yRW1wdHkocGF0aCkpIHJldHVybiBudWxsOwogICAgICAgICAgICBzdHJpbmcgcCA9IHBhdGguVHJpbUVuZCgnXFwnKTsKICAgICAgICAgICAgdmFyIG0gPSBBdWRpb0VuZHBvaW50UnguTWF0Y2gocCk7CiAgICAgICAgICAgIGlmICghbS5TdWNjZXNzKSByZXR1cm4gbnVsbDsKICAgICAgICAgICAgcmV0dXJuIG0uR3JvdXBzWzFdLlZhbHVlLlRvTG93ZXJJbnZhcmlhbnQoKTsKICAgICAgICB9CgogICAgICAgIC8vLyA8c3VtbWFyeT5DbGFzc2lmeSBmcm9tIGEgZGlzcGxheSBuYW1lIHBsdXMgYW55IGV4dHJhIGtleXdvcmRzIChwcm9kdWN0IHN0cmluZywgUG5QIGZyaWVuZGx5IG5hbWUpLjwvc3VtbWFyeT4KICAgICAgICBwdWJsaWMgc3RhdGljIHN0cmluZyBGcm9tTmFtZShzdHJpbmcgbmFtZSkKICAgICAgICB7CiAgICAgICAgICAgIHN0cmluZyBzID0gKG5hbWUgPz8gIiIpLlRvTG93ZXJJbnZhcmlhbnQoKTsKICAgICAgICAgICAgaWYgKHMuTGVuZ3RoID09IDApIHJldHVybiBudWxsOwogICAgICAgICAgICBmb3IgKGludCBpID0gMDsgaSA8IEhlYWRzZXRXb3Jkcy5MZW5ndGg7IGkrKykgaWYgKHMuQ29udGFpbnMoSGVhZHNldFdvcmRzW2ldKSkgcmV0dXJuIERldmljZUtpbmQuSGVhZHNldDsKICAgICAgICAgICAgZm9yIChpbnQgaSA9IDA7IGkgPCBLZXlib2FyZFdvcmRzLkxlbmd0aDsgaSsrKSBpZiAocy5Db250YWlucyhLZXlib2FyZFdvcmRzW2ldKSkgcmV0dXJuIERldmljZUtpbmQuS2V5Ym9hcmQ7CiAgICAgICAgICAgIGZvciAoaW50IGkgPSAwOyBpIDwgTW91c2VXb3Jkcy5MZW5ndGg7IGkrKykgaWYgKHMuQ29udGFpbnMoTW91c2VXb3Jkc1tpXSkpIHJldHVybiBEZXZpY2VLaW5kLk1vdXNlOwogICAgICAgICAgICByZXR1cm4gbnVsbDsKICAgICAgICB9CgogICAgICAgIC8vLyA8c3VtbWFyeT5DbGFzc2lmeSBmcm9tIGEgSElEIHVzYWdlIHBhZ2UgLyB1c2FnZSBwYWlyLjwvc3VtbWFyeT4KICAgICAgICBwdWJsaWMgc3RhdGljIHN0cmluZyBGcm9tVXNhZ2UoaW50IHBhZ2UsIGludCB1c2FnZSkKICAgICAgICB7CiAgICAgICAgICAgIGlmIChwYWdlID09IFBhZ2VHZW5lcmljRGVza3RvcCkKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgaWYgKHVzYWdlID09IFVzYWdlTW91c2UpIHJldHVybiBEZXZpY2VLaW5kLk1vdXNlOwogICAgICAgICAgICAgICAgaWYgKHVzYWdlID09IFVzYWdlS2V5Ym9hcmQgfHwgdXNhZ2UgPT0gVXNhZ2VLZXlwYWQpIHJldHVybiBEZXZpY2VLaW5kLktleWJvYXJkOwogICAgICAgICAgICAgICAgaWYgKHVzYWdlID09IFVzYWdlSm95c3RpY2sgfHwgdXNhZ2UgPT0gVXNhZ2VHYW1lUGFkKSByZXR1cm4gbnVsbDsgICAvLyBnYW1lIGNvbnRyb2xsZXIsIGlnbm9yZQogICAgICAgICAgICB9CiAgICAgICAgICAgIGlmIChwYWdlID09IFBhZ2VEaWdpdGl6ZXIpIHJldHVybiBudWxsOwogICAgICAgICAgICByZXR1cm4gbnVsbDsKICAgICAgICB9CgogICAgICAgIC8vLyA8c3VtbWFyeT4KICAgICAgICAvLy8gV2hldGhlciBhIEhJRCBjb2xsZWN0aW9uIG9mIHRoaXMgdXNhZ2UgY2FuIGNhcnJ5IGEgdmVuZG9yIGJhdHRlcnkgcHJvdG9jb2wgYXQgYWxsLgogICAgICAgIC8vLyBFeGNsdWRlcyB0aGUgaGlnaCBmcmVxdWVuY3kgbW91c2UgLyBrZXlib2FyZCAvIGNvbnN1bWVyIGludGVyZmFjZXM6IHByb2JpbmcgdGhvc2Ugd2l0aCBhCiAgICAgICAgLy8vIDY1LWJ5dGUgZmVhdHVyZSByZXBvcnQgaXMgYm90aCB1c2VsZXNzIGFuZCBkaXNydXB0aXZlIHRvIHR5cGluZy4KICAgICAgICAvLy8gPC9zdW1tYXJ5PgogICAgICAgIHB1YmxpYyBzdGF0aWMgYm9vbCBJc1ZlbmRvclBhZ2UoaW50IHBhZ2UpCiAgICAgICAgewogICAgICAgICAgICByZXR1cm4gcGFnZSA9PSAweEZGMDEgfHwgcGFnZSA9PSAweEZGRkYgfHwgcGFnZSA9PSAweEZGQTAgfHwgcGFnZSA9PSAweEZGNjAgfHwgcGFnZSA9PSAweEZGMDA7CiAgICAgICAgfQoKICAgICAgICBwdWJsaWMgc3RhdGljIGJvb2wgSXNQcm9iZUNhbmRpZGF0ZShIaWRDb2xsZWN0aW9uTGlrZSBjKQogICAgICAgIHsKICAgICAgICAgICAgaWYgKGMgPT0gbnVsbCB8fCBjLkZlYXR1cmVMZW5ndGggPCBQcm90b2NvbC5NaW5GcmFtZSkgcmV0dXJuIGZhbHNlOwogICAgICAgICAgICBpZiAoSXNWZW5kb3JQYWdlKGMuVXNhZ2VQYWdlKSkgcmV0dXJuIHRydWU7CiAgICAgICAgICAgIGlmIChjLlVzYWdlUGFnZSA9PSBQYWdlR2VuZXJpY0Rlc2t0b3AgJiYgKGMuVXNhZ2UgPT0gVXNhZ2VNb3VzZSB8fCBjLlVzYWdlID09IFVzYWdlS2V5Ym9hcmQgfHwgYy5Vc2FnZSA9PSBVc2FnZUtleXBhZCkpIHJldHVybiBmYWxzZTsKICAgICAgICAgICAgaWYgKGMuVXNhZ2VQYWdlID09IFBhZ2VDb25zdW1lcikgcmV0dXJuIGZhbHNlOwogICAgICAgICAgICByZXR1cm4gZmFsc2U7CiAgICAgICAgfQoKICAgICAgICAvLy8gPHN1bW1hcnk+V2hhdCBraW5kIG9mIGRldmljZSBpcyB0aGlzIGNvbGxlY3Rpb24gcGFydCBvZj8gRmFsbHMgYmFjayB0byB0aGUgd2hvbGUgZGV2aWNlJ3MgdXNhZ2VzLjwvc3VtbWFyeT4KICAgICAgICBwdWJsaWMgc3RhdGljIHN0cmluZyBDbGFzc2lmeShIaWRDb2xsZWN0aW9uTGlrZSBzZWxmLCBJTGlzdDxIaWRDb2xsZWN0aW9uTGlrZT4gc2libGluZ3MpCiAgICAgICAgewogICAgICAgICAgICAvLyAxKSB0aGUgY29sbGVjdGlvbiBpdHNlbGYKICAgICAgICAgICAgc3RyaW5nIGsgPSBGcm9tVXNhZ2Uoc2VsZi5Vc2FnZVBhZ2UsIHNlbGYuVXNhZ2UpOwogICAgICAgICAgICBpZiAoayAhPSBudWxsKSByZXR1cm4gazsKCiAgICAgICAgICAgIC8vIDIpIGFueSBzaWJsaW5nIGNvbGxlY3Rpb24gb2YgdGhlIHNhbWUgcGh5c2ljYWwgZGV2aWNlIChhIGtleWJvYXJkIGRvbmdsZSBleHBvc2VzCiAgICAgICAgICAgIC8vICAgIGtleWJvYXJkICsgY29uc3VtZXIgKyB2ZW5kb3IgY29sbGVjdGlvbnM7IHRoZSB2ZW5kb3Igb25lIGhhcyBubyB1c2FnZSBvZiBpdHMgb3duKQogICAgICAgICAgICBpZiAoc2libGluZ3MgIT0gbnVsbCkKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgZm9yIChpbnQgaSA9IDA7IGkgPCBzaWJsaW5ncy5Db3VudDsgaSsrKQogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAgIGlmIChSZWZlcmVuY2VFcXVhbHMoc2libGluZ3NbaV0sIHNlbGYpKSBjb250aW51ZTsKICAgICAgICAgICAgICAgICAgICBzdHJpbmcgcyA9IEZyb21Vc2FnZShzaWJsaW5nc1tpXS5Vc2FnZVBhZ2UsIHNpYmxpbmdzW2ldLlVzYWdlKTsKICAgICAgICAgICAgICAgICAgICBpZiAocyA9PSBEZXZpY2VLaW5kLktleWJvYXJkKSByZXR1cm4gRGV2aWNlS2luZC5LZXlib2FyZDsKICAgICAgICAgICAgICAgICAgICBpZiAocyA9PSBEZXZpY2VLaW5kLk1vdXNlKSByZXR1cm4gRGV2aWNlS2luZC5Nb3VzZTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQoKICAgICAgICAgICAgLy8gMykgcHJvZHVjdCAvIG1hbnVmYWN0dXJlciBzdHJpbmdzIG9uIHRoZSB2ZW5kb3IgY29sbGVjdGlvbiAoZG9uZ2xlcyBvZnRlbiByZXBvcnQKICAgICAgICAgICAgLy8gICAgIjIuNEcgUmVjZWl2ZXIiIHdpdGggbm8gZGV2aWNlIHdvcmRzLCBzbyB0aGlzIGlzIGJlc3QgZWZmb3J0KQogICAgICAgICAgICBrID0gRnJvbU5hbWUoc2VsZi5Qcm9kdWN0TmFtZSk7CiAgICAgICAgICAgIGlmIChrICE9IG51bGwpIHJldHVybiBrOwogICAgICAgICAgICBrID0gRnJvbU5hbWUoc2VsZi5NYW51ZmFjdHVyZXIpOwogICAgICAgICAgICBpZiAoayAhPSBudWxsKSByZXR1cm4gazsKCiAgICAgICAgICAgIHJldHVybiBudWxsOwogICAgICAgIH0KCiAgICAgICAgLy8vIDxzdW1tYXJ5PlBpY2sgdGhlIHNpbmdsZSBiZXN0IGNvbGxlY3Rpb24gdG8gdGFsayB0byBmb3Igb25lIHBoeXNpY2FsIGRldmljZS48L3N1bW1hcnk+CiAgICAgICAgcHVibGljIHN0YXRpYyBIaWRDb2xsZWN0aW9uTGlrZSBQaWNrUHJvYmVUYXJnZXQoSUxpc3Q8SGlkQ29sbGVjdGlvbkxpa2U+IGNvbGxlY3Rpb25zKQogICAgICAgIHsKICAgICAgICAgICAgSGlkQ29sbGVjdGlvbkxpa2UgYmVzdCA9IG51bGw7CiAgICAgICAgICAgIGZvciAoaW50IGkgPSAwOyBpIDwgY29sbGVjdGlvbnMuQ291bnQ7IGkrKykKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgdmFyIGMgPSBjb2xsZWN0aW9uc1tpXTsKICAgICAgICAgICAgICAgIGlmICghSXNQcm9iZUNhbmRpZGF0ZShjKSkgY29udGludWU7CiAgICAgICAgICAgICAgICBpZiAoYmVzdCA9PSBudWxsKSB7IGJlc3QgPSBjOyBjb250aW51ZTsgfQogICAgICAgICAgICAgICAgLy8gcHJlZmVyIHRoZSBjYW5vbmljYWwgdmVuZG9yIHBhZ2UgdXNlZCBieSB0aGUgdmVyaWZpZWQgbW91c2UgcHJvdG9jb2wKICAgICAgICAgICAgICAgIGJvb2wgY1BlcmZlY3QgPSBjLlVzYWdlUGFnZSA9PSAweEZGMDEgJiYgYy5Vc2FnZSA9PSAweDAwMDE7CiAgICAgICAgICAgICAgICBib29sIGJQZXJmZWN0ID0gYmVzdC5Vc2FnZVBhZ2UgPT0gMHhGRjAxICYmIGJlc3QuVXNhZ2UgPT0gMHgwMDAxOwogICAgICAgICAgICAgICAgaWYgKGNQZXJmZWN0ICYmICFiUGVyZmVjdCkgYmVzdCA9IGM7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgcmV0dXJuIGJlc3Q7CiAgICAgICAgfQoKICAgICAgICAvLy8gPHN1bW1hcnk+U2hvcnQgaHVtYW4gbGFiZWwgZm9yIHRoZSB0cmFuc3BvcnQsIGZyb20gYSBQblAgaW5zdGFuY2UgcGF0aC48L3N1bW1hcnk+CiAgICAgICAgcHVibGljIHN0YXRpYyBzdHJpbmcgVHJhbnNwb3J0T2Yoc3RyaW5nIHBucElkKQogICAgICAgIHsKICAgICAgICAgICAgc3RyaW5nIHMgPSAocG5wSWQgPz8gIiIpLlRvTG93ZXJJbnZhcmlhbnQoKTsKICAgICAgICAgICAgaWYgKHMuQ29udGFpbnMoImJsZSMiKSkgcmV0dXJuICJCTEUiOwogICAgICAgICAgICBpZiAocy5Db250YWlucygiYnRoIikpIHJldHVybiAi6JOd54mZIjsKICAgICAgICAgICAgaWYgKHMuQ29udGFpbnMoInVzYlxcIikgfHwgcy5TdGFydHNXaXRoKCJ1c2IjIikpIHJldHVybiAiVVNCIjsKICAgICAgICAgICAgaWYgKHMuQ29udGFpbnMoImhpZCMiKSB8fCBzLkNvbnRhaW5zKEAiaGlkXCIpKSByZXR1cm4gIjIuNEciOwogICAgICAgICAgICByZXR1cm4gIiI7CiAgICAgICAgfQoKICAgICAgICBwdWJsaWMgc3RhdGljIGJvb2wgTG9va3NMaWtlRG9uZ2xlKHN0cmluZyBwbnBJZCkKICAgICAgICB7CiAgICAgICAgICAgIHN0cmluZyBzID0gKHBucElkID8/ICIiKS5Ub0xvd2VySW52YXJpYW50KCk7CiAgICAgICAgICAgIHJldHVybiBzLkNvbnRhaW5zKCJyZWNlaXZlciIpIHx8IHMuQ29udGFpbnMoImRvbmdsZSIpIHx8IHMuQ29udGFpbnMoIjIuNGciKTsKICAgICAgICB9CgogICAgICAgIC8vLyA8c3VtbWFyeT5QYXJzZSAiMEJEQTo0NzYyIiBpbnRvIHZpZCAvIHBpZC48L3N1bW1hcnk+CiAgICAgICAgcHVibGljIHN0YXRpYyBib29sIFRyeVBhcnNlSHdJZChzdHJpbmcgaWQsIG91dCB1c2hvcnQgdmlkLCBvdXQgdXNob3J0IHBpZCkKICAgICAgICB7CiAgICAgICAgICAgIHZpZCA9IDA7IHBpZCA9IDA7CiAgICAgICAgICAgIGlmIChzdHJpbmcuSXNOdWxsT3JFbXB0eShpZCkpIHJldHVybiBmYWxzZTsKICAgICAgICAgICAgc3RyaW5nIHMgPSBpZC5UcmltKCkuUmVwbGFjZSgiVklEXyIsICIiKS5SZXBsYWNlKCJQSURfIiwgIiIpOwogICAgICAgICAgICBpbnQgY29sb24gPSBzLkluZGV4T2YoJzonKTsKICAgICAgICAgICAgaWYgKGNvbG9uIDw9IDAgfHwgY29sb24gPj0gcy5MZW5ndGggLSAxKSByZXR1cm4gZmFsc2U7CiAgICAgICAgICAgIHN0cmluZyBhID0gcy5TdWJzdHJpbmcoMCwgY29sb24pOwogICAgICAgICAgICBzdHJpbmcgYiA9IHMuU3Vic3RyaW5nKGNvbG9uICsgMSk7CiAgICAgICAgICAgIHJldHVybiB1c2hvcnQuVHJ5UGFyc2UoYSwgTnVtYmVyU3R5bGVzLkhleE51bWJlciwgQ3VsdHVyZUluZm8uSW52YXJpYW50Q3VsdHVyZSwgb3V0IHZpZCkKICAgICAgICAgICAgICAgICYmIHVzaG9ydC5UcnlQYXJzZShiLCBOdW1iZXJTdHlsZXMuSGV4TnVtYmVyLCBDdWx0dXJlSW5mby5JbnZhcmlhbnRDdWx0dXJlLCBvdXQgcGlkKTsKICAgICAgICB9CiAgICB9CgogICAgLy8vIDxzdW1tYXJ5PlN0cnVjdHVyYWwgaW50ZXJmYWNlIHNvIHRoZSBoZXVyaXN0aWNzIGNhbiBiZSB0ZXN0ZWQgd2l0aG91dCB0aGUgV2luMzIgdHlwZXMuPC9zdW1tYXJ5PgogICAgcHVibGljIGludGVyZmFjZSBIaWRDb2xsZWN0aW9uTGlrZQogICAgewogICAgICAgIGludCBVc2FnZVBhZ2UgeyBnZXQ7IH0KICAgICAgICBpbnQgVXNhZ2UgeyBnZXQ7IH0KICAgICAgICBpbnQgRmVhdHVyZUxlbmd0aCB7IGdldDsgfQogICAgICAgIHN0cmluZyBQcm9kdWN0TmFtZSB7IGdldDsgfQogICAgICAgIHN0cmluZyBNYW51ZmFjdHVyZXIgeyBnZXQ7IH0KICAgIH0KfQo=
+using System;
+using System.Collections.Generic;
+using System.Globalization;
+using System.Text.RegularExpressions;
+
+namespace MouseMeter
+{
+    /// <summary>
+    /// Pure heuristics that answer "what kind of device is this?" from names, PnP ids and HID
+    /// usage pages. Kept free of Win32 so tests/ can exercise it on any machine.
+    ///
+    /// Order matters: headsets must be tested before keyboards ("Gaming Headset Keyboard" style
+    /// product names exist), and keyboards before mice.
+    /// </summary>
+    public static class DeviceHeuristics
+    {
+        public const int UsageMouse = 0x02;
+        public const int UsageJoystick = 0x04;
+        public const int UsageGamePad = 0x05;
+        public const int UsageKeyboard = 0x06;
+        public const int UsageKeypad = 0x07;
+        public const int PageGenericDesktop = 0x01;
+        public const int PageDigitizer = 0x0D;
+        public const int PageConsumer = 0x0C;
+
+        // AudioEndpoint service instances: the last path segment before the '{guid}' looks like
+        //  {0.0.0.00000000}.{<iface>}|{<device>}\<iface>\<device>.{b3b2...}
+        // anything after the last '.' that looks like the endpoint GUID; the path may or may not
+        // carry a trailing #{interface-class-guid} suffix, so anchor on "end of string or '{'".
+        static readonly Regex AudioEndpointRx = new Regex(@"\.\{?([0-9A-Fa-f]{8}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{12})\}?(?:#\{.*\})?$",
+            RegexOptions.Compiled | RegexOptions.CultureInvariant);
+
+        static readonly string[] HeadsetWords = new string[] {
+            "headset", "headphone", "earbud", "earphone", "speaker", "hest", "耳机", "耳麦", "音箱"
+        };
+        static readonly string[] KeyboardWords = new string[] {
+            "keyboard", "keypad", "键盘", "keychron", "kbd"
+        };
+        static readonly string[] MouseWords = new string[] {
+            "mouse", "鼠标", "gaming mouse"
+        };
+
+        /// <summary>The audio endpoint id embedded in a PnP device instance path, or null.</summary>
+        public static string AudioEndpointFromPath(string path)
+        {
+            if (string.IsNullOrEmpty(path)) return null;
+            string p = path.TrimEnd('\\');
+            var m = AudioEndpointRx.Match(p);
+            if (!m.Success) return null;
+            return m.Groups[1].Value.ToLowerInvariant();
+        }
+
+        /// <summary>Classify from a display name plus any extra keywords (product string, PnP friendly name).</summary>
+        public static string FromName(string name)
+        {
+            string s = (name ?? "").ToLowerInvariant();
+            if (s.Length == 0) return null;
+            for (int i = 0; i < HeadsetWords.Length; i++) if (s.Contains(HeadsetWords[i])) return DeviceKind.Headset;
+            for (int i = 0; i < KeyboardWords.Length; i++) if (s.Contains(KeyboardWords[i])) return DeviceKind.Keyboard;
+            for (int i = 0; i < MouseWords.Length; i++) if (s.Contains(MouseWords[i])) return DeviceKind.Mouse;
+            return null;
+        }
+
+        /// <summary>Classify from a HID usage page / usage pair.</summary>
+        public static string FromUsage(int page, int usage)
+        {
+            if (page == PageGenericDesktop)
+            {
+                if (usage == UsageMouse) return DeviceKind.Mouse;
+                if (usage == UsageKeyboard || usage == UsageKeypad) return DeviceKind.Keyboard;
+                if (usage == UsageJoystick || usage == UsageGamePad) return null;   // game controller, ignore
+            }
+            if (page == PageDigitizer) return null;
+            return null;
+        }
+
+        /// <summary>
+        /// Whether a HID collection of this usage can carry a vendor battery protocol at all.
+        /// Excludes the high frequency mouse / keyboard / consumer interfaces: probing those with a
+        /// 65-byte feature report is both useless and disruptive to typing.
+        /// </summary>
+        public static bool IsVendorPage(int page)
+        {
+            return page == 0xFF01 || page == 0xFFFF || page == 0xFFA0 || page == 0xFF60 || page == 0xFF00;
+        }
+
+        public static bool IsProbeCandidate(HidCollectionLike c)
+        {
+            if (c == null || c.FeatureLength < Protocol.MinFrame) return false;
+            if (IsVendorPage(c.UsagePage)) return true;
+            if (c.UsagePage == PageGenericDesktop && (c.Usage == UsageMouse || c.Usage == UsageKeyboard || c.Usage == UsageKeypad)) return false;
+            if (c.UsagePage == PageConsumer) return false;
+            return false;
+        }
+
+        /// <summary>What kind of device is this collection part of? Falls back to the whole device's usages.</summary>
+        public static string Classify(HidCollectionLike self, IList<HidCollectionLike> siblings)
+        {
+            // 1) the collection itself
+            string k = FromUsage(self.UsagePage, self.Usage);
+            if (k != null) return k;
+
+            // 2) any sibling collection of the same physical device (a keyboard dongle exposes
+            //    keyboard + consumer + vendor collections; the vendor one has no usage of its own)
+            if (siblings != null)
+            {
+                for (int i = 0; i < siblings.Count; i++)
+                {
+                    if (ReferenceEquals(siblings[i], self)) continue;
+                    string s = FromUsage(siblings[i].UsagePage, siblings[i].Usage);
+                    if (s == DeviceKind.Keyboard) return DeviceKind.Keyboard;
+                    if (s == DeviceKind.Mouse) return DeviceKind.Mouse;
+                }
+            }
+
+            // 3) product / manufacturer strings on the vendor collection (dongles often report
+            //    "2.4G Receiver" with no device words, so this is best effort)
+            k = FromName(self.ProductName);
+            if (k != null) return k;
+            k = FromName(self.Manufacturer);
+            if (k != null) return k;
+
+            return null;
+        }
+
+        /// <summary>Pick the single best collection to talk to for one physical device.</summary>
+        public static HidCollectionLike PickProbeTarget(IList<HidCollectionLike> collections)
+        {
+            HidCollectionLike best = null;
+            for (int i = 0; i < collections.Count; i++)
+            {
+                var c = collections[i];
+                if (!IsProbeCandidate(c)) continue;
+                if (best == null) { best = c; continue; }
+                // prefer the canonical vendor page used by the verified mouse protocol
+                bool cPerfect = c.UsagePage == 0xFF01 && c.Usage == 0x0001;
+                bool bPerfect = best.UsagePage == 0xFF01 && best.Usage == 0x0001;
+                if (cPerfect && !bPerfect) best = c;
+            }
+            return best;
+        }
+
+        /// <summary>Short human label for the transport, from a PnP instance path.</summary>
+        public static string TransportOf(string pnpId)
+        {
+            string s = (pnpId ?? "").ToLowerInvariant();
+            if (s.Contains("ble#")) return "BLE";
+            if (s.Contains("bth")) return "蓝牙";
+            if (s.Contains("usb\\") || s.StartsWith("usb#")) return "USB";
+            if (s.Contains("hid#") || s.Contains(@"hid\")) return "2.4G";
+            return "";
+        }
+
+        public static bool LooksLikeDongle(string pnpId)
+        {
+            string s = (pnpId ?? "").ToLowerInvariant();
+            return s.Contains("receiver") || s.Contains("dongle") || s.Contains("2.4g");
+        }
+
+        /// <summary>Parse "0BDA:4762" into vid / pid.</summary>
+        public static bool TryParseHwId(string id, out ushort vid, out ushort pid)
+        {
+            vid = 0; pid = 0;
+            if (string.IsNullOrEmpty(id)) return false;
+            string s = id.Trim().Replace("VID_", "").Replace("PID_", "");
+            int colon = s.IndexOf(':');
+            if (colon <= 0 || colon >= s.Length - 1) return false;
+            string a = s.Substring(0, colon);
+            string b = s.Substring(colon + 1);
+            return ushort.TryParse(a, NumberStyles.HexNumber, CultureInfo.InvariantCulture, out vid)
+                && ushort.TryParse(b, NumberStyles.HexNumber, CultureInfo.InvariantCulture, out pid);
+        }
+    }
+
+    /// <summary>Structural interface so the heuristics can be tested without the Win32 types.</summary>
+    public interface HidCollectionLike
+    {
+        int UsagePage { get; }
+        int Usage { get; }
+        int FeatureLength { get; }
+        string ProductName { get; }
+        string Manufacturer { get; }
+    }
+}

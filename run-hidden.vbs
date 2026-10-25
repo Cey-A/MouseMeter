@@ -1,1 +1,6 @@
-RGltIHNoLCBmc28sIGhlcmUsIHNjcmlwdApTZXQgc2ggPSBDcmVhdGVPYmplY3QoIldTY3JpcHQuU2hlbGwiKQpTZXQgZnNvID0gQ3JlYXRlT2JqZWN0KCJTY3JpcHRpbmcuRmlsZVN5c3RlbU9iamVjdCIpCmhlcmUgPSBmc28uR2V0UGFyZW50Rm9sZGVyTmFtZShXU2NyaXB0LlNjcmlwdEZ1bGxOYW1lKQpzY3JpcHQgPSBoZXJlICYgIlxNb3VzZU1ldGVyLnBzMSIKc2guUnVuICJwb3dlcnNoZWxsLmV4ZSAtTm9Qcm9maWxlIC1FeGVjdXRpb25Qb2xpY3kgQnlwYXNzIC1XaW5kb3dTdHlsZSBIaWRkZW4gLUZpbGUgIiIiICYgc2NyaXB0ICYgIiIiIiwgMCwgRmFsc2UK
+Dim sh, fso, here, script
+Set sh = CreateObject("WScript.Shell")
+Set fso = CreateObject("Scripting.FileSystemObject")
+here = fso.GetParentFolderName(WScript.ScriptFullName)
+script = here & "\MouseMeter.ps1"
+sh.Run "powershell.exe -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File """ & script & """", 0, False

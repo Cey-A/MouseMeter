@@ -1,1 +1,213 @@
-dXNpbmcgU3lzdGVtOwp1c2luZyBTeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYzsKdXNpbmcgU3lzdGVtLlRocmVhZGluZzsKdXNpbmcgTWljcm9zb2Z0LldpbjMyLlNhZmVIYW5kbGVzOwoKbmFtZXNwYWNlIE1vdXNlTWV0ZXIKewogICAgLy8vIDxzdW1tYXJ5Pk9uZSByZWFkaW5nIGZyb20gb25lIHNvdXJjZS48L3N1bW1hcnk+CiAgICBwdWJsaWMgc3RydWN0IFJlYWRpbmcKICAgIHsKICAgICAgICBwdWJsaWMgc3RyaW5nIElkOyAgICAgICAgICAgIC8vIHN0YWJsZSBrZXk6ICIyLjRHfDBCREE6NDc2MnxrZXlib2FyZCIKICAgICAgICBwdWJsaWMgc3RyaW5nIEtpbmQ7ICAgICAgICAgIC8vIERldmljZUtpbmQuKgogICAgICAgIHB1YmxpYyBzdHJpbmcgRGV2aWNlTmFtZTsKICAgICAgICBwdWJsaWMgc3RyaW5nIE1vZGVsOwogICAgICAgIHB1YmxpYyBpbnQgTGV2ZWw7CiAgICAgICAgcHVibGljIGJvb2wgQ2hhcmdpbmc7CiAgICAgICAgcHVibGljIHN0cmluZyBUcmFuc3BvcnQ7ICAgICAvLyAyLjRHIC8gQkxFIC8g6JOd54mZIC8gVVNCIC8gSEZQCiAgICAgICAgcHVibGljIHN0cmluZyBIYXJkd2FyZUlkOyAgICAvLyAiMEJEQTo0NzYyIiBvciBhIEJMRSBhZGRyZXNzCiAgICAgICAgcHVibGljIHN0cmluZyBTb3VyY2U7ICAgICAgICAvLyBwcm92aWRlciBuYW1lLCBmb3IgZGlhZ25vc3RpY3MKICAgICAgICBwdWJsaWMgRGF0ZVRpbWUgQXQ7CgogICAgICAgIHB1YmxpYyBib29sIElzVmFsaWQgeyBnZXQgeyByZXR1cm4gTGV2ZWwgPj0gMCAmJiBMZXZlbCA8PSAxMDA7IH0gfQoKICAgICAgICBwdWJsaWMgc3RhdGljIFJlYWRpbmcgSW52YWxpZCgpCiAgICAgICAgewogICAgICAgICAgICB2YXIgciA9IG5ldyBSZWFkaW5nKCk7CiAgICAgICAgICAgIHIuTGV2ZWwgPSAtMTsKICAgICAgICAgICAgcmV0dXJuIHI7CiAgICAgICAgfQogICAgfQoKICAgIC8vLyA8c3VtbWFyeT4KICAgIC8vLyBQdXJlIGRlY29kZXJzIGZvciB0aGUgdmVuZG9yIGZlYXR1cmUtcmVwb3J0IGZhbWlseSB1c2VkIGJ5IFJlYWx0ZWsgYmFzZWQgZG9uZ2xlcy4KICAgIC8vLyBCeXRlIHZhbHVlcyB0cmF2ZWwgaW52ZXJ0ZWQgKHZhbHVlIF4gMHhGRiksIHNlZSBkb2NzL1BST1RPQ09MLm1kLgogICAgLy8vCiAgICAvLy8gS2VwdCBzdGF0aWMgYW5kIHNpZGUtZWZmZWN0IGZyZWUgb24gcHVycG9zZTogdGhpcyBpcyB0aGUgb25seSBwYXJ0IG9mIHRoZSBwcm90b2NvbCB3ZSBjYW4KICAgIC8vLyB2ZXJpZnkgd2l0aG91dCBoYXJkd2FyZSwgc28gaXQgbXVzdCBzdGF5IHVuaXQgdGVzdGFibGUgKHRlc3RzL1Byb3RvY29sVGVzdHMuY3MpLgogICAgLy8vIDwvc3VtbWFyeT4KICAgIHB1YmxpYyBzdGF0aWMgY2xhc3MgUHJvdG9jb2wKICAgIHsKICAgICAgICBwdWJsaWMgY29uc3QgYnl0ZSBSZXF1ZXN0UmVwb3J0SWQgPSAweDEyOwogICAgICAgIHB1YmxpYyBjb25zdCBieXRlIFJlc3BvbnNlUmVwb3J0SWQgPSAweDExOwogICAgICAgIHB1YmxpYyBjb25zdCBieXRlIFJlcGx5SGVhZCA9IDB4Rjk7CgogICAgICAgIHB1YmxpYyBjb25zdCBpbnQgRnJhbWVMZW5ndGggPSA2NTsKICAgICAgICBwdWJsaWMgY29uc3QgaW50IE1pbkZyYW1lID0gNjU7CgogICAgICAgIHB1YmxpYyBjb25zdCBpbnQgTGV2ZWxJbmRleCA9IDExOwogICAgICAgIHB1YmxpYyBjb25zdCBpbnQgQ2hhcmdlSW5kZXggPSAxMjsKICAgICAgICBwdWJsaWMgY29uc3QgaW50IFRyYW5zcG9ydEluZGV4ID0gMTA7CiAgICAgICAgcHVibGljIGNvbnN0IGludCBQaWRMb0luZGV4ID0gNDsKICAgICAgICBwdWJsaWMgY29uc3QgaW50IFBpZEhpSW5kZXggPSA1OwoKICAgICAgICAvLyBSZXNwb25zZSB0eXBlIGJ5dGUgKHBheWxvYWRbMF0gLyByZXBseVsyXSkgLT4gZGV2aWNlIGNsYXNzLgogICAgICAgIC8vIDB4MDEgPSBtb3VzZSAodmVyaWZpZWQgb24gQTUgVWx0cmEpLiBUaGUgdHdvIG5ldyBlbnRyaWVzIGFyZSBoeXBvdGhlc2VzIHRha2VuIGZyb20gdGhlCiAgICAgICAgLy8gc2FtZSBSZWFsdGVrIGZpcm13YXJlIGZhbWlseTsgYSBtaXNtYXRjaCBpcyByZWplY3RlZCBieSBWYWxpZGF0ZSgpIGFuZCBuZXZlciBkaXNwbGF5ZWQuCiAgICAgICAgcHVibGljIGNvbnN0IGJ5dGUgVHlwZU1vdXNlID0gMHgwMTsKICAgICAgICBwdWJsaWMgY29uc3QgYnl0ZSBUeXBlS2V5Ym9hcmQgPSAweDAyOwogICAgICAgIHB1YmxpYyBjb25zdCBieXRlIFR5cGVIZWFkc2V0ID0gMHgwMzsKCiAgICAgICAgLy8vIDxzdW1tYXJ5PkJ1aWxkIHRoZSA2NSBieXRlIHF1ZXJ5IGZyYW1lLiBvcGNvZGUgaXMgdGhlIHBsYWluIChub24gaW52ZXJ0ZWQpIG9wZXJhdGlvbiBieXRlLjwvc3VtbWFyeT4KICAgICAgICBwdWJsaWMgc3RhdGljIGJ5dGVbXSBCdWlsZFJlcXVlc3QoYnl0ZSBvcGNvZGUpCiAgICAgICAgewogICAgICAgICAgICB2YXIgZnJhbWUgPSBuZXcgYnl0ZVtGcmFtZUxlbmd0aF07CiAgICAgICAgICAgIGZvciAoaW50IGkgPSAwOyBpIDwgZnJhbWUuTGVuZ3RoOyBpKyspIGZyYW1lW2ldID0gMHhGRjsKICAgICAgICAgICAgZnJhbWVbMF0gPSBSZXF1ZXN0UmVwb3J0SWQ7CiAgICAgICAgICAgIGZyYW1lWzFdID0gKGJ5dGUpKG9wY29kZSBeIDB4RkYpOwogICAgICAgICAgICByZXR1cm4gZnJhbWU7CiAgICAgICAgfQoKICAgICAgICBwdWJsaWMgc3RhdGljIGludCBJbnZlcnQoYnl0ZSByYXcpIHsgcmV0dXJuIHJhdyBeIDB4RkY7IH0KCiAgICAgICAgLy8vIDxzdW1tYXJ5Pk1vZGVsIG5hbWUgY2FycmllZCBieSB0aGUgZG9uZ2xlLCBpZiB0aGUgcmVwbHkgaW5jbHVkZXMgaXQgKHBheWxvYWQgYnl0ZXMgMTMuLjI3KS48L3N1bW1hcnk+CiAgICAgICAgcHVibGljIHN0YXRpYyBzdHJpbmcgUGFyc2VNb2RlbChieXRlW10gcmVwbHkpCiAgICAgICAgewogICAgICAgICAgICBpZiAocmVwbHkgPT0gbnVsbCB8fCByZXBseS5MZW5ndGggPCAxNikgcmV0dXJuICIiOwogICAgICAgICAgICB2YXIgY2hhcnMgPSBuZXcgTGlzdDxjaGFyPigpOwogICAgICAgICAgICBmb3IgKGludCBpID0gMTM7IGkgPCByZXBseS5MZW5ndGggJiYgaSA8IDI5OyBpKyspCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgIGludCBjID0gSW52ZXJ0KHJlcGx5W2ldKTsKICAgICAgICAgICAgICAgIGlmIChjID09IDApIGJyZWFrOwogICAgICAgICAgICAgICAgaWYgKGMgPCAweDIwIHx8IGMgPiAweDdFKSByZXR1cm4gIiI7ICAgLy8gbm90IGFuIEFTQ0lJIGZpZWxkIG9uIHRoaXMgZmlybXdhcmUKICAgICAgICAgICAgICAgIGNoYXJzLkFkZCgoY2hhciljKTsKICAgICAgICAgICAgfQogICAgICAgICAgICBzdHJpbmcgcyA9IG5ldyBzdHJpbmcoY2hhcnMuVG9BcnJheSgpKS5UcmltKCk7CiAgICAgICAgICAgIHJldHVybiBzLkxlbmd0aCA+PSAyID8gcyA6ICIiOwogICAgICAgIH0KCiAgICAgICAgLy8vIDxzdW1tYXJ5PgogICAgICAgIC8vLyBEZWNvZGUgYSByZXBseSBpbnRvIGEgUmVhZGluZy4gUmV0dXJucyBmYWxzZSBmb3IgYW55dGhpbmcgbWFsZm9ybWVkOyBjYWxsZXJzIHRoZW4gdHJlYXQgaXQKICAgICAgICAvLy8gYXMgIm5vIGFuc3dlciIgYW5kIGtlZXAgdGhlIHByZXZpb3VzIHZhbHVlIGluc3RlYWQgb2Ygc2hvd2luZyBnYXJiYWdlLgogICAgICAgIC8vLyA8L3N1bW1hcnk+CiAgICAgICAgcHVibGljIHN0YXRpYyBib29sIFRyeVBhcnNlKGJ5dGVbXSByZXBseSwgb3V0IFJlYWRpbmcgciwgb3V0IHN0cmluZyByZWFzb24pCiAgICAgICAgewogICAgICAgICAgICByID0gUmVhZGluZy5JbnZhbGlkKCk7CiAgICAgICAgICAgIHJlYXNvbiA9ICIiOwoKICAgICAgICAgICAgaWYgKHJlcGx5ID09IG51bGwgfHwgcmVwbHkuTGVuZ3RoIDwgRnJhbWVMZW5ndGgpIHsgcmVhc29uID0gInNob3J0IjsgcmV0dXJuIGZhbHNlOyB9CiAgICAgICAgICAgIGlmIChyZXBseVsxXSAhPSBSZXBseUhlYWQpIHsgcmVhc29uID0gImhlYWQiOyByZXR1cm4gZmFsc2U7IH0KCiAgICAgICAgICAgIGludCBsZXZlbCA9IEludmVydChyZXBseVtMZXZlbEluZGV4XSk7CiAgICAgICAgICAgIGludCBjaGFyZ2UgPSBJbnZlcnQocmVwbHlbQ2hhcmdlSW5kZXhdKTsKICAgICAgICAgICAgaWYgKGxldmVsID4gMTAwKSB7IHJlYXNvbiA9ICJsZXZlbCI7IHJldHVybiBmYWxzZTsgfQoKICAgICAgICAgICAgLy8gdGhlIHBheWxvYWQgY2FycmllcyB0aGUgcmVjZWl2ZXIgUElEIGluIGxpdHRsZSBlbmRpYW47IGlmIGl0IGlzIHByZXNlbnQgYW5kIGRvZXMgbm90CiAgICAgICAgICAgIC8vIG1hdGNoIHRoZSBjb2xsZWN0aW9uIHdlIHRhbGtlZCB0bywgd2UgYXJlIHJlYWRpbmcgc29tZWJvZHkgZWxzZSdzIGFuc3dlci4KICAgICAgICAgICAgaW50IHBpZEVjaG8gPSBJbnZlcnQocmVwbHlbUGlkTG9JbmRleF0pIHwgKEludmVydChyZXBseVtQaWRIaUluZGV4XSkgPDwgOCk7CgogICAgICAgICAgICByLkxldmVsID0gbGV2ZWw7CiAgICAgICAgICAgIHIuQ2hhcmdpbmcgPSBjaGFyZ2UgIT0gMDsKICAgICAgICAgICAgci5BdCA9IERhdGVUaW1lLk5vdzsKICAgICAgICAgICAgci5UcmFuc3BvcnQgPSAiMi40RyI7CiAgICAgICAgICAgIHJlYXNvbiA9ICJ0eXBlPSIgKyBJbnZlcnQocmVwbHlbMl0pLlRvU3RyaW5nKCJYMiIpICsgIiBwaWQ9IiArIHBpZEVjaG8uVG9TdHJpbmcoIlg0Iik7CiAgICAgICAgICAgIHJldHVybiB0cnVlOwogICAgICAgIH0KCiAgICAgICAgLy8vIDxzdW1tYXJ5PlJlc3BvbnNlIHR5cGUgYnl0ZSwgb3IgLTEgd2hlbiB0aGUgcmVwbHkgaGVhZCBpcyB3cm9uZy48L3N1bW1hcnk+CiAgICAgICAgcHVibGljIHN0YXRpYyBpbnQgUmVzcG9uc2VUeXBlKGJ5dGVbXSByZXBseSkKICAgICAgICB7CiAgICAgICAgICAgIGlmIChyZXBseSA9PSBudWxsIHx8IHJlcGx5Lkxlbmd0aCA8IDMgfHwgcmVwbHlbMV0gIT0gUmVwbHlIZWFkKSByZXR1cm4gLTE7CiAgICAgICAgICAgIHJldHVybiBJbnZlcnQocmVwbHlbMl0pOwogICAgICAgIH0KCiAgICAgICAgLy8vIDxzdW1tYXJ5Pk9wdGlvbmFsIGNvbmZpcm1hdGlvbiBvZiAiZGlkIHRoZSBQSUQgaW4gdGhlIGFuc3dlciBtYXRjaCB0aGlzIHJlY2VpdmVyIi48L3N1bW1hcnk+CiAgICAgICAgcHVibGljIHN0YXRpYyBib29sIFBpZE1hdGNoZXMoYnl0ZVtdIHJlcGx5LCBpbnQgcGlkKQogICAgICAgIHsKICAgICAgICAgICAgaWYgKHJlcGx5ID09IG51bGwgfHwgcmVwbHkuTGVuZ3RoIDwgNikgcmV0dXJuIGZhbHNlOwogICAgICAgICAgICBpbnQgZWNobyA9IEludmVydChyZXBseVtQaWRMb0luZGV4XSkgfCAoSW52ZXJ0KHJlcGx5W1BpZEhpSW5kZXhdKSA8PCA4KTsKICAgICAgICAgICAgcmV0dXJuIGVjaG8gPT0gcGlkOwogICAgICAgIH0KICAgIH0KCiAgICAvLy8gPHN1bW1hcnk+UHJvZ3Jlc3NpdmUgYmFja29mZiBzaGFyZWQgYnkgYWxsIHByb3ZpZGVyczogNjAsIDYwLCA5MCwgMTIwLCAxODAgbXMgKH41MDAgbXMgd29yc3QgY2FzZSkuPC9zdW1tYXJ5PgogICAgcHVibGljIHN0YXRpYyBjbGFzcyBSZXRyeQogICAgewogICAgICAgIHB1YmxpYyBzdGF0aWMgcmVhZG9ubHkgaW50W10gRGVsYXlzID0gbmV3IGludFtdIHsgNjAsIDYwLCA5MCwgMTIwLCAxODAgfTsKCiAgICAgICAgcHVibGljIHN0YXRpYyBpbnQgRGVsYXlGb3IoaW50IGF0dGVtcHQpCiAgICAgICAgewogICAgICAgICAgICBpbnQgaSA9IGF0dGVtcHQgPCAwID8gMCA6IChhdHRlbXB0ID49IERlbGF5cy5MZW5ndGggPyBEZWxheXMuTGVuZ3RoIC0gMSA6IGF0dGVtcHQpOwogICAgICAgICAgICByZXR1cm4gRGVsYXlzW2ldOwogICAgICAgIH0KCiAgICAgICAgcHVibGljIHN0YXRpYyBpbnQgV29yc3RDYXNlTXMgeyBnZXQgeyBpbnQgcyA9IDA7IGZvciAoaW50IGkgPSAwOyBpIDwgRGVsYXlzLkxlbmd0aDsgaSsrKSBzICs9IERlbGF5c1tpXTsgcmV0dXJuIHM7IH0gfQogICAgfQoKICAgIC8vLyA8c3VtbWFyeT4KICAgIC8vLyBUaGUgcHJvYmU6IG9uZSB2ZW5kb3IgY29sbGVjdGlvbiwgb25lIHF1ZXJ5LCBjbGFzc2lmaWVkIHJlc3VsdC4KICAgIC8vLyBSZXBsYWNlcyB0aGUgb2xkICJ0cnkgOCB0aW1lcyBpbiBhIHJvdyIgbG9vcCB0aGF0IGJsb2NrZWQgYSBwb29sIHRocmVhZCBmb3IgfjEuNiBzLgogICAgLy8vIDwvc3VtbWFyeT4KICAgIHB1YmxpYyBzdGF0aWMgY2xhc3MgVmVuZG9yUHJvYmUKICAgIHsKICAgICAgICBwdWJsaWMgc2VhbGVkIGNsYXNzIFJlc3VsdAogICAgICAgIHsKICAgICAgICAgICAgcHVibGljIGJvb2wgT2s7CiAgICAgICAgICAgIHB1YmxpYyBSZWFkaW5nIFZhbHVlOwogICAgICAgICAgICBwdWJsaWMgc3RyaW5nIFJlYXNvbjsKICAgICAgICAgICAgcHVibGljIGludCBFcnJvckNvZGU7CiAgICAgICAgfQoKICAgICAgICBwdWJsaWMgc3RhdGljIFJlc3VsdCBRdWVyeShzdHJpbmcgcGF0aCwgYnl0ZSBvcGNvZGUpCiAgICAgICAgewogICAgICAgICAgICB2YXIgcmVzID0gbmV3IFJlc3VsdCgpOwogICAgICAgICAgICByZXMuVmFsdWUgPSBSZWFkaW5nLkludmFsaWQoKTsKCiAgICAgICAgICAgIFNhZmVGaWxlSGFuZGxlIGg7CiAgICAgICAgICAgIHZhciBmcmFtZSA9IFByb3RvY29sLkJ1aWxkUmVxdWVzdChvcGNvZGUpOwoKICAgICAgICAgICAgZm9yIChpbnQgYXR0ZW1wdCA9IDA7IGF0dGVtcHQgPCBSZXRyeS5EZWxheXMuTGVuZ3RoOyBhdHRlbXB0KyspCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgIGggPSBIaWQuT3BlbihwYXRoLCB0cnVlKTsKICAgICAgICAgICAgICAgIGlmIChoLklzSW52YWxpZCkgeyByZXMuRXJyb3JDb2RlID0gSGlkLkxhc3RFcnJvcjsgcmVzLlJlYXNvbiA9ICJvcGVuICIgKyBIaWQuRGVzY3JpYmVFcnJvcihyZXMuRXJyb3JDb2RlKTsgVGhyZWFkLlNsZWVwKFJldHJ5LkRlbGF5Rm9yKGF0dGVtcHQpKTsgY29udGludWU7IH0KICAgICAgICAgICAgICAgIHRyeQogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAgIGlmICghSGlkLlNldEZlYXR1cmUoaCwgZnJhbWUpKQogICAgICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICAgICAgcmVzLkVycm9yQ29kZSA9IEhpZC5MYXN0RXJyb3I7CiAgICAgICAgICAgICAgICAgICAgICAgIHJlcy5SZWFzb24gPSAic2V0ICIgKyBIaWQuRGVzY3JpYmVFcnJvcihyZXMuRXJyb3JDb2RlKTsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgZWxzZQogICAgICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICAgICAgVGhyZWFkLlNsZWVwKDMwKTsKICAgICAgICAgICAgICAgICAgICAgICAgdmFyIHJlcGx5ID0gSGlkLkdldEZlYXR1cmUoaCwgUHJvdG9jb2wuRnJhbWVMZW5ndGgsIFByb3RvY29sLlJlc3BvbnNlUmVwb3J0SWQpOwogICAgICAgICAgICAgICAgICAgICAgICBSZWFkaW5nIHI7CiAgICAgICAgICAgICAgICAgICAgICAgIHN0cmluZyB3aHk7CiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChyZXBseSA9PSBudWxsKQogICAgICAgICAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXMuRXJyb3JDb2RlID0gSGlkLkxhc3RFcnJvcjsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJlcy5SZWFzb24gPSAiZ2V0ICIgKyBIaWQuRGVzY3JpYmVFcnJvcihyZXMuRXJyb3JDb2RlKTsKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICBlbHNlIGlmIChQcm90b2NvbC5UcnlQYXJzZShyZXBseSwgb3V0IHIsIG91dCB3aHkpKQogICAgICAgICAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXMuT2sgPSB0cnVlOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgcmVzLlZhbHVlID0gcjsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJlcy5WYWx1ZS5Tb3VyY2UgPSAidmVuZG9yIjsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJlcy5SZWFzb24gPSB3aHk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gcmVzOwogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIGVsc2UKICAgICAgICAgICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgcmVzLlJlYXNvbiA9ICJwYXJzZSAiICsgd2h5OwogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgY2F0Y2ggKEV4Y2VwdGlvbiBleCkgeyByZXMuUmVhc29uID0gImV4Y2VwdGlvbiAiICsgZXguTWVzc2FnZTsgfQogICAgICAgICAgICAgICAgZmluYWxseSB7IGguQ2xvc2UoKTsgfQoKICAgICAgICAgICAgICAgIFRocmVhZC5TbGVlcChSZXRyeS5EZWxheUZvcihhdHRlbXB0KSk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgcmV0dXJuIHJlczsKICAgICAgICB9CiAgICB9Cn0K
+using System;
+using System.Collections.Generic;
+using System.Threading;
+using Microsoft.Win32.SafeHandles;
+
+namespace MouseMeter
+{
+    /// <summary>One reading from one source.</summary>
+    public struct Reading
+    {
+        public string Id;            // stable key: "2.4G|0BDA:4762|keyboard"
+        public string Kind;          // DeviceKind.*
+        public string DeviceName;
+        public string Model;
+        public int Level;
+        public bool Charging;
+        public string Transport;     // 2.4G / BLE / 蓝牙 / USB / HFP
+        public string HardwareId;    // "0BDA:4762" or a BLE address
+        public string Source;        // provider name, for diagnostics
+        public DateTime At;
+
+        public bool IsValid { get { return Level >= 0 && Level <= 100; } }
+
+        public static Reading Invalid()
+        {
+            var r = new Reading();
+            r.Level = -1;
+            return r;
+        }
+    }
+
+    /// <summary>
+    /// Pure decoders for the vendor feature-report family used by Realtek based dongles.
+    /// Byte values travel inverted (value ^ 0xFF), see docs/PROTOCOL.md.
+    ///
+    /// Kept static and side-effect free on purpose: this is the only part of the protocol we can
+    /// verify without hardware, so it must stay unit testable (tests/ProtocolTests.cs).
+    /// </summary>
+    public static class Protocol
+    {
+        public const byte RequestReportId = 0x12;
+        public const byte ResponseReportId = 0x11;
+        public const byte ReplyHead = 0xF9;
+
+        public const int FrameLength = 65;
+        public const int MinFrame = 65;
+
+        public const int LevelIndex = 11;
+        public const int ChargeIndex = 12;
+        public const int TransportIndex = 10;
+        public const int PidLoIndex = 4;
+        public const int PidHiIndex = 5;
+
+        // Response type byte (payload[0] / reply[2]) -> device class.
+        // 0x01 = mouse (verified on A5 Ultra). The two new entries are hypotheses taken from the
+        // same Realtek firmware family; a mismatch is rejected by Validate() and never displayed.
+        public const byte TypeMouse = 0x01;
+        public const byte TypeKeyboard = 0x02;
+        public const byte TypeHeadset = 0x03;
+
+        /// <summary>Build the 65 byte query frame. opcode is the plain (non inverted) operation byte.</summary>
+        public static byte[] BuildRequest(byte opcode)
+        {
+            var frame = new byte[FrameLength];
+            for (int i = 0; i < frame.Length; i++) frame[i] = 0xFF;
+            frame[0] = RequestReportId;
+            frame[1] = (byte)(opcode ^ 0xFF);
+            return frame;
+        }
+
+        public static int Invert(byte raw) { return raw ^ 0xFF; }
+
+        /// <summary>Model name carried by the dongle, if the reply includes it (payload bytes 13..27).</summary>
+        public static string ParseModel(byte[] reply)
+        {
+            if (reply == null || reply.Length < 16) return "";
+            var chars = new List<char>();
+            for (int i = 13; i < reply.Length && i < 29; i++)
+            {
+                int c = Invert(reply[i]);
+                if (c == 0) break;
+                if (c < 0x20 || c > 0x7E) return "";   // not an ASCII field on this firmware
+                chars.Add((char)c);
+            }
+            string s = new string(chars.ToArray()).Trim();
+            return s.Length >= 2 ? s : "";
+        }
+
+        /// <summary>
+        /// Decode a reply into a Reading. Returns false for anything malformed; callers then treat it
+        /// as "no answer" and keep the previous value instead of showing garbage.
+        /// </summary>
+        public static bool TryParse(byte[] reply, out Reading r, out string reason)
+        {
+            r = Reading.Invalid();
+            reason = "";
+
+            if (reply == null || reply.Length < FrameLength) { reason = "short"; return false; }
+            if (reply[1] != ReplyHead) { reason = "head"; return false; }
+
+            int level = Invert(reply[LevelIndex]);
+            int charge = Invert(reply[ChargeIndex]);
+            if (level > 100) { reason = "level"; return false; }
+
+            // the payload carries the receiver PID in little endian; if it is present and does not
+            // match the collection we talked to, we are reading somebody else's answer.
+            int pidEcho = Invert(reply[PidLoIndex]) | (Invert(reply[PidHiIndex]) << 8);
+
+            r.Level = level;
+            r.Charging = charge != 0;
+            r.At = DateTime.Now;
+            r.Transport = "2.4G";
+            reason = "type=" + Invert(reply[2]).ToString("X2") + " pid=" + pidEcho.ToString("X4");
+            return true;
+        }
+
+        /// <summary>Response type byte, or -1 when the reply head is wrong.</summary>
+        public static int ResponseType(byte[] reply)
+        {
+            if (reply == null || reply.Length < 3 || reply[1] != ReplyHead) return -1;
+            return Invert(reply[2]);
+        }
+
+        /// <summary>Optional confirmation of "did the PID in the answer match this receiver".</summary>
+        public static bool PidMatches(byte[] reply, int pid)
+        {
+            if (reply == null || reply.Length < 6) return false;
+            int echo = Invert(reply[PidLoIndex]) | (Invert(reply[PidHiIndex]) << 8);
+            return echo == pid;
+        }
+    }
+
+    /// <summary>Progressive backoff shared by all providers: 60, 60, 90, 120, 180 ms (~500 ms worst case).</summary>
+    public static class Retry
+    {
+        public static readonly int[] Delays = new int[] { 60, 60, 90, 120, 180 };
+
+        public static int DelayFor(int attempt)
+        {
+            int i = attempt < 0 ? 0 : (attempt >= Delays.Length ? Delays.Length - 1 : attempt);
+            return Delays[i];
+        }
+
+        public static int WorstCaseMs { get { int s = 0; for (int i = 0; i < Delays.Length; i++) s += Delays[i]; return s; } }
+    }
+
+    /// <summary>
+    /// The probe: one vendor collection, one query, classified result.
+    /// Replaces the old "try 8 times in a row" loop that blocked a pool thread for ~1.6 s.
+    /// </summary>
+    public static class VendorProbe
+    {
+        public sealed class Result
+        {
+            public bool Ok;
+            public Reading Value;
+            public string Reason;
+            public int ErrorCode;
+        }
+
+        public static Result Query(string path, byte opcode)
+        {
+            var res = new Result();
+            res.Value = Reading.Invalid();
+
+            SafeFileHandle h;
+            var frame = Protocol.BuildRequest(opcode);
+
+            for (int attempt = 0; attempt < Retry.Delays.Length; attempt++)
+            {
+                h = Hid.Open(path, true);
+                if (h.IsInvalid) { res.ErrorCode = Hid.LastError; res.Reason = "open " + Hid.DescribeError(res.ErrorCode); Thread.Sleep(Retry.DelayFor(attempt)); continue; }
+                try
+                {
+                    if (!Hid.SetFeature(h, frame))
+                    {
+                        res.ErrorCode = Hid.LastError;
+                        res.Reason = "set " + Hid.DescribeError(res.ErrorCode);
+                    }
+                    else
+                    {
+                        Thread.Sleep(30);
+                        var reply = Hid.GetFeature(h, Protocol.FrameLength, Protocol.ResponseReportId);
+                        Reading r;
+                        string why;
+                        if (reply == null)
+                        {
+                            res.ErrorCode = Hid.LastError;
+                            res.Reason = "get " + Hid.DescribeError(res.ErrorCode);
+                        }
+                        else if (Protocol.TryParse(reply, out r, out why))
+                        {
+                            res.Ok = true;
+                            res.Value = r;
+                            res.Value.Source = "vendor";
+                            res.Reason = why;
+                            return res;
+                        }
+                        else
+                        {
+                            res.Reason = "parse " + why;
+                        }
+                    }
+                }
+                catch (Exception ex) { res.Reason = "exception " + ex.Message; }
+                finally { h.Close(); }
+
+                Thread.Sleep(Retry.DelayFor(attempt));
+            }
+            return res;
+        }
+    }
+}

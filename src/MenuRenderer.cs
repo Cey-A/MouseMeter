@@ -1,1 +1,152 @@
-dXNpbmcgU3lzdGVtOwp1c2luZyBTeXN0ZW0uRHJhd2luZzsKdXNpbmcgU3lzdGVtLkRyYXdpbmcuRHJhd2luZzJEOwp1c2luZyBTeXN0ZW0uV2luZG93cy5Gb3JtczsKCm5hbWVzcGFjZSBNb3VzZU1ldGVyCnsKICAgIC8vLyA8c3VtbWFyeT5SZW5kZXJlciB0aGF0IGdpdmVzIGNvbnRleHQgbWVudXMgYSBtYWNPUy1saWtlIGxvb2s6IHJvdW5kZWQsIHF1aWV0LCBubyBpY29uIGd1dHRlci48L3N1bW1hcnk+CiAgICBwdWJsaWMgY2xhc3MgQXBwbGVNZW51UmVuZGVyZXIgOiBUb29sU3RyaXBSZW5kZXJlcgogICAgewogICAgICAgIHB1YmxpYyBQYWxldHRlIFA7CgogICAgICAgIHB1YmxpYyBBcHBsZU1lbnVSZW5kZXJlcihQYWxldHRlIHApIHsgUCA9IHA7IH0KCiAgICAgICAgcHJvdGVjdGVkIG92ZXJyaWRlIHZvaWQgT25SZW5kZXJUb29sU3RyaXBCYWNrZ3JvdW5kKFRvb2xTdHJpcFJlbmRlckV2ZW50QXJncyBlKQogICAgICAgIHsKICAgICAgICAgICAgdmFyIGcgPSBlLkdyYXBoaWNzOwogICAgICAgICAgICBUaGVtZS5Db25maWd1cmUoZyk7CiAgICAgICAgICAgIHZhciB0cyA9IGUuVG9vbFN0cmlwOwogICAgICAgICAgICB2YXIgciA9IG5ldyBSZWN0YW5nbGVGKDAsIDAsIHRzLldpZHRoLCB0cy5IZWlnaHQpOwogICAgICAgICAgICB1c2luZyAodmFyIHBhdGggPSBUaGVtZS5Sb3VuZFJlY3QociwgMTBmKSkKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgdXNpbmcgKHZhciBiID0gbmV3IFNvbGlkQnJ1c2goUC5DYXJkKSkKICAgICAgICAgICAgICAgICAgICBnLkZpbGxQYXRoKGIsIHBhdGgpOwogICAgICAgICAgICAgICAgdHMuUmVnaW9uID0gbmV3IFJlZ2lvbihwYXRoKTsKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgcHJvdGVjdGVkIG92ZXJyaWRlIHZvaWQgT25SZW5kZXJUb29sU3RyaXBCb3JkZXIoVG9vbFN0cmlwUmVuZGVyRXZlbnRBcmdzIGUpCiAgICAgICAgewogICAgICAgICAgICB2YXIgZyA9IGUuR3JhcGhpY3M7CiAgICAgICAgICAgIFRoZW1lLkNvbmZpZ3VyZShnKTsKICAgICAgICAgICAgdmFyIHIgPSBuZXcgUmVjdGFuZ2xlRigwLjVmLCAwLjVmLCBlLlRvb2xTdHJpcC5XaWR0aCAtIDFmLCBlLlRvb2xTdHJpcC5IZWlnaHQgLSAxZik7CiAgICAgICAgICAgIHVzaW5nICh2YXIgcGF0aCA9IFRoZW1lLlJvdW5kUmVjdChyLCAxMGYpKQogICAgICAgICAgICB1c2luZyAodmFyIHBlbiA9IG5ldyBQZW4oVGhlbWUuQWxwaGEoUC5UZXh0LCBQLklzRGFyayA/IDAuMTAgOiAwLjA3KSwgMWYpKQogICAgICAgICAgICAgICAgZy5EcmF3UGF0aChwZW4sIHBhdGgpOwogICAgICAgIH0KCiAgICAgICAgcHJvdGVjdGVkIG92ZXJyaWRlIHZvaWQgT25SZW5kZXJJbWFnZU1hcmdpbihUb29sU3RyaXBSZW5kZXJFdmVudEFyZ3MgZSkgeyB9CgogICAgICAgIHByb3RlY3RlZCBvdmVycmlkZSB2b2lkIE9uUmVuZGVyTWVudUl0ZW1CYWNrZ3JvdW5kKFRvb2xTdHJpcEl0ZW1SZW5kZXJFdmVudEFyZ3MgZSkKICAgICAgICB7CiAgICAgICAgICAgIHZhciBnID0gZS5HcmFwaGljczsKICAgICAgICAgICAgVGhlbWUuQ29uZmlndXJlKGcpOwogICAgICAgICAgICB2YXIgaXRlbSA9IGUuSXRlbTsKCiAgICAgICAgICAgIGlmICghaXRlbS5TZWxlY3RlZCB8fCAhaXRlbS5FbmFibGVkKSByZXR1cm47CgogICAgICAgICAgICB2YXIgciA9IG5ldyBSZWN0YW5nbGVGKDQuNWYsIDEuNWYsIGl0ZW0uV2lkdGggLSA5ZiwgaXRlbS5IZWlnaHQgLSAzZik7CiAgICAgICAgICAgIHVzaW5nICh2YXIgcGF0aCA9IFRoZW1lLlJvdW5kUmVjdChyLCA2ZikpCiAgICAgICAgICAgIHVzaW5nICh2YXIgYiA9IG5ldyBTb2xpZEJydXNoKFAuSXNEYXJrCiAgICAgICAgICAgICAgICA/IENvbG9yLkZyb21BcmdiKDI1NSwgNjIsIDYyLCA2NikKICAgICAgICAgICAgICAgIDogQ29sb3IuRnJvbUFyZ2IoMjU1LCAyMzYsIDIzNiwgMjQwKSkpCiAgICAgICAgICAgICAgICBnLkZpbGxQYXRoKGIsIHBhdGgpOwogICAgICAgIH0KCiAgICAgICAgcHJvdGVjdGVkIG92ZXJyaWRlIHZvaWQgT25SZW5kZXJJdGVtVGV4dChUb29sU3RyaXBJdGVtVGV4dFJlbmRlckV2ZW50QXJncyBlKQogICAgICAgIHsKICAgICAgICAgICAgdmFyIGcgPSBlLkdyYXBoaWNzOwogICAgICAgICAgICBUaGVtZS5Db25maWd1cmUoZyk7CiAgICAgICAgICAgIENvbG9yIGMgPSBlLkl0ZW0uRW5hYmxlZCA/IFAuVGV4dCA6IFAuVGV4dEZhaW50OwogICAgICAgICAgICBpZiAoIWUuSXRlbS5FbmFibGVkICYmIGUuSXRlbS5UYWcgYXMgc3RyaW5nID09ICJjYXB0aW9uIikgYyA9IFAuVGV4dERpbTsKCiAgICAgICAgICAgIHZhciBzZiA9IG5ldyBTdHJpbmdGb3JtYXQoKTsKICAgICAgICAgICAgc2YuTGluZUFsaWdubWVudCA9IFN0cmluZ0FsaWdubWVudC5DZW50ZXI7CiAgICAgICAgICAgIHNmLkZvcm1hdEZsYWdzID0gU3RyaW5nRm9ybWF0RmxhZ3MuTm9XcmFwOwoKICAgICAgICAgICAgYm9vbCBjYXB0aW9uID0gKGUuSXRlbS5UYWcgYXMgc3RyaW5nKSA9PSAiY2FwdGlvbiI7CiAgICAgICAgICAgIEZvbnQgZiA9IGNhcHRpb24gPyBUaGVtZS5GQyg4LjVmLCBmYWxzZSkgOiBUaGVtZS5GQyg5ZiwgZmFsc2UpOwoKICAgICAgICAgICAgdmFyIHJlY3QgPSBlLlRleHRSZWN0YW5nbGU7CiAgICAgICAgICAgIHZhciBib3ggPSBuZXcgUmVjdGFuZ2xlRihlLlRleHRSZWN0YW5nbGUuWCwgMCwgZS5Ub29sU3RyaXAuV2lkdGggLSBlLlRleHRSZWN0YW5nbGUuWCAtIDgsIGUuSXRlbS5IZWlnaHQpOwogICAgICAgICAgICB1c2luZyAodmFyIGIgPSBuZXcgU29saWRCcnVzaChjKSkKICAgICAgICAgICAgICAgIGcuRHJhd1N0cmluZyhlLlRleHQsIGYsIGIsIGJveCwgc2YpOwogICAgICAgICAgICBzZi5EaXNwb3NlKCk7CiAgICAgICAgfQoKICAgICAgICBwcm90ZWN0ZWQgb3ZlcnJpZGUgdm9pZCBPblJlbmRlckl0ZW1DaGVjayhUb29sU3RyaXBJdGVtSW1hZ2VSZW5kZXJFdmVudEFyZ3MgZSkKICAgICAgICB7CiAgICAgICAgICAgIHZhciBnID0gZS5HcmFwaGljczsKICAgICAgICAgICAgVGhlbWUuQ29uZmlndXJlKGcpOwoKICAgICAgICAgICAgZmxvYXQgcyA9IDEyZjsKICAgICAgICAgICAgZmxvYXQgeCA9IGUuSW1hZ2VSZWN0YW5nbGUuWCArIDJmOwogICAgICAgICAgICBmbG9hdCB5ID0gKGUuSXRlbS5IZWlnaHQgLSBzKSAvIDJmICsgMC41ZjsKCiAgICAgICAgICAgIHVzaW5nICh2YXIgcGVuID0gbmV3IFBlbihQLkFjY2VudCwgMS44ZikpCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgIHBlbi5TdGFydENhcCA9IExpbmVDYXAuUm91bmQ7CiAgICAgICAgICAgICAgICBwZW4uRW5kQ2FwID0gTGluZUNhcC5Sb3VuZDsKICAgICAgICAgICAgICAgIHBlbi5MaW5lSm9pbiA9IExpbmVKb2luLlJvdW5kOwogICAgICAgICAgICAgICAgZy5EcmF3TGluZXMocGVuLCBuZXcgUG9pbnRGW10gewogICAgICAgICAgICAgICAgICAgIG5ldyBQb2ludEYoeCwgeSArIHMgKiAwLjUyZiksCiAgICAgICAgICAgICAgICAgICAgbmV3IFBvaW50Rih4ICsgcyAqIDAuMzZmLCB5ICsgcyAqIDAuODZmKSwKICAgICAgICAgICAgICAgICAgICBuZXcgUG9pbnRGKHggKyBzLCB5ICsgcyAqIDAuMTZmKQogICAgICAgICAgICAgICAgfSk7CiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIHByb3RlY3RlZCBvdmVycmlkZSB2b2lkIE9uUmVuZGVyU2VwYXJhdG9yKFRvb2xTdHJpcFNlcGFyYXRvclJlbmRlckV2ZW50QXJncyBlKQogICAgICAgIHsKICAgICAgICAgICAgdmFyIGcgPSBlLkdyYXBoaWNzOwogICAgICAgICAgICBUaGVtZS5Db25maWd1cmUoZyk7CiAgICAgICAgICAgIGZsb2F0IHkgPSBlLkl0ZW0uSGVpZ2h0IC8gMmY7CiAgICAgICAgICAgIHVzaW5nICh2YXIgcGVuID0gbmV3IFBlbihQLlNlcGFyYXRvciwgMWYpKQogICAgICAgICAgICAgICAgZy5EcmF3TGluZShwZW4sIDEyZiwgeSwgZS5JdGVtLldpZHRoIC0gMTJmLCB5KTsKICAgICAgICB9CiAgICB9CgogICAgcHVibGljIHN0YXRpYyBjbGFzcyBNZW51QnVpbGRlcgogICAgewogICAgICAgIHB1YmxpYyBzdGF0aWMgQ29udGV4dE1lbnVTdHJpcCBDcmVhdGUoUGFsZXR0ZSBwKQogICAgICAgIHsKICAgICAgICAgICAgdmFyIG0gPSBuZXcgQ29udGV4dE1lbnVTdHJpcCgpOwogICAgICAgICAgICBtLlJlbmRlcmVyID0gbmV3IEFwcGxlTWVudVJlbmRlcmVyKHApOwogICAgICAgICAgICBtLlNob3dJbWFnZU1hcmdpbiA9IGZhbHNlOwogICAgICAgICAgICBtLlNob3dDaGVja01hcmdpbiA9IHRydWU7CiAgICAgICAgICAgIG0uQmFja0NvbG9yID0gcC5DYXJkOwogICAgICAgICAgICBtLkZvcmVDb2xvciA9IHAuVGV4dDsKICAgICAgICAgICAgbS5Gb250ID0gVGhlbWUuRkMoOWYsIGZhbHNlKTsKICAgICAgICAgICAgbS5QYWRkaW5nID0gbmV3IFBhZGRpbmcoMCwgNSwgMCwgNSk7CiAgICAgICAgICAgIG0uRHJvcFNoYWRvd0VuYWJsZWQgPSB0cnVlOwogICAgICAgICAgICBtLkdyaXBTdHlsZSA9IFRvb2xTdHJpcEdyaXBTdHlsZS5IaWRkZW47CiAgICAgICAgICAgIG0uQXV0b1NpemUgPSB0cnVlOwogICAgICAgICAgICByZXR1cm4gbTsKICAgICAgICB9CgogICAgICAgIHB1YmxpYyBzdGF0aWMgVG9vbFN0cmlwTWVudUl0ZW0gSXRlbShzdHJpbmcgdGV4dCkKICAgICAgICB7CiAgICAgICAgICAgIHZhciBpID0gbmV3IFRvb2xTdHJpcE1lbnVJdGVtKHRleHQpOwogICAgICAgICAgICBpLlBhZGRpbmcgPSBuZXcgUGFkZGluZygyLCA1LCAyLCA1KTsKICAgICAgICAgICAgaS5NYXJnaW4gPSBuZXcgUGFkZGluZygwKTsKICAgICAgICAgICAgaS5BdXRvU2l6ZSA9IHRydWU7CiAgICAgICAgICAgIHJldHVybiBpOwogICAgICAgIH0KCiAgICAgICAgcHVibGljIHN0YXRpYyBUb29sU3RyaXBNZW51SXRlbSBDYXB0aW9uKHN0cmluZyB0ZXh0KQogICAgICAgIHsKICAgICAgICAgICAgdmFyIGkgPSBJdGVtKHRleHQpOwogICAgICAgICAgICBpLkVuYWJsZWQgPSBmYWxzZTsKICAgICAgICAgICAgaS5UYWcgPSAiY2FwdGlvbiI7CiAgICAgICAgICAgIHJldHVybiBpOwogICAgICAgIH0KCiAgICAgICAgcHVibGljIHN0YXRpYyBUb29sU3RyaXBTZXBhcmF0b3IgU2VwKCkKICAgICAgICB7CiAgICAgICAgICAgIHZhciBzID0gbmV3IFRvb2xTdHJpcFNlcGFyYXRvcigpOwogICAgICAgICAgICBzLk1hcmdpbiA9IG5ldyBQYWRkaW5nKDAsIDQsIDAsIDQpOwogICAgICAgICAgICByZXR1cm4gczsKICAgICAgICB9CiAgICB9Cn0K
+using System;
+using System.Drawing;
+using System.Drawing.Drawing2D;
+using System.Windows.Forms;
+
+namespace MouseMeter
+{
+    /// <summary>Renderer that gives context menus a macOS-like look: rounded, quiet, no icon gutter.</summary>
+    public class AppleMenuRenderer : ToolStripRenderer
+    {
+        public Palette P;
+
+        public AppleMenuRenderer(Palette p) { P = p; }
+
+        protected override void OnRenderToolStripBackground(ToolStripRenderEventArgs e)
+        {
+            var g = e.Graphics;
+            Theme.Configure(g);
+            var ts = e.ToolStrip;
+            var r = new RectangleF(0, 0, ts.Width, ts.Height);
+            using (var path = Theme.RoundRect(r, 10f))
+            {
+                using (var b = new SolidBrush(P.Card))
+                    g.FillPath(b, path);
+                ts.Region = new Region(path);
+            }
+        }
+
+        protected override void OnRenderToolStripBorder(ToolStripRenderEventArgs e)
+        {
+            var g = e.Graphics;
+            Theme.Configure(g);
+            var r = new RectangleF(0.5f, 0.5f, e.ToolStrip.Width - 1f, e.ToolStrip.Height - 1f);
+            using (var path = Theme.RoundRect(r, 10f))
+            using (var pen = new Pen(Theme.Alpha(P.Text, P.IsDark ? 0.10 : 0.07), 1f))
+                g.DrawPath(pen, path);
+        }
+
+        protected override void OnRenderImageMargin(ToolStripRenderEventArgs e) { }
+
+        protected override void OnRenderMenuItemBackground(ToolStripItemRenderEventArgs e)
+        {
+            var g = e.Graphics;
+            Theme.Configure(g);
+            var item = e.Item;
+
+            if (!item.Selected || !item.Enabled) return;
+
+            var r = new RectangleF(4.5f, 1.5f, item.Width - 9f, item.Height - 3f);
+            using (var path = Theme.RoundRect(r, 6f))
+            using (var b = new SolidBrush(P.IsDark
+                ? Color.FromArgb(255, 62, 62, 66)
+                : Color.FromArgb(255, 236, 236, 240)))
+                g.FillPath(b, path);
+        }
+
+        protected override void OnRenderItemText(ToolStripItemTextRenderEventArgs e)
+        {
+            var g = e.Graphics;
+            Theme.Configure(g);
+            Color c = e.Item.Enabled ? P.Text : P.TextFaint;
+            if (!e.Item.Enabled && e.Item.Tag as string == "caption") c = P.TextDim;
+
+            var sf = new StringFormat();
+            sf.LineAlignment = StringAlignment.Center;
+            sf.FormatFlags = StringFormatFlags.NoWrap;
+
+            bool caption = (e.Item.Tag as string) == "caption";
+            Font f = caption ? Theme.FC(8.5f, false) : Theme.FC(9f, false);
+
+            var rect = e.TextRectangle;
+            var box = new RectangleF(e.TextRectangle.X, 0, e.ToolStrip.Width - e.TextRectangle.X - 8, e.Item.Height);
+            using (var b = new SolidBrush(c))
+                g.DrawString(e.Text, f, b, box, sf);
+            sf.Dispose();
+        }
+
+        protected override void OnRenderItemCheck(ToolStripItemImageRenderEventArgs e)
+        {
+            var g = e.Graphics;
+            Theme.Configure(g);
+
+            float s = 12f;
+            float x = e.ImageRectangle.X + 2f;
+            float y = (e.Item.Height - s) / 2f + 0.5f;
+
+            using (var pen = new Pen(P.Accent, 1.8f))
+            {
+                pen.StartCap = LineCap.Round;
+                pen.EndCap = LineCap.Round;
+                pen.LineJoin = LineJoin.Round;
+                g.DrawLines(pen, new PointF[] {
+                    new PointF(x, y + s * 0.52f),
+                    new PointF(x + s * 0.36f, y + s * 0.86f),
+                    new PointF(x + s, y + s * 0.16f)
+                });
+            }
+        }
+
+        protected override void OnRenderSeparator(ToolStripSeparatorRenderEventArgs e)
+        {
+            var g = e.Graphics;
+            Theme.Configure(g);
+            float y = e.Item.Height / 2f;
+            using (var pen = new Pen(P.Separator, 1f))
+                g.DrawLine(pen, 12f, y, e.Item.Width - 12f, y);
+        }
+    }
+
+    public static class MenuBuilder
+    {
+        public static ContextMenuStrip Create(Palette p)
+        {
+            var m = new ContextMenuStrip();
+            m.Renderer = new AppleMenuRenderer(p);
+            m.ShowImageMargin = false;
+            m.ShowCheckMargin = true;
+            m.BackColor = p.Card;
+            m.ForeColor = p.Text;
+            m.Font = Theme.FC(9f, false);
+            m.Padding = new Padding(0, 5, 0, 5);
+            m.DropShadowEnabled = true;
+            m.GripStyle = ToolStripGripStyle.Hidden;
+            m.AutoSize = true;
+            return m;
+        }
+
+        public static ToolStripMenuItem Item(string text)
+        {
+            var i = new ToolStripMenuItem(text);
+            i.Padding = new Padding(2, 5, 2, 5);
+            i.Margin = new Padding(0);
+            i.AutoSize = true;
+            return i;
+        }
+
+        public static ToolStripMenuItem Caption(string text)
+        {
+            var i = Item(text);
+            i.Enabled = false;
+            i.Tag = "caption";
+            return i;
+        }
+
+        public static ToolStripSeparator Sep()
+        {
+            var s = new ToolStripSeparator();
+            s.Margin = new Padding(0, 4, 0, 4);
+            return s;
+        }
+    }
+}

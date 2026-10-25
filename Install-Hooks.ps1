@@ -1,1 +1,84 @@
-77u/IyBJbnN0YWxsLUhvb2tzLnBzMSAtIHB1dCB0aGUgdmVyaWZ5IGdhdGUgaW4gZnJvbnQgb2YgYGdpdCBjb21taXRgLgojCiMgICBwb3dlcnNoZWxsIC1FeGVjdXRpb25Qb2xpY3kgQnlwYXNzIC1GaWxlIC5cSW5zdGFsbC1Ib29rcy5wczEKIyAgIHBvd2Vyc2hlbGwgLUV4ZWN1dGlvblBvbGljeSBCeXBhc3MgLUZpbGUgLlxJbnN0YWxsLUhvb2tzLnBzMSAtRm9yY2UgICAgKG92ZXJ3cml0ZSBhbiBleGlzdGluZyBob29rKQojCiMgUnVuIG9uY2UgYWZ0ZXIgY2xvbmluZy4gQWZ0ZXIgdGhhdCwgYSBjb21taXQgdGhhdCBsZWF2ZXMgdGhlIHRyZWUgcmVkIGlzIHJlamVjdGVkIGJlZm9yZSBpdAojIGV4aXN0cywgd2hpY2ggaXMgdGhlIG9ubHkgcmVsaWFibGUgY3VyZSBmb3IgIkkgZm9yZ290IHRvIHJ1biB0aGUgdGVzdHMiLgojCiMgVGhlIGhvb2sgaXRzZWxmIGlzIGRlbGliZXJhdGVseSB0aW55OiBpdCBjYWxscyBWZXJpZnkucHMxIHNvIHRoZSBkZWZpbml0aW9uIG9mICJncmVlbiIgbGl2ZXMKIyBpbiBleGFjdGx5IG9uZSBwbGFjZS4gSWYgdGhlIGxvZ2ljIHdlcmUgZHVwbGljYXRlZCBpbiB0aGUgaG9vaywgdGhlIHR3byB3b3VsZCBkaXZlcmdlLgoKcGFyYW0oCiAgICBbc3dpdGNoXSRGb3JjZQopCgokRXJyb3JBY3Rpb25QcmVmZXJlbmNlID0gJ1N0b3AnCiRyb290ID0gJFBTU2NyaXB0Um9vdAoKaWYgKC1ub3QgKFRlc3QtUGF0aCAoSm9pbi1QYXRoICRyb290ICcuZ2l0JykpKSB7CiAgICBXcml0ZS1Ib3N0ICcnCiAgICBXcml0ZS1Ib3N0ICcgIG5vdCBhIGdpdCByZXBvc2l0b3J5LicgLUZvcmVncm91bmRDb2xvciBSZWQKICAgIFdyaXRlLUhvc3QgJyAgUnVuICJnaXQgaW5pdCIgZmlyc3QsIHRoZW4gY29tbWl0IG9uY2UsIHRoZW4gcnVuIHRoaXMgYWdhaW4uJyAtRm9yZWdyb3VuZENvbG9yIEdyYXkKICAgIFdyaXRlLUhvc3QgJycKICAgIGV4aXQgMQp9CgokaG9va3NEaXIgPSBKb2luLVBhdGggJHJvb3QgJy5naXRcaG9va3MnCmlmICgtbm90IChUZXN0LVBhdGggJGhvb2tzRGlyKSkgeyBOZXctSXRlbSAtSXRlbVR5cGUgRGlyZWN0b3J5IC1QYXRoICRob29rc0RpciB8IE91dC1OdWxsIH0KJGhvb2tQYXRoID0gSm9pbi1QYXRoICRob29rc0RpciAncHJlLWNvbW1pdCcKCmlmICgoVGVzdC1QYXRoICRob29rUGF0aCkgLWFuZCAtbm90ICRGb3JjZSkgewogICAgV3JpdGUtSG9zdCAnJwogICAgV3JpdGUtSG9zdCAnICBhIHByZS1jb21taXQgaG9vayBhbHJlYWR5IGV4aXN0cy4nIC1Gb3JlZ3JvdW5kQ29sb3IgWWVsbG93CiAgICBXcml0ZS1Ib3N0ICgnICAnICsgJGhvb2tQYXRoKSAtRm9yZWdyb3VuZENvbG9yIEdyYXkKICAgIFdyaXRlLUhvc3QgJyAgcmUtcnVuIHdpdGggLUZvcmNlIHRvIHJlcGxhY2UgaXQgKHRoZSBvbGQgb25lIGlzIHNhdmVkIGFzIHByZS1jb21taXQuYmFrKS4nIC1Gb3JlZ3JvdW5kQ29sb3IgR3JheQogICAgV3JpdGUtSG9zdCAnJwogICAgZXhpdCAxCn0KCmlmIChUZXN0LVBhdGggJGhvb2tQYXRoKSB7IENvcHktSXRlbSAkaG9va1BhdGggKCRob29rUGF0aCArICcuYmFrJykgLUZvcmNlIH0KCiMgR2l0IHJ1bnMgaG9va3MgdGhyb3VnaCBzaCwgc28gdGhpcyBoYXMgdG8gYmUgYSBzaGVsbCBzY3JpcHQgZXZlbiBvbiBXaW5kb3dzLiBQb3dlclNoZWxsIGlzCiMgaW52b2tlZCB3aXRoIC1Ob1Byb2ZpbGUgc28gYSBzbG93IG9yIGJyb2tlbiB1c2VyIHByb2ZpbGUgY2Fubm90IHR1cm4gZXZlcnkgY29tbWl0IGludG8gYSB3YWl0LgokaG9vayA9IEAnCiMhL2Jpbi9zaAojIEdlbmVyYXRlZCBieSBJbnN0YWxsLUhvb2tzLnBzMSAtIGRvIG5vdCBlZGl0IGhlcmUsIGVkaXQgVmVyaWZ5LnBzMSBpbnN0ZWFkLgojCiMgQnlwYXNzIGZvciBnZW51aW5lIGVtZXJnZW5jaWVzIHdpdGggYGdpdCBjb21taXQgLS1uby12ZXJpZnlgLCBidXQgdW5kZXJzdGFuZCB3aGF0IHlvdSBhcmUKIyBza2lwcGluZzogY29tcGlsZSwgdGhlIGZ1bGwgdGVzdCBzdWl0ZSwgYW5kIHRoZSBleGUgcGFja2FnaW5nIGNoZWNrLgoKc2V0IC1lCmNkICIkKGdpdCByZXYtcGFyc2UgLS1zaG93LXRvcGxldmVsKSIKCmlmICEgY29tbWFuZCAtdiBwb3dlcnNoZWxsID4vZGV2L251bGwgMj4mMTsgdGhlbgogICAgZWNobyAiICBwcmUtY29tbWl0OiBwb3dlcnNoZWxsIG5vdCBmb3VuZCwgc2tpcHBpbmcgdmVyaWZ5IiA+JjIKICAgIGV4aXQgMApmaQoKZWNobyAicHJlLWNvbW1pdDogdmVyaWZ5aW5nIChwYXNzIC0tbm8tdmVyaWZ5IHRvIHNraXApIgpwb3dlcnNoZWxsIC1Ob1Byb2ZpbGUgLUV4ZWN1dGlvblBvbGljeSBCeXBhc3MgLUZpbGUgLi9WZXJpZnkucHMxIC1RdWljawonQAoKIyBXcml0ZSBhcyBVVEYtOCB3aXRob3V0IEJPTTogYSBCT00gaW4gZnJvbnQgb2YgIyEvYmluL3NoIG1ha2VzIHRoZSBrZXJuZWwgcmVqZWN0IHRoZSBzY3JpcHQuCltTeXN0ZW0uSU8uRmlsZV06OldyaXRlQWxsVGV4dCgkaG9va1BhdGgsICRob29rLlJlcGxhY2UoImByYG4iLCAiYG4iKSwgKE5ldy1PYmplY3QgU3lzdGVtLlRleHQuVVRGOEVuY29kaW5nICRmYWxzZSkpCgojIFRoZSBleGVjdXRhYmxlIGJpdCBpcyBtZWFuaW5nbGVzcyBvbiBXaW5kb3dzIGJ1dCBlc3NlbnRpYWwgaWYgdGhpcyByZXBvIGlzIGV2ZXIgY2xvbmVkIHRvCiMgbWFjT1Mgb3IgTGludXguIGdpdCB0cmFja3MgaXQgaW4gdGhlIGluZGV4LCBzbyBzZXQgaXQgdGhyb3VnaCBnaXQgcmF0aGVyIHRoYW4gdGhlIGZpbGVzeXN0ZW0uClB1c2gtTG9jYXRpb24gJHJvb3QKdHJ5IHsKICAgICYgZ2l0IHVwZGF0ZS1pbmRleCAtLWFkZCAtLWNobW9kPSt4ICcuZ2l0L2hvb2tzL3ByZS1jb21taXQnIDI+JG51bGwgfCBPdXQtTnVsbAp9IGNhdGNoIHsKICAgICMgTm90IGZhdGFsOiBXaW5kb3dzIGlnbm9yZXMgdGhlIGJpdCBhbnl3YXkuCn0gZmluYWxseSB7CiAgICBQb3AtTG9jYXRpb24KfQoKV3JpdGUtSG9zdCAnJwpXcml0ZS1Ib3N0ICcgIHByZS1jb21taXQgaG9vayBpbnN0YWxsZWQnIC1Gb3JlZ3JvdW5kQ29sb3IgR3JlZW4KV3JpdGUtSG9zdCAoJyAgJyArICRob29rUGF0aCkgLUZvcmVncm91bmRDb2xvciBHcmF5CldyaXRlLUhvc3QgJycKV3JpdGUtSG9zdCAnICBXaGF0IGl0IHJ1bnM6ICBWZXJpZnkucHMxIC1RdWljaycgLUZvcmVncm91bmRDb2xvciBHcmF5CldyaXRlLUhvc3QgJyAgV2hhdCBpdCBza2lwczogdGhlIGV4ZSBidWlsZCAoc2xvdywgYW5kIHRoZSBleGUgaXMgbm90IGNvbW1pdHRlZCBhbnl3YXkpJyAtRm9yZWdyb3VuZENvbG9yIEdyYXkKV3JpdGUtSG9zdCAnICBUbyBieXBhc3M6ICAgICBnaXQgY29tbWl0IC0tbm8tdmVyaWZ5JyAtRm9yZWdyb3VuZENvbG9yIEdyYXkKV3JpdGUtSG9zdCAnJwo=
+﻿# Install-Hooks.ps1 - put the verify gate in front of `git commit`.
+#
+#   powershell -ExecutionPolicy Bypass -File .\Install-Hooks.ps1
+#   powershell -ExecutionPolicy Bypass -File .\Install-Hooks.ps1 -Force    (overwrite an existing hook)
+#
+# Run once after cloning. After that, a commit that leaves the tree red is rejected before it
+# exists, which is the only reliable cure for "I forgot to run the tests".
+#
+# The hook itself is deliberately tiny: it calls Verify.ps1 so the definition of "green" lives
+# in exactly one place. If the logic were duplicated in the hook, the two would diverge.
+
+param(
+    [switch]$Force
+)
+
+$ErrorActionPreference = 'Stop'
+$root = $PSScriptRoot
+
+if (-not (Test-Path (Join-Path $root '.git'))) {
+    Write-Host ''
+    Write-Host '  not a git repository.' -ForegroundColor Red
+    Write-Host '  Run "git init" first, then commit once, then run this again.' -ForegroundColor Gray
+    Write-Host ''
+    exit 1
+}
+
+$hooksDir = Join-Path $root '.git\hooks'
+if (-not (Test-Path $hooksDir)) { New-Item -ItemType Directory -Path $hooksDir | Out-Null }
+$hookPath = Join-Path $hooksDir 'pre-commit'
+
+if ((Test-Path $hookPath) -and -not $Force) {
+    Write-Host ''
+    Write-Host '  a pre-commit hook already exists.' -ForegroundColor Yellow
+    Write-Host ('  ' + $hookPath) -ForegroundColor Gray
+    Write-Host '  re-run with -Force to replace it (the old one is saved as pre-commit.bak).' -ForegroundColor Gray
+    Write-Host ''
+    exit 1
+}
+
+if (Test-Path $hookPath) { Copy-Item $hookPath ($hookPath + '.bak') -Force }
+
+# Git runs hooks through sh, so this has to be a shell script even on Windows. PowerShell is
+# invoked with -NoProfile so a slow or broken user profile cannot turn every commit into a wait.
+$hook = @'
+#!/bin/sh
+# Generated by Install-Hooks.ps1 - do not edit here, edit Verify.ps1 instead.
+#
+# Bypass for genuine emergencies with `git commit --no-verify`, but understand what you are
+# skipping: compile, the full test suite, and the exe packaging check.
+
+set -e
+cd "$(git rev-parse --show-toplevel)"
+
+if ! command -v powershell >/dev/null 2>&1; then
+    echo "  pre-commit: powershell not found, skipping verify" >&2
+    exit 0
+fi
+
+echo "pre-commit: verifying (pass --no-verify to skip)"
+powershell -NoProfile -ExecutionPolicy Bypass -File ./Verify.ps1 -Quick
+'@
+
+# Write as UTF-8 without BOM: a BOM in front of #!/bin/sh makes the kernel reject the script.
+[System.IO.File]::WriteAllText($hookPath, $hook.Replace("`r`n", "`n"), (New-Object System.Text.UTF8Encoding $false))
+
+# The executable bit is meaningless on Windows but essential if this repo is ever cloned to
+# macOS or Linux. git tracks it in the index, so set it through git rather than the filesystem.
+Push-Location $root
+try {
+    & git update-index --add --chmod=+x '.git/hooks/pre-commit' 2>$null | Out-Null
+} catch {
+    # Not fatal: Windows ignores the bit anyway.
+} finally {
+    Pop-Location
+}
+
+Write-Host ''
+Write-Host '  pre-commit hook installed' -ForegroundColor Green
+Write-Host ('  ' + $hookPath) -ForegroundColor Gray
+Write-Host ''
+Write-Host '  What it runs:  Verify.ps1 -Quick' -ForegroundColor Gray
+Write-Host '  What it skips: the exe build (slow, and the exe is not committed anyway)' -ForegroundColor Gray
+Write-Host '  To bypass:     git commit --no-verify' -ForegroundColor Gray
+Write-Host ''
